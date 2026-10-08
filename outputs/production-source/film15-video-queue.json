@@ -1,0 +1,452 @@
+[
+  {
+    "id": "scene-01",
+    "scene_id": "01",
+    "asset": "04_pepper",
+    "image": ".\\outputs\\film15\\keyframes\\04_pepper.png",
+    "frames": 289,
+    "seed": 51001,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. One peppercorn slowly rolls a short distance across the wooden tabletop and comes to rest near the basket. The balance scale sways slightly in the sea breeze; boat in the distant background gently rocks. Camera tracks very slowly along the tabletop at low angle."
+  },
+  {
+    "id": "scene-02",
+    "scene_id": "02",
+    "asset": "02_sailing",
+    "image": ".\\outputs\\film15\\keyframes\\02_sailing.png",
+    "frames": 289,
+    "seed": 51002,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. The trading boat glides steadily toward the green coast as its cream sail breathes in the wind. Gentle rhythmic waves pass the hull. Slow cinematic camera tracking alongside the boat."
+  },
+  {
+    "id": "scene-03",
+    "scene_id": "03",
+    "asset": "24_rain",
+    "image": ".\\outputs\\film15\\keyframes\\24_rain.png",
+    "frames": 289,
+    "seed": 51003,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. Monsoon raindrops fall from the roof eaves into the puddle making visible expanding rings. Coconut seedling leaves gently bend in the rain. Camera glides from puddle toward the warmly lit doorway."
+  },
+  {
+    "id": "scene-05",
+    "scene_id": "05",
+    "asset": "02_sailing",
+    "image": ".\\outputs\\film15\\keyframes\\02_sailing.png",
+    "frames": 289,
+    "seed": 51005,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. A steady wind fills the cream sail and the wooden trading boat moves across the sea. The sailor makes one small careful movement to tend the rope. Low camera holds alongside the hull while waves move past."
+  },
+  {
+    "id": "scene-06",
+    "scene_id": "06",
+    "asset": "03_harbor",
+    "image": ".\\outputs\\film15\\keyframes\\03_harbor.png",
+    "frames": 289,
+    "seed": 51006,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. The woman port worker finishes setting the heavy pepper basket on the wooden bench, straightens her shoulders, and looks toward the boat. The merchant nods quietly. Only this one clear action, stable people. Water moves and a sail shifts softly."
+  },
+  {
+    "id": "scene-07",
+    "scene_id": "07",
+    "asset": "01_farmer",
+    "image": ".\\outputs\\film15\\keyframes\\01_farmer.png",
+    "frames": 289,
+    "seed": 51007,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. The woman farmer carefully lowers the pepper cluster into her basket, then looks back at the vine with a small proud smile. Gentle leaf motion. Camera tracks a little toward her face, preserving the simple silhouette."
+  },
+  {
+    "id": "scene-08",
+    "scene_id": "08",
+    "asset": "08_archaeology",
+    "image": ".\\outputs\\film15\\keyframes\\08_archaeology.png",
+    "frames": 289,
+    "seed": 51008,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. The woman archaeologist slowly rotates the pottery fragment to inspect its edge, then lowers it carefully toward the tray. Her gaze follows the small object. Camera moves slightly closer at eye level. Calm precise action, stable hands."
+  },
+  {
+    "id": "scene-09",
+    "scene_id": "09",
+    "asset": "02_sailing",
+    "image": ".\\outputs\\film15\\keyframes\\02_sailing.png",
+    "frames": 289,
+    "seed": 51009,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. Wide sea journey: the single boat travels steadily on gentle waves, the cream sail moving in the wind. Camera slowly widens to emphasize the large distance between boat and coast. No dramatic event, an open question in a vast connected ocean."
+  },
+  {
+    "id": "scene-10",
+    "scene_id": "10",
+    "asset": "05_memory",
+    "image": ".\\outputs\\film15\\keyframes\\05_memory.png",
+    "frames": 289,
+    "seed": 51010,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. The grandmother turns toward the child and makes one small open-hand storytelling gesture; the child lifts her chin with curiosity and smiles. The lamp flame flickers softly. Gentle slow camera push toward the listening child. No audible dialogue or exaggerated lips."
+  },
+  {
+    "id": "scene-11",
+    "scene_id": "11",
+    "asset": "06_arrival",
+    "image": ".\\outputs\\film15\\keyframes\\06_arrival.png",
+    "frames": 289,
+    "seed": 51011,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. The traveler steadies himself as he steps from the boat toward the welcoming local fisher. Both exchange a small respectful nod. Camera remains at eye level; waves softly rock the boat. A calm illustrative human meeting, no miracle, no halo."
+  },
+  {
+    "id": "scene-12",
+    "scene_id": "12",
+    "asset": "22_reader",
+    "image": ".\\outputs\\film15\\keyframes\\22_reader.png",
+    "frames": 289,
+    "seed": 51012,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. The young woman pauses over the open book, looks up thoughtfully, then returns her eyes to the page. One page corner lifts in a breeze. A restrained camera move closer to her thoughtful expression."
+  },
+  {
+    "id": "scene-13",
+    "scene_id": "13",
+    "asset": "07_scribe",
+    "image": ".\\outputs\\film15\\keyframes\\07_scribe.png",
+    "frames": 289,
+    "seed": 51013,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. The scholar lowers his gaze from the sea to the open book and leans forward attentively, resting one hand beside the page. The distant sail drifts across the window. Camera glides slowly toward the book. No readable lettering is generated."
+  },
+  {
+    "id": "scene-15",
+    "scene_id": "15",
+    "asset": "07_scribe",
+    "image": ".\\outputs\\film15\\keyframes\\07_scribe.png",
+    "frames": 289,
+    "seed": 51015,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. The scholar gently turns one blank-textured book page, then pauses with a thoughtful expression. The quill stays on the desk. Camera tracks from the page to the quiet face, emphasizing careful reading rather than certainty."
+  },
+  {
+    "id": "scene-18",
+    "scene_id": "18",
+    "asset": "03_harbor",
+    "image": ".\\outputs\\film15\\keyframes\\03_harbor.png",
+    "frames": 289,
+    "seed": 51018,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. The merchant turns his head toward the local worker and gives a small acknowledging nod as she stands beside the basket. Cloth moves lightly in the wind, the boat bobs. Slow eye-level camera move, dignified ordinary cooperation."
+  },
+  {
+    "id": "scene-19",
+    "scene_id": "19",
+    "asset": "02_sailing",
+    "image": ".\\outputs\\film15\\keyframes\\02_sailing.png",
+    "frames": 289,
+    "seed": 51019,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. A broad cream sail fills and relaxes with the breeze while the wooden boat moves over teal waves. The coast becomes slightly clearer. Camera moves laterally to follow the shared sea route. No new boats appear."
+  },
+  {
+    "id": "scene-20",
+    "scene_id": "20",
+    "asset": "10_lamp",
+    "image": ".\\outputs\\film15\\keyframes\\10_lamp.png",
+    "frames": 289,
+    "seed": 51020,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. The brass lamp flame bends gently and returns upright; palm shadows move slowly across the pale wall behind the carved cross. Camera makes a slow small orbit around the two objects, keeping both silhouettes clear. Meditative gentle movement."
+  },
+  {
+    "id": "scene-21",
+    "scene_id": "21",
+    "asset": "25_chavittu",
+    "image": ".\\outputs\\film15\\keyframes\\25_chavittu.png",
+    "frames": 289,
+    "seed": 51021,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. The theatrical performer firmly stamps his raised boot once on the wooden stage, lets his cape settle, and opens his shoulders in a proud performance stance. Controlled theatrical gesture, clear silhouette, no acrobatics. Camera at audience eye level."
+  },
+  {
+    "id": "scene-22",
+    "scene_id": "22",
+    "asset": "25_chavittu",
+    "image": ".\\outputs\\film15\\keyframes\\25_chavittu.png",
+    "frames": 289,
+    "seed": 51022,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. The performer shifts weight, bends his knee with clear anticipation, then makes two measured rhythmic boot stamps on the wooden planks. The cape follows through gently. Camera moves lower toward the boots while preserving body anatomy."
+  },
+  {
+    "id": "scene-23",
+    "scene_id": "23",
+    "asset": "26_margam",
+    "image": ".\\outputs\\film15\\keyframes\\26_margam.png",
+    "frames": 289,
+    "seed": 51023,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. The three women make two small synchronized side-steps around the central brass lamp, hands moving gently together then apart at waist level. Clear restrained circular movement, consistent faces and white clothing, no spinning or crossing bodies. Camera remains wide."
+  },
+  {
+    "id": "scene-24",
+    "scene_id": "24",
+    "asset": "26_margam",
+    "image": ".\\outputs\\film15\\keyframes\\26_margam.png",
+    "frames": 289,
+    "seed": 51024,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. The nearest woman gives a small encouraging smile as the other two women follow one gentle side-step around the lamp. Lamp flame flickers. Camera slowly moves closer to the women while keeping their separate silhouettes stable."
+  },
+  {
+    "id": "scene-25",
+    "scene_id": "25",
+    "asset": "20_fisher",
+    "image": ".\\outputs\\film15\\keyframes\\20_fisher.png",
+    "frames": 289,
+    "seed": 51025,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. The fisher carefully lifts the coiled rope and lays it inside the canoe, then looks toward shore. The canoe rocks gently on moving water. Camera tracks alongside in warm dawn light. A single practical action with natural weight."
+  },
+  {
+    "id": "scene-26",
+    "scene_id": "26",
+    "asset": "11_meal",
+    "image": ".\\outputs\\film15\\keyframes\\11_meal.png",
+    "frames": 289,
+    "seed": 51026,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. The woman offers the serving bowl to the elder, who acknowledges her with a small smile and nod. The younger man glances between them warmly. Keep the bowl stable, small movements, warm everyday hospitality. Camera at table height."
+  },
+  {
+    "id": "scene-27",
+    "scene_id": "27",
+    "asset": "12_portuguese",
+    "image": ".\\outputs\\film15\\keyframes\\12_portuguese.png",
+    "frames": 289,
+    "seed": 51027,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. The distant Portuguese-style ship advances slowly toward the coastline, its sails catching the wind. The fisher in the foreground turns his head slightly to follow it. Gentle surf reaches shore. Camera slowly shifts from observer toward approaching ship."
+  },
+  {
+    "id": "scene-28",
+    "scene_id": "28",
+    "asset": "13_encounter",
+    "image": ".\\outputs\\film15\\keyframes\\13_encounter.png",
+    "frames": 289,
+    "seed": 51028,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. The local elder raises one open palm in a restrained request to be heard, then lowers it. The church official listens with a serious expression and small head movement. No aggression. Camera slowly tracks between the two figures at eye level."
+  },
+  {
+    "id": "scene-29",
+    "scene_id": "29",
+    "asset": "09_church",
+    "image": ".\\outputs\\film15\\keyframes\\09_church.png",
+    "frames": 289,
+    "seed": 51029,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. The two local worshippers take two unhurried steps toward the open wooden doorway and pause. Palms sway and a small interior flame flickers. Camera follows gently from behind, emphasizing their personal connection to the place."
+  },
+  {
+    "id": "scene-30",
+    "scene_id": "30",
+    "asset": "14_council",
+    "image": ".\\outputs\\film15\\keyframes\\14_council.png",
+    "frames": 289,
+    "seed": 51030,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. The cleric at the far side makes one measured gesture toward the closed book on the table; the two local clergy exchange a brief concerned look. Keep every face and hand stable. Slow restrained camera move along the table."
+  },
+  {
+    "id": "scene-31",
+    "scene_id": "31",
+    "asset": "05_memory",
+    "image": ".\\outputs\\film15\\keyframes\\05_memory.png",
+    "frames": 289,
+    "seed": 51031,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. The grandmother looks down pensively at the lamp, then the child gently leans a little closer beside her. The flame moves softly. Camera draws close to the quiet relationship, no broad gestures or lip movements."
+  },
+  {
+    "id": "scene-32",
+    "scene_id": "32",
+    "asset": "13_encounter",
+    "image": ".\\outputs\\film15\\keyframes\\13_encounter.png",
+    "frames": 289,
+    "seed": 51032,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. Both men stand thoughtfully across the small wooden box. The elder turns his gaze downward briefly then back toward the official, whose expression softens slightly. Cloth moves subtly. Slow balanced camera move, no villainous gestures."
+  },
+  {
+    "id": "scene-33",
+    "scene_id": "33",
+    "asset": "15_oath",
+    "image": ".\\outputs\\film15\\keyframes\\15_oath.png",
+    "frames": 289,
+    "seed": 51033,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. The three hands tighten slightly around the same horizontal rope, drawing it gently taut. The rope fibers flex subtly. The cross stays fixed in the background. Camera glides along the hands, a controlled symbol of solidarity without violence."
+  },
+  {
+    "id": "scene-34",
+    "scene_id": "34",
+    "asset": "15_oath",
+    "image": ".\\outputs\\film15\\keyframes\\15_oath.png",
+    "frames": 289,
+    "seed": 51034,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. The joined rope remains steady as the hands make one small coordinated pull and settle. Warm light and a slight breeze move the cuffs. Camera slowly widens to include more of the cross behind them. Stable fingers, no new hands appear."
+  },
+  {
+    "id": "scene-36",
+    "scene_id": "36",
+    "asset": "16_paths",
+    "image": ".\\outputs\\film15\\keyframes\\16_paths.png",
+    "frames": 289,
+    "seed": 51036,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. The two adults look toward the left path, then toward one another and smile gently. Leaves sway in the banyan tree, cloth moves lightly. The camera slowly widens so both branching paths remain visible without choosing one as superior."
+  },
+  {
+    "id": "scene-37",
+    "scene_id": "37",
+    "asset": "18_classroom",
+    "image": ".\\outputs\\film15\\keyframes\\18_classroom.png",
+    "frames": 289,
+    "seed": 51037,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. The teacher turns the open picture book slightly toward the two children. The girl leans forward with interest, the boy nods. Camera tracks from the book to their attentive faces. Simple learning action, no generated text."
+  },
+  {
+    "id": "scene-39",
+    "scene_id": "39",
+    "asset": "27_learning",
+    "image": ".\\outputs\\film15\\keyframes\\27_learning.png",
+    "frames": 289,
+    "seed": 51039,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. The local Malayali teacher points gently to the open blank-textured book, and the European adult learner leans forward to listen and nods. One clear exchange, no generated writing. Camera moves slowly from book to the teacher face, honoring local expertise."
+  },
+  {
+    "id": "scene-40",
+    "scene_id": "40",
+    "asset": "28_oldschool",
+    "image": ".\\outputs\\film15\\keyframes\\28_oldschool.png",
+    "frames": 289,
+    "seed": 51040,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. The woman teacher offers the open book toward the seated girl, who straightens and raises her eyes with curiosity. Other child remains quiet. Gentle daylight through the window, calm deliberate camera move toward the girl. No text generation."
+  },
+  {
+    "id": "scene-41",
+    "scene_id": "41",
+    "asset": "17_press",
+    "image": ".\\outputs\\film15\\keyframes\\17_press.png",
+    "frames": 289,
+    "seed": 51041,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. The compositor carefully lays the broad sheet on the wooden press bed and gently smooths one edge. The camera glides toward the press mechanism while the page remains blank-textured. Measured skilled craft, stable anatomy and machinery."
+  },
+  {
+    "id": "scene-42",
+    "scene_id": "42",
+    "asset": "17_press",
+    "image": ".\\outputs\\film15\\keyframes\\17_press.png",
+    "frames": 289,
+    "seed": 51042,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. The printer studies the wooden press, rests one hand on its broad lever, and presses it down slightly with a controlled shift of weight. Camera lowers toward the sturdy wooden structure. No sudden machinery changes, a single simple mechanical action."
+  },
+  {
+    "id": "scene-43",
+    "scene_id": "43",
+    "asset": "17_press",
+    "image": ".\\outputs\\film15\\keyframes\\17_press.png",
+    "frames": 289,
+    "seed": 51043,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. The compositor lifts a fresh pale sheet, examines it with a small satisfied smile, then holds it still. Background pages flutter very gently in the breeze. Camera tracks toward the sheet and craftsman, no readable text."
+  },
+  {
+    "id": "scene-44",
+    "scene_id": "44",
+    "asset": "09_church",
+    "image": ".\\outputs\\film15\\keyframes\\09_church.png",
+    "frames": 289,
+    "seed": 51044,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. The couple enter the modest church courtyard slowly, turning toward the open doorway. Palm fronds sway and sunlight crosses the warm wall. Camera follows at eye level. Dignified local community, no new people, no invented named portrait."
+  },
+  {
+    "id": "scene-45",
+    "scene_id": "45",
+    "asset": "28_oldschool",
+    "image": ".\\outputs\\film15\\keyframes\\28_oldschool.png",
+    "frames": 289,
+    "seed": 51045,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. The teacher bends slightly to help the girl follow the open book while the second child watches. The girl nods with new understanding. Camera makes a gentle sideways move, clear warm expressions, simple purposeful action."
+  },
+  {
+    "id": "scene-46",
+    "scene_id": "46",
+    "asset": "18_classroom",
+    "image": ".\\outputs\\film15\\keyframes\\18_classroom.png",
+    "frames": 289,
+    "seed": 51046,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. The teacher looks from the girl to the boy and gently opens her hand to include both learners. They respond with attentive smiles. Camera widens a little to show the shared desk and open window."
+  },
+  {
+    "id": "scene-47",
+    "scene_id": "47",
+    "asset": "19_care",
+    "image": ".\\outputs\\film15\\keyframes\\19_care.png",
+    "frames": 289,
+    "seed": 51047,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. The nurse carefully offers the glass of water to the elder and remains beside him as he steadies it. They exchange a grateful glance. Slow camera at seated eye height. Gentle dignified care, stable glass and hands."
+  },
+  {
+    "id": "scene-49",
+    "scene_id": "49",
+    "asset": "29_team",
+    "image": ".\\outputs\\film15\\keyframes\\29_team.png",
+    "frames": 289,
+    "seed": 51049,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. The nurse checks the neatly folded linen on the trolley, then nods to her colleague. The cleaner stands upright with the mop beside the doorway. Camera moves gently along the three team members, showing each with equal dignity. No speaking or text."
+  },
+  {
+    "id": "scene-50",
+    "scene_id": "50",
+    "asset": "29_team",
+    "image": ".\\outputs\\film15\\keyframes\\29_team.png",
+    "frames": 289,
+    "seed": 51050,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. The cleaner completes one slow careful sweep of the mop while the nurse steps aside to give room and the attendant steadies the linen trolley. One coordinated practical moment, simple stable bodies, slow lateral camera."
+  },
+  {
+    "id": "scene-51",
+    "scene_id": "51",
+    "asset": "18_classroom",
+    "image": ".\\outputs\\film15\\keyframes\\18_classroom.png",
+    "frames": 289,
+    "seed": 51051,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. The teacher closes the open book slightly and smiles toward both children, who sit together with equal attention. Sunlight and a leaf shadow move on the wall. Camera gently widens to emphasize a shared classroom."
+  },
+  {
+    "id": "scene-53",
+    "scene_id": "53",
+    "asset": "17_press",
+    "image": ".\\outputs\\film15\\keyframes\\17_press.png",
+    "frames": 289,
+    "seed": 51053,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. The compositor lifts one sheet from the press and places it carefully on the growing paper stack. He glances at the finished work with quiet satisfaction. Camera tracks along the stack toward the press, no invented readable writing."
+  },
+  {
+    "id": "scene-54",
+    "scene_id": "54",
+    "asset": "25_chavittu",
+    "image": ".\\outputs\\film15\\keyframes\\25_chavittu.png",
+    "frames": 289,
+    "seed": 51054,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. The stage performer rehearses one clear measured stamp, pauses to regain balance, then stands ready with a calm determined expression. The cape settles naturally. A slow camera move reveals the simple practice stage, focused on learning the art."
+  },
+  {
+    "id": "scene-57",
+    "scene_id": "57",
+    "asset": "01_farmer",
+    "image": ".\\outputs\\film15\\keyframes\\01_farmer.png",
+    "frames": 289,
+    "seed": 51057,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. The farmer looks down at the pepper in her basket, then lifts her gaze toward the warm horizon with a quiet smile. Leaves move gently. Camera slowly pulls back to reconnect her work with the Kerala landscape."
+  },
+  {
+    "id": "scene-58",
+    "scene_id": "58",
+    "asset": "11_meal",
+    "image": ".\\outputs\\film15\\keyframes\\11_meal.png",
+    "frames": 289,
+    "seed": 51058,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. The woman places the serving bowl in the center of the table and the three adults share a warm glance. The elder opens his hand in a welcoming gesture. Camera widens a little to show room around the shared table, gentle cloth movement."
+  },
+  {
+    "id": "scene-59",
+    "scene_id": "59",
+    "asset": "02_sailing",
+    "image": ".\\outputs\\film15\\keyframes\\02_sailing.png",
+    "frames": 289,
+    "seed": 51059,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. The wooden boat moves steadily toward a wide glowing horizon, the sail gently filling with wind. Rhythmic water and slowly moving clouds. Camera gradually widens, leaving generous open space ahead of the boat."
+  },
+  {
+    "id": "scene-60",
+    "scene_id": "60",
+    "asset": "23_horizon",
+    "image": ".\\outputs\\film15\\keyframes\\23_horizon.png",
+    "frames": 289,
+    "seed": 51060,
+    "prompt": "Flat two-dimensional cartoon animation with opaque solid colors and crisp stable ink outlines. Preserve the exact starting character design, face, skin tone, clothing and composition. Every moving person has one clean sharp silhouette throughout. Consistent flat warm lighting. Controlled clear motion, sharply drawn in every frame. The three people stand together looking toward the sea. The young woman turns her head slightly toward her companions, then faces the horizon again with relaxed confident posture. Gentle hair and cloth motion, small distant sail glides. Slow camera pullback to the shared coast."
+  }
+]

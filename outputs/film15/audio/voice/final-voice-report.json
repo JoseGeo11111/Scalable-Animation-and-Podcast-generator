@@ -1,0 +1,2110 @@
+{
+  "date": "2026-10-06",
+  "status": "Full narration generated; production draft requiring native listening review",
+  "local_only": true,
+  "voice_cloning": false,
+  "voice": "Malayalam (Female) publisher preset",
+  "hardware": "RTX4070TiSUPER16GB",
+  "runtime": "Windows, Python3.11.17, PyTorch2.10.0+cu130, Transformers4.57.6",
+  "inference": {
+    "dtype": "bfloat16",
+    "attention": "SDPA",
+    "batch_size": 6,
+    "temperature": 0.65,
+    "top_p": 0.9,
+    "top_k": 50,
+    "repetition_penalty": 1.1,
+    "maximum_new_tokens": 2600,
+    "seeds": [
+      4070,
+      4071,
+      4072
+    ],
+    "framing_source": "https://huggingface.co/spaces/kenpath/svara-tts/blob/main/app.py"
+  },
+  "delivery": {
+    "total_duration": 1112.4203333333335,
+    "complete": true,
+    "model": "kenpath/svara-tts-v1",
+    "voice": "Malayalam (Female)",
+    "canonical_word_count": 1556,
+    "spoken_variant_whitespace_word_count": 1587,
+    "rate_basis": "Canonical script whitespace word count, kept consistent across pronunciation spacing variants.",
+    "natural_words_per_minute": 83.9251110416596,
+    "proposed_tempo_factor_for_842_2_seconds": 1.320850550146442,
+    "proposed_words_per_minute": 110.85252909047732,
+    "note": "Natural WAVs remain unretimed. Timeline/mixer applies pitch-preserving tempo."
+  },
+  "audio_format": {
+    "sample_rate": 24000,
+    "channels": 1,
+    "subtype": "PCM_24"
+  },
+  "performance": {
+    "original60_generation_wall_seconds": 774.34,
+    "first69_retake_utterances_wall_seconds": 234.6,
+    "scene45_four_utterances_wall_seconds": 22.37,
+    "scene30_two_date_clauses_wall_seconds": 12.54,
+    "combined_peak_observed_vram_approx_gb": 13.2,
+    "oom_observed": false,
+    "note": "Wall times include model loading; some generation overlapped local ASR. Initial discarded experiments excluded."
+  },
+  "retaken_scenes": [
+    "06",
+    "11",
+    "12",
+    "20",
+    "22",
+    "25",
+    "27",
+    "30",
+    "38",
+    "39",
+    "40",
+    "41",
+    "45",
+    "48",
+    "52",
+    "54",
+    "55",
+    "60"
+  ],
+  "retake_reason": "Dates, omissions, negations, repeats, historical names, approved scene45 editorial cleanup and closing emotional message.",
+  "canonical_script_sha256": "870369c3453fb363edcf4134704e99445eae8571ef3201a6d6fcfa0bc91c2646",
+  "qa": {
+    "scene_count": 60,
+    "mean_cer": 0.06017811583509967,
+    "median_cer": 0.05618686868686869,
+    "flags_over_0_15": [],
+    "independent_asr_without_script_prompt": true,
+    "native_human_listening_approval": false,
+    "historian_approval": false,
+    "no_capped_generations": true,
+    "verified_actual_audio_duration": true,
+    "note": "ASR was independent, with no script prompt. CER includes spelling and spacing variants; flags require semantic review. This is not native human listening approval."
+  },
+  "known_limits": [
+    "Rare proper names including Muziris and Gothuruth remain ambiguous in some ASR transcriptions.",
+    "Automatic CER is not word accuracy or a listening-quality score.",
+    "Canonical subtitles retain correct names; this alone does not establish audible pronunciation.",
+    "Final tempo-adjusted mix quality is owned by the mixer; these WAVs are unretimed."
+  ],
+  "licenses": [
+    {
+      "component": "Svara-TTS v1",
+      "publisher": "Kenpath",
+      "license_declared_by_publisher": "Apache-2.0",
+      "url": "https://huggingface.co/kenpath/svara-tts-v1",
+      "revision": "db8a02fc1e4eab827ff6dda5bed3b56d4d2dd51e",
+      "note": "Model tree lists Llama3.2/Orpheus ancestry. Publisher declaration is recorded; this is not an exhaustive audit of upstream model or training-data terms."
+    },
+    {
+      "component": "SNAC24kHz",
+      "publisher": "Hubert Siuzdak",
+      "license_declared_by_publisher": "MIT",
+      "url": "https://huggingface.co/hubertsiuzdak/snac_24khz",
+      "revision": "d73ad176a12188fcf4f360ba3bf2c2fbbe8f58ec"
+    },
+    {
+      "component": "Malayalam Whisper Small R-MFT",
+      "publisher": "Adalat AI",
+      "license_declared_by_publisher": "Apache-2.0",
+      "url": "https://huggingface.co/adalat-ai/whisper-small-ml-rmft",
+      "revision": "c397b8070ffc8ec3ceec17b7b2e4cfcc84f4b462",
+      "citation": "Vividh-ASR, Juvekar et al.,2026, https://arxiv.org/abs/2605.13087"
+    }
+  ],
+  "license_checked_date": "2026-10-06",
+  "cloud_fallback": {
+    "used": false,
+    "note": "A Microsoft EdgeTTS test was rejected by automatic approval review before script transmission; no workaround or cloud synthesis followed."
+  },
+  "scenes": [
+    {
+      "id": "01",
+      "file": ".\\outputs\\film15\\audio\\voice\\01.wav",
+      "duration": 18.195458333333335,
+      "sample_rate": 24000,
+      "tokens": 1519,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "seed": 4070,
+      "batch_render_seconds": 51.663853399999425,
+      "text": "നിങ്ങളുടെ അടുക്കളയിലെ ഒരു കുരുമുളകുമണി കൈയിലെടുക്കൂ. ഇത്ര ചെറിയ ഒന്നിനുവേണ്ടി മനുഷ്യർ കടലുകൾ കടന്നു. ആ യാത്രകളിലൂടെ സാധനങ്ങൾ മാത്രമല്ല വന്നത്. ഭാഷകളും വിശ്വാസങ്ങളും സ്വപ്നങ്ങളും ഈ കരയിൽ എത്തി. നമ്മുടെ കഥയുടെ വാതിൽ തുറക്കുന്നത് ഈ ചെറിയ മണിയാണ്.",
+      "peak": 0.740473747253418,
+      "rms": 0.17730262875556946,
+      "capped": false,
+      "local": true,
+      "v1_prompt_framing": true,
+      "wav_sha256": "7e8ee8b298617cba2b11ed2d076d3f0c54762aeccfd02e6caceb24a99355465e",
+      "asr": {
+        "file": ".\\outputs\\film15\\audio\\voice\\01.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "നിങ്ങളുടെ അടുക്കളയിലെ ഒരു കുരുമുളകുമണി കൈയിലെടുക്കൂ. ഇത്ര ചെറിയ ഒന്നിനുവേണ്ടി മനുഷ്യർ കടലുകൾ കടന്നു. ആ യാത്രകളിലൂടെ സാധനങ്ങൾ മാത്രമല്ല വന്നത്. ഭാഷകളും വിശ്വാസങ്ങളും സ്വപ്നങ്ങളും ഈ കരയിൽ എത്തി. നമ്മുടെ കഥയുടെ വാതിൽ തുറക്കുന്നത് ഈ ചെറിയ മണിയാണ്.",
+        "recognized": "നിങ്ങളുടെ അടുക്കളയിലെ ഒരു കുരുമുളകുമണി കൈയിലെടുക്കു ഇത്ത ചെറിയ ഒന്നിനില്വേണ്ടി മനുഷ്യ കടലുകൾ കടന്നു ആ യാത്രകളിലൂടെ സാധനങ്ങൾ മാത്രമല്ല വന്നത് ഭാഷകളും വിശ്വാസ അസങ്ങളും സ്വപ്നങ്ങളും ഈ കരയിൽ എത്തി നമ്മുടെ കഥയുടെ വാതിൽ തുറക്കുന്നത് ഈ ചെറിയ മണിയാണ് ആർ",
+        "cer": 0.05042016806722689,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "02",
+      "file": ".\\outputs\\film15\\audio\\voice\\02.wav",
+      "duration": 15.602541666666667,
+      "sample_rate": 24000,
+      "tokens": 1309,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "seed": 4070,
+      "batch_render_seconds": 51.663853399999425,
+      "text": "കേരളത്തിലെ ക്രൈസ്തവരുടെ കഥ എവിടെ തുടങ്ങുന്നു? ഒരു കപ്പലിലോ, ഒരു പള്ളിയിലോ, ഒരു വീട്ടിലെ പ്രാർത്ഥനയിലോ? ഉത്തരം തേടുമ്പോൾ നമ്മൾ കണ്ടെത്തുന്നത് ഒരു സമൂഹത്തിന്റെ പഴക്കം മാത്രമല്ല. ലോകവുമായി സംസാരിച്ച ഒരു നാടിന്റെ ഓർമ്മ കൂടിയാണ്.",
+      "peak": 0.8396066427230835,
+      "rms": 0.18793781101703644,
+      "capped": false,
+      "local": true,
+      "v1_prompt_framing": true,
+      "wav_sha256": "01bfa1b3ac171269401724eeb1eec35642468fff6aa1b35b802ee369754ece39",
+      "asr": {
+        "file": ".\\outputs\\film15\\audio\\voice\\02.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "കേരളത്തിലെ ക്രൈസ്തവരുടെ കഥ എവിടെ തുടങ്ങുന്നു? ഒരു കപ്പലിലോ, ഒരു പള്ളിയിലോ, ഒരു വീട്ടിലെ പ്രാർത്ഥനയിലോ? ഉത്തരം തേടുമ്പോൾ നമ്മൾ കണ്ടെത്തുന്നത് ഒരു സമൂഹത്തിന്റെ പഴക്കം മാത്രമല്ല. ലോകവുമായി സംസാരിച്ച ഒരു നാടിന്റെ ഓർമ്മ കൂടിയാണ്.",
+        "recognized": "കേരളത്തിലെ ക്രൈസ്തവരുടെ കഥ എവിടെ തുടങ്ങുന്നു ഒരു കപ്പലിലോ ഒരു പള്ളിയിലോ ഒരു വീട്ടിലെ  പ്രാർത്ഥനയിലോ ഉത്തരം തേടുമ്പോൾ നമ്മൾ കണ്ടെത്തുന്നത് ഒരു സമൂഹത്തിന്റെ പഴക്കം മാത്രമല്ല ലോകവുമായി സംസാരിച്ച ഒരു നാടിന്റെ ഓർമ്മ കൂടിയാണ്",
+        "cer": 0.0045871559633027525,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "03",
+      "file": ".\\outputs\\film15\\audio\\voice\\03.wav",
+      "duration": 16.364,
+      "sample_rate": 24000,
+      "tokens": 1372,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "seed": 4070,
+      "batch_render_seconds": 51.663853399999425,
+      "text": "ഈ കഥ കേൾക്കാൻ നിങ്ങൾ ക്രിസ്ത്യാനിയാകണമെന്നില്ല. ഈ മഴയും കടലും ഭാഷയും നിങ്ങളുടേതാണെങ്കിൽ, ഈ ചരിത്രത്തിലും നിങ്ങൾക്കൊരു ഇടമുണ്ട്. മറ്റൊരാളെ ചെറുതാക്കാതെ സ്വന്തം വേരുകളിൽ അഭിമാനിക്കാൻ കഴിയുമോ? നമുക്ക് അതാണ് അന്വേഷിക്കാനുള്ളത്.",
+      "peak": 0.7454148530960083,
+      "rms": 0.18558816611766815,
+      "capped": false,
+      "local": true,
+      "v1_prompt_framing": true,
+      "wav_sha256": "257ab00585392ca5842ac5dc84c5fc709c4cbb9fa4dbecc3f1ae7e20446c0ff6",
+      "asr": {
+        "file": ".\\outputs\\film15\\audio\\voice\\03.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "ഈ കഥ കേൾക്കാൻ നിങ്ങൾ ക്രിസ്ത്യാനിയാകണമെന്നില്ല. ഈ മഴയും കടലും ഭാഷയും നിങ്ങളുടേതാണെങ്കിൽ, ഈ ചരിത്രത്തിലും നിങ്ങൾക്കൊരു ഇടമുണ്ട്. മറ്റൊരാളെ ചെറുതാക്കാതെ സ്വന്തം വേരുകളിൽ അഭിമാനിക്കാൻ കഴിയുമോ? നമുക്ക് അതാണ് അന്വേഷിക്കാനുള്ളത്.",
+        "recognized": "ഈ കഥ കേൾക്കാൻ നിങ്ങൾ ക്രിസ്ത്യാനി ആകണമെന്നില്ല ഈ മഴയും കടലും ഭാഷയും നിങ്ങൾ കളുടേതാണെങ്കിൽ ഈ ചരിത്രത്തിലും നിങ്ങൾക്കൊരു ഇടമുണ്ട് മറ്റൊരാളെ ചെറുതാക്കാതെ സ്വന്തം പേരുകളിൽ അഭിമാനിക്കാൻ കഴിയുമോ നമുക്ക് അതാണ് അന്വേഷിക്കാനുള്ളത്",
+        "cer": 0.027522935779816515,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "04",
+      "file": ".\\outputs\\film15\\audio\\voice\\04.wav",
+      "duration": 15.219791666666667,
+      "sample_rate": 24000,
+      "tokens": 1274,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "seed": 4070,
+      "batch_render_seconds": 51.663853399999425,
+      "text": "ഇന്ന് ഭൂപടത്തിൽ കേരളം ഒരു നീണ്ട പച്ചത്തുണ്ട് പോലെ തോന്നാം. പക്ഷേ കടലിന്റെ വശത്തുനിന്ന് നോക്കൂ. ഇത് ലോകത്തിന്റെ അറ്റമല്ല. പടിഞ്ഞാറൻ കടൽവഴികളിലേക്കു തുറന്ന ഒരു തീരമാണ്. ആ ദിശമാറ്റം നമ്മുടെ ചരിത്രത്തിന്റെ വലുപ്പം മാറ്റുന്നു.",
+      "peak": 0.725378155708313,
+      "rms": 0.1831466108560562,
+      "capped": false,
+      "local": true,
+      "v1_prompt_framing": true,
+      "wav_sha256": "8044ec29e84042ade1f9132c58e204561355827272d4d64da4b7b2a0332d1dde",
+      "asr": {
+        "file": ".\\outputs\\film15\\audio\\voice\\04.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "ഇന്ന് ഭൂപടത്തിൽ കേരളം ഒരു നീണ്ട പച്ചത്തുണ്ട് പോലെ തോന്നാം. പക്ഷേ കടലിന്റെ വശത്തുനിന്ന് നോക്കൂ. ഇത് ലോകത്തിന്റെ അറ്റമല്ല. പടിഞ്ഞാറൻ കടൽവഴികളിലേക്കു തുറന്ന ഒരു തീരമാണ്. ആ ദിശമാറ്റം നമ്മുടെ ചരിത്രത്തിന്റെ വലുപ്പം മാറ്റുന്നു.",
+        "recognized": "ഇന്ന് ഭൂപടത്തിൽ കേരളം ഒരു നീണ്ട പച്ചത്തുണ്ട് പോലെ തോന്നാം പക്ഷേ കടലിന്റെ വശത്തു നിന്നു നോക്കു ഇത് ലോകത്തിന്റെ അറ്റമല്ല പടിഞ്ഞാറൻ കടൽ വഴിതുല്ലേക്ക് തുറന്ന ഒരു തീരമാണ് ആദിഷമാറ്റം നമ്മുടെ ചരിത്രത്തിന്റെ വലിപ്പം മാറ്റുന്നു",
+        "cer": 0.05555555555555555,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "05",
+      "file": ".\\outputs\\film15\\audio\\voice\\05.wav",
+      "duration": 14.592375,
+      "sample_rate": 24000,
+      "tokens": 1225,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "seed": 4070,
+      "batch_render_seconds": 51.663853399999425,
+      "text": "പുരാതന നാവികർ കാലാവസ്ഥയും കാറ്റും ശ്രദ്ധിച്ചു യാത്ര ചെയ്തു. പെരിപ്ലസ് എന്ന പഴയ കടൽവ്യാപാര വിവരണം ഈ തീരത്തെ തുറമുഖങ്ങളെയും കുരുമുളകിനെയും കുറിക്കുന്നു. കടൽ ഒരു തടസ്സമായിരുന്നു. അതേ കടൽ ഒരു വഴിയും ആയിരുന്നു.",
+      "peak": 0.7849448919296265,
+      "rms": 0.18647268414497375,
+      "capped": false,
+      "local": true,
+      "v1_prompt_framing": true,
+      "wav_sha256": "f155ff84fd201bfc199901fb17cdffe52f6c85610d2f67b3897bbb5d0d64d8cb",
+      "asr": {
+        "file": ".\\outputs\\film15\\audio\\voice\\05.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "പുരാതന നാവികർ കാലാവസ്ഥയും കാറ്റും ശ്രദ്ധിച്ചു യാത്ര ചെയ്തു. പെരിപ്ലസ് എന്ന പഴയ കടൽവ്യാപാര വിവരണം ഈ തീരത്തെ തുറമുഖങ്ങളെയും കുരുമുളകിനെയും കുറിക്കുന്നു. കടൽ ഒരു തടസ്സമായിരുന്നു. അതേ കടൽ ഒരു വഴിയും ആയിരുന്നു.",
+        "recognized": "പുരാതന നാളിൽ കാലാവസ്ഥയും കാറ്റും ശ്രദ്ധിച്ചോ യാത്ര ചെയ്തു പെരിപ്ലസ് എന്ന പഴയ കടൽവ്യാതാക്കളും വ്യാപാര വിവരണം ഈ തീരക്കേ തുറമുഖങ്ങളെയും കുരുമുളകിനെയും കുരുക്കുന്നു.കടൽ ഒരു തടസ്സമായിരുന്നു അതേ കടൽ ഒരു വഴിയും ആയിരുന്നു",
+        "cer": 0.11442786069651742,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "06",
+      "file": ".\\outputs\\film15\\audio\\voice\\06.wav",
+      "duration": 16.377458333333333,
+      "sample_rate": 24000,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "text": "മുസിരിസ് എന്ന തുറമുഖത്തെക്കുറിച്ച് ആ രേഖ പറയുന്നു. അറേബ്യയിൽനിന്നും ഗ്രീക്ക് ലോകത്തുനിന്നും ചരക്കുകപ്പലുകൾ എത്തിയിരുന്ന ഇടം. ഇന്ന് നമുക്ക് കാണാനാവാത്ത ആ തിരക്കിനെ ഒരു നിമിഷം സങ്കൽപ്പിക്കൂ. കരയിൽ കാത്തിരിക്കുന്ന ചാക്കുകൾ. വെള്ളത്തിൽ കുലുങ്ങുന്ന വള്ളങ്ങൾ.",
+      "local": true,
+      "v1_prompt_framing": true,
+      "capped": false,
+      "retake": true,
+      "utterances": [
+        {
+          "id": "06_r01",
+          "start": 0,
+          "duration": 3.0986666666666665,
+          "spoken_text": "മുസിരിസ് എന്ന തുറമുഖത്തെക്കുറിച്ച് ആ രേഖ പറയുന്നു."
+        },
+        {
+          "id": "06_r02",
+          "start": 3.2186666666666666,
+          "duration": 4.66925,
+          "spoken_text": "അറേബ്യയിൽനിന്നും ഗ്രീക്ക് ലോകത്തുനിന്നും ചരക്കുകപ്പലുകൾ എത്തിയിരുന്ന ഇടം."
+        },
+        {
+          "id": "06_r03",
+          "start": 8.007916666666667,
+          "duration": 4.4511666666666665,
+          "spoken_text": "ഇന്ന് നമുക്ക് കാണാനാവാത്ത ആ തിരക്കിനെ ഒരു നിമിഷം സങ്കൽപ്പിക്കൂ."
+        },
+        {
+          "id": "06_r04",
+          "start": 12.579083333333331,
+          "duration": 1.8780833333333333,
+          "spoken_text": "കരയിൽ കാത്തിരിക്കുന്ന ചാക്കുകൾ."
+        },
+        {
+          "id": "06_r05",
+          "start": 14.577166666666663,
+          "duration": 1.8002916666666666,
+          "spoken_text": "വെള്ളത്തിൽ കുലുങ്ങുന്ന വള്ളങ്ങൾ."
+        }
+      ],
+      "peak": 0.7897658348083496,
+      "wav_sha256": "1488c4bbe2f1f8d89ba21d2b8c292183f4b1608295c9c8c2810ce949247fdc2e",
+      "asr": {
+        "file": "outputs\\film15\\audio\\voice\\06.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "മുസിരിസ് എന്ന തുറമുഖത്തെക്കുറിച്ച് ആ രേഖ പറയുന്നു. അറേബ്യയിൽനിന്നും ഗ്രീക്ക് ലോകത്തുനിന്നും ചരക്കുകപ്പലുകൾ എത്തിയിരുന്ന ഇടം. ഇന്ന് നമുക്ക് കാണാനാവാത്ത ആ തിരക്കിനെ ഒരു നിമിഷം സങ്കൽപ്പിക്കൂ. കരയിൽ കാത്തിരിക്കുന്ന ചാക്കുകൾ. വെള്ളത്തിൽ കുലുങ്ങുന്ന വള്ളങ്ങൾ.",
+        "recognized": "മുസ്ലിസേന തുറമുഖത്തെക്കുറിച്ച് ആര്യകപറയുന്നു അറേബ്യയിൽ നിന്നും ഗ്രീക്ക് ലോകത്തു നിന്നും ചരക്കുവപ്പേലുകൾ എത്തിയിരുന്ന ഇടം ഇന്ന് നമുക്ക് കാണാനാവാത്ത ആഭിരക്കിനെ ഒരു നിമിഷം സങ്കൽപ്പിക്കും തരയിൽ കാത്തിരിക്കുന്ന ചാക്കുകൾ വെള്ളത്തിൽ കുരുങ്ങുന വള്ളങ്ങൾ",
+        "cer": 0.09274193548387097,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "07",
+      "file": ".\\outputs\\film15\\audio\\voice\\07.wav",
+      "duration": 17.60625,
+      "sample_rate": 24000,
+      "tokens": 1470,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "seed": 4070,
+      "batch_render_seconds": 64.8045173999999,
+      "text": "വ്യാപാരത്തിന്റെ ചരിത്രത്തിൽ രാജാക്കന്മാരുടെയും കപ്പിത്താന്മാരുടെയും പേരുകൾ കാണാം. പക്ഷേ ഒരു ചാക്ക് കുരുമുളക് കപ്പലിലെത്താൻ എത്ര കൈകൾ വേണം? കൃഷി ചെയ്യുന്നവർ, ഉണക്കുന്നവർ, ചുമക്കുന്നവർ. അവരുടെ അധ്വാനം കൂടിയാണ് കേരളത്തെ ലോകവുമായി ബന്ധിപ്പിച്ചത്.",
+      "peak": 0.8276815414428711,
+      "rms": 0.17495927214622498,
+      "capped": false,
+      "local": true,
+      "v1_prompt_framing": true,
+      "wav_sha256": "d18b25c3932c5249bb0d2116a3a733df679761e79cd4a81765d17157388aa63f",
+      "asr": {
+        "file": ".\\outputs\\film15\\audio\\voice\\07.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "വ്യാപാരത്തിന്റെ ചരിത്രത്തിൽ രാജാക്കന്മാരുടെയും കപ്പിത്താന്മാരുടെയും പേരുകൾ കാണാം. പക്ഷേ ഒരു ചാക്ക് കുരുമുളക് കപ്പലിലെത്താൻ എത്ര കൈകൾ വേണം? കൃഷി ചെയ്യുന്നവർ, ഉണക്കുന്നവർ, ചുമക്കുന്നവർ. അവരുടെ അധ്വാനം കൂടിയാണ് കേരളത്തെ ലോകവുമായി ബന്ധിപ്പിച്ചത്.",
+        "recognized": "വ്യാപാരത്തിന്റെ ചരിത്രത്തിൽ രാജാക്കന്മാരുടെയും കപ്പിത്താന്മാരുടെയും പേരുകൾക്കാണം പക്ഷേ ഒരു ചാക്ക് കുരുമുളക്ക് കപ്പലിലെത്താൻ എത്ര കൈകൾ വേണം കൃഷി ചെയ്യുന്നവർ ഉണക്കുന്നവർ ചുമക്കുന്നു നവർ സുമക്കുന്നവർ അവരുടെ ആധ്വാനം കൂടിയാണ് കേരളത്തെ ലോകവുമായി ബന്ധിപ്പിച്ചത്",
+        "cer": 0.09322033898305085,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "08",
+      "file": ".\\outputs\\film15\\audio\\voice\\08.wav",
+      "duration": 16.856208333333335,
+      "sample_rate": 24000,
+      "tokens": 1407,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "seed": 4070,
+      "batch_render_seconds": 64.8045173999999,
+      "text": "പട്ടണത്തെ ഖനനങ്ങളിൽ ലഭിച്ച വിദേശ മൺപാത്രങ്ങളുടെ ഭാഗങ്ങളും മറ്റു വസ്തുക്കളും പഴയ കടൽബന്ധങ്ങളെ വെളിപ്പെടുത്തുന്നു. പട്ടണം തന്നെയാണോ പുരാതന മുസിരിസ് എന്ന തിരിച്ചറിവിൽ ഇപ്പോഴും ചർച്ചകളുണ്ട്. ഒരു കണ്ടെത്തൽ വലിയൊരു വാതിൽ തുറക്കാം. എല്ലാ ചോദ്യങ്ങൾക്കും അതു മറുപടിയാകില്ല.",
+      "peak": 0.7627900838851929,
+      "rms": 0.165268674492836,
+      "capped": false,
+      "local": true,
+      "v1_prompt_framing": true,
+      "wav_sha256": "e2e9abcd3939429b031450656f31c04225f3233e12d43cf41cadb19605d13054",
+      "asr": {
+        "file": ".\\outputs\\film15\\audio\\voice\\08.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "പട്ടണത്തെ ഖനനങ്ങളിൽ ലഭിച്ച വിദേശ മൺപാത്രങ്ങളുടെ ഭാഗങ്ങളും മറ്റു വസ്തുക്കളും പഴയ കടൽബന്ധങ്ങളെ വെളിപ്പെടുത്തുന്നു. പട്ടണം തന്നെയാണോ പുരാതന മുസിരിസ് എന്ന തിരിച്ചറിവിൽ ഇപ്പോഴും ചർച്ചകളുണ്ട്. ഒരു കണ്ടെത്തൽ വലിയൊരു വാതിൽ തുറക്കാം. എല്ലാ ചോദ്യങ്ങൾക്കും അതു മറുപടിയാകില്ല.",
+        "recognized": "പട്ടണത്തെ ഖനനങ്ങളിൽ ലഭിച്ച വിദേശ മൻപാത്രങ്ങളുടെ ഭാഗങ്ങളും മറ്റു വസ്തുക്കളും പഴയ കടൽ ബന്ധം നിങ്ങളെ വെളിപ്പെടുത്തുന്നു പട്ടണം തന്നെയാണോ പുരാതന മുസ്ലിസിയെന്ന തിരിച്ചറിവിൽ ഇപ്പോഴും ചർച്ചകളുണ്ട് ഒരു കണ്ടെത്തൽ വലിയൊരു വാതിൽ തുറക്കാം എല്ലാ ചോദ്യങ്ങൾക്കും അതുമറുപടിയാകില്ല",
+        "cer": 0.046153846153846156,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "09",
+      "file": ".\\outputs\\film15\\audio\\voice\\09.wav",
+      "duration": 16.84025,
+      "sample_rate": 24000,
+      "tokens": 1407,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "seed": 4070,
+      "batch_render_seconds": 64.8045173999999,
+      "text": "കടൽവ്യാപാരം ഉണ്ടായിരുന്നുവെന്ന തെളിവ് നമുക്കുണ്ട്. അതുകൊണ്ടുമാത്രം ഒരു പ്രത്യേക അപ്പൊസ്തലൻ ഒരു പ്രത്യേക വർഷം ഇവിടെ എത്തിയെന്ന് തെളിയില്ല. യാത്രയ്ക്കുള്ള വഴി ഉണ്ടായിരുന്നതും, ആ യാത്ര നടന്നതായി അറിയുന്നതും രണ്ടാണ്. ഈ വ്യത്യാസം ഓർത്തുകൊണ്ട് മുന്നോട്ടുപോകാം.",
+      "peak": 0.7702308297157288,
+      "rms": 0.1926996409893036,
+      "capped": false,
+      "local": true,
+      "v1_prompt_framing": true,
+      "wav_sha256": "8fccc129bbee9b8a5292376d48745d32681f9820ab6ff1cb0db116008584b97e",
+      "asr": {
+        "file": ".\\outputs\\film15\\audio\\voice\\09.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "കടൽവ്യാപാരം ഉണ്ടായിരുന്നുവെന്ന തെളിവ് നമുക്കുണ്ട്. അതുകൊണ്ടുമാത്രം ഒരു പ്രത്യേക അപ്പൊസ്തലൻ ഒരു പ്രത്യേക വർഷം ഇവിടെ എത്തിയെന്ന് തെളിയില്ല. യാത്രയ്ക്കുള്ള വഴി ഉണ്ടായിരുന്നതും, ആ യാത്ര നടന്നതായി അറിയുന്നതും രണ്ടാണ്. ഈ വ്യത്യാസം ഓർത്തുകൊണ്ട് മുന്നോട്ടുപോകാം.",
+        "recognized": "കടൽ വ്യാപാരമുണ്ടായിരുന്നുവെന്ന തിന്റെ നമുക്കുണ്ട് അതുകൊണ്ടു മാത്രം ഒരു പ്രഖ്യക അപ്പോസ്തലൻ ഒരു പ്രത്യേക വർഷം ഇവിടെ എത്തിയെന്നു തെളിയില്ല യാത്രയ്ക്കുള്ള വഴിയുണ്ടായിരുന്നതും ആ യാത്ര നടന്നതായി അറിയുന്നതും രണ്ടാണ് ഈ രക്കാസമൂർത്തുകൊണ്ട് മുന്നോട്ടുപോകാം",
+        "cer": 0.0963855421686747,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "10",
+      "file": ".\\outputs\\film15\\audio\\voice\\10.wav",
+      "duration": 14.490791666666667,
+      "sample_rate": 24000,
+      "tokens": 1232,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "seed": 4070,
+      "batch_render_seconds": 64.8045173999999,
+      "text": "ഇനി ഒരു വീട്ടിലേക്കു വരൂ. മുതിർന്ന ഒരാൾ കുട്ടിക്കു പഴയ കഥ പറയുന്നു. തലമുറകൾ കൈമാറിയ ഒരു ഓർമ്മ. ചരിത്രപുസ്തകത്തിലെ തീയതിയാകുന്നതിനു മുമ്പ്, അത് മനുഷ്യർക്ക് ആരാണു തങ്ങൾ എന്നു പറയുന്ന ഒരു വിളക്കായിരുന്നു.",
+      "peak": 0.7783284187316895,
+      "rms": 0.18620285391807556,
+      "capped": false,
+      "local": true,
+      "v1_prompt_framing": true,
+      "wav_sha256": "9bcf29b34971794dfc8eb7e29d4a9148703304a63509eac7c47d592879a68914",
+      "asr": {
+        "file": ".\\outputs\\film15\\audio\\voice\\10.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "ഇനി ഒരു വീട്ടിലേക്കു വരൂ. മുതിർന്ന ഒരാൾ കുട്ടിക്കു പഴയ കഥ പറയുന്നു. തലമുറകൾ കൈമാറിയ ഒരു ഓർമ്മ. ചരിത്രപുസ്തകത്തിലെ തീയതിയാകുന്നതിനു മുമ്പ്, അത് മനുഷ്യർക്ക് ആരാണു തങ്ങൾ എന്നു പറയുന്ന ഒരു വിളക്കായിരുന്നു.",
+        "recognized": "ഇനിയൊരു വീട്ടിലേക്കു വരു നൂതിർന്ന ഒരാൾ കുട്ടിക്കു പഴയ കഥ പറയുന്നു തലമുറകൾ കൈമാറി എ ഒരു ഓർമ്മ ചരിത്രപുസ്തകത്തിലെ പിഎഡിയാകുന്നതിനു മുമ്പ് അത് മനുഷ്യർക്ക് ആരാണ് നൂപ്പങ്ങൾ എന്നു പറയുന്ന ഒരു വിളക്കായിരുന്നു",
+        "cer": 0.08673469387755102,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "11",
+      "file": ".\\outputs\\film15\\audio\\voice\\11.wav",
+      "duration": 18.969375,
+      "sample_rate": 24000,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "text": "തോമാശ്ലീഹാ ക്രിസ്തുവർഷം അമ്പത്തിരണ്ടിൽ കേരളത്തിലെത്തിയെന്നാണ് ഇവിടെ നിലനിൽക്കുന്ന പ്രധാന ക്രൈസ്തവ പാരമ്പര്യം. പല കുടുംബങ്ങൾക്കും ഈ ഓർമ്മ വിശ്വാസത്തിന്റെ ആഴമുള്ള ഭാഗമാണ്. അത് ആദരവോടെ പറയാം. അതോടൊപ്പം, അത് പാരമ്പര്യമായാണ് അവതരിപ്പിക്കേണ്ടതെന്നും ഓർക്കാം.",
+      "local": true,
+      "v1_prompt_framing": true,
+      "capped": false,
+      "retake": true,
+      "utterances": [
+        {
+          "id": "11_r01",
+          "start": 0,
+          "duration": 7.95725,
+          "spoken_text": "തോമാ ശ്ലീഹാ, ക്രിസ്തു വർഷം അമ്പത്തിരണ്ടിൽ, കേരളത്തിൽ എത്തിയെന്നാണ് ഇവിടെ നിലനിൽക്കുന്ന പ്രധാന ക്രൈസ്തവ പാരമ്പര്യം."
+        },
+        {
+          "id": "11_r02",
+          "start": 8.07725,
+          "duration": 4.43,
+          "spoken_text": "പല കുടുംബങ്ങൾക്കും ഈ ഓർമ്മ വിശ്വാസത്തിന്റെ ആഴമുള്ള ഭാഗമാണ്."
+        },
+        {
+          "id": "11_r03",
+          "start": 12.627249999999998,
+          "duration": 1.8514583333333334,
+          "spoken_text": "അത് ആദരവോടെ പറയാം."
+        },
+        {
+          "id": "11_r04",
+          "start": 14.598708333333331,
+          "duration": 4.370666666666667,
+          "spoken_text": "അതോടൊപ്പം, അത് പാരമ്പര്യമായാണ് അവതരിപ്പിക്കേണ്ടതെന്നും ഓർക്കാം."
+        }
+      ],
+      "peak": 0.836372971534729,
+      "wav_sha256": "293217da03f9d8b431df3f5cbb63956c6be510a46fca1c8d0b34200598d7386a",
+      "asr": {
+        "file": "outputs\\film15\\audio\\voice\\11.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "തോമാശ്ലീഹാ ക്രിസ്തുവർഷം അമ്പത്തിരണ്ടിൽ കേരളത്തിലെത്തിയെന്നാണ് ഇവിടെ നിലനിൽക്കുന്ന പ്രധാന ക്രൈസ്തവ പാരമ്പര്യം. പല കുടുംബങ്ങൾക്കും ഈ ഓർമ്മ വിശ്വാസത്തിന്റെ ആഴമുള്ള ഭാഗമാണ്. അത് ആദരവോടെ പറയാം. അതോടൊപ്പം, അത് പാരമ്പര്യമായാണ് അവതരിപ്പിക്കേണ്ടതെന്നും ഓർക്കാം.",
+        "recognized": "തോമാശ്ലീഹ ക്രിസ്തുവർഷം അമ്പത്തിരണ്ടിൽ കേരളത്തിൽ എത്തിയെന്നാണ് ഇവിടെ നിലനിൽക്കുന്ന പ്രധാന ക്രൈസ്തവ പാരമ്പര്യം പല കുടുംബങ്ങൾക്കും ഈ ഓർമ്മ വിശ്വാസത്തിന്റെ ആഴമുള്ള ഭാഗമാണ് അത് ആദരവോടെ പറയാം അതോടൊപ്പം അത് പാരമ്പര്യമായാണ് അവതരിപ്പിക്കേണ്ടതെന്നും ഓർക്കാം",
+        "cer": 0.016194331983805668,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "12",
+      "file": ".\\outputs\\film15\\audio\\voice\\12.wav",
+      "duration": 17.304166666666667,
+      "sample_rate": 24000,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "text": "അമ്പത്തിരണ്ടെന്ന കൃത്യമായ വർഷത്തെ ഉറപ്പിക്കുന്ന സമകാലീന രേഖ നമുക്കില്ല. ഈ പരിധി സമ്മതിക്കുന്നത് വിശ്വാസത്തെ പരിഹസിക്കലല്ല. ചരിത്രം അറിയുന്നതും അറിയാത്തതും തുറന്നു പറയുകയാണ്. സത്യസന്ധമായ ഒരു ചോദ്യം നമ്മുടെ വേരുകളെ ദുർബലമാക്കേണ്ടതില്ല.",
+      "local": true,
+      "v1_prompt_framing": true,
+      "capped": false,
+      "retake": true,
+      "utterances": [
+        {
+          "id": "12_r01",
+          "start": 0,
+          "duration": 5.658041666666667,
+          "spoken_text": "അമ്പത്തി രണ്ട് എന്ന കൃത്യമായ വർഷത്തെ ഉറപ്പിക്കുന്ന സമകാലീന രേഖ നമുക്കില്ല."
+        },
+        {
+          "id": "12_r02",
+          "start": 5.778041666666667,
+          "duration": 3.227,
+          "spoken_text": "ഈ പരിധി സമ്മതിക്കുന്നത് വിശ്വാസത്തെ പരിഹസിക്കലല്ല."
+        },
+        {
+          "id": "12_r03",
+          "start": 9.125041666666666,
+          "duration": 3.435791666666667,
+          "spoken_text": "ചരിത്രം അറിയുന്നതും അറിയാത്തതും തുറന്നു പറയുകയാണ്."
+        },
+        {
+          "id": "12_r04",
+          "start": 12.680833333333332,
+          "duration": 4.623333333333333,
+          "spoken_text": "സത്യസന്ധമായ ഒരു ചോദ്യം നമ്മുടെ വേരുകളെ ദുർബലമാക്കേണ്ടതില്ല."
+        }
+      ],
+      "peak": 0.7647687196731567,
+      "wav_sha256": "475fd57e530d2cd070f6fce7cab2529a1e85aaa33fe411c11bb2794cabbd856e",
+      "asr": {
+        "file": "outputs\\film15\\audio\\voice\\12.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "അമ്പത്തിരണ്ടെന്ന കൃത്യമായ വർഷത്തെ ഉറപ്പിക്കുന്ന സമകാലീന രേഖ നമുക്കില്ല. ഈ പരിധി സമ്മതിക്കുന്നത് വിശ്വാസത്തെ പരിഹസിക്കലല്ല. ചരിത്രം അറിയുന്നതും അറിയാത്തതും തുറന്നു പറയുകയാണ്. സത്യസന്ധമായ ഒരു ചോദ്യം നമ്മുടെ വേരുകളെ ദുർബലമാക്കേണ്ടതില്ല.",
+        "recognized": "അമ്പത്തിരണ്ട് എന്ന കുക്കിമായ വർഷത്തെ ഉറപ്പിക്കുന്ന സമകാലീന രേഖ നമുക്കില്ല ഈ പരിധി സമ്മതിക്കുന്നത് വിശ്വാസത്തെ പരിഹസിക്കലല്ല ചരിത്രം അറിയുന്നതും അറിയാത്തതും തുറന്നു പറയുകയാണ് സത്യസന്ധമായ ഒരു ചോദ്യം നമ്മുടെ വേരുവിളയി ദുർബലമാക്കേണ്ടതില്ല",
+        "cer": 0.048034934497816595,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "13",
+      "file": ".\\outputs\\film15\\audio\\voice\\13.wav",
+      "duration": 14.705833333333333,
+      "sample_rate": 24000,
+      "tokens": 1232,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "seed": 4070,
+      "batch_render_seconds": 54.823795500000415,
+      "text": "അപ്പോൾ ഉറച്ച രേഖകളിൽ നമുക്ക് എവിടെ നിൽക്കാം? കാലത്തിന്റെ വഴിയിൽ കുറച്ചുകൂടി മുന്നോട്ടു പോകാം. ആറാം നൂറ്റാണ്ടിലെ കോസ്മാസ് എന്ന എഴുത്തുകാരൻ കുരുമുളക് വളരുന്ന മാലെ എന്ന നാട്ടിൽ ഒരു ക്രൈസ്തവ പള്ളിയെക്കുറിച്ച് രേഖപ്പെടുത്തുന്നു.",
+      "peak": 0.7720093727111816,
+      "rms": 0.1807461827993393,
+      "capped": false,
+      "local": true,
+      "v1_prompt_framing": true,
+      "wav_sha256": "723677516a0db68f662ceb7d00e310fff7b80f47359615c129a6060faee66edc",
+      "asr": {
+        "file": ".\\outputs\\film15\\audio\\voice\\13.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "അപ്പോൾ ഉറച്ച രേഖകളിൽ നമുക്ക് എവിടെ നിൽക്കാം? കാലത്തിന്റെ വഴിയിൽ കുറച്ചുകൂടി മുന്നോട്ടു പോകാം. ആറാം നൂറ്റാണ്ടിലെ കോസ്മാസ് എന്ന എഴുത്തുകാരൻ കുരുമുളക് വളരുന്ന മാലെ എന്ന നാട്ടിൽ ഒരു ക്രൈസ്തവ പള്ളിയെക്കുറിച്ച് രേഖപ്പെടുത്തുന്നു.",
+        "recognized": "അപ്പോൾ ഉറച്ചു രേഖകളിൽ നമുക്ക് എവിടെ നിൽക്കാം കാലത്തിന്റെ വഴിയിൽ കുറച്ചുകൂടി മുന്നോട്ടു പോകാം ആറാം നൂറ്റാണ്ടിലെ കോസ്മാസ് എന്ന എഴുത്തുകാരൻ കുരുമുളക് വലുന്ന മാലെ എന്ന നാട്ടിൽ ഒരു ക്രൈസ്തവ പള്ളിയെക്കുറിച്ച് രേഖപ്പെടുത്തുന്നു",
+        "cer": 0.013636363636363636,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "14",
+      "file": ".\\outputs\\film15\\audio\\voice\\14.wav",
+      "duration": 17.992333333333335,
+      "sample_rate": 24000,
+      "tokens": 1505,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "seed": 4070,
+      "batch_render_seconds": 54.823795500000415,
+      "text": "മാലെ എന്ന ഈ പ്രദേശത്തെ മലബാർ തീരവുമായി ബന്ധപ്പെടുത്താറുണ്ട്. ആ ചെറിയ പരാമർശത്തിന് വലിയ പ്രാധാന്യമുണ്ട്. പോർച്ചുഗീസുകാർ എത്തുന്നതിനും നൂറ്റാണ്ടുകൾ മുമ്പ് ഈ തീരത്ത് ക്രൈസ്തവ സാന്നിധ്യമുണ്ടായിരുന്നുവെന്ന ചരിത്രബോധത്തിന് അത് ശക്തമായ ഒരു അടിത്തറയാണ്.",
+      "peak": 0.7581164836883545,
+      "rms": 0.19463714957237244,
+      "capped": false,
+      "local": true,
+      "v1_prompt_framing": true,
+      "wav_sha256": "22a204ae8c93cd975ba69f98cc1e50ad73401d47330d5995760d5292eaa2e552",
+      "asr": {
+        "file": ".\\outputs\\film15\\audio\\voice\\14.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "മാലെ എന്ന ഈ പ്രദേശത്തെ മലബാർ തീരവുമായി ബന്ധപ്പെടുത്താറുണ്ട്. ആ ചെറിയ പരാമർശത്തിന് വലിയ പ്രാധാന്യമുണ്ട്. പോർച്ചുഗീസുകാർ എത്തുന്നതിനും നൂറ്റാണ്ടുകൾ മുമ്പ് ഈ തീരത്ത് ക്രൈസ്തവ സാന്നിധ്യമുണ്ടായിരുന്നുവെന്ന ചരിത്രബോധത്തിന് അത് ശക്തമായ ഒരു അടിത്തറയാണ്.",
+        "recognized": "മാലെയെന്ന ഈ പ്രക്കേശത്തെ മലബാർ തീരവുമായി ബന്ധപ്പെടുത്താറുണ്ട് വർഷത്തിന് വലിയ പ്രാധാന്യമുണ്ട് പോർച്ചുഗീസുകാരെത്തുന്നതിനും നൂറ്റാണ്ടുകൾ മുമ്പ് ഈ തീരത്തെത്തി കൈസ്തവ സാന്നിധ്യമുണ്ടായിരുന്നതെന്ന ചരിത്രബോധത്തിന് അത് ശക്തമായ ഒരു അടിത്തറയാണ്",
+        "cer": 0.11983471074380166,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "15",
+      "file": ".\\outputs\\film15\\audio\\voice\\15.wav",
+      "duration": 14.95975,
+      "sample_rate": 24000,
+      "tokens": 1253,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "seed": 4070,
+      "batch_render_seconds": 54.823795500000415,
+      "text": "കോസ്മാസ് നമ്മുടെ എല്ലാ ചോദ്യങ്ങൾക്കും മറുപടി നൽകുന്നില്ല. ആ പള്ളി എപ്പോൾ തുടങ്ങി, ആദ്യ കുടുംബങ്ങൾ ആരായിരുന്നു, അവരുടെ ജീവിതം എങ്ങനെയായിരുന്നു? അവിടെ ശൂന്യതകളുണ്ട്. രേഖയുടെ ശബ്ദം കേൾക്കുന്നതുപോലെ അതിന്റെ നിശ്ശബ്ദതയും കേൾക്കണം.",
+      "peak": 0.8077771663665771,
+      "rms": 0.19912204146385193,
+      "capped": false,
+      "local": true,
+      "v1_prompt_framing": true,
+      "wav_sha256": "422c6117524939bdbbfc2183c5610eaf259eb585e2c6e5fb5f44afb0494b3b6d",
+      "asr": {
+        "file": ".\\outputs\\film15\\audio\\voice\\15.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "കോസ്മാസ് നമ്മുടെ എല്ലാ ചോദ്യങ്ങൾക്കും മറുപടി നൽകുന്നില്ല. ആ പള്ളി എപ്പോൾ തുടങ്ങി, ആദ്യ കുടുംബങ്ങൾ ആരായിരുന്നു, അവരുടെ ജീവിതം എങ്ങനെയായിരുന്നു? അവിടെ ശൂന്യതകളുണ്ട്. രേഖയുടെ ശബ്ദം കേൾക്കുന്നതുപോലെ അതിന്റെ നിശ്ശബ്ദതയും കേൾക്കണം.",
+        "recognized": "കോസ്മാസ് നമ്മുടെ എല്ലാ ചോദ്യങ്ങൾക്കും മറുപടി നൽകുന്നില്ല ആ പള്ളി എപ്പോൾ തുടങ്ങി ആദ്യ കുടുംബങ്ങൾ ങ്ങൾ ആരായിരുന്നു അവരുടെ ജീവിതം എങ്ങനെയായിരുന്നു അവരുടെ ശൂന്യതകളുണ്ട് രേഖയുടെ ശബ്ദം കേൾക്കുന്നതുപോലെ അതിന്റെ നിശബ്ദതയും കേൾക്കണം",
+        "cer": 0.0410958904109589,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "16",
+      "file": ".\\outputs\\film15\\audio\\voice\\16.wav",
+      "duration": 17.255375,
+      "sample_rate": 24000,
+      "tokens": 1442,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "seed": 4070,
+      "batch_render_seconds": 54.823795500000415,
+      "text": "അടുത്ത തെളിവ് കടലാസിലല്ല. ചെമ്പിലാണ്. എണ്ണൂറ്റിനാൽപ്പത്തൊമ്പതിലെ കൊല്ലം തരിസാപ്പള്ളി ചെപ്പേടുകൾ പള്ളിയും വ്യാപാരവും ഭരണാധികാരവും തമ്മിലുള്ള ബന്ധത്തിന്റെ പ്രധാന രേഖകളാണ്. കാലം കടന്നുപോയിട്ടും, ചെമ്പിൽ കൊത്തിയ വാക്കുകൾ ആ ബന്ധത്തിന്റെ സാക്ഷിയായി നിലനിൽക്കുന്നു.",
+      "peak": 0.7752530574798584,
+      "rms": 0.18607431650161743,
+      "capped": false,
+      "local": true,
+      "v1_prompt_framing": true,
+      "wav_sha256": "5ef18fbe62c0665d857a2b0ac336351bcbbcc5bfb618dc06a0ab0af6312708f9",
+      "asr": {
+        "file": ".\\outputs\\film15\\audio\\voice\\16.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "അടുത്ത തെളിവ് കടലാസിലല്ല. ചെമ്പിലാണ്. എണ്ണൂറ്റിനാൽപ്പത്തൊമ്പതിലെ കൊല്ലം തരിസാപ്പള്ളി ചെപ്പേടുകൾ പള്ളിയും വ്യാപാരവും ഭരണാധികാരവും തമ്മിലുള്ള ബന്ധത്തിന്റെ പ്രധാന രേഖകളാണ്. കാലം കടന്നുപോയിട്ടും, ചെമ്പിൽ കൊത്തിയ വാക്കുകൾ ആ ബന്ധത്തിന്റെ സാക്ഷിയായി നിലനിൽക്കുന്നു.",
+        "recognized": "അടുത്ത പെളുവ് കടലാസിലല്ല ചെമ്പിലാണ് എണ്ണൂറ്റി നാല്പത്തൊമ്പതിലെ കൊല്ലം തരിസാപ്പള്ളി ചെപ്പ് എടുവിൽ പള്ളിയും വ്യാപാരവും ഭരണാധികാരവും തമ്മിലുള്ള ബന്ധത്തിന്റെ പ്രധാന രേഖകളാണ്  പാലം കടന്നുപോയിട്ടും ചെമ്പിൽ കൊത്തിയ വാക്കുകൾ ആഭ്യന്തത്തിന്റെ സാക്ഷിയായി നിലനിൽക്കുന്നു",
+        "cer": 0.06719367588932806,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "17",
+      "file": ".\\outputs\\film15\\audio\\voice\\17.wav",
+      "duration": 18.061875,
+      "sample_rate": 24000,
+      "tokens": 1512,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "seed": 4070,
+      "batch_render_seconds": 54.823795500000415,
+      "text": "ചെപ്പേടുകൾ ഒരു വ്യക്തിയുടെ ഭക്തിയുടെ കഥ മാത്രം പറയുന്നില്ല. അവകാശങ്ങൾ, ഇടപാടുകൾ, പ്രാദേശിക ഭരണത്തിന്റെ അംഗീകാരം എന്നിവയുള്ള ഒരു ലോകം അവയിൽ തെളിയുന്നു. ഈ സമൂഹം തീരത്ത് വഴിയാത്രക്കാരായി മാത്രം നിന്നില്ല. നാട്ടിലെ സാമൂഹിക ജീവിതത്തിൽ ഇടം നേടിയിരുന്നു.",
+      "peak": 0.7751683592796326,
+      "rms": 0.18755371868610382,
+      "capped": false,
+      "local": true,
+      "v1_prompt_framing": true,
+      "wav_sha256": "6e3eab1678c6e62c61880698f8d29dabc1b78664b258ba162f64a0152a1415ee",
+      "asr": {
+        "file": ".\\outputs\\film15\\audio\\voice\\17.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "ചെപ്പേടുകൾ ഒരു വ്യക്തിയുടെ ഭക്തിയുടെ കഥ മാത്രം പറയുന്നില്ല. അവകാശങ്ങൾ, ഇടപാടുകൾ, പ്രാദേശിക ഭരണത്തിന്റെ അംഗീകാരം എന്നിവയുള്ള ഒരു ലോകം അവയിൽ തെളിയുന്നു. ഈ സമൂഹം തീരത്ത് വഴിയാത്രക്കാരായി മാത്രം നിന്നില്ല. നാട്ടിലെ സാമൂഹിക ജീവിതത്തിൽ ഇടം നേടിയിരുന്നു.",
+        "recognized": "ചെപ്പേഴുകൾ ഒരു വ്യക്തിയുടെ ഭക്തിയുടെ കഥ മാത്രം പറയുന്നില്ല അവകാശങ്ങൾ ഇടപാടുകൾ പ്രാദേശിക ഭരണത്തിന്റെ അംഗീകാരം എന്നിവയുള്ള ഒരു ലോകമാവയിൽ തെളിയുന്നു ഈ സമൂഹം അം തീരത്ത് വഴിയാത്രക്കാരായി മാത്രം നിന്നില്ല നാട്ടിലെ സാമൂഹിക ജീവിതത്തിൽ ഇടം നേടിയിരുന്നു എ",
+        "cer": 0.03734439834024896,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "18",
+      "file": ".\\outputs\\film15\\audio\\voice\\18.wav",
+      "duration": 16.663291666666666,
+      "sample_rate": 24000,
+      "tokens": 1393,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "seed": 4070,
+      "batch_render_seconds": 54.823795500000415,
+      "text": "ഈ രേഖകൾ ക്രൈസ്തവരുടെ സാന്നിധ്യവും ബന്ധങ്ങളും കാണിക്കുന്നു. പക്ഷേ ഇന്നത്തെ ഓരോ കുടുംബത്തിന്റെയും വംശാവലി അവ തെളിയിക്കുന്നില്ല. ഒരു സമൂഹത്തിന്റെ ചരിത്രത്തെ ആദരിക്കാൻ എല്ലാവർക്കും ഒരേ തുടക്കകഥ വേണമെന്നില്ല. പല വഴികളിലൂടെ മനുഷ്യർ ഒരുമിച്ചെത്താം.",
+      "peak": 0.774751603603363,
+      "rms": 0.18206468224525452,
+      "capped": false,
+      "local": true,
+      "v1_prompt_framing": true,
+      "wav_sha256": "5278c41de3931a09d480e26800516a7f3119ec4cac3a6f900c3f4c69414f75cd",
+      "asr": {
+        "file": ".\\outputs\\film15\\audio\\voice\\18.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "ഈ രേഖകൾ ക്രൈസ്തവരുടെ സാന്നിധ്യവും ബന്ധങ്ങളും കാണിക്കുന്നു. പക്ഷേ ഇന്നത്തെ ഓരോ കുടുംബത്തിന്റെയും വംശാവലി അവ തെളിയിക്കുന്നില്ല. ഒരു സമൂഹത്തിന്റെ ചരിത്രത്തെ ആദരിക്കാൻ എല്ലാവർക്കും ഒരേ തുടക്കകഥ വേണമെന്നില്ല. പല വഴികളിലൂടെ മനുഷ്യർ ഒരുമിച്ചെത്താം.",
+        "recognized": "ഈ രേഖകൾ ക്രൈസ്തവരുടെ സാന്നിധ്യവും ബന്ധങ്ങളും കാണിക്കുന്നു പക്ഷേ ഇന്നത്തെ ഓരോ കുടുംബത്തിൽ പിൻവയും വംശാവലി അവ തെളിയിക്കുന്നില്ല ഒരു സമൂഹത്തിന്റെ ചരിത്രത്തെ ആദരിക്കാൻ എല്ലാവർക്കും ഒ ഒരേ തുടക്കകഥ വേണമെന്നില്ല പല വഴികളിലൂടെ മനുഷ്യർ ഒരുമിച്ചെത്താം",
+        "cer": 0.03375527426160337,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "19",
+      "file": ".\\outputs\\film15\\audio\\voice\\19.wav",
+      "duration": 20.179625,
+      "sample_rate": 24000,
+      "tokens": 1680,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "seed": 4070,
+      "batch_render_seconds": 69.42980840000018,
+      "text": "കേരളത്തിലെ പഴയ ക്രൈസ്തവ സമൂഹത്തിന് പശ്ചിമേഷ്യയിലെ സഭകളുമായി ദീർഘമായ ബന്ധമുണ്ടായിരുന്നു. സുറിയാനി ആരാധനാഭാഷയും സഭാപരമായ ബന്ധങ്ങളും ഈ ചരിത്രത്തിന്റെ ഭാഗമാണ്. കടൽ കടന്നുവന്ന ബന്ധങ്ങൾ നാട്ടിലെ ജീവിതത്തോടു ചേർന്നു. പുറത്തേക്കു തുറക്കുന്നത് വേരുകൾ നഷ്ടപ്പെടുത്തണമെന്നില്ല.",
+      "peak": 0.8052956461906433,
+      "rms": 0.18096935749053955,
+      "capped": false,
+      "local": true,
+      "v1_prompt_framing": true,
+      "wav_sha256": "000905b35b248a3df5d4a618bca1fa6968b4c76855551581d97f1916ae53311a",
+      "asr": {
+        "file": ".\\outputs\\film15\\audio\\voice\\19.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "കേരളത്തിലെ പഴയ ക്രൈസ്തവ സമൂഹത്തിന് പശ്ചിമേഷ്യയിലെ സഭകളുമായി ദീർഘമായ ബന്ധമുണ്ടായിരുന്നു. സുറിയാനി ആരാധനാഭാഷയും സഭാപരമായ ബന്ധങ്ങളും ഈ ചരിത്രത്തിന്റെ ഭാഗമാണ്. കടൽ കടന്നുവന്ന ബന്ധങ്ങൾ നാട്ടിലെ ജീവിതത്തോടു ചേർന്നു. പുറത്തേക്കു തുറക്കുന്നത് വേരുകൾ നഷ്ടപ്പെടുത്തണമെന്നില്ല.",
+        "recognized": "കേരളത്തിലെ പഴയ ക്രൈസ്തവ സമൂഹത്തിന് പശ്ചിമേഷ്യയിലെ സഭകളുമായി ദീർഘമായ ബന്ധമുണ്ട് സൈര്യമോ സുറിയാനി ആരാധനാ ഭാഷയും സഭാപരമായ ബന്ധങ്ങളും ഈ ചരിത്രത്തി ന്റെ ഭാഗമാണ് കടൽ കടന്നുവന്ന ബന്ധങ്ങൾ നാട്ടിലെ ജീവിതത്തോട് ചേർന്നു പുറത്തേക്ക് തുറക്കുന്നത് വേരുകൾ നഷ്ടപ്പെടുത്തണമെന്നില്ല",
+        "cer": 0.04961832061068702,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "20",
+      "file": ".\\outputs\\film15\\audio\\voice\\20.wav",
+      "duration": 18.170291666666667,
+      "sample_rate": 24000,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "text": "സുറിയാനി ക്രിസ്ത്യാനി എന്ന പേരുകേട്ട് എല്ലാവരും ഇന്നത്തെ സിറിയയിൽനിന്നു വന്നവരാണെന്ന് കരുതരുത്. ഇവിടെ ഭാഷയുടെയും ആരാധനയുടെയും സഭാബന്ധങ്ങളുടെയും ചരിത്രമാണ് പ്രധാനമായും ഓർക്കേണ്ടത്. പേരുകൾ ചിലപ്പോൾ ഒരു ഭൂപടത്തെക്കാൾ വലിയ ബന്ധങ്ങളെ ഉള്ളിൽ സൂക്ഷിക്കുന്നു.",
+      "local": true,
+      "v1_prompt_framing": true,
+      "capped": false,
+      "retake": true,
+      "utterances": [
+        {
+          "id": "20_r01",
+          "start": 0,
+          "duration": 6.6098333333333334,
+          "spoken_text": "സുറിയാനി ക്രിസ്ത്യാനി എന്ന പേര് കേട്ട്, എല്ലാവരും ഇന്നത്തെ സിറിയയിൽ നിന്ന് വന്നവരാണ് എന്ന് കരുതരുത്."
+        },
+        {
+          "id": "20_r02",
+          "start": 6.729833333333334,
+          "duration": 6.69975,
+          "spoken_text": "ഇവിടെ ഭാഷയുടെയും ആരാധനയുടെയും സഭാബന്ധങ്ങളുടെയും ചരിത്രമാണ് പ്രധാനമായും ഓർക്കേണ്ടത്."
+        },
+        {
+          "id": "20_r03",
+          "start": 13.549583333333333,
+          "duration": 4.620708333333333,
+          "spoken_text": "പേരുകൾ ചിലപ്പോൾ ഒരു ഭൂപടത്തെക്കാൾ വലിയ ബന്ധങ്ങളെ ഉള്ളിൽ സൂക്ഷിക്കുന്നു."
+        }
+      ],
+      "peak": 0.7821853160858154,
+      "wav_sha256": "473eb578617f977276352bb2158f5b7c62bb8eb6f23fe54af0ed9a38dc20f217",
+      "asr": {
+        "file": "outputs\\film15\\audio\\voice\\20.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "സുറിയാനി ക്രിസ്ത്യാനി എന്ന പേരുകേട്ട് എല്ലാവരും ഇന്നത്തെ സിറിയയിൽനിന്നു വന്നവരാണെന്ന് കരുതരുത്. ഇവിടെ ഭാഷയുടെയും ആരാധനയുടെയും സഭാബന്ധങ്ങളുടെയും ചരിത്രമാണ് പ്രധാനമായും ഓർക്കേണ്ടത്. പേരുകൾ ചിലപ്പോൾ ഒരു ഭൂപടത്തെക്കാൾ വലിയ ബന്ധങ്ങളെ ഉള്ളിൽ സൂക്ഷിക്കുന്നു.",
+        "recognized": "സുറിയാനി ക്രിസ്ത്യാനി എന്ന പേര് കേട്ട് എല്ലാവരും ഇന്നത്തെ ശരിയായി നിന്ന് വന്നതാണ് എന്ന് കരുതരുത് ഇവിടെ ഭാഷയുടെയും ആരാധനയുടെയും സഭാഭം തങ്ങളുടെയും ചരിത്രമാണ് പ്രധാനമായും ഓർക്കേണ്ടത് പേരുകൾ ചിലപ്പോൾ ഒരു ഭൂപടത്തേക്കാൾ വലിയ ബന്ധങ്ങളെ ഉള്ളിൽ സൂക്ഷിക്കുന്നു",
+        "cer": 0.07258064516129033,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "21",
+      "file": ".\\outputs\\film15\\audio\\voice\\21.wav",
+      "duration": 21.679083333333335,
+      "sample_rate": 24000,
+      "tokens": 1806,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "seed": 4070,
+      "batch_render_seconds": 69.42980840000018,
+      "text": "കടലിനപ്പുറത്തെ ബന്ധങ്ങൾ ഇവിടെ കലാരൂപങ്ങളായും മാറി. ചവിട്ടുനാടകത്തിൽ കേരളത്തിലെ അഭിനയപാരമ്പര്യങ്ങളും യൂറോപ്യൻ സ്വാധീനങ്ങളും കൂടിച്ചേരുന്നു. ലത്തീൻ ക്രൈസ്തവ സമൂഹവുമായി ശക്തമായി ബന്ധപ്പെട്ട ഈ കലയിൽ പാട്ടും അഭിനയവും ചുവടും ഒന്നിക്കുന്നു. പുറത്തുനിന്നു വന്ന കഥയെ നാട്ടുകാർ സ്വന്തം വേദിയിൽ പുതുക്കി.",
+      "peak": 0.7776583433151245,
+      "rms": 0.16460497677326202,
+      "capped": false,
+      "local": true,
+      "v1_prompt_framing": true,
+      "wav_sha256": "0fd5480600faccbff454cddcef5b72d797e675afaa2aa52574ab6b6000224522",
+      "asr": {
+        "file": ".\\outputs\\film15\\audio\\voice\\21.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "കടലിനപ്പുറത്തെ ബന്ധങ്ങൾ ഇവിടെ കലാരൂപങ്ങളായും മാറി. ചവിട്ടുനാടകത്തിൽ കേരളത്തിലെ അഭിനയപാരമ്പര്യങ്ങളും യൂറോപ്യൻ സ്വാധീനങ്ങളും കൂടിച്ചേരുന്നു. ലത്തീൻ ക്രൈസ്തവ സമൂഹവുമായി ശക്തമായി ബന്ധപ്പെട്ട ഈ കലയിൽ പാട്ടും അഭിനയവും ചുവടും ഒന്നിക്കുന്നു. പുറത്തുനിന്നു വന്ന കഥയെ നാട്ടുകാർ സ്വന്തം വേദിയിൽ പുതുക്കി.",
+        "recognized": "കടലിന് പുറത്തെ ബന്ധങ്ങൾ ഇവിടെ കലാരൂപങ്ങളായി മാറി ചവിട്ടുനാടകത്തിൽ കേരളത്തിലെ എ കഭിനയ പാരമ്പര്യങ്ങളും യൂറോപ്യൻ സ്വാധീനങ്ങളും കൂടിച്ചേരുന്നു ലക്തീൻ കൈസ്തവ സമർപ്പിച്ചു മുഹവുമായി ശക്തമായി ബന്ധപ്പെട്ട ഈ കലയിൽ പാട്ടും അഭിനയവും ചുവടും ഒന്നിക്കുന്നു പുറത്തുനിന്നു വന്ന കഥയെ നാട്ടുകാർ സ്വന്തം വേദിയിൽ പുതുക്കി",
+        "cer": 0.07958477508650519,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "22",
+      "file": ".\\outputs\\film15\\audio\\voice\\22.wav",
+      "duration": 17.470541666666666,
+      "sample_rate": 24000,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "text": "ചവിട്ടുനാടകത്തിന്റെ പേരിൽത്തന്നെ അതിന്റെ ശബ്ദമുണ്ട്. മരപ്പലകകൾകൊണ്ടുള്ള വേദിയിൽ ശക്തമായ ചുവടുകൾ മുഴങ്ങുന്നു. കഥ പറയുന്നത് വാക്കുകൾ മാത്രം അല്ല. ശരീരവും താളവും വേഷവും കൂടിയാണ്. ഒരു സമൂഹത്തിന്റെ ഓർമ്മ കാണാനും കേൾക്കാനും കഴിയുന്ന അനുഭവമായി മാറുന്നു.",
+      "local": true,
+      "v1_prompt_framing": true,
+      "capped": false,
+      "retake": true,
+      "utterances": [
+        {
+          "id": "22_r01",
+          "start": 0,
+          "duration": 3.30575,
+          "spoken_text": "ചവിട്ടുനാടകത്തിന്റെ പേരിൽത്തന്നെ അതിന്റെ ശബ്ദമുണ്ട്."
+        },
+        {
+          "id": "22_r02",
+          "start": 3.4257500000000003,
+          "duration": 4.122333333333334,
+          "spoken_text": "മരപ്പലകകൾകൊണ്ടുള്ള വേദിയിൽ ശക്തമായ ചുവടുകൾ മുഴങ്ങുന്നു."
+        },
+        {
+          "id": "22_r03",
+          "start": 7.6680833333333345,
+          "duration": 2.482375,
+          "spoken_text": "കഥ പറയുന്നത് വാക്കുകൾ മാത്രം അല്ല."
+        },
+        {
+          "id": "22_r04",
+          "start": 10.270458333333334,
+          "duration": 2.57525,
+          "spoken_text": "ശരീരവും താളവും വേഷവും കൂടിയാണ്."
+        },
+        {
+          "id": "22_r05",
+          "start": 12.965708333333334,
+          "duration": 4.504833333333333,
+          "spoken_text": "ഒരു സമൂഹത്തിന്റെ ഓർമ്മ കാണാനും കേൾക്കാനും കഴിയുന്ന അനുഭവമായി മാറുന്നു."
+        }
+      ],
+      "peak": 0.8046895265579224,
+      "wav_sha256": "875d5f44b13bad7f316cd4272ec19038ee27a7312baa7dd4de818d15d0b9a35b",
+      "asr": {
+        "file": "outputs\\film15\\audio\\voice\\22.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "ചവിട്ടുനാടകത്തിന്റെ പേരിൽത്തന്നെ അതിന്റെ ശബ്ദമുണ്ട്. മരപ്പലകകൾകൊണ്ടുള്ള വേദിയിൽ ശക്തമായ ചുവടുകൾ മുഴങ്ങുന്നു. കഥ പറയുന്നത് വാക്കുകൾ മാത്രം അല്ല. ശരീരവും താളവും വേഷവും കൂടിയാണ്. ഒരു സമൂഹത്തിന്റെ ഓർമ്മ കാണാനും കേൾക്കാനും കഴിയുന്ന അനുഭവമായി മാറുന്നു.",
+        "recognized": "ചവിട്ടുനാടകത്തിന്റെ പേരിൽ തന്നെ അതിന്റെ ശബ്ദമുണ്ട് മരപ്പഴക്കുകൾക്കുള്ള വേദിയിൽ ശക്തമായ ചുവടുകൾ മുഴകുന്നു കഥ പറയുന്നത് വാക്കുകൾ മാത്രമല്ല ശരീരവും താളവും ദേശവും കൂടിയാണ് ഒരു സമൂഹത്തിന്റെ ഓർമ്മ കാണാനും കേൾക്കാനും കഴിയുന്ന അനുഭവമായി മാറുന്നു",
+        "cer": 0.06639004149377593,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "23",
+      "file": ".\\outputs\\film15\\audio\\voice\\23.wav",
+      "duration": 17.614083333333333,
+      "sample_rate": 24000,
+      "tokens": 1470,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "seed": 4070,
+      "batch_render_seconds": 69.42980840000018,
+      "text": "മാർഗംകളിയിൽ പാട്ടും വൃത്തത്തിലുള്ള ചുവടുകളും ക്രൈസ്തവ ഓർമ്മയെ വഹിക്കുന്നു. മലയാളമണ്ണിലെ ഒരു കലാരൂപത്തിൽ വിശ്വാസത്തിന്റെ കഥ ജീവിക്കുന്നു. ചരിത്രം പുസ്തകത്തിൽ മാത്രം സൂക്ഷിക്കപ്പെടുന്നില്ല. ചിലപ്പോൾ അത് ശരീരം പഠിച്ച ഒരു ചുവടായി അടുത്ത തലമുറയിലേക്കു പോകുന്നു.",
+      "peak": 0.766975998878479,
+      "rms": 0.17583011090755463,
+      "capped": false,
+      "local": true,
+      "v1_prompt_framing": true,
+      "wav_sha256": "f8257b28df36a69e2006e4e2ceb6dd12f6e11c4b88199a5181e5332fb7315279",
+      "asr": {
+        "file": ".\\outputs\\film15\\audio\\voice\\23.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "മാർഗംകളിയിൽ പാട്ടും വൃത്തത്തിലുള്ള ചുവടുകളും ക്രൈസ്തവ ഓർമ്മയെ വഹിക്കുന്നു. മലയാളമണ്ണിലെ ഒരു കലാരൂപത്തിൽ വിശ്വാസത്തിന്റെ കഥ ജീവിക്കുന്നു. ചരിത്രം പുസ്തകത്തിൽ മാത്രം സൂക്ഷിക്കപ്പെടുന്നില്ല. ചിലപ്പോൾ അത് ശരീരം പഠിച്ച ഒരു ചുവടായി അടുത്ത തലമുറയിലേക്കു പോകുന്നു.",
+        "recognized": "മാർഗ്ഗം കളിയിൽ പാട്ടും തൃത്വത്തിലുള്ള ചുവടുകളും ക്രൈസ്തക ഓർമ്മയെ വഹിക്കുന്നു മലയാള മണ്ണിലെ ഒ ഒരു കലാരൂപത്തിൽ വിശ്വാസത്തിന്റെ കഥ ജീവിക്കുന്നു ചരിത്രം പുസ്തകത്തിൽ മാത്രം സൂക്ഷിക്കും ക്കപ്പെടുന്നില്ല ചിലപ്പോൾ അത് ശരീരം പഠിച്ച ഒരു ചുവടായി അടുത്ത തലമുറയിലേക്ക് പോകുന്നു",
+        "cer": 0.06349206349206349,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "24",
+      "file": ".\\outputs\\film15\\audio\\voice\\24.wav",
+      "duration": 18.775541666666665,
+      "sample_rate": 24000,
+      "tokens": 1568,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "seed": 4070,
+      "batch_render_seconds": 69.42980840000018,
+      "text": "മാർഗംകളി ആദ്യം പുരുഷന്മാരും ആൺകുട്ടികളും അവതരിപ്പിച്ചിരുന്നുവെന്ന് കലാരൂപത്തിന്റെ വിവരണങ്ങൾ പറയുന്നു. പിന്നീട് സ്ത്രീകളും സജീവമായി പങ്കെടുത്തു. ഇന്ന് സ്ത്രീകളുടെ അവതരണം വ്യാപകമായി കാണാം. പാരമ്പര്യം നിലനിൽക്കുന്നത് മാറ്റമില്ലാത്തതിനാലല്ല. പുതിയ മനുഷ്യർ അതിൽ സ്വന്തം ഇടം കണ്ടെത്തുന്നതിനാലും ആണ്.",
+      "peak": 0.7687357664108276,
+      "rms": 0.19103612005710602,
+      "capped": false,
+      "local": true,
+      "v1_prompt_framing": true,
+      "wav_sha256": "e3b878410f2064910bb6db2cc510abeaf6e0bd75e09cdbef261a10fa5802a27c",
+      "asr": {
+        "file": ".\\outputs\\film15\\audio\\voice\\24.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "മാർഗംകളി ആദ്യം പുരുഷന്മാരും ആൺകുട്ടികളും അവതരിപ്പിച്ചിരുന്നുവെന്ന് കലാരൂപത്തിന്റെ വിവരണങ്ങൾ പറയുന്നു. പിന്നീട് സ്ത്രീകളും സജീവമായി പങ്കെടുത്തു. ഇന്ന് സ്ത്രീകളുടെ അവതരണം വ്യാപകമായി കാണാം. പാരമ്പര്യം നിലനിൽക്കുന്നത് മാറ്റമില്ലാത്തതിനാലല്ല. പുതിയ മനുഷ്യർ അതിൽ സ്വന്തം ഇടം കണ്ടെത്തുന്നതിനാലും ആണ്.",
+        "recognized": "മാർഗ്ഗംകളി ആദ്യം പുരുഷന്മാരും ആൺകുട്ടികളും അവതരിപ്പിച്ചിരുന്നുവെന്ന് കലാരൂപത്തിന്റെ വിവരണങ്ങൾ പറയുന്നു പിന്നീട് സ്ത്രീകളും സജീവമായി പങ്കെടുത്തു ഇന്ന് സ്ത്രീകളുടെ അവതരണം വ്യാപകമായി കാണാം പാരമ്പര്യം നിലനിൽക്കുന്നത് മാറ്റമില്ലാത്തതിനാലിന് പുതിയ മനുഷ്യർ അതിൽ സ്വന്തം ഇടം കണ്ടെത്തുന്ന അതിനാലുമാണ്",
+        "cer": 0.034722222222222224,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "25",
+      "file": ".\\outputs\\film15\\audio\\voice\\25.wav",
+      "duration": 20.39025,
+      "sample_rate": 24000,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "text": "ഗോതുരുത്തിലെ ചവിട്ടുനാടക കലാകാരന്മാരിൽ മത്സ്യത്തൊഴിലാളികളും മറ്റു തൊഴിലാളികളും പ്രധാന പങ്കുവഹിക്കുന്നുവെന്ന് കേരള ടൂറിസത്തിന്റെ വിവരണം പറയുന്നു. പകൽ അധ്വാനിക്കുന്ന കൈകൾ വേദിയിലും കഥ പറയുന്നു. സംസ്കാരം സമ്പന്നരുടെ അലങ്കാരം മാത്രം അല്ല. സാധാരണ മനുഷ്യരുടെ സൃഷ്ടിശേഷിയും അതിന്റെ അടിത്തറയാണ്.",
+      "local": true,
+      "v1_prompt_framing": true,
+      "capped": false,
+      "retake": true,
+      "utterances": [
+        {
+          "id": "25_r01",
+          "start": 0,
+          "duration": 9.869333333333334,
+          "spoken_text": "ഗോതുരുത്തിലെ ചവിട്ടുനാടക കലാകാരന്മാരിൽ മത്സ്യത്തൊഴിലാളികളും മറ്റു തൊഴിലാളികളും പ്രധാന പങ്കുവഹിക്കുന്നുവെന്ന് കേരള ടൂറിസത്തിന്റെ വിവരണം പറയുന്നു."
+        },
+        {
+          "id": "25_r02",
+          "start": 9.989333333333333,
+          "duration": 3.6083333333333334,
+          "spoken_text": "പകൽ അധ്വാനിക്കുന്ന കൈകൾ വേദിയിലും കഥ പറയുന്നു."
+        },
+        {
+          "id": "25_r03",
+          "start": 13.717666666666664,
+          "duration": 2.7800416666666665,
+          "spoken_text": "സംസ്കാരം സമ്പന്നരുടെ അലങ്കാരം മാത്രം അല്ല."
+        },
+        {
+          "id": "25_r04",
+          "start": 16.617708333333333,
+          "duration": 3.7725416666666667,
+          "spoken_text": "സാധാരണ മനുഷ്യരുടെ സൃഷ്ടിശേഷിയും അതിന്റെ അടിത്തറയാണ്."
+        }
+      ],
+      "peak": 0.786327600479126,
+      "wav_sha256": "cfc6182d03996d5e920dc380f78780e86b1d6b3094fac6b413b8283ceeae7364",
+      "asr": {
+        "file": "outputs\\film15\\audio\\voice\\25.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "ഗോതുരുത്തിലെ ചവിട്ടുനാടക കലാകാരന്മാരിൽ മത്സ്യത്തൊഴിലാളികളും മറ്റു തൊഴിലാളികളും പ്രധാന പങ്കുവഹിക്കുന്നുവെന്ന് കേരള ടൂറിസത്തിന്റെ വിവരണം പറയുന്നു. പകൽ അധ്വാനിക്കുന്ന കൈകൾ വേദിയിലും കഥ പറയുന്നു. സംസ്കാരം സമ്പന്നരുടെ അലങ്കാരം മാത്രം അല്ല. സാധാരണ മനുഷ്യരുടെ സൃഷ്ടിശേഷിയും അതിന്റെ അടിത്തറയാണ്.",
+        "recognized": "ഗോദയുക്കിലെ ചവിട്ടുനാടക കലാധാരന്മാരിൽ മത്സ്യത്തൊഴിലാളികളും മറ്റു തൊഴിലാളികളും പ്രധാന പങ്കുവഹിക്കുന്നതെന്ന് കേരള ടൂറിസത്തിന്റെ വിവരണം പറയുന്നു പകൽ അദ്ധാനിക്കുന്ന കൈകൾ വേദിയിലും കഥ പറയുന്നു സംസ്കാരം സമ്പന്നരുടെ അലങ്കാരം മാത്തമല്ല സാധാരണ മനുഷ്യരുടെ സൃഷ്ടിശേഷിയും അതിന്റെ അടിത്തറയാണ്",
+        "cer": 0.04946996466431095,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "26",
+      "file": ".\\outputs\\film15\\audio\\voice\\26.wav",
+      "duration": 20.204,
+      "sample_rate": 24000,
+      "tokens": 1687,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "seed": 4070,
+      "batch_render_seconds": 64.03242490000048,
+      "text": "സുറിയാനി പാരമ്പര്യങ്ങളുടെ ചരിത്രം മാത്രം പറഞ്ഞാൽ കേരളത്തിലെ ക്രൈസ്തവരുടെ കഥ പൂർണമാകില്ല. ലത്തീൻ ക്രൈസ്തവ കലയും തീരദേശ ജീവിതവും അതിലെ പ്രധാന ഭാഗങ്ങളാണ്. ഒരേ മതത്തിനുള്ളിലും തൊഴിലും പ്രദേശവും ആചാരങ്ങളും അനുഭവങ്ങളും വ്യത്യസ്തമാകാം. ആ വ്യത്യാസങ്ങളോടെയാണ് ഈ സമൂഹത്തെ കാണേണ്ടത്.",
+      "peak": 0.7742778658866882,
+      "rms": 0.19070783257484436,
+      "capped": false,
+      "local": true,
+      "v1_prompt_framing": true,
+      "wav_sha256": "783003a73dde95b95745c9b5560c701f0153e934da3d15d9f48de64bf11fff8a",
+      "asr": {
+        "file": ".\\outputs\\film15\\audio\\voice\\26.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "സുറിയാനി പാരമ്പര്യങ്ങളുടെ ചരിത്രം മാത്രം പറഞ്ഞാൽ കേരളത്തിലെ ക്രൈസ്തവരുടെ കഥ പൂർണമാകില്ല. ലത്തീൻ ക്രൈസ്തവ കലയും തീരദേശ ജീവിതവും അതിലെ പ്രധാന ഭാഗങ്ങളാണ്. ഒരേ മതത്തിനുള്ളിലും തൊഴിലും പ്രദേശവും ആചാരങ്ങളും അനുഭവങ്ങളും വ്യത്യസ്തമാകാം. ആ വ്യത്യാസങ്ങളോടെയാണ് ഈ സമൂഹത്തെ കാണേണ്ടത്.",
+        "recognized": "സുര്യാനി പാരമ്പര്യങ്ങളുടെ ചരിത്രം മാത്രം പറഞ്ഞാൽ കേരളത്തിലെ ക്രൈസ്തവരുടെ കഥ പൂർണമാകില്ല ല്ലെറ്റിൻ ക്ലെസ്തവ കലയും തീരദേശ ജീവിതവും അവിലെ പ്രധാന ഭാഗങ്ങളാണ് ഒരേ മത ക്കിനുള്ളിലും തൊഴിലും പ്രദേശവും ആചാരങ്ങളും അനുഭവങ്ങളും വ്യത്യസ്തമാക്കാം ആ വ്യത്യാസങ്ങളും കൊടെയാണ് ഈ സമൂഹത്തെ കാണേണ്ടത്",
+        "cer": 0.07835820895522388,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "27",
+      "file": ".\\outputs\\film15\\audio\\voice\\27.wav",
+      "duration": 18.194541666666666,
+      "sample_rate": 24000,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "text": "ആയിരത്തിനാനൂറ്റിത്തൊണ്ണൂറ്റിയെട്ടിൽ വാസ്കോ ഡ ഗാമയുടെ കപ്പലുകൾ മലബാർ തീരത്തെത്തി. ഇത് കേരളത്തിലേക്കുള്ള ക്രിസ്തുമതത്തിന്റെ ആദ്യ വരവായിരുന്നില്ല. ഇതിനകം ഇവിടെ ക്രൈസ്തവർ ഉണ്ടായിരുന്നു. പക്ഷേ ഈ വരവ് കടൽവ്യാപാരത്തിലും അധികാരബന്ധങ്ങളിലും പുതിയൊരു അധ്യായം തുറന്നു.",
+      "local": true,
+      "v1_prompt_framing": true,
+      "capped": false,
+      "retake": true,
+      "utterances": [
+        {
+          "id": "27_r01",
+          "start": 0,
+          "duration": 5.391,
+          "spoken_text": "ആയിരത്തി നാനൂറ്റി തൊണ്ണൂറ്റി എട്ടിൽ, വാസ്കോ ഡ ഗാമയുടെ കപ്പലുകൾ മലബാർ തീരത്തെത്തി."
+        },
+        {
+          "id": "27_r02",
+          "start": 5.511,
+          "duration": 3.8895416666666667,
+          "spoken_text": "ഇത് കേരളത്തിലേക്കുള്ള ക്രിസ്തുമതത്തിന്റെ ആദ്യ വരവായിരുന്നില്ല."
+        },
+        {
+          "id": "27_r03",
+          "start": 9.520541666666666,
+          "duration": 2.4564583333333334,
+          "spoken_text": "ഇതിനകം ഇവിടെ ക്രൈസ്തവർ ഉണ്ടായിരുന്നു."
+        },
+        {
+          "id": "27_r04",
+          "start": 12.097,
+          "duration": 6.097541666666666,
+          "spoken_text": "പക്ഷേ ഈ വരവ് കടൽവ്യാപാരത്തിലും അധികാരബന്ധങ്ങളിലും പുതിയൊരു അധ്യായം തുറന്നു."
+        }
+      ],
+      "peak": 0.8082301616668701,
+      "wav_sha256": "9e197d4366bc818f97cf7f7d183f9dfe08c93eea6217e2ca4ec770e0719bf393",
+      "asr": {
+        "file": "outputs\\film15\\audio\\voice\\27.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "ആയിരത്തിനാനൂറ്റിത്തൊണ്ണൂറ്റിയെട്ടിൽ വാസ്കോ ഡ ഗാമയുടെ കപ്പലുകൾ മലബാർ തീരത്തെത്തി. ഇത് കേരളത്തിലേക്കുള്ള ക്രിസ്തുമതത്തിന്റെ ആദ്യ വരവായിരുന്നില്ല. ഇതിനകം ഇവിടെ ക്രൈസ്തവർ ഉണ്ടായിരുന്നു. പക്ഷേ ഈ വരവ് കടൽവ്യാപാരത്തിലും അധികാരബന്ധങ്ങളിലും പുതിയൊരു അധ്യായം തുറന്നു.",
+        "recognized": "ആയിരത്തിനാനൂറ്റി തൊണ്ണൂറ്റി എട്ടിൽ വസ്കോടതാമയുടെ കപ്പലുകൾ മലബാർ തീരത്തെത്തി ഇത് കേരളത്തിലേക്കുള്ള ക്രിസ്തുമതത്തിന്റെ ആദ്യ വയവായിരുന്നിന് പിന്നകം ഇവിടെ ക്രൈസ്തവർ ഉണ്ടായിരുന്നു പക്ഷേ ഈ വരവ് കടൽ വ്യാപാരത്തിലും അധികാര ബന്ധങ്ങളിലും പുതിയൊരു അധ്യായം തുറന്നു",
+        "cer": 0.07114624505928854,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "28",
+      "file": ".\\outputs\\film15\\audio\\voice\\28.wav",
+      "duration": 18.417083333333334,
+      "sample_rate": 24000,
+      "tokens": 1540,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "seed": 4070,
+      "batch_render_seconds": 64.03242490000048,
+      "text": "ഒരേ ക്രിസ്തുവിലുള്ള വിശ്വാസം ഉണ്ടായിരുന്നെങ്കിലും, ആരാധനാരീതിയും സഭാഭരണവും ഭാഷയും ഒരുപോലെ ആയിരുന്നില്ല. പരിചയപ്പെടാനുള്ള അവസരത്തിനൊപ്പം നിയന്ത്രണത്തിനുള്ള ശ്രമങ്ങളും വളർന്നു. ഇനി ചോദ്യം ആരാണ് ഇവിടെയുള്ളത് എന്നതുമാത്രമല്ല. ആരാണ് തീരുമാനിക്കുക എന്നതും ആയി.",
+      "peak": 0.8283680081367493,
+      "rms": 0.18252234160900116,
+      "capped": false,
+      "local": true,
+      "v1_prompt_framing": true,
+      "wav_sha256": "c6080d5fe4858015c6a9cea948e04cec444528d13ae095d8e3da7a39aa5a2671",
+      "asr": {
+        "file": ".\\outputs\\film15\\audio\\voice\\28.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "ഒരേ ക്രിസ്തുവിലുള്ള വിശ്വാസം ഉണ്ടായിരുന്നെങ്കിലും, ആരാധനാരീതിയും സഭാഭരണവും ഭാഷയും ഒരുപോലെ ആയിരുന്നില്ല. പരിചയപ്പെടാനുള്ള അവസരത്തിനൊപ്പം നിയന്ത്രണത്തിനുള്ള ശ്രമങ്ങളും വളർന്നു. ഇനി ചോദ്യം ആരാണ് ഇവിടെയുള്ളത് എന്നതുമാത്രമല്ല. ആരാണ് തീരുമാനിക്കുക എന്നതും ആയി.",
+        "recognized": "പൊരേ ക്രിസ്തുവിലുള്ള വിശ്വാസം ഉണ്ടായിരുന്നതിലും ആരാധനാരീതിയും സഭാഭരണവും ഭാഷയും ഒ ഇതുപോലെ ആയിരുന്നില്ല പരിചയപ്പെടാനുള്ള അവസരത്തിനൊപ്പം നിയന്ത്രണത്തിനുള്ള ശ്രമങ്ങളും വളർന്നു ഇനി ചോദ്യം ആരാണ് ഇവിടെയുള്ളത് എന്നതുമാത്രമല്ല ആരാണ് തീരുമാനിക്കുക എന്നതും പായ്",
+        "cer": 0.04819277108433735,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "29",
+      "file": ".\\outputs\\film15\\audio\\voice\\29.wav",
+      "duration": 17.534541666666666,
+      "sample_rate": 24000,
+      "tokens": 1463,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "seed": 4070,
+      "batch_render_seconds": 64.03242490000048,
+      "text": "ഒരു സമൂഹത്തിന് പ്രാർത്ഥനയുടെ വാക്കുകൾ വെറും ശബ്ദങ്ങളല്ല. അവയിൽ ഓർമ്മയും ബന്ധവും പതിവുമുണ്ട്. സ്വന്തം ജീവിതത്തെക്കുറിച്ചുള്ള തീരുമാനങ്ങളിൽ സ്വന്തം ശബ്ദം കേൾക്കപ്പെടണം എന്ന ആഗ്രഹവും അതോടു ചേരുന്നു. ഈ സംഘർഷത്തെ മനസ്സിലാക്കാൻ ആ മനുഷ്യവശം മറക്കരുത്.",
+      "peak": 0.7508989572525024,
+      "rms": 0.17319367825984955,
+      "capped": false,
+      "local": true,
+      "v1_prompt_framing": true,
+      "wav_sha256": "6ec959d6ea77bfc6dcdc0b1a6df2a0d775a980677719171fa5d108de947f9861",
+      "asr": {
+        "file": ".\\outputs\\film15\\audio\\voice\\29.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "ഒരു സമൂഹത്തിന് പ്രാർത്ഥനയുടെ വാക്കുകൾ വെറും ശബ്ദങ്ങളല്ല. അവയിൽ ഓർമ്മയും ബന്ധവും പതിവുമുണ്ട്. സ്വന്തം ജീവിതത്തെക്കുറിച്ചുള്ള തീരുമാനങ്ങളിൽ സ്വന്തം ശബ്ദം കേൾക്കപ്പെടണം എന്ന ആഗ്രഹവും അതോടു ചേരുന്നു. ഈ സംഘർഷത്തെ മനസ്സിലാക്കാൻ ആ മനുഷ്യവശം മറക്കരുത്.",
+        "recognized": "ഒരു സമൂഹത്തിന് പ്രാർത്ഥനയുടെ വാക്കുകൾ വേറും ശബ്ദങ്ങളല്ല അവയിൽ ഓർമ്മയും ബന്ധവും പതിവുമുണ്ട് സ്വന്തം ജീവിതത്തെക്കുറിച്ചുള്ള തീരുമാനങ്ങളിൽ സ്വന്തം ശബ്ദം കേൾക്കപ്പെടണം എന്ന ആഗ്ര ലഭവും അതോടുചേരുന്നു ഈ സംഘർഷത്തെ മനസ്സിലാക്കാൻ ആ മനുഷ്യവശം മറക്കരുത്",
+        "cer": 0.020833333333333332,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "30",
+      "file": ".\\outputs\\film15\\audio\\voice\\30.wav",
+      "duration": 20.703666666666667,
+      "sample_rate": 24000,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "text": "ആയിരത്തഞ്ഞൂറ്റിത്തൊണ്ണൂറ്റൊമ്പതിൽ ഉദയംപേരൂരിൽ സുന്നഹദോസ് നടന്നു. ഗോവയിലെ ആർച്ച് ബിഷപ്പ് മെനേസിസിന്റെ നേതൃത്വത്തിൽ ചേർന്ന സമ്മേളനം കേരളത്തിലെ ക്രൈസ്തവ സഭാജീവിതത്തെ മാറ്റിയ നിർണായക സംഭവമായിരുന്നു. വിശ്വാസാചാരങ്ങളെയും സഭാ നിയന്ത്രണത്തെയും കുറിച്ചുള്ള തീരുമാനങ്ങൾ അവിടെ ഉണ്ടായി.",
+      "local": true,
+      "v1_prompt_framing": true,
+      "capped": false,
+      "retake": true,
+      "utterances": [
+        {
+          "id": "30_date_a",
+          "start": 0,
+          "duration": 3.314416666666667,
+          "spoken_text": "ക്രിസ്തു വർഷം ആയിരത്തി അഞ്ഞൂറ്റി തൊണ്ണൂറ്റി ഒമ്പത്."
+        },
+        {
+          "id": "30_date_b",
+          "start": 3.434416666666667,
+          "duration": 2.46775,
+          "spoken_text": "ഉദയംപേരൂരിൽ സുന്നഹദോസ് നടന്നു."
+        },
+        {
+          "id": "30_r02",
+          "start": 6.022166666666667,
+          "duration": 9.538375,
+          "spoken_text": "ഗോവയിലെ, ആർച്ച് ബിഷപ്പ് മെനേസിസിന്റെ നേതൃത്വത്തിൽ, ചേർന്ന സമ്മേളനം കേരളത്തിലെ ക്രൈസ്തവ സഭാജീവിതത്തെ മാറ്റിയ നിർണായക സംഭവമായിരുന്നു."
+        },
+        {
+          "id": "30_r03",
+          "start": 15.680541666666667,
+          "duration": 5.023125,
+          "spoken_text": "വിശ്വാസാചാരങ്ങളെയും സഭാ നിയന്ത്രണത്തെയും കുറിച്ചുള്ള തീരുമാനങ്ങൾ അവിടെ ഉണ്ടായി."
+        }
+      ],
+      "peak": 0.7628439664840698,
+      "wav_sha256": "f223940c2a1d0b06ca634e4f52a299f5f0a79aa034d367d8b3425fff4ab9e110",
+      "asr": {
+        "file": "outputs\\film15\\audio\\voice\\30.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "ആയിരത്തഞ്ഞൂറ്റിത്തൊണ്ണൂറ്റൊമ്പതിൽ ഉദയംപേരൂരിൽ സുന്നഹദോസ് നടന്നു. ഗോവയിലെ ആർച്ച് ബിഷപ്പ് മെനേസിസിന്റെ നേതൃത്വത്തിൽ ചേർന്ന സമ്മേളനം കേരളത്തിലെ ക്രൈസ്തവ സഭാജീവിതത്തെ മാറ്റിയ നിർണായക സംഭവമായിരുന്നു. വിശ്വാസാചാരങ്ങളെയും സഭാ നിയന്ത്രണത്തെയും കുറിച്ചുള്ള തീരുമാനങ്ങൾ അവിടെ ഉണ്ടായി.",
+        "recognized": "ക്രിസ്തുവർഷം കായിരത്തി അഞ്ഞൂറ്റി തൊണ്ണൂറ്റി ഒമ്പത് ഉദയന്പേരൂരില് സ്വന്താഹാദവ് നടന്നു ഗോവയിലെ ആർച്ച് ബിഷപ്പ് മെനേസിസിന്റെ നേതൃത്വത്തിൽ ചേർന്ന സമ്മേളനം കേരളത്തിലെ ക്രൈസ്തവ സഭാജീവിതത്തെ മാറ്റിയ നിർണായക സംഭവമായിരുന്നു വിശ്വാസാചാരങ്ങളെയും സഭാ നിയന്ത്രണത്തെയും കുറിച്ചുള്ള തീരുമാനങ്ങൾ അവിടെ ഉണ്ടായി",
+        "cer": 0.13284132841328414,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "31",
+      "file": ".\\outputs\\film15\\audio\\voice\\31.wav",
+      "duration": 19.128583333333335,
+      "sample_rate": 24000,
+      "tokens": 1582,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "seed": 4070,
+      "batch_render_seconds": 60.9739840000002,
+      "text": "ഒരു സമ്മേളനമുറിയിലെ തീരുമാനങ്ങൾ അവിടെ അവസാനിക്കില്ല. അവ ഗ്രാമങ്ങളിലേക്കും പള്ളികളിലേക്കും വീടുകളിലേക്കും എത്തും. പതിവുകൾ മാറുമ്പോൾ സാധാരണ വിശ്വാസികൾ എന്ത് അനുഭവിച്ചിരിക്കാം? ഉറപ്പുള്ള രേഖയില്ലാത്ത അവരുടെ വാക്കുകൾ നാം സൃഷ്ടിക്കില്ല. പക്ഷേ ആ മാറ്റത്തിന്റെ ഭാരം ഓർക്കാം.",
+      "peak": 0.830864429473877,
+      "rms": 0.18997003138065338,
+      "capped": false,
+      "local": true,
+      "v1_prompt_framing": true,
+      "wav_sha256": "d2f79bf8c1d79b022921e5992b475b7fe2862f12c6c98cbe0bc8df54dd29ff56",
+      "asr": {
+        "file": ".\\outputs\\film15\\audio\\voice\\31.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "ഒരു സമ്മേളനമുറിയിലെ തീരുമാനങ്ങൾ അവിടെ അവസാനിക്കില്ല. അവ ഗ്രാമങ്ങളിലേക്കും പള്ളികളിലേക്കും വീടുകളിലേക്കും എത്തും. പതിവുകൾ മാറുമ്പോൾ സാധാരണ വിശ്വാസികൾ എന്ത് അനുഭവിച്ചിരിക്കാം? ഉറപ്പുള്ള രേഖയില്ലാത്ത അവരുടെ വാക്കുകൾ നാം സൃഷ്ടിക്കില്ല. പക്ഷേ ആ മാറ്റത്തിന്റെ ഭാരം ഓർക്കാം.",
+        "recognized": "ഒരു സമ്മേളനമുറിയിലെ തീരുമാനങ്ങൾ അവിടെ അവസാനിക്കില്ല അവ ഗ്രാമങ്ങളിലേക്കും പള്ളികളിലേക്കും ഏറ്റും വീടുകളിലേക്കും എത്തും പതിവുകൾ മാറുമ്പോൾ സാധാരണ വിശ്വാസ്യത എന്ത് അനുഭവിച്ചിരുന്നു യ്ക്കാം ഉറപ്പുള്ള രേഖയില്ലാത്ത അവരുടെ വാക്കുകൾ നാം സൃഷ്ടിക്കില്ല പക്ഷേ ആ മഴപ്പത്തിന്റെ ഭാരം ഓർക്കം",
+        "cer": 0.08396946564885496,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "32",
+      "file": ".\\outputs\\film15\\audio\\voice\\32.wav",
+      "duration": 18.985666666666667,
+      "sample_rate": 24000,
+      "tokens": 1582,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "seed": 4070,
+      "batch_render_seconds": 60.9739840000002,
+      "text": "ഈ ചരിത്രത്തെ നല്ലവരും ചീത്തവരും മാത്രമുള്ള കഥയാക്കി ചുരുക്കാൻ എളുപ്പമാണ്. പക്ഷേ സഭകളുടെ ബന്ധങ്ങളും വിശ്വാസികളുടെ തീരുമാനങ്ങളും കൂടുതൽ സങ്കീർണമായിരുന്നു. വ്യക്തികളുടെ വിശ്വാസത്തെ ആദരിച്ചുകൊണ്ട് അധികാരത്തിന്റെ സമ്മർദം പരിശോധിക്കാം. വിമർശനവും കരുതലും ഒരുമിച്ചു നിലനിൽക്കാം.",
+      "peak": 0.8452895879745483,
+      "rms": 0.16033540666103363,
+      "capped": false,
+      "local": true,
+      "v1_prompt_framing": true,
+      "wav_sha256": "6adf20bb97a8d3d8f0a354e1c3f7882039b3749f33f98ee6c78a2e74b1110e21",
+      "asr": {
+        "file": ".\\outputs\\film15\\audio\\voice\\32.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "ഈ ചരിത്രത്തെ നല്ലവരും ചീത്തവരും മാത്രമുള്ള കഥയാക്കി ചുരുക്കാൻ എളുപ്പമാണ്. പക്ഷേ സഭകളുടെ ബന്ധങ്ങളും വിശ്വാസികളുടെ തീരുമാനങ്ങളും കൂടുതൽ സങ്കീർണമായിരുന്നു. വ്യക്തികളുടെ വിശ്വാസത്തെ ആദരിച്ചുകൊണ്ട് അധികാരത്തിന്റെ സമ്മർദം പരിശോധിക്കാം. വിമർശനവും കരുതലും ഒരുമിച്ചു നിലനിൽക്കാം.",
+        "recognized": "ഈ ചരിത്രത്തെ നല്ലവരും ചീത്തവരും മാത്രമുള്ള കഥയാക്കിച്ചുഴുക്കാൻ എളുപ്പമാണ് പക്ഷേ സഭകൾ കളുടെ ബന്ധങ്ങളും വിശ്വാസികളുടെ തീരുമാനങ്ങളും കൂടുതൽ സങ്കീർണമായിരുന്നു വ്യക്തികളുടെ വിശ്വ വാസപ്പെ ആദരിച്ചുകൊണ്ട് അധികാരത്തിന്റെ സമ്മർദ്ദം പരിശോധിക്കാം വിമർശനവും കരുതലും ഒരുമയ്ക്കും മിച്ചുനിൽ അനിൽക്കാം",
+        "cer": 0.09398496240601503,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "33",
+      "file": ".\\outputs\\film15\\audio\\voice\\33.wav",
+      "duration": 19.755416666666665,
+      "sample_rate": 24000,
+      "tokens": 1645,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "seed": 4070,
+      "batch_render_seconds": 60.9739840000002,
+      "text": "ആയിരത്തറുനൂറ്റിയമ്പത്തിമൂന്ന്. മട്ടാഞ്ചേരി. കൂനൻ കുരിശു സത്യം എന്നറിയപ്പെടുന്ന സംഭവം പോർച്ചുഗീസ് സഭാധികാരത്തിനെതിരായ പ്രതിഷേധത്തിന്റെ ശക്തമായ ഓർമ്മയായി നിലനിൽക്കുന്നു. സ്വന്തം സമൂഹത്തിന്റെ കാര്യങ്ങളിൽ സ്വയം ശബ്ദമുയർത്താനുള്ള ആഗ്രഹം ആ സംഭവത്തിൽ നമുക്ക് തിരിച്ചറിയാം.",
+      "peak": 0.801408588886261,
+      "rms": 0.16907189786434174,
+      "capped": false,
+      "local": true,
+      "v1_prompt_framing": true,
+      "wav_sha256": "bf47591d214dc071cafe741769a872afb66a89f636a600b0cc2fbe18eba521da",
+      "asr": {
+        "file": ".\\outputs\\film15\\audio\\voice\\33.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "ആയിരത്തറുനൂറ്റിയമ്പത്തിമൂന്ന്. മട്ടാഞ്ചേരി. കൂനൻ കുരിശു സത്യം എന്നറിയപ്പെടുന്ന സംഭവം പോർച്ചുഗീസ് സഭാധികാരത്തിനെതിരായ പ്രതിഷേധത്തിന്റെ ശക്തമായ ഓർമ്മയായി നിലനിൽക്കുന്നു. സ്വന്തം സമൂഹത്തിന്റെ കാര്യങ്ങളിൽ സ്വയം ശബ്ദമുയർത്താനുള്ള ആഗ്രഹം ആ സംഭവത്തിൽ നമുക്ക് തിരിച്ചറിയാം.",
+        "recognized": "ആയിരത്തറുന്നൂറ്റി അമ്പത്തിമൂന്ന് മട്ടാഞ്ചേരി കൂനൻ കുടിശുസത്യം എന്നറിയപ്പെടുന്ന സം സംഭവം പോർച്ചുഗീസ് സഭാധികാരത്തിനെതിരായ പ്രതിഷേധത്തിന്റെ ശക്തമായ ഓർമ്മയായി നിലനിൽ നിൽക്കുന്നു സ്വന്തം സമൂഹത്തിന്റെ കാര്യങ്ങളിൽ സ്വയം ശബ്ദമുയർത്താനുള്ള ആഗ്രഹം ആ സം സംഭവത്തിൽ നമുക്ക് തിരിച്ചറിയാം",
+        "cer": 0.06130268199233716,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "34",
+      "file": ".\\outputs\\film15\\audio\\voice\\34.wav",
+      "duration": 16.108416666666667,
+      "sample_rate": 24000,
+      "tokens": 1351,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "seed": 4070,
+      "batch_render_seconds": 60.9739840000002,
+      "text": "ഈ രംഗം കാണുമ്പോൾ തീയതി മാത്രം ഓർക്കേണ്ടതില്ല. ഒറ്റയ്ക്കുള്ള ഒരാളുടെ കൈയും മറ്റൊരാളുടെ കൈയും ചേർന്നാൽ ഒരു പൊതുശബ്ദം ഉണ്ടാകുന്നതും ഓർക്കാം. ഇവിടെ കാണുന്ന ദൃശ്യം സൃഷ്ടിപരമായ പുനരാവിഷ്കാരമാണ്. സംഭവത്തിന്റെ കൃത്യമായ ഫോട്ടോഗ്രാഫല്ല.",
+      "peak": 0.7803182601928711,
+      "rms": 0.17318718135356903,
+      "capped": false,
+      "local": true,
+      "v1_prompt_framing": true,
+      "wav_sha256": "fdb960a3b93576b9083dfc65a1bda76f80316c6bbc75e0c70efb0d750c56b4ae",
+      "asr": {
+        "file": ".\\outputs\\film15\\audio\\voice\\34.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "ഈ രംഗം കാണുമ്പോൾ തീയതി മാത്രം ഓർക്കേണ്ടതില്ല. ഒറ്റയ്ക്കുള്ള ഒരാളുടെ കൈയും മറ്റൊരാളുടെ കൈയും ചേർന്നാൽ ഒരു പൊതുശബ്ദം ഉണ്ടാകുന്നതും ഓർക്കാം. ഇവിടെ കാണുന്ന ദൃശ്യം സൃഷ്ടിപരമായ പുനരാവിഷ്കാരമാണ്. സംഭവത്തിന്റെ കൃത്യമായ ഫോട്ടോഗ്രാഫല്ല.",
+        "recognized": "ഈ ലംഘം കാണുമ്പോൾ തീയതി മാത്രം ഓർക്കേണ്ടതില് ഒറ്റയ്ക്കുള്ള ഒരാളുടെ കയ്യും മറ്റൊരാളുടെ കൈയും ചേർന്നാൽ ഒരു പൊതുശബ്ദം ഉണ്ടാകുന്നതും ഓർക്കാം ഇവിടെ കാണുന്ന ദൃശ്യം സൃഷ്ടിപരമായ വി പുനരാവിഷ്കാരമാണ് സംഭവത്തിന്റെ കൃത്യമായ ഫോട്ടോഗ്രാഫല്ല",
+        "cer": 0.036036036036036036,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "35",
+      "file": ".\\outputs\\film15\\audio\\voice\\35.wav",
+      "duration": 17.069666666666667,
+      "sample_rate": 24000,
+      "tokens": 1428,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "seed": 4070,
+      "batch_render_seconds": 60.9739840000002,
+      "text": "അതിനുശേഷമുള്ള ചരിത്രം ഒരൊറ്റ വഴിയിലൂടെ പോയില്ല. അനുരഞ്ജനങ്ങളും പുതിയ സഭാബന്ധങ്ങളും പിന്നീടുള്ള വിഭജനങ്ങളും ഉണ്ടായി. ഇന്നുള്ള എല്ലാ സഭകളെയും ഒരേ ദിവസത്തിൽ പിറന്നവയായി കാണരുത്. നൂറ്റാണ്ടുകളിലൂടെ രൂപപ്പെട്ട പല വഴികളാണ് നമ്മുടെ മുന്നിലുള്ളത്.",
+      "peak": 0.81348717212677,
+      "rms": 0.19729460775852203,
+      "capped": false,
+      "local": true,
+      "v1_prompt_framing": true,
+      "wav_sha256": "2a03f1abbdfa563fc8b915df18c46feaf49205b37b4a8259a685fef0e34a137e",
+      "asr": {
+        "file": ".\\outputs\\film15\\audio\\voice\\35.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "അതിനുശേഷമുള്ള ചരിത്രം ഒരൊറ്റ വഴിയിലൂടെ പോയില്ല. അനുരഞ്ജനങ്ങളും പുതിയ സഭാബന്ധങ്ങളും പിന്നീടുള്ള വിഭജനങ്ങളും ഉണ്ടായി. ഇന്നുള്ള എല്ലാ സഭകളെയും ഒരേ ദിവസത്തിൽ പിറന്നവയായി കാണരുത്. നൂറ്റാണ്ടുകളിലൂടെ രൂപപ്പെട്ട പല വഴികളാണ് നമ്മുടെ മുന്നിലുള്ളത്.",
+        "recognized": "അതിനുശേഷമുള്ള ചരിത്രം ഒരുറ്റവഴിയിലൂടെ പോയില്ല അനുരഞ്ജനങ്ങളും പുതിയ സഭാബന്ധങ്ങളും പിന്നീടുള്ള വിഭജനങ്ങളും ഉണ്ടായി ഇന്നുള്ള എല്ലാ സഭകളെയും ഒരേ ദിവസത്തിൽ പിരന്നവയായി കാണര്ക്ക് നൂറ്റാണ്ടുകളിലൂടെ രൂപപ്പെട്ട പല വഴികളാണ് നമ്മുടെ മുന്നിലുള്ളത്",
+        "cer": 0.029914529914529916,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "36",
+      "file": ".\\outputs\\film15\\audio\\voice\\36.wav",
+      "duration": 19.4595,
+      "sample_rate": 24000,
+      "tokens": 1624,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "seed": 4070,
+      "batch_render_seconds": 60.9739840000002,
+      "text": "കത്തോലിക്ക, ഓർത്തഡോക്സ്, യാക്കോബായ, മാർത്തോമ്മാ, സി എസ് ഐ, പെന്തക്കോസ്ത് പാരമ്പര്യങ്ങൾ ഉൾപ്പെടെ കേരളത്തിലെ ക്രൈസ്തവ ജീവിതത്തിന് പല ശബ്ദങ്ങളുണ്ട്. ഈ ചുരുക്കപ്പട്ടിക മുഴുവൻ ചരിത്രമല്ല. വ്യത്യാസങ്ങൾക്കുള്ളിലും പങ്കുവയ്ക്കുന്ന ഭാഷയും നാട്ടോർമ്മയും മനുഷ്യബന്ധങ്ങളും നമുക്കുണ്ട്.",
+      "peak": 0.8138123154640198,
+      "rms": 0.18183869123458862,
+      "capped": false,
+      "local": true,
+      "v1_prompt_framing": true,
+      "wav_sha256": "1f643f9f3f39ce20cbcfd6a53d078593d4c716a1331dc326deb20bc631b6a681",
+      "asr": {
+        "file": ".\\outputs\\film15\\audio\\voice\\36.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "കത്തോലിക്ക, ഓർത്തഡോക്സ്, യാക്കോബായ, മാർത്തോമ്മാ, സി എസ് ഐ, പെന്തക്കോസ്ത് പാരമ്പര്യങ്ങൾ ഉൾപ്പെടെ കേരളത്തിലെ ക്രൈസ്തവ ജീവിതത്തിന് പല ശബ്ദങ്ങളുണ്ട്. ഈ ചുരുക്കപ്പട്ടിക മുഴുവൻ ചരിത്രമല്ല. വ്യത്യാസങ്ങൾക്കുള്ളിലും പങ്കുവയ്ക്കുന്ന ഭാഷയും നാട്ടോർമ്മയും മനുഷ്യബന്ധങ്ങളും നമുക്കുണ്ട്.",
+        "recognized": "പത്തോലിക്ക ഓർത്തഡോക്സ് യാക്കോബായ മാർതോമ സിഎസ്ഐ പെന്തക്കോസ് പി പാരമ്പര്യങ്ങൾ ഉൾപ്പെടെ കേരളത്തിലെ ക്രൈസ്തവ ജീവിതത്തിന് പല ശബ്ദങ്ങളുണ്ട് ഈ ചുരുക്കപ്പെട്ടു പിക്ക് മുഴുവൻ ചരിത്രമല്ല വ്യത്യാസങ്ങൾക്കുള്ളിലും പങ്കുവയ്ക്കുന്ന ഭാഷയും നാട്ടോര്മയും മനുഷ്യര് ശ്ബന്ധങ്ങളും നമുക്കുണ്ട്",
+        "cer": 0.09433962264150944,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "37",
+      "file": ".\\outputs\\film15\\audio\\voice\\37.wav",
+      "duration": 19.970708333333334,
+      "sample_rate": 24000,
+      "tokens": 1666,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "seed": 4070,
+      "batch_render_seconds": 91.68489789999876,
+      "text": "കടൽവഴികളിലൂടെ വന്നത് ചരക്കും മതബന്ധങ്ങളും മാത്രമായിരുന്നില്ല. പിന്നീടുള്ള കാലങ്ങളിൽ വിദ്യാഭ്യാസത്തിന്റെയും അച്ചടിയുടെയും പുതിയ ശ്രമങ്ങളും കേരളത്തിൽ വളർന്നു. അവയെ ഏകപക്ഷീയമായൊരു സമ്മാനമായി പറയാനാവില്ല. നാട്ടിലെ അധ്യാപകരും പഠിതാക്കളും ഭരണകൂടങ്ങളും ചേർന്നാണ് മാറ്റങ്ങൾക്ക് രൂപം നൽകിയത്.",
+      "peak": 0.8604869842529297,
+      "rms": 0.17100732028484344,
+      "capped": false,
+      "local": true,
+      "v1_prompt_framing": true,
+      "wav_sha256": "1c27c5e1796f5966a6da5d525235a75f518c4acd731003c3a3fab33f07d58230",
+      "asr": {
+        "file": ".\\outputs\\film15\\audio\\voice\\37.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "കടൽവഴികളിലൂടെ വന്നത് ചരക്കും മതബന്ധങ്ങളും മാത്രമായിരുന്നില്ല. പിന്നീടുള്ള കാലങ്ങളിൽ വിദ്യാഭ്യാസത്തിന്റെയും അച്ചടിയുടെയും പുതിയ ശ്രമങ്ങളും കേരളത്തിൽ വളർന്നു. അവയെ ഏകപക്ഷീയമായൊരു സമ്മാനമായി പറയാനാവില്ല. നാട്ടിലെ അധ്യാപകരും പഠിതാക്കളും ഭരണകൂടങ്ങളും ചേർന്നാണ് മാറ്റങ്ങൾക്ക് രൂപം നൽകിയത്.",
+        "recognized": "കടൽ വഴികളിലൂടെ വന്നത് ചരക്കും മതബന്ധങ്ങളും മാത്രമായിരുന്നില്ല പിന്നീടുള്ള കാലങ്ങളിൽ വിദ്യ വ്യാഭ്യാസത്തിന്റെയും അച്ചടിയുടെയും പുതിയ ശ്രമങ്ങളും കേരളത്തിൽ വളർന്നു അവയെ ഏകപക്ഷീയമായൊരു  ഒരു സമ്മാനമായി പറയാനാവില്ല നാട്ടിലെ അധ്യാപകരും പഠിതാക്കളും ഭരണകൂടങ്ങളും ചേർന്നാണ് മാറ്റങ്ങൾക്ക് രൂപം നൽകിയത്",
+        "cer": 0.035842293906810034,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "38",
+      "file": ".\\outputs\\film15\\audio\\voice\\38.wav",
+      "duration": 18.734333333333332,
+      "sample_rate": 24000,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "text": "ആയിരത്തെണ്ണൂറ്റിപ്പതിനേഴിൽ കോട്ടയത്ത് സി എം എസ് കോളേജ് ആരംഭിച്ചു. അതിന്റെ ചരിത്രത്തിൽ മിഷനറിമാരോടൊപ്പം തിരുവിതാംകൂർ രാജകുടുംബത്തിന്റെ പിന്തുണയും കാണാം. ഒരു ക്ലാസ് മുറി തുറക്കുന്നതിനു പിന്നിൽ പല മനുഷ്യരുടെയും സ്ഥാപനങ്ങളുടെയും ശ്രമങ്ങൾ ഉണ്ടായിരുന്നു. അറിവിന് പുതിയ വഴികൾ തുറന്നു.",
+      "local": true,
+      "v1_prompt_framing": true,
+      "capped": false,
+      "retake": true,
+      "utterances": [
+        {
+          "id": "38_r01",
+          "start": 0,
+          "duration": 4.5369166666666665,
+          "spoken_text": "ആയിരത്തി എണ്ണൂറ്റി പതിനേഴിൽ, കോട്ടയത്ത്, സി എം എസ് കോളേജ് ആരംഭിച്ചു."
+        },
+        {
+          "id": "38_r02",
+          "start": 4.656916666666667,
+          "duration": 5.894458333333334,
+          "spoken_text": "അതിന്റെ ചരിത്രത്തിൽ മിഷനറിമാരോടൊപ്പം തിരുവിതാംകൂർ രാജകുടുംബത്തിന്റെ പിന്തുണയും കാണാം."
+        },
+        {
+          "id": "38_r03",
+          "start": 10.671375,
+          "duration": 5.994916666666667,
+          "spoken_text": "ഒരു ക്ലാസ് മുറി തുറക്കുന്നതിനു പിന്നിൽ പല മനുഷ്യരുടെയും സ്ഥാപനങ്ങളുടെയും ശ്രമങ്ങൾ ഉണ്ടായിരുന്നു."
+        },
+        {
+          "id": "38_r04",
+          "start": 16.786291666666667,
+          "duration": 1.9480416666666667,
+          "spoken_text": "അറിവിന് പുതിയ വഴികൾ തുറന്നു."
+        }
+      ],
+      "peak": 0.7717200517654419,
+      "wav_sha256": "c4423eb45845421594249405058f2775b7bc0d51951693dd858f09453f227288",
+      "asr": {
+        "file": "outputs\\film15\\audio\\voice\\38.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "ആയിരത്തെണ്ണൂറ്റിപ്പതിനേഴിൽ കോട്ടയത്ത് സി എം എസ് കോളേജ് ആരംഭിച്ചു. അതിന്റെ ചരിത്രത്തിൽ മിഷനറിമാരോടൊപ്പം തിരുവിതാംകൂർ രാജകുടുംബത്തിന്റെ പിന്തുണയും കാണാം. ഒരു ക്ലാസ് മുറി തുറക്കുന്നതിനു പിന്നിൽ പല മനുഷ്യരുടെയും സ്ഥാപനങ്ങളുടെയും ശ്രമങ്ങൾ ഉണ്ടായിരുന്നു. അറിവിന് പുതിയ വഴികൾ തുറന്നു.",
+        "recognized": "ആയിരത്തി എണ്ണൂറ്റി പതിനേഴിൽ കോട്ടയത്ത് സിഎംഎസ് കോളേജ് ആരംഭിച്ചു അതിന്റെ ചരിത്രത്തിൽ മിഷനറിമാരോടൊപ്പം തിരുവിതാംകൂർ രാജകുടുംബത്തിന്റെ പിന്തുണയും കാണാം ഒരു ക്ലാസ്മുറി തുറക്കുന്നതിന് പിന്നെ പല മനുഷ്യരുടെയും സ്ഥാപനങ്ങളുടെയും ശ്രമങ്ങളുണ്ടായിരുന്നു അരളികൾ പുതിയ വഴികൾ തുറന്നു",
+        "cer": 0.0695970695970696,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "39",
+      "file": ".\\outputs\\film15\\audio\\voice\\39.wav",
+      "duration": 17.783083333333334,
+      "sample_rate": 24000,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "text": "അധ്യാപനം ഒരുവശത്തേക്കുള്ള യാത്രയായിരുന്നില്ല. ബെഞ്ചമിൻ ബെയ്‌ലിയും ഭാര്യയും മലയാളം പഠിക്കാൻ നാട്ടിലെ പണ്ഡിതരുടെ സഹായം തേടിയതായി കോളേജിന്റെ ചരിത്രം പറയുന്നു. പഠിപ്പിക്കാൻ വന്നവർക്കും പഠിക്കാനുണ്ടായിരുന്നു. അറിവിന്റെ ബന്ധത്തിൽ മലയാളിയുടെ പങ്ക് ഇവിടെ വ്യക്തമായി കാണാം.",
+      "local": true,
+      "v1_prompt_framing": true,
+      "capped": false,
+      "retake": true,
+      "utterances": [
+        {
+          "id": "39_r01",
+          "start": 0,
+          "duration": 2.8531666666666666,
+          "spoken_text": "അധ്യാപനം ഒരുവശത്തേക്കുള്ള യാത്രയായിരുന്നില്ല."
+        },
+        {
+          "id": "39_r02",
+          "start": 2.9731666666666667,
+          "duration": 7.902375,
+          "spoken_text": "ബെഞ്ചമിൻ, ബെയ്‌ലിയും ഭാര്യയും മലയാളം പഠിക്കാൻ നാട്ടിലെ പണ്ഡിതരുടെ സഹായം തേടിയതായി കോളേജിന്റെ ചരിത്രം പറയുന്നു."
+        },
+        {
+          "id": "39_r03",
+          "start": 10.995541666666666,
+          "duration": 2.691666666666667,
+          "spoken_text": "പഠിപ്പിക്കാൻ വന്നവർക്കും പഠിക്കാനുണ്ടായിരുന്നു."
+        },
+        {
+          "id": "39_r04",
+          "start": 13.807208333333332,
+          "duration": 3.975875,
+          "spoken_text": "അറിവിന്റെ ബന്ധത്തിൽ മലയാളിയുടെ പങ്ക് ഇവിടെ വ്യക്തമായി കാണാം."
+        }
+      ],
+      "peak": 0.7769956588745117,
+      "wav_sha256": "4f34da0e904a293fb85598b78716124965d8a7dc1248ef95e72bba39e24b627b",
+      "asr": {
+        "file": "outputs\\film15\\audio\\voice\\39.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "അധ്യാപനം ഒരുവശത്തേക്കുള്ള യാത്രയായിരുന്നില്ല. ബെഞ്ചമിൻ ബെയ്‌ലിയും ഭാര്യയും മലയാളം പഠിക്കാൻ നാട്ടിലെ പണ്ഡിതരുടെ സഹായം തേടിയതായി കോളേജിന്റെ ചരിത്രം പറയുന്നു. പഠിപ്പിക്കാൻ വന്നവർക്കും പഠിക്കാനുണ്ടായിരുന്നു. അറിവിന്റെ ബന്ധത്തിൽ മലയാളിയുടെ പങ്ക് ഇവിടെ വ്യക്തമായി കാണാം.",
+        "recognized": "അധ്യാപനം ഒരു വശത്തേക്കുള്ള യാത്രയായിരുന്നില്ല ബഞ്ചമിൻ ബേലിയും ഭാര്യയും മലയാളം പഠിക്കാൻ നാട്ടിലെ പണ്ഡിഗറുടെ സഹായം തേടിയതായി കോളേജിന്റെ ചരിത്രം പറയുന്നു പഠിപ്പിക്കാൻ വന്നവർക്കും പഠിക്കാനുണ്ടായിരുന്നു അരിലിന്റെ ബന്ധത്തിൽ മലയാളിയുടെ പങ്ക് ഇവിടെ വ്യക്തമായി കാണാം",
+        "cer": 0.03474903474903475,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "40",
+      "file": ".\\outputs\\film15\\audio\\voice\\40.wav",
+      "duration": 18.37125,
+      "sample_rate": 24000,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "text": "ആയിരത്തെണ്ണൂറ്റിപ്പത്തൊമ്പതിൽ ആരംഭിച്ച കോട്ടയത്തെ ബേക്കർ സ്കൂൾ പെൺവിദ്യാഭ്യാസത്തിന്റെ ചരിത്രത്തിലെ ഒരു പ്രധാന അടയാളമാണ്. ഒരു പെൺകുട്ടിക്ക് പഠിക്കാൻ ഇടം ലഭിക്കുമ്പോൾ തുറക്കുന്നത് ക്ലാസ് മുറിയുടെ വാതിൽ മാത്രം അല്ല. സ്വന്തം ഭാവിയെക്കുറിച്ച് ചിന്തിക്കാനുള്ള സാധ്യത കൂടിയാണ്.",
+      "local": true,
+      "v1_prompt_framing": true,
+      "capped": false,
+      "retake": true,
+      "utterances": [
+        {
+          "id": "40_r01",
+          "start": 0,
+          "duration": 8.356083333333334,
+          "spoken_text": "ആയിരത്തി എണ്ണൂറ്റി പത്തൊമ്പതിൽ ആരംഭിച്ച കോട്ടയത്തെ, ബേക്കർ സ്കൂൾ പെൺവിദ്യാഭ്യാസത്തിന്റെ ചരിത്രത്തിലെ ഒരു പ്രധാന അടയാളമാണ്."
+        },
+        {
+          "id": "40_r02",
+          "start": 8.476083333333333,
+          "duration": 5.784708333333334,
+          "spoken_text": "ഒരു പെൺകുട്ടിക്ക് പഠിക്കാൻ ഇടം ലഭിക്കുമ്പോൾ തുറക്കുന്നത് ക്ലാസ് മുറിയുടെ വാതിൽ മാത്രം അല്ല."
+        },
+        {
+          "id": "40_r03",
+          "start": 14.380791666666665,
+          "duration": 3.990458333333333,
+          "spoken_text": "സ്വന്തം ഭാവിയെക്കുറിച്ച് ചിന്തിക്കാനുള്ള സാധ്യത കൂടിയാണ്."
+        }
+      ],
+      "peak": 0.7966558933258057,
+      "wav_sha256": "34878e8e7769a8ca57c07cefa6b405a3121f566b701f9268dcaaf75daa77d2a8",
+      "asr": {
+        "file": "outputs\\film15\\audio\\voice\\40.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "ആയിരത്തെണ്ണൂറ്റിപ്പത്തൊമ്പതിൽ ആരംഭിച്ച കോട്ടയത്തെ ബേക്കർ സ്കൂൾ പെൺവിദ്യാഭ്യാസത്തിന്റെ ചരിത്രത്തിലെ ഒരു പ്രധാന അടയാളമാണ്. ഒരു പെൺകുട്ടിക്ക് പഠിക്കാൻ ഇടം ലഭിക്കുമ്പോൾ തുറക്കുന്നത് ക്ലാസ് മുറിയുടെ വാതിൽ മാത്രം അല്ല. സ്വന്തം ഭാവിയെക്കുറിച്ച് ചിന്തിക്കാനുള്ള സാധ്യത കൂടിയാണ്.",
+        "recognized": "ആയിരത്തി എണ്ണൂറ്റി പത്തൊമ്പതിൽ ആരംഭിച്ച കോട്ടയത്തെ ബേക്കർ സ്കൂൾ പെൺവിദ്യാഭ്യാസത്തിന്റെ ചരിത്രത്തിലെ ഒരു പ്രധാന അടയാളമാണ് ഒരു പെൺകുട്ടിക്ക് പഠിക്കാൻ ഇരം ലഭിക്കുമ്പോൾ തുറക്കുന്നത് ക്ലാസ്മുറിയുടെ വാതിൽ മാത്രമല്ല സ്വന്തം ഭാവിയെക്കുറിച്ച് ചിന്തിക്കാനുള്ള സാധ്യത കൂടിയാണ്",
+        "cer": 0.03745318352059925,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "41",
+      "file": ".\\outputs\\film15\\audio\\voice\\41.wav",
+      "duration": 19.92941666666667,
+      "sample_rate": 24000,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "text": "ആയിരത്തെണ്ണൂറ്റിയിരുപത്തൊന്നിൽ ബെയ്‌ലിയുടെ നേതൃത്വത്തിൽ കോട്ടയത്തെ സി എം എസ് അച്ചടിശാല പ്രവർത്തനം തുടങ്ങി. മലയാളത്തിനുവേണ്ടി അച്ചടിയക്ഷരങ്ങൾ ഒരുക്കുന്നതും ഈ ശ്രമത്തിന്റെ ഭാഗമായിരുന്നു. കൈയെഴുത്തിൽനിന്ന് കൂടുതൽ പകർപ്പുകളിലേക്കുള്ള വഴിയിൽ അച്ചടിയുടെ പങ്ക് വലുതായിരുന്നു. പുസ്തകത്തിന് പുതിയ യാത്രകൾ സാധ്യമായി.",
+      "local": true,
+      "v1_prompt_framing": true,
+      "capped": false,
+      "retake": true,
+      "utterances": [
+        {
+          "id": "41_r01",
+          "start": 0,
+          "duration": 6.843416666666666,
+          "spoken_text": "ആയിരത്തി എണ്ണൂറ്റി ഇരുപത്തൊന്നിൽ, ബെയ്‌ലിയുടെ നേതൃത്വത്തിൽ, കോട്ടയത്തെ സി എം എസ് അച്ചടിശാല പ്രവർത്തനം തുടങ്ങി."
+        },
+        {
+          "id": "41_r02",
+          "start": 6.963416666666666,
+          "duration": 4.914958333333334,
+          "spoken_text": "മലയാളത്തിനുവേണ്ടി അച്ചടിയക്ഷരങ്ങൾ ഒരുക്കുന്നതും ഈ ശ്രമത്തിന്റെ ഭാഗമായിരുന്നു."
+        },
+        {
+          "id": "41_r03",
+          "start": 11.998375,
+          "duration": 5.159291666666666,
+          "spoken_text": "കൈയെഴുത്തിൽനിന്ന് കൂടുതൽ പകർപ്പുകളിലേക്കുള്ള വഴിയിൽ അച്ചടിയുടെ പങ്ക് വലുതായിരുന്നു."
+        },
+        {
+          "id": "41_r04",
+          "start": 17.277666666666665,
+          "duration": 2.65175,
+          "spoken_text": "പുസ്തകത്തിന് പുതിയ യാത്രകൾ സാധ്യമായി."
+        }
+      ],
+      "peak": 0.7734830379486084,
+      "wav_sha256": "e0dc306c9e2cb44acb6c427d2e6eb1b75dad6b2e5e9c46b65623edcf7e8e7b82",
+      "asr": {
+        "file": "outputs\\film15\\audio\\voice\\41.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "ആയിരത്തെണ്ണൂറ്റിയിരുപത്തൊന്നിൽ ബെയ്‌ലിയുടെ നേതൃത്വത്തിൽ കോട്ടയത്തെ സി എം എസ് അച്ചടിശാല പ്രവർത്തനം തുടങ്ങി. മലയാളത്തിനുവേണ്ടി അച്ചടിയക്ഷരങ്ങൾ ഒരുക്കുന്നതും ഈ ശ്രമത്തിന്റെ ഭാഗമായിരുന്നു. കൈയെഴുത്തിൽനിന്ന് കൂടുതൽ പകർപ്പുകളിലേക്കുള്ള വഴിയിൽ അച്ചടിയുടെ പങ്ക് വലുതായിരുന്നു. പുസ്തകത്തിന് പുതിയ യാത്രകൾ സാധ്യമായി.",
+        "recognized": "ആയിരത്തിയെന്നൂറ്റി ഇരുപത്തൊന്നിൽ ബേലിയുടെ നേതൃത്വത്തിൽ കോട്ടയത്തെ സിഎംഎസ് അച്ചടിശാല പ്രവർത്തനം തുടങ്ങി മലയാളത്തിനു വേണ്ടി അച്ചടി അക്ഷരങ്ങൾ ഒരുക്കുന്നതും ടി സമത്തിന്റെ ഭാഗമായിരുന്നു കൈയെഴുത്തുനിന്ന് കൂടുതൽ പകർപ്പുകളിലേക്കുള്ള വഴിയിൽ അച്ചടിയുടെ പങ്കുവരുതായിരുന്നു പുസ്തകത്തിന് പുതിയ യാക്കകൾ സാധ്യമായി",
+        "cer": 0.08637873754152824,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "42",
+      "file": ".\\outputs\\film15\\audio\\voice\\42.wav",
+      "duration": 20.043333333333333,
+      "sample_rate": 24000,
+      "tokens": 1673,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "seed": 4070,
+      "batch_render_seconds": 91.68489789999876,
+      "text": "ആ അച്ചടിയുടെ കഥയിൽ ബെയ്‌ലിയുടെ പേര് മാത്രം പോരാ. നാട്ടിലെ മരപ്പണിക്കാരുടെ വൈദഗ്ധ്യവും പ്രധാനമായിരുന്നുവെന്ന് കോളേജിന്റെ ചരിത്രവിവരണം ഓർമ്മിപ്പിക്കുന്നു. ഒരു ആശയം പ്രവർത്തിക്കുന്ന യന്ത്രമാകാൻ കൈപ്പുണ്യം വേണം. കേരളത്തിന്റെ അറിവിന്റെ ചരിത്രത്തിൽ ആ തൊഴിലാളികളുടെ കൈകൾക്കും പ്രകാശം നൽകാം.",
+      "peak": 0.7853112816810608,
+      "rms": 0.18624697625637054,
+      "capped": false,
+      "local": true,
+      "v1_prompt_framing": true,
+      "wav_sha256": "87554fa768d3c0037a16b3e0c7eab4010800efdeeb5f11a678edb7fa84085a48",
+      "asr": {
+        "file": ".\\outputs\\film15\\audio\\voice\\42.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "ആ അച്ചടിയുടെ കഥയിൽ ബെയ്‌ലിയുടെ പേര് മാത്രം പോരാ. നാട്ടിലെ മരപ്പണിക്കാരുടെ വൈദഗ്ധ്യവും പ്രധാനമായിരുന്നുവെന്ന് കോളേജിന്റെ ചരിത്രവിവരണം ഓർമ്മിപ്പിക്കുന്നു. ഒരു ആശയം പ്രവർത്തിക്കുന്ന യന്ത്രമാകാൻ കൈപ്പുണ്യം വേണം. കേരളത്തിന്റെ അറിവിന്റെ ചരിത്രത്തിൽ ആ തൊഴിലാളികളുടെ കൈകൾക്കും പ്രകാശം നൽകാം.",
+        "recognized": "ആച്ചടിയുടെ കഥയിൽ ബെയ്ലിയുടെ പേരു മാത്രം പോര നാട്ടിലെ മരപ്പണിക്കാരുടെ വൈദഗ്ധ്യം ഒ പ്രധാനമായിരുന്നുവെന്ന് കോളേജിന്റെ ചരിത്രവിവരണം ഓർമ്മിപ്പിക്കുന്നു ഒരു ആശയം പ്രവർത്തി നിക്കുന്ന യന്ത്രമാകാൻ കൈപ്പുണ്യം വേണം കേരളത്തിന്റെ അറിവിന്റെ ചരിത്രത്തിൽ ആ തൊഴിലാളികൾ യുടെ കൈകൾക്കും പ്രകാശം നൽകാം",
+        "cer": 0.046762589928057555,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "43",
+      "file": ".\\outputs\\film15\\audio\\voice\\43.wav",
+      "duration": 18.787666666666667,
+      "sample_rate": 24000,
+      "tokens": 1568,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "seed": 4070,
+      "batch_render_seconds": 108.54667999999947,
+      "text": "എന്നാൽ മലയാള അച്ചടി ഇവിടെനിന്നു മാത്രമാണ് തുടങ്ങിയതെന്ന് പറയരുത്. അതിനു മുമ്പേ കേരളത്തിനു പുറത്തും മലയാളത്തിൽ അച്ചടിച്ച കൃതികൾ ഉണ്ടായിരുന്നു. ഈ മുൻചരിത്രം ഓർക്കുന്നത് കോട്ടയത്തിന്റെ സംഭാവന കുറയ്ക്കുന്നില്ല. ഓരോ പുതിയ ശ്രമവും മുൻപുള്ള വഴികളോടു ചേർന്നാണ് വളരുന്നത്.",
+      "peak": 0.7768968343734741,
+      "rms": 0.20043660700321198,
+      "capped": false,
+      "local": true,
+      "v1_prompt_framing": true,
+      "wav_sha256": "5507ab637428de9c9da9fce19d602192afadcd6d01dc7f7df86535c9ab18c4e5",
+      "asr": {
+        "file": ".\\outputs\\film15\\audio\\voice\\43.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "എന്നാൽ മലയാള അച്ചടി ഇവിടെനിന്നു മാത്രമാണ് തുടങ്ങിയതെന്ന് പറയരുത്. അതിനു മുമ്പേ കേരളത്തിനു പുറത്തും മലയാളത്തിൽ അച്ചടിച്ച കൃതികൾ ഉണ്ടായിരുന്നു. ഈ മുൻചരിത്രം ഓർക്കുന്നത് കോട്ടയത്തിന്റെ സംഭാവന കുറയ്ക്കുന്നില്ല. ഓരോ പുതിയ ശ്രമവും മുൻപുള്ള വഴികളോടു ചേർന്നാണ് വളരുന്നത്.",
+        "recognized": "എന്നാൽ മലയാള അച്ചടി ഇവിടെ നിന്ന് മാത്രമാണ് തുടങ്ങിയതെന്ന് പറയരുത് അതിനു മുമ്പേ കേരളം കേരളത്തിന് പുറത്തും മലയാളത്തിൽ അച്ചടിച്ച കൃതികൾ ഉണ്ടായിരുന്നു ഈ മുൻ ചരിത്രം ഓർക്കുന്നത് കോട്ടയത്തിന്റെ സംഭാവന കുറയ്ക്കുന്നില്ല ഓരോ പുതിയ ശ്രമവും മുൻകുള്ള വഴികളോട് ചേർന്നാണ് വളരുന്നത്",
+        "cer": 0.04633204633204633,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "44",
+      "file": ".\\outputs\\film15\\audio\\voice\\44.wav",
+      "duration": 22.193708333333333,
+      "sample_rate": 24000,
+      "tokens": 1848,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "seed": 4070,
+      "batch_render_seconds": 108.54667999999947,
+      "text": "കുര്യാക്കോസ് ഏലിയാസ് ചാവറയുടെ നേതൃത്വത്തിലും പ്രചോദനത്തിലും പൊതുവിദ്യാഭ്യാസത്തിനുള്ള സ്കൂളുകളും പ്രസിദ്ധീകരണശാലയും അഗതികളെ പരിചരിക്കുന്ന ഇടവും രൂപപ്പെട്ടതായി വത്തിക്കാന്റെ അനുസ്മരണം രേഖപ്പെടുത്തുന്നു. പ്രാർത്ഥനയും സാമൂഹിക പ്രവർത്തനവും ഒരേ ജീവിതത്തിൽ ബന്ധിപ്പിക്കാൻ ശ്രമിച്ച വ്യക്തിയെയാണ് ഇവിടെ നാം കാണുന്നത്.",
+      "peak": 0.7697356343269348,
+      "rms": 0.18194451928138733,
+      "capped": false,
+      "local": true,
+      "v1_prompt_framing": true,
+      "wav_sha256": "9e4fa9cc9895569983b777dc4fa819f3282890b5a9bab5ec497ac0d09a98980d",
+      "asr": {
+        "file": ".\\outputs\\film15\\audio\\voice\\44.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "കുര്യാക്കോസ് ഏലിയാസ് ചാവറയുടെ നേതൃത്വത്തിലും പ്രചോദനത്തിലും പൊതുവിദ്യാഭ്യാസത്തിനുള്ള സ്കൂളുകളും പ്രസിദ്ധീകരണശാലയും അഗതികളെ പരിചരിക്കുന്ന ഇടവും രൂപപ്പെട്ടതായി വത്തിക്കാന്റെ അനുസ്മരണം രേഖപ്പെടുത്തുന്നു. പ്രാർത്ഥനയും സാമൂഹിക പ്രവർത്തനവും ഒരേ ജീവിതത്തിൽ ബന്ധിപ്പിക്കാൻ ശ്രമിച്ച വ്യക്തിയെയാണ് ഇവിടെ നാം കാണുന്നത്.",
+        "recognized": "കുര്യാക്കോസ് ഏലിയാസ് ചാവറയുടെ നേതൃത്വത്തിലും പ്രചോദനത്തിലും പൊതുവിദ്യാഭ്യാസത്തിനുള്ള സ്കൂളുകളും പ്രസിദ്ധീകരണശാലയും അഗതികളെ പരിചരിക്കുന്ന ഇടവും രൂപപ്പെട്ടതായി വധിച്ചു വത്തിക്കാന്റെ അനുസ്മരണം ജേ്ഹപ്പെടുത്തുന്നു പ്രാർത്ഥനയും സാമൂഹിക പ്രവർത്തനവും ഒരേ ജീവിതം വിധത്തിൽ ബന്ധിപ്പിക്കാൻ ശ്രമിച്ച വ്യക്തിയെയാണ് ഇവിടെ നാം കാണുന്നത്",
+        "cer": 0.05228758169934641,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "45",
+      "file": ".\\outputs\\film15\\audio\\voice\\45.wav",
+      "duration": 22.035208333333333,
+      "sample_rate": 24000,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "text": "ആയിരത്തെണ്ണൂറ്റിയറുപത്താറിൽ ചാവറയും ലെയോപോൾഡ് ബെക്കാറോയും ചേർന്ന് സ്ത്രീകൾക്കായുള്ള ഒരു സന്യാസസമൂഹം സ്ഥാപിച്ചു. സ്ത്രീകളുടെ വിദ്യാഭ്യാസവും പ്രവർത്തനങ്ങളും പ്രോത്സാഹിപ്പിക്കുന്ന ലക്ഷ്യം അതിന്റെ ചരിത്രത്തിൽ കാണാം. സ്ഥാപനങ്ങളുടെ പിന്നിൽ സ്ത്രീകളുടെ കൂട്ടായ അധ്വാനവും തീരുമാനങ്ങളും ഉണ്ടായിരുന്നു. ഈ ചരിത്രത്തിൽ അവർക്കും സ്വന്തം ഇടമുണ്ട്.",
+      "local": true,
+      "v1_prompt_framing": true,
+      "capped": false,
+      "retake": true,
+      "utterances": [
+        {
+          "id": "45_r01",
+          "start": 0,
+          "duration": 7.973541666666667,
+          "spoken_text": "ആയിരത്തി എണ്ണൂറ്റി അറുപത്തി ആറിൽ, ചാവറയും, ലെയോപോൾഡ് ബെക്കാറോയും ചേർന്ന് സ്ത്രീകൾക്കായുള്ള ഒരു സന്യാസസമൂഹം സ്ഥാപിച്ചു."
+        },
+        {
+          "id": "45_r02",
+          "start": 8.093541666666667,
+          "duration": 5.76725,
+          "spoken_text": "സ്ത്രീകളുടെ വിദ്യാഭ്യാസവും പ്രവർത്തനങ്ങളും പ്രോത്സാഹിപ്പിക്കുന്ന ലക്ഷ്യം അതിന്റെ ചരിത്രത്തിൽ കാണാം."
+        },
+        {
+          "id": "45_r03",
+          "start": 13.980791666666667,
+          "duration": 5.131541666666666,
+          "spoken_text": "സ്ഥാപനങ്ങളുടെ പിന്നിൽ സ്ത്രീകളുടെ കൂട്ടായ അധ്വാനവും തീരുമാനങ്ങളും ഉണ്ടായിരുന്നു."
+        },
+        {
+          "id": "45_r04",
+          "start": 19.232333333333333,
+          "duration": 2.802875,
+          "spoken_text": "ഈ ചരിത്രത്തിൽ അവർക്കും സ്വന്തം ഇടമുണ്ട്."
+        }
+      ],
+      "peak": 0.7385647296905518,
+      "wav_sha256": "6ffd984521f8c524f41a14b4e75d03bd34287daf80c37f1d355d54eb2fc95c59",
+      "asr": {
+        "file": "outputs\\film15\\audio\\voice\\45.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "ആയിരത്തെണ്ണൂറ്റിയറുപത്താറിൽ ചാവറയും ലെയോപോൾഡ് ബെക്കാറോയും ചേർന്ന് സ്ത്രീകൾക്കായുള്ള ഒരു സന്യാസസമൂഹം സ്ഥാപിച്ചു. സ്ത്രീകളുടെ വിദ്യാഭ്യാസവും പ്രവർത്തനങ്ങളും പ്രോത്സാഹിപ്പിക്കുന്ന ലക്ഷ്യം അതിന്റെ ചരിത്രത്തിൽ കാണാം. സ്ഥാപനങ്ങളുടെ പിന്നിൽ സ്ത്രീകളുടെ കൂട്ടായ അധ്വാനവും തീരുമാനങ്ങളും ഉണ്ടായിരുന്നു. ഈ ചരിത്രത്തിൽ അവർക്കും സ്വന്തം ഇടമുണ്ട്.",
+        "recognized": "ആയിരത്തി എണ്ണൂറ്റി അറുപത്തി ആറ് ചാവരയും ലേവ്പോൾ ബെക്കാറോയും ചേർന്ന് സ്ത്രീകൾക്കായുള്ള ഒരു സന്യാസ സമൂഹം സ്ഥാപിച്ചു സ്ത്രീകളുടെ വിദ്യാഭ്യാസവും പ്രവർത്തനങ്ങളും പ്രോത്സാഹിപ്പിക്കുന്ന ലക്ഷ്യം അതിന്റെ ചരിത്രത്തിൽ കാണാം സ്ഥാപനങ്ങളുടെ പിന്നിൽ സ്ത്രീകളുടെ കൂട്ടായ അധ്വാനവും തീരുമാനങ്ങളും ഉണ്ടായിരുന്നു ഈ തരത്തെത്തും അവർക്കും സ്വന്തം ഇടമുണ്ട്",
+        "cer": 0.06990881458966565,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "46",
+      "file": ".\\outputs\\film15\\audio\\voice\\46.wav",
+      "duration": 21.157416666666666,
+      "sample_rate": 24000,
+      "tokens": 1764,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "seed": 4070,
+      "batch_render_seconds": 108.54667999999947,
+      "text": "സി എം എസ് കോളേജ്, ബേക്കർ സ്കൂൾ, ചാവറയുമായി ബന്ധപ്പെട്ട വിദ്യാഭ്യാസശ്രമങ്ങൾ. ഇവ വ്യത്യസ്ത സഭാപശ്ചാത്തലങ്ങളിൽനിന്നുള്ള ഉദാഹരണങ്ങളാണ്. കേരളത്തിന്റെ വിദ്യാഭ്യാസ വളർച്ചയിൽ മറ്റനേകം സമൂഹങ്ങളും പ്രസ്ഥാനങ്ങളും പൊതുസ്ഥാപനങ്ങളും പങ്കുവഹിച്ചു. സ്വന്തം സംഭാവനയെ കാണുമ്പോൾ ആ വലിയ കൂട്ടായ്മയും നമുക്ക് കാണാം.",
+      "peak": 0.7333270311355591,
+      "rms": 0.1634703427553177,
+      "capped": false,
+      "local": true,
+      "v1_prompt_framing": true,
+      "wav_sha256": "657feb5d83d0dc9d1eb7a583b63d16c1e98d6a1436fd37a720c551d34ae95ad0",
+      "asr": {
+        "file": ".\\outputs\\film15\\audio\\voice\\46.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "സി എം എസ് കോളേജ്, ബേക്കർ സ്കൂൾ, ചാവറയുമായി ബന്ധപ്പെട്ട വിദ്യാഭ്യാസശ്രമങ്ങൾ. ഇവ വ്യത്യസ്ത സഭാപശ്ചാത്തലങ്ങളിൽനിന്നുള്ള ഉദാഹരണങ്ങളാണ്. കേരളത്തിന്റെ വിദ്യാഭ്യാസ വളർച്ചയിൽ മറ്റനേകം സമൂഹങ്ങളും പ്രസ്ഥാനങ്ങളും പൊതുസ്ഥാപനങ്ങളും പങ്കുവഹിച്ചു. സ്വന്തം സംഭാവനയെ കാണുമ്പോൾ ആ വലിയ കൂട്ടായ്മയും നമുക്ക് കാണാം.",
+        "recognized": "സിഎംഎസ് കോളേജ് ബേക്കർ സ്കൂൾ ചാവറയുമായി ബന്ധപ്പെട്ട വിദ്യാഭ്യാസ ശ്രമങ്ങൾ  ഇവ വ്യത്യസ്ത സഭാ പശ്ചാത്തലങ്ങളിൽ നിന്നുള്ള ഉദാഹരണങ്ങളാണ് കേരളത്തിന്റെ വിദ്യാഭ്യാസ വളർച്ച യിൽ മറ്റ് ന്നേകം സമൂഹങ്ങളും പ്രസ്താവങ്ങളും പകുസ്ഥാപനങ്ങളും പങ്കുവഹിച്ചു ക്കാണുമ്പോൾ ആ വലിയ കൂട്ടായ്മയും നമുക്ക് കാണാം",
+        "cer": 0.1076388888888889,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "47",
+      "file": ".\\outputs\\film15\\audio\\voice\\47.wav",
+      "duration": 21.248708333333333,
+      "sample_rate": 24000,
+      "tokens": 1771,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "seed": 4070,
+      "batch_render_seconds": 108.54667999999947,
+      "text": "ഇനി ആരോഗ്യപരിചരണത്തിന്റെ ഒരു ഉദാഹരണം നോക്കാം. എറണാകുളത്തെ ലിസി ആശുപത്രി ആയിരത്തിത്തൊള്ളായിരത്തിയമ്പത്താറിൽ ആരംഭിച്ചു. കത്തോലിക്കാ സഭയുമായി ബന്ധപ്പെട്ട ഈ സ്ഥാപനം ആരോഗ്യരംഗത്തെ ക്രൈസ്തവ പങ്കാളിത്തത്തിന്റെ ഒരു ഉദാഹരണമാണ്. ഒരു പേരിന്റെ പിന്നിൽ ഡോക്ടർമാരും നഴ്സുമാരും മറ്റു ജീവനക്കാരും പ്രവർത്തിക്കുന്നു.",
+      "peak": 0.759333074092865,
+      "rms": 0.17493809759616852,
+      "capped": false,
+      "local": true,
+      "v1_prompt_framing": true,
+      "wav_sha256": "876bd7f7331b457af5e3c2ee013297f4abac2188478123214bd9ce10adafc6b5",
+      "asr": {
+        "file": ".\\outputs\\film15\\audio\\voice\\47.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "ഇനി ആരോഗ്യപരിചരണത്തിന്റെ ഒരു ഉദാഹരണം നോക്കാം. എറണാകുളത്തെ ലിസി ആശുപത്രി ആയിരത്തിത്തൊള്ളായിരത്തിയമ്പത്താറിൽ ആരംഭിച്ചു. കത്തോലിക്കാ സഭയുമായി ബന്ധപ്പെട്ട ഈ സ്ഥാപനം ആരോഗ്യരംഗത്തെ ക്രൈസ്തവ പങ്കാളിത്തത്തിന്റെ ഒരു ഉദാഹരണമാണ്. ഒരു പേരിന്റെ പിന്നിൽ ഡോക്ടർമാരും നഴ്സുമാരും മറ്റു ജീവനക്കാരും പ്രവർത്തിക്കുന്നു.",
+        "recognized": "ഇനി ആരോഗ്യ പരിചരണത്തിന്റെ ഒരു ഉദാഹരണം നോക്കാം പെരുനാകുളത്തെ ലിസി ആശുപത്രി അത്രി ആയിരത്തിത്തൊള്ളായിരത്തി അമ്പത്താറിൽ ആരംഭിച്ചു കത്തോലിക്കാ സഭയുമായി ബന്ധപ്പെട്ട ഈസ് സ്ഥാപനം ആരോഗ്യരംഗത്തെ ക്രൈസ്തവ പന്ത്രാളിത്തത്തിന്റെ ഒരു ഉദാഹരണമാണ് ഒരു പേരിന്റെ പിന്നിൽ ഡോ പ്രമാരും നഴ്സുമാരും മറ്റു ജീവനക്കാരും പ്രവർത്തിക്കുന്നു",
+        "cer": 0.08135593220338982,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "48",
+      "file": ".\\outputs\\film15\\audio\\voice\\48.wav",
+      "duration": 21.301375,
+      "sample_rate": 24000,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "text": "തിരുവല്ലയിലെ പുഷ്പഗിരി ആശുപത്രിയുടെ തുടക്കം ആയിരത്തിത്തൊള്ളായിരത്തിയമ്പത്തൊമ്പതിലെ എട്ട് കിടക്കകളുള്ള ചെറിയ ചികിത്സാകേന്ദ്രമായിരുന്നു. സ്ഥാപനത്തിന്റെ ചരിത്രം ഗർഭിണികളുടെയും നവജാതശിശുക്കളുടെയും ആരോഗ്യാവശ്യങ്ങളെ ഓർക്കുന്നു. വലിയ സ്ഥാപനങ്ങളുടെ പിന്നിലും ഒരു ചെറിയ തുടക്കവും വ്യക്തമായ മനുഷ്യാവശ്യവും ഉണ്ടായിരിക്കാം.",
+      "local": true,
+      "v1_prompt_framing": true,
+      "capped": false,
+      "retake": true,
+      "utterances": [
+        {
+          "id": "48_r01",
+          "start": 0,
+          "duration": 9.525416666666667,
+          "spoken_text": "തിരുവല്ലയിലെ, പുഷ്പഗിരി ആശുപത്രിയുടെ തുടക്കം ആയിരത്തി തൊള്ളായിരത്തി അമ്പത്തി ഒമ്പതിലെ, എട്ട് കിടക്കകളുള്ള ചെറിയ ചികിത്സാകേന്ദ്രമായിരുന്നു."
+        },
+        {
+          "id": "48_r02",
+          "start": 9.645416666666666,
+          "duration": 5.7375,
+          "spoken_text": "സ്ഥാപനത്തിന്റെ ചരിത്രം ഗർഭിണികളുടെയും നവജാതശിശുക്കളുടെയും ആരോഗ്യാവശ്യങ്ങളെ ഓർക്കുന്നു."
+        },
+        {
+          "id": "48_r03",
+          "start": 15.502916666666666,
+          "duration": 5.7984583333333335,
+          "spoken_text": "വലിയ സ്ഥാപനങ്ങളുടെ പിന്നിലും ഒരു ചെറിയ തുടക്കവും വ്യക്തമായ മനുഷ്യാവശ്യവും ഉണ്ടായിരിക്കാം."
+        }
+      ],
+      "peak": 0.8003307580947876,
+      "wav_sha256": "1208b5fa4a1886424e37755a160982be5df81d0c619c1e18a3a3958558c90d67",
+      "asr": {
+        "file": "outputs\\film15\\audio\\voice\\48.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "തിരുവല്ലയിലെ പുഷ്പഗിരി ആശുപത്രിയുടെ തുടക്കം ആയിരത്തിത്തൊള്ളായിരത്തിയമ്പത്തൊമ്പതിലെ എട്ട് കിടക്കകളുള്ള ചെറിയ ചികിത്സാകേന്ദ്രമായിരുന്നു. സ്ഥാപനത്തിന്റെ ചരിത്രം ഗർഭിണികളുടെയും നവജാതശിശുക്കളുടെയും ആരോഗ്യാവശ്യങ്ങളെ ഓർക്കുന്നു. വലിയ സ്ഥാപനങ്ങളുടെ പിന്നിലും ഒരു ചെറിയ തുടക്കവും വ്യക്തമായ മനുഷ്യാവശ്യവും ഉണ്ടായിരിക്കാം.",
+        "recognized": "തിരുവല്ലയിലെ പുഷ്പകിരി ആശുപത്രിയുടെ തുടക്കം ആയിരത്തി തൊള്ളായിരത്തി അമ്പത്തി ഒമ്പതിലെ എട്ട് കിടക്കകളുള്ള ചെറിയ ചികിത്സാ കേന്ദ്രമായിരുന്നു സ്ഥാപനത്തിന്റെ ചരിത്രം ഗർഭിണികളുടെയും നവജാത ശിശുക്കളുടെയും ആരോഗ്യാവശങ്ങളെ ഓർക്കുന്നു വലിയ സ്ഥാപനങ്ങളുടെ പിന്നിലും ഒരു ചെറിയ തുടക്കവും വ്യക്തമായ മനുഷ്യാവശവും ഉണ്ടായിരിക്കാം",
+        "cer": 0.045454545454545456,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "49",
+      "file": ".\\outputs\\film15\\audio\\voice\\49.wav",
+      "duration": 20.21725,
+      "sample_rate": 24000,
+      "tokens": 1687,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "seed": 4070,
+      "batch_render_seconds": 111.49459810000008,
+      "text": "പുഷ്പഗിരിയുടെ ചരിത്രത്തിൽ ആയിരത്തിത്തൊള്ളായിരത്തിയറുപത്തിനാലിലെ നഴ്സിംഗ് പരിശീലനവും പിന്നീട് വന്ന മറ്റു പഠനപരിപാടികളും രേഖപ്പെടുത്തിയിട്ടുണ്ട്. പരിചരണം കരുണ മാത്രമല്ല. പരിശീലനവും അറിവും ഉത്തരവാദിത്തവും ആവശ്യമാണ്. നഴ്സിന്റെ ജോലിയിലെ ഈ വൈദഗ്ധ്യത്തെ നമ്മുടെ കഥ ആദരിക്കണം.",
+      "peak": 0.7907763719558716,
+      "rms": 0.17450764775276184,
+      "capped": false,
+      "local": true,
+      "v1_prompt_framing": true,
+      "wav_sha256": "c859c831a1013e59612f04c68af975fb1ff0e293ab1a4d8c61a81af8a10c9c40",
+      "asr": {
+        "file": ".\\outputs\\film15\\audio\\voice\\49.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "പുഷ്പഗിരിയുടെ ചരിത്രത്തിൽ ആയിരത്തിത്തൊള്ളായിരത്തിയറുപത്തിനാലിലെ നഴ്സിംഗ് പരിശീലനവും പിന്നീട് വന്ന മറ്റു പഠനപരിപാടികളും രേഖപ്പെടുത്തിയിട്ടുണ്ട്. പരിചരണം കരുണ മാത്രമല്ല. പരിശീലനവും അറിവും ഉത്തരവാദിത്തവും ആവശ്യമാണ്. നഴ്സിന്റെ ജോലിയിലെ ഈ വൈദഗ്ധ്യത്തെ നമ്മുടെ കഥ ആദരിക്കണം.",
+        "recognized": "ഉഷ്പഗിരിയുടെ ചരിത്രത്തിൽ ആയിരത്തി തൊള്ളായിരത്തി അറുപത്തിനാലിലെ നഴ്സിംഗ് പരിശീലനവും  പിന്നീട് വന്ന മറ്റു പഠന പരിപാടികളും രേഖപ്പെടുത്തിയിട്ടുണ്ട് പരിചരണം കരണമാത്രമല്ല പരിശീലനവും അറിവും ഉത്തരവാദിത്തവും ആവശ്യമാണ് നഴ്സിന്റെ ജോഗിയിലെ ഈ വൈദഗ്ധ്യം പി നമ്മുടെ കഥ ആദരിക്കണം",
+        "cer": 0.056818181818181816,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "50",
+      "file": ".\\outputs\\film15\\audio\\voice\\50.wav",
+      "duration": 20.318083333333334,
+      "sample_rate": 24000,
+      "tokens": 1694,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "seed": 4070,
+      "batch_render_seconds": 111.49459810000008,
+      "text": "ഇത്തരം സ്ഥാപനങ്ങളുടെ ചരിത്രം പറയുമ്പോൾ ആരംഭിച്ചവരുടെ പേരുകൾക്കൊപ്പം ജോലി ചെയ്യുന്നവരുടെ അധ്വാനവും കാണണം. രോഗിയെ സ്വീകരിക്കുന്ന ജീവനക്കാരൻ, രാത്രിയിൽ ശ്രദ്ധയോടെ നിൽക്കുന്ന നഴ്സ്, ശുചിത്വം ഉറപ്പാക്കുന്ന തൊഴിലാളി. പരിചരണം ഒരു സംഘത്തിന്റെ പ്രവർത്തിയാണ്. അതിലെ ഓരോരുത്തർക്കും മനുഷ്യഗൗരവമുണ്ട്.",
+      "peak": 0.8064414262771606,
+      "rms": 0.17322857677936554,
+      "capped": false,
+      "local": true,
+      "v1_prompt_framing": true,
+      "wav_sha256": "307fb162c46778c6a2377903587da6301dda1b6d3e434d00b6d150dacfd77abf",
+      "asr": {
+        "file": ".\\outputs\\film15\\audio\\voice\\50.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "ഇത്തരം സ്ഥാപനങ്ങളുടെ ചരിത്രം പറയുമ്പോൾ ആരംഭിച്ചവരുടെ പേരുകൾക്കൊപ്പം ജോലി ചെയ്യുന്നവരുടെ അധ്വാനവും കാണണം. രോഗിയെ സ്വീകരിക്കുന്ന ജീവനക്കാരൻ, രാത്രിയിൽ ശ്രദ്ധയോടെ നിൽക്കുന്ന നഴ്സ്, ശുചിത്വം ഉറപ്പാക്കുന്ന തൊഴിലാളി. പരിചരണം ഒരു സംഘത്തിന്റെ പ്രവർത്തിയാണ്. അതിലെ ഓരോരുത്തർക്കും മനുഷ്യഗൗരവമുണ്ട്.",
+        "recognized": "ഇത്തരം സ്ഥാപനങ്ങളുടെ ചരിത്രം പറയുമ്പോൾ ആരംഭിച്ചവരുടെ പേരുകൾക്കൊപ്പം ജോലി ചെയ്യുന്നവരുടെ അഭിപ്രായപ്പെട്ടു അദ്ധാനവും കാണണം രോഗിയെ സ്വീകരിക്കുന്ന ജീവനക്കാരൻ രാത്രിയിൽ ശ്രദ്ധയോടെ നിൽക്കുന്നുണ്ട് നാഴ്സ് ശുചിത്വം ഉറപ്പാക്കുന്ന തൊഴിലാളി പരിചരണം ഒരു സംഘത്തിന്റെ പ്രവൃത്തിയാണ് അതിലെ ഓരോരുത്തർക്കും മനുഷ്യ ഗൌരവമുണ്ട്",
+        "cer": 0.09929078014184398,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "51",
+      "file": ".\\outputs\\film15\\audio\\voice\\51.wav",
+      "duration": 21.223583333333334,
+      "sample_rate": 24000,
+      "tokens": 1757,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "seed": 4070,
+      "batch_render_seconds": 111.49459810000008,
+      "text": "ഈ ആശുപത്രികളും വിദ്യാലയങ്ങളും പ്രധാന ഉദാഹരണങ്ങളാണ്. പക്ഷേ കേരളത്തിന്റെ ആരോഗ്യവും വിദ്യാഭ്യാസവും വളർന്നതിനു കാരണം ഒരു സമൂഹം മാത്രമാണെന്ന നിഗമനത്തിലേക്കു പോകാനാവില്ല. പൊതുസേവനങ്ങളും സാമൂഹിക പ്രസ്ഥാനങ്ങളും പല സമൂഹങ്ങളുടെ പ്രവർത്തനങ്ങളും കൂടിയാണ് വലിയ ചിത്രം. പങ്കാളിത്തത്തിന്റെ ചരിത്രമാണ് ഇത്.",
+      "peak": 0.8295916318893433,
+      "rms": 0.20722299814224243,
+      "capped": false,
+      "local": true,
+      "v1_prompt_framing": true,
+      "wav_sha256": "96bf658d234d6071864aefd66d30ee40219dc2ce15178b59525bba681ab3bdb3",
+      "asr": {
+        "file": ".\\outputs\\film15\\audio\\voice\\51.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "ഈ ആശുപത്രികളും വിദ്യാലയങ്ങളും പ്രധാന ഉദാഹരണങ്ങളാണ്. പക്ഷേ കേരളത്തിന്റെ ആരോഗ്യവും വിദ്യാഭ്യാസവും വളർന്നതിനു കാരണം ഒരു സമൂഹം മാത്രമാണെന്ന നിഗമനത്തിലേക്കു പോകാനാവില്ല. പൊതുസേവനങ്ങളും സാമൂഹിക പ്രസ്ഥാനങ്ങളും പല സമൂഹങ്ങളുടെ പ്രവർത്തനങ്ങളും കൂടിയാണ് വലിയ ചിത്രം. പങ്കാളിത്തത്തിന്റെ ചരിത്രമാണ് ഇത്.",
+        "recognized": "ഈ ആശുപത്രികളും വിദ്യാലയങ്ങളും പ്രധാന ഉദാഹരണങ്ങളാണ് പക്ഷേ കേരളത്തിന്റെ ആരോഗ്യവും വിദ്യാഭ്യാസവും വളർന്നതിനു കാരണം ഒരു സമൂഹം മാത്രമാണെന്ന നിഗമനത്തിലേക്ക് പോകാനാവില്ല പൊതുസേവനങ്ങളും സാമൂഹിക പ്രസ്ഥാനങ്ങളും പല സമൂഹങ്ങളുടെ പ്രവർത്തനങ്ങളും കൂടിയാണ് വായു വലിയ ചിത്രം പങ്കാളിപ്പത്തിന്റെ ചരിത്രമാണ് ഇത്",
+        "cer": 0.027972027972027972,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "52",
+      "file": ".\\outputs\\film15\\audio\\voice\\52.wav",
+      "duration": 20.676041666666666,
+      "sample_rate": 24000,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "text": "ആറാം നൂറ്റാണ്ടിലെ രേഖയിൽനിന്ന് ചെപ്പേടുകളിലേക്കും കലകളിലേക്കും വിദ്യാലയങ്ങളിലേക്കും പരിചരണത്തിലേക്കും നാം സഞ്ചരിച്ചു. കേരള ക്രൈസ്തവരുടെ ചരിത്രം വിദേശകപ്പലിന്റെ വരവിൽ മാത്രം ഒതുങ്ങുന്നില്ലെന്ന് ഈ യാത്ര കാണിക്കുന്നു. ഈ മണ്ണിൽ ദീർഘമായ സ്വന്തം ഇടമുള്ള, മാറിക്കൊണ്ടിരിക്കുന്ന ഒരു സമൂഹത്തിന്റെ കഥയാണിത്.",
+      "local": true,
+      "v1_prompt_framing": true,
+      "capped": false,
+      "retake": true,
+      "utterances": [
+        {
+          "id": "52_r01",
+          "start": 0,
+          "duration": 7.586541666666666,
+          "spoken_text": "ആറാം നൂറ്റാണ്ടിലെ രേഖയിൽനിന്ന് ചെപ്പേടുകളിലേക്കും കലകളിലേക്കും വിദ്യാലയങ്ങളിലേക്കും പരിചരണത്തിലേക്കും നാം സഞ്ചരിച്ചു."
+        },
+        {
+          "id": "52_r02",
+          "start": 7.706541666666666,
+          "duration": 7.0914166666666665,
+          "spoken_text": "കേരള ക്രൈസ്തവരുടെ ചരിത്രം വിദേശ കപ്പലിന്റെ വരവിൽ മാത്രം, ഒതുങ്ങുന്നില്ല എന്ന് ഈ യാത്ര കാണിക്കുന്നു."
+        },
+        {
+          "id": "52_r03",
+          "start": 14.917958333333333,
+          "duration": 5.758083333333333,
+          "spoken_text": "ഈ മണ്ണിൽ ദീർഘമായ സ്വന്തം ഇടമുള്ള, മാറിക്കൊണ്ടിരിക്കുന്ന ഒരു സമൂഹത്തിന്റെ കഥയാണിത്."
+        }
+      ],
+      "peak": 0.7863847017288208,
+      "wav_sha256": "d751d024933c944117c66c87dc66b09e95d21584bb4c9c253d6ed344fa17372b",
+      "asr": {
+        "file": "outputs\\film15\\audio\\voice\\52.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "ആറാം നൂറ്റാണ്ടിലെ രേഖയിൽനിന്ന് ചെപ്പേടുകളിലേക്കും കലകളിലേക്കും വിദ്യാലയങ്ങളിലേക്കും പരിചരണത്തിലേക്കും നാം സഞ്ചരിച്ചു. കേരള ക്രൈസ്തവരുടെ ചരിത്രം വിദേശകപ്പലിന്റെ വരവിൽ മാത്രം ഒതുങ്ങുന്നില്ലെന്ന് ഈ യാത്ര കാണിക്കുന്നു. ഈ മണ്ണിൽ ദീർഘമായ സ്വന്തം ഇടമുള്ള, മാറിക്കൊണ്ടിരിക്കുന്ന ഒരു സമൂഹത്തിന്റെ കഥയാണിത്.",
+        "recognized": "ആറാം നൂറ്റാണ്ടിലേക്ക് ഇരുന്ന ചെപ്പേടികളിലേക്കും കലഴനിലേക്കും വിദ്യാലയങ്ങളിലേക്കും പരിചരണത്തിലേക്കും നാം സഞ്ചരിച്ചു കേരള ക്രൈസ്തവരുടെ ചരിത്രം വിദേശ കപ്പലിന്റെ വരവിൽ മാത്രം ഒതുങ്ങുന്നില്ല എന്ന് ഈ യാത്ര കാണിക്കുന്നു ഈ മണ്ണിൽ ദീർഘമായ സ്വന്തം ഇടമുള്ള മാറിക്കൊണ്ടിരിക്കുന്ന ഒരു സമൂഹത്തിന്റെ കഥയാണിത്",
+        "cer": 0.05802047781569966,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "53",
+      "file": ".\\outputs\\film15\\audio\\voice\\53.wav",
+      "duration": 22.885083333333334,
+      "sample_rate": 24000,
+      "tokens": 1904,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "seed": 4070,
+      "batch_render_seconds": 111.49459810000008,
+      "text": "അച്ചടിയിൽനിന്ന് പത്രവായനയിലേക്കും ഈ കഥ നീളുന്നു. ആയിരത്തെണ്ണൂറ്റിയെൺപത്തേഴിൽ നസ്രാണി ദീപിക പ്രസിദ്ധീകരണം ആരംഭിച്ചു. പിന്നീട് ദീപിക എന്ന പേരിലറിയപ്പെട്ട പത്രമാണത്. മതസമൂഹത്തിന്റെ പശ്ചാത്തലത്തിൽ തുടങ്ങിയ പ്രസിദ്ധീകരണവും മലയാളത്തിലെ പൊതുസംഭാഷണത്തിന്റെ ഭാഗമാകാം. വായനയുടെ ലോകം അങ്ങനെ വിശാലമാകുന്നു.",
+      "peak": 0.7790496349334717,
+      "rms": 0.19324076175689697,
+      "capped": false,
+      "local": true,
+      "v1_prompt_framing": true,
+      "wav_sha256": "8f921565c5d8d18dd5f7a9db25d521057c95736cd1637d739192e049d4533391",
+      "asr": {
+        "file": ".\\outputs\\film15\\audio\\voice\\53.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "അച്ചടിയിൽനിന്ന് പത്രവായനയിലേക്കും ഈ കഥ നീളുന്നു. ആയിരത്തെണ്ണൂറ്റിയെൺപത്തേഴിൽ നസ്രാണി ദീപിക പ്രസിദ്ധീകരണം ആരംഭിച്ചു. പിന്നീട് ദീപിക എന്ന പേരിലറിയപ്പെട്ട പത്രമാണത്. മതസമൂഹത്തിന്റെ പശ്ചാത്തലത്തിൽ തുടങ്ങിയ പ്രസിദ്ധീകരണവും മലയാളത്തിലെ പൊതുസംഭാഷണത്തിന്റെ ഭാഗമാകാം. വായനയുടെ ലോകം അങ്ങനെ വിശാലമാകുന്നു.",
+        "recognized": "അച്ചടിയിൽ നിന്ന് പത്രവായനയിലേക്കും ഈ കഥനീളുന്നു ആയിരത്തി എണ്ണൂറ്റി എൺപത്തേഴിൽ നസ് സ്രാനി ദീപിക പ്രസിദ്ധീകരണം ആരംഭിച്ചു പിന്നീട് ദീപിക എന്ന പേരിൽ അറിയപ്പെട്ട പക്ഷം മാനദ് മതസമൂഹത്തിന്റെ പശ്ചാത്തലത്തിൽ തുടങ്ങിയ പ്രസിദ്ധീകരണവും മലയാളത്തിലെ പൊതുസഭാ സംഭാഷണത്തിന്റെ ഭാഗമാകാം മായനയുടെ ലോകം അങ്ങനെ വിശാലമാകുന്നു",
+        "cer": 0.08650519031141868,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "54",
+      "file": ".\\outputs\\film15\\audio\\voice\\54.wav",
+      "duration": 18.480291666666666,
+      "sample_rate": 24000,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "text": "ഗോതുരുത്തിൽ രണ്ടായിരത്തിയഞ്ചിൽ ചവിട്ടുനാടക അക്കാദമി സ്ഥാപിച്ചതായി പൈതൃകവിവരണം രേഖപ്പെടുത്തുന്നു. പഴയ കല നിലനിൽക്കാൻ ഇന്നത്തെ പരിശീലനവും വേദിയും വേണം. ചരിത്രം സ്വയം സൂക്ഷിക്കപ്പെടില്ല. പഠിക്കുന്ന പുതിയ കലാകാരനും പഠിപ്പിക്കുന്ന ആശാനും അതിന്റെ തുടർച്ചയിൽ പ്രവർത്തിക്കുന്നു.",
+      "local": true,
+      "v1_prompt_framing": true,
+      "capped": false,
+      "retake": true,
+      "utterances": [
+        {
+          "id": "54_r01",
+          "start": 0,
+          "duration": 6.754666666666667,
+          "spoken_text": "ഗോതുരുത്തിൽ, രണ്ടായിരത്തി അഞ്ചിൽ, ചവിട്ടുനാടക അക്കാദമി സ്ഥാപിച്ചതായി പൈതൃകവിവരണം രേഖപ്പെടുത്തുന്നു."
+        },
+        {
+          "id": "54_r02",
+          "start": 6.874666666666667,
+          "duration": 4.061583333333333,
+          "spoken_text": "പഴയ കല നിലനിൽക്കാൻ ഇന്നത്തെ പരിശീലനവും വേദിയും വേണം."
+        },
+        {
+          "id": "54_r03",
+          "start": 11.05625,
+          "duration": 1.9993333333333334,
+          "spoken_text": "ചരിത്രം സ്വയം സൂക്ഷിക്കപ്പെടില്ല."
+        },
+        {
+          "id": "54_r04",
+          "start": 13.175583333333334,
+          "duration": 5.304708333333333,
+          "spoken_text": "പഠിക്കുന്ന പുതിയ കലാകാരനും പഠിപ്പിക്കുന്ന ആശാനും അതിന്റെ തുടർച്ചയിൽ പ്രവർത്തിക്കുന്നു."
+        }
+      ],
+      "peak": 0.7800329923629761,
+      "wav_sha256": "754fc096d15536d7afef3fbbc9f9ad73fc8000e7ed819c71e654fedd4b952171",
+      "asr": {
+        "file": "outputs\\film15\\audio\\voice\\54.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "ഗോതുരുത്തിൽ രണ്ടായിരത്തിയഞ്ചിൽ ചവിട്ടുനാടക അക്കാദമി സ്ഥാപിച്ചതായി പൈതൃകവിവരണം രേഖപ്പെടുത്തുന്നു. പഴയ കല നിലനിൽക്കാൻ ഇന്നത്തെ പരിശീലനവും വേദിയും വേണം. ചരിത്രം സ്വയം സൂക്ഷിക്കപ്പെടില്ല. പഠിക്കുന്ന പുതിയ കലാകാരനും പഠിപ്പിക്കുന്ന ആശാനും അതിന്റെ തുടർച്ചയിൽ പ്രവർത്തിക്കുന്നു.",
+        "recognized": "ഗോതുരുത്തിൽ രണ്ടായിരത്തി അഞ്ചിൽ ചവിട്ടുനാടക അക്കാദമി സ്ഥാപിച്ചതായി പൈതൃക വിവരണം രേഖപ്പെടുത്തുന്നു പഴയകാല നിലനിൽക്കാൻ ഇന്നത്തെ പരിശീലനവും വേണം ചരിത്രം സ്വയം സൂക്ഷിക്കപ്പെടില്ല പഠിക്കുന്ന പുതിയ കലാകാരനും പഠിപ്പിക്കുന്ന ആശാനും അതിന്റെ തുടർച്ചയിൽ പ്രവർത്തിക്കുന്നു",
+        "cer": 0.04887218045112782,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "55",
+      "file": ".\\outputs\\film15\\audio\\voice\\55.wav",
+      "duration": 20.07133333333333,
+      "sample_rate": 24000,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "text": "ചേന്ദമംഗലത്തെ കോട്ടയിൽ കോവിലകം പ്രദേശത്ത് പള്ളിയും ക്ഷേത്രവും മുസ്ലിം ആരാധനാലയവും യഹൂദ പൈതൃകസ്ഥലവും അടുത്തടുത്തുണ്ട്. കേരളത്തിന്റെ പല ഓർമ്മകളും ഒരേ ഭൂമിയിൽ അടുക്കിനിൽക്കുന്നതിന്റെ ഒരു ഉദാഹരണമാണിത്. അടുത്തിരിക്കുന്ന കെട്ടിടങ്ങൾ മനുഷ്യർ തമ്മിലുള്ള കരുതലിനുള്ള ക്ഷണമായും നമുക്ക് കാണാം.",
+      "local": true,
+      "v1_prompt_framing": true,
+      "capped": false,
+      "retake": true,
+      "utterances": [
+        {
+          "id": "55_r01",
+          "start": 0,
+          "duration": 8.696,
+          "spoken_text": "ചേന്ദമംഗലത്തെ കോട്ടയിൽ കോവിലകം പ്രദേശത്ത് പള്ളിയും ക്ഷേത്രവും മുസ്ലിം ആരാധനാലയവും യഹൂദ പൈതൃകസ്ഥലവും അടുത്തടുത്തുണ്ട്."
+        },
+        {
+          "id": "55_r02",
+          "start": 8.815999999999999,
+          "duration": 5.704041666666667,
+          "spoken_text": "കേരളത്തിന്റെ പല ഓർമ്മകളും ഒരേ ഭൂമിയിൽ അടുക്കിനിൽക്കുന്നതിന്റെ ഒരു ഉദാഹരണമാണിത്."
+        },
+        {
+          "id": "55_r03",
+          "start": 14.640041666666665,
+          "duration": 5.431291666666667,
+          "spoken_text": "അടുത്തിരിക്കുന്ന കെട്ടിടങ്ങൾ മനുഷ്യർ തമ്മിലുള്ള കരുതലിനുള്ള ക്ഷണമായും നമുക്ക് കാണാം."
+        }
+      ],
+      "peak": 0.8430280685424805,
+      "wav_sha256": "269266cca39bd5e643dc4a2191d2fba005b8468f8432c5e3de1350e477ffe2ff",
+      "asr": {
+        "file": "outputs\\film15\\audio\\voice\\55.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "ചേന്ദമംഗലത്തെ കോട്ടയിൽ കോവിലകം പ്രദേശത്ത് പള്ളിയും ക്ഷേത്രവും മുസ്ലിം ആരാധനാലയവും യഹൂദ പൈതൃകസ്ഥലവും അടുത്തടുത്തുണ്ട്. കേരളത്തിന്റെ പല ഓർമ്മകളും ഒരേ ഭൂമിയിൽ അടുക്കിനിൽക്കുന്നതിന്റെ ഒരു ഉദാഹരണമാണിത്. അടുത്തിരിക്കുന്ന കെട്ടിടങ്ങൾ മനുഷ്യർ തമ്മിലുള്ള കരുതലിനുള്ള ക്ഷണമായും നമുക്ക് കാണാം.",
+        "recognized": "ചേന്ദമംഗലത്തെ കോട്ടയിൽ കോവിനകം പ്രദേശത്ത് പള്ളിയും ക്ഷേത്രവും മുസ്ലിം ആരാധനാലയവും യെഹൂദ പൈതൃക സ്ഥലവും അടുത്തെടുത്തുണ്ട് കേരളത്തിന്റെ പല ഓർമ്മകളും ഒരേ ഭൂമിയിൽ അടുക്കി നിൽക്കുന്നതിന്റെ ഒരു ഉദാഹരണമാണിത് അടുത്തിരിക്കുന്ന കെട്ടിടങ്ങൾ മനുഷ്യർ തമ്മിലുള്ള കരുതലിനുള്ള ക്ഷണമായും നമുക്ക് കാണാം",
+        "cer": 0.017921146953405017,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "56",
+      "file": ".\\outputs\\film15\\audio\\voice\\56.wav",
+      "duration": 20.775583333333334,
+      "sample_rate": 24000,
+      "tokens": 1729,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "seed": 4070,
+      "batch_render_seconds": 82.87392790000013,
+      "text": "സ്ത്രീകളുടെ മുന്നേറ്റത്തെ ഓർക്കുമ്പോൾ അന്ന ചാണ്ടിയുടെ പേരും കേരളത്തിന്റെ ചരിത്രത്തിൽ തെളിയുന്നു. ഇന്ത്യയിലെ ആദ്യ വനിതാ ജഡ്ജിയും പിന്നീട് ഹൈക്കോടതി ജഡ്ജിയുമായ അവരെ കേരള ഹൈക്കോടതി അനുസ്മരിക്കുന്നു. അധികാരത്തിന്റെ മുറിയിലും സ്ത്രീക്ക് സ്വന്തം ശബ്ദമുണ്ടാകാമെന്ന ശക്തമായ ഒരു ഓർമ്മയാണത്.",
+      "peak": 0.7571918368339539,
+      "rms": 0.18989111483097076,
+      "capped": false,
+      "local": true,
+      "v1_prompt_framing": true,
+      "wav_sha256": "948740e078361e45bbe96ad8f8b6d016877fef54bc4b88aee664b9d84d48f006",
+      "asr": {
+        "file": ".\\outputs\\film15\\audio\\voice\\56.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "സ്ത്രീകളുടെ മുന്നേറ്റത്തെ ഓർക്കുമ്പോൾ അന്ന ചാണ്ടിയുടെ പേരും കേരളത്തിന്റെ ചരിത്രത്തിൽ തെളിയുന്നു. ഇന്ത്യയിലെ ആദ്യ വനിതാ ജഡ്ജിയും പിന്നീട് ഹൈക്കോടതി ജഡ്ജിയുമായ അവരെ കേരള ഹൈക്കോടതി അനുസ്മരിക്കുന്നു. അധികാരത്തിന്റെ മുറിയിലും സ്ത്രീക്ക് സ്വന്തം ശബ്ദമുണ്ടാകാമെന്ന ശക്തമായ ഒരു ഓർമ്മയാണത്.",
+        "recognized": "സ്ത്രീകളുടെ മുന്നേറ്റൊക്കെ ഒക്കുമ്പോൾ അന്നചാണ്ടിയുടെ പേരും കേരളത്തിന്റെ ചരിത്രത്തിൽ തെളിയും ഇന്ത്യയിലെ ആദ്യ വനിതാ ജഡ്ജിയും പിന്നീട് ഹൈക്കോടതി ജഡ്ജിയുമായാവരെ കേരളം പ്രണഹായ്ക്കോടതി അനുസ്മരിക്കുന്നു. അധികാരത്തിന്റെ മുറിയിലും സ്ത്രീക്ക് സ്വന്തം ശബ്ദമുണ്ടാകാമെന്ന് എന്ന ശക്തമായ ഒരു ഓർമ്മയാണത്",
+        "cer": 0.09352517985611511,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "57",
+      "file": ".\\outputs\\film15\\audio\\voice\\57.wav",
+      "duration": 18.039875,
+      "sample_rate": 24000,
+      "tokens": 1505,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "seed": 4070,
+      "batch_render_seconds": 82.87392790000013,
+      "text": "ആദ്യത്തെ കുരുമുളകുമണി ഓർമ്മയുണ്ടോ? ഇപ്പോൾ അതിനെ വീണ്ടും നോക്കുമ്പോൾ ഒരു ചരക്ക് മാത്രം കാണുന്നുണ്ടോ? കടൽ കടന്ന ബന്ധങ്ങളും ചെമ്പിലെ വാക്കുകളും പഠിക്കുന്ന കുട്ടിയും പരിചരിക്കുന്ന കൈയും ചേർന്ന ഒരു ലോകം നമ്മുടെ മുന്നിലുണ്ട്. അതിൽ നമ്മുടെ നാട്ടിന്റെ വലിയ കഥയുണ്ട്.",
+      "peak": 0.7545037269592285,
+      "rms": 0.19898468255996704,
+      "capped": false,
+      "local": true,
+      "v1_prompt_framing": true,
+      "wav_sha256": "178c3ef3c9e8e31ce6d39db20c76c73ebf9308e4f74808ce406484c2d0e61019",
+      "asr": {
+        "file": ".\\outputs\\film15\\audio\\voice\\57.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "ആദ്യത്തെ കുരുമുളകുമണി ഓർമ്മയുണ്ടോ? ഇപ്പോൾ അതിനെ വീണ്ടും നോക്കുമ്പോൾ ഒരു ചരക്ക് മാത്രം കാണുന്നുണ്ടോ? കടൽ കടന്ന ബന്ധങ്ങളും ചെമ്പിലെ വാക്കുകളും പഠിക്കുന്ന കുട്ടിയും പരിചരിക്കുന്ന കൈയും ചേർന്ന ഒരു ലോകം നമ്മുടെ മുന്നിലുണ്ട്. അതിൽ നമ്മുടെ നാട്ടിന്റെ വലിയ കഥയുണ്ട്.",
+        "recognized": "ആദ്യത്തെ കുരുമുളകുമണി ഓർമ്മയുണ്ടോ ഇപ്പോൾ അതിനെ വീണ്ടും നോക്കുമ്പോൾ ഒരു ചരക്കുമായി മാത്രം കാണുന്നുണ്ടോ കടൽ കടന്ന ബന്ധങ്ങളും ചെമ്പിലെ വാക്കുകളും പഠിക്കുന്ന കുട്ടിയും പരിചരിക്കും ഇന്ന് കൈയും ചേർന്ന ഒരു ലോകം നമ്മുടെ മുന്നിലുണ്ട് അതിൽ നമ്മുടെ നാട്ടിന്റെ വലിയ കഥയുണ്ട് എ",
+        "cer": 0.04330708661417323,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "58",
+      "file": ".\\outputs\\film15\\audio\\voice\\58.wav",
+      "duration": 15.453916666666666,
+      "sample_rate": 24000,
+      "tokens": 1295,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "seed": 4070,
+      "batch_render_seconds": 82.87392790000013,
+      "text": "ഈ മണ്ണിൽ നിൽക്കാൻ നിനക്കു മറ്റൊരാളുടെ ചരിത്രം മായ്ക്കേണ്ടതില്ല. നിന്റെ പ്രാർത്ഥനയ്ക്കും നിന്റെ മലയാളത്തിനും നിന്റെ കുടുംബത്തിന്റെ ഓർമ്മയ്ക്കും ഇവിടെ ഇടമുണ്ട്. അതേ ഇടം മറ്റുള്ളവർക്കും നൽകുമ്പോഴാണ് നമ്മുടെ സ്വന്തം ഇടം കൂടുതൽ വിശാലമാകുന്നത്.",
+      "peak": 0.7118442058563232,
+      "rms": 0.19471172988414764,
+      "capped": false,
+      "local": true,
+      "v1_prompt_framing": true,
+      "wav_sha256": "5ec47a516ea0a92fb88d36b142ed0f223bfc081a103dc2c7e7b107652bec8255",
+      "asr": {
+        "file": ".\\outputs\\film15\\audio\\voice\\58.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "ഈ മണ്ണിൽ നിൽക്കാൻ നിനക്കു മറ്റൊരാളുടെ ചരിത്രം മായ്ക്കേണ്ടതില്ല. നിന്റെ പ്രാർത്ഥനയ്ക്കും നിന്റെ മലയാളത്തിനും നിന്റെ കുടുംബത്തിന്റെ ഓർമ്മയ്ക്കും ഇവിടെ ഇടമുണ്ട്. അതേ ഇടം മറ്റുള്ളവർക്കും നൽകുമ്പോഴാണ് നമ്മുടെ സ്വന്തം ഇടം കൂടുതൽ വിശാലമാകുന്നത്.",
+        "recognized": "ഈ വണ്ണിൽ നിൽക്കാൻ നിനക്കു മറ്റൊരാളുടെ ചരിത്രം മായ്ക്കേണ്ടതില്ല നിന്ദ പ്രാർത്ഥനയ്ക്കും നിൻ ന്റെ മലയാളത്തിനും നിന്റെ കുടുംബത്തിന്റെ ഓർമ്മയ്ക്കും ഇവിടെ ഇടമുണ്ട് അതേ ഇടം മറ്റുള്ളവർക്കും നൽകുമ്പോഴാണ് ആണ് നമ്മുടെ സ്വന്തം ഇടം കൂടുതൽ വിശാലമാകുന്നത്",
+        "cer": 0.03829787234042553,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "59",
+      "file": ".\\outputs\\film15\\audio\\voice\\59.wav",
+      "duration": 15.837416666666666,
+      "sample_rate": 24000,
+      "tokens": 1323,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "seed": 4070,
+      "batch_render_seconds": 82.87392790000013,
+      "text": "കടൽ ഇന്നും തുറന്നിരിക്കുന്നു. കാറ്റ് ഇന്നും കരയിലേക്കു വരുന്നു. മാറുന്നത് കപ്പലുകളും കാലങ്ങളും മനുഷ്യരുടെ ചോദ്യങ്ങളുമാണ്. ഈ ദീർഘയാത്രയിൽ നാം വെറും കാണികളല്ല. കൈമാറിക്കിട്ടിയ ലോകത്തെ കുറച്ചുകൂടി നീതിയുള്ളതാക്കാൻ കഴിയുന്ന പങ്കാളികളാണ്.",
+      "peak": 0.8307498693466187,
+      "rms": 0.19829592108726501,
+      "capped": false,
+      "local": true,
+      "v1_prompt_framing": true,
+      "wav_sha256": "ef661276f5f88e70665e98852604e3c7bf030f3649a77eda27df6704daad96f1",
+      "asr": {
+        "file": ".\\outputs\\film15\\audio\\voice\\59.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "കടൽ ഇന്നും തുറന്നിരിക്കുന്നു. കാറ്റ് ഇന്നും കരയിലേക്കു വരുന്നു. മാറുന്നത് കപ്പലുകളും കാലങ്ങളും മനുഷ്യരുടെ ചോദ്യങ്ങളുമാണ്. ഈ ദീർഘയാത്രയിൽ നാം വെറും കാണികളല്ല. കൈമാറിക്കിട്ടിയ ലോകത്തെ കുറച്ചുകൂടി നീതിയുള്ളതാക്കാൻ കഴിയുന്ന പങ്കാളികളാണ്.",
+        "recognized": "കടൽ ഇന്നും തുറന്നിരിക്കുന്നു കാട്ടി ഇന്നും കരയിലേക്ക് വരുന്നു മാറുന്നത് കപ്പലുകളും കാലങ്ങളും മനി മനുഷ്യരുടെ ചോദ്യങ്ങളുമാണ് ഈ ദീർഘയാത്രയിൽ നാം വെറും കാണികളല്ല കൈമാറിക്കിട്ടുക ലോകത്തെക്കുറിച്ചുകൂടി നീതിയുള്ളതാക്കാൻ കഴിയുന്ന പങ്കാളികളാണ്",
+        "cer": 0.05701754385964912,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    },
+    {
+      "id": "60",
+      "file": ".\\outputs\\film15\\audio\\voice\\60.wav",
+      "duration": 18.988041666666668,
+      "sample_rate": 24000,
+      "model": "kenpath/svara-tts-v1",
+      "voice": "Malayalam (Female)",
+      "text": "വേരുകൾ നമ്മെ പിടിച്ചുകെട്ടാനല്ല. നിവർന്നുനിൽക്കാൻ ശക്തി നൽകാനാണ്. ഈ നാട്ടിന്റെ കഥയിൽ നീയുണ്ട്. നിന്റെ അയൽക്കാരനുമുണ്ട്. നമ്മുടെ വിശ്വാസങ്ങൾ വ്യത്യസ്തമായിരിക്കാം. നമ്മുടെ ഉത്തരവാദിത്തം പങ്കിട്ടതാണ്. ഓർമ്മയെ കരുതലാക്കി മാറ്റാം. അഭിമാനത്തെ പ്രവർത്തിയാക്കാം. ഈ യാത്ര നമുക്കൊരുമിച്ചു തുടരാം.",
+      "local": true,
+      "v1_prompt_framing": true,
+      "capped": false,
+      "retake": true,
+      "utterances": [
+        {
+          "id": "60_r01",
+          "start": 0,
+          "duration": 2.004541666666667,
+          "spoken_text": "വേരുകൾ നമ്മെ പിടിച്ചുകെട്ടാനല്ല."
+        },
+        {
+          "id": "60_r02",
+          "start": 2.124541666666667,
+          "duration": 2.3175416666666666,
+          "spoken_text": "നിവർന്നുനിൽക്കാൻ ശക്തി നൽകാനാണ്."
+        },
+        {
+          "id": "60_r03",
+          "start": 4.562083333333334,
+          "duration": 2.0144166666666665,
+          "spoken_text": "ഈ നാട്ടിന്റെ കഥയിൽ നീയുണ്ട്."
+        },
+        {
+          "id": "60_r04",
+          "start": 6.6965,
+          "duration": 1.785875,
+          "spoken_text": "നിന്റെ അയൽക്കാരനുമുണ്ട്."
+        },
+        {
+          "id": "60_r05",
+          "start": 8.602375,
+          "duration": 2.297458333333333,
+          "spoken_text": "നമ്മുടെ വിശ്വാസങ്ങൾ വ്യത്യസ്തമായിരിക്കാം."
+        },
+        {
+          "id": "60_r06",
+          "start": 11.019833333333333,
+          "duration": 2.1519166666666667,
+          "spoken_text": "നമ്മുടെ ഉത്തരവാദിത്തം പങ്കിട്ടതാണ്."
+        },
+        {
+          "id": "60_r07",
+          "start": 13.291749999999999,
+          "duration": 1.766875,
+          "spoken_text": "ഓർമ്മയെ കരുതലാക്കി മാറ്റാം."
+        },
+        {
+          "id": "60_r08",
+          "start": 15.178624999999998,
+          "duration": 1.7687916666666668,
+          "spoken_text": "അഭിമാനത്തെ പ്രവർത്തിയാക്കാം."
+        },
+        {
+          "id": "60_r09",
+          "start": 17.067416666666666,
+          "duration": 1.920625,
+          "spoken_text": "ഈ യാത്ര നമുക്കൊരുമിച്ചു തുടരാം."
+        }
+      ],
+      "peak": 0.7537146806716919,
+      "wav_sha256": "9293891816feff020879e268eb57ad59cebe4c3f120df8470988a23f05caf359",
+      "asr": {
+        "file": "outputs\\film15\\audio\\voice\\60.wav",
+        "model": "adalat-ai/whisper-small-ml-rmft",
+        "expected": "വേരുകൾ നമ്മെ പിടിച്ചുകെട്ടാനല്ല. നിവർന്നുനിൽക്കാൻ ശക്തി നൽകാനാണ്. ഈ നാട്ടിന്റെ കഥയിൽ നീയുണ്ട്. നിന്റെ അയൽക്കാരനുമുണ്ട്. നമ്മുടെ വിശ്വാസങ്ങൾ വ്യത്യസ്തമായിരിക്കാം. നമ്മുടെ ഉത്തരവാദിത്തം പങ്കിട്ടതാണ്. ഓർമ്മയെ കരുതലാക്കി മാറ്റാം. അഭിമാനത്തെ പ്രവർത്തിയാക്കാം. ഈ യാത്ര നമുക്കൊരുമിച്ചു തുടരാം.",
+        "recognized": "വേരുകൾ നമ്മെ പിടിച്ചുകെട്ടാനല്ല നിവർമ്മനിൽക്കാൻ ശക്തി നൽകാനാണ് ഈ നാട്ടിന്റെ കഥയിൽ നീയുണ്ട് നിന്റെ അയൽക്കാരനുമുണ്ട് നമ്മുടെ വിശ്വാസങ്ങൾ വ്യത്യസ്തമായിരിക്കാം നമ്മുടെ ഉത്തരവാദിത്തം പങ്കിട്ടതാണ് പോർമയെ കരുതാക്കി മാറ്റാ അഭിമാനത്തെ പ്രവർത്തിയാക്കും ഈ രാത്താനമുക്ക് ഒരുമിച്ചു തുടരാം",
+        "cer": 0.05776173285198556,
+        "note": "Automatic recognition only; no native listening certification."
+      }
+    }
+  ]
+}

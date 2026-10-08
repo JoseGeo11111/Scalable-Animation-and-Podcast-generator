@@ -1,0 +1,40 @@
+MALAYALAM NARRATION DELIVERY — 2026-10-06
+
+60 final scene WAVs: 01.wav through60.wav. Only these numeric files belong in the film timeline. Sentence retakes and test files are retained for reproducibility, not extra narration.
+
+Selected model: kenpath/svara-tts-v1 (Apache2 publisher license).
+Voice: Malayalam (Female), publisher preset; no reference voice or voice cloning.
+Inference: local RTX4070TiSUPER16GB, BF16/SDPA, SNAC24kHz, batch size6.
+Audio: mono24000Hz PCM24. All60 sample counts verified against their manifests; no capped/truncated generation flags.
+
+Final natural duration:1112.420333seconds.
+Canonical script:1556 whitespace-separated words.
+Pronunciation variants:1587 whitespace-separated words because some compound dates/names were spaced explicitly.
+Consistent canonical-word timing:83.925words/minute naturally;110.853words/minute at proposed842.2seconds narration allocation.
+Proposed pitch-preserving atempo:1.320850550146442, below the director's1.35cap. Scene WAVs are still natural speed. The final film mixer applies its actual timeline factor.
+
+Original60-scene synthesis:774.34seconds wall time, including loading and concurrent ASR during later batches.
+Purposeful retakes:18scenes;69initial sentence utterances in234.6seconds,4approved scene45 sentences in22.37seconds,2final scene30 date clauses in12.54seconds. Earlier discarded tests are excluded from these selected-production timings.
+Peak combined TTS+smallASR observed VRAM:approximately13.2GB, no OOM.
+
+Independent ASR: adalat-ai/whisper-small-ml-rmft, local, no expected text given as a decoding prompt. All60 final scenes checked. Mean character-error ratio0.06018; median0.05619; no scene above0.15. Compound spacing, phonetic spellings and proper names contribute to this score. It is not a word-accuracy percentage or a subjective quality rating.
+
+The script agent reviewed historical dates and semantic negations. Retakes repaired missing/garbled date material, repeated phrases, a dropped culture sentence, the Syrian-origin negation and the closing empowerment line. The final1599date was independently recovered with all four number components. Canonical subtitles preserve the approved script and correct place names.
+
+Limitations: no native human listening certification has been obtained. ASR still has ambiguity for rare names such as Muziris and Gothuruth in some scenes. A correct subtitle cannot by itself repair an audible mispronunciation. Do not describe this production draft as perfectly pronounced, historian-approved or broadcast-mastered on the strength of automated checks.
+
+Reproduction sources:
+outputs/production-source/film15_voice.py
+outputs/production-source/film15_voice_check_ml.py
+outputs/production-source/film15_voice_retake.py
+outputs/production-source/film15_voice_finalize.py
+work/film15-voice/retake-script.json (actual spoken sentence variants)
+outputs/production-source/film15-voice-environment.txt
+outputs/production-source/film15-voice-research.txt
+
+Selected model revisions:
+Svara db8a02fc1e4eab827ff6dda5bed3b56d4d2dd51e
+SNAC d73ad176a12188fcf4f360ba3bf2c2fbbe8f58ec
+Adalat Malayalam ASR c397b8070ffc8ec3ceec17b7b2e4cfcc84f4b462
+
+No paid service, cloud speech generation, or unconsented real-person voice clone was used. The earlier cloud fallback attempt was rejected before script transmission; local production continued instead.

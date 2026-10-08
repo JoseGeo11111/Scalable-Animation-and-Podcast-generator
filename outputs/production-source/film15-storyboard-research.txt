@@ -1,0 +1,97 @@
+ROOTS AND THE SEA / വേരുകളും കടലും
+Story, storyboard and historical research notes
+Research checked: 6 October 2026
+
+DELIVERED SCRIPT
+film15-script.json contains 60 Malayalam narration scenes, 1,556 space-delimited Malayalam words, 120 shot beats, English meaning summaries, factual sources, emotional objectives and visual actions. film15-script-malayalam.txt is the readable narration. Spoken timing must come from the synthesized audio; a Malayalam word count is a rough planning aid because compounds vary substantially.
+
+STORY APPROACH
+The opening makes a tangible promise: one peppercorn opens a history larger than its size. The repeated objects are a peppercorn, a lamp, a document and a book. The viewer moves from curiosity to evidence, then conflict over agency, then education, craft, care and shared belonging. The final return to the peppercorn should carry new meaning rather than repeat the opening information.
+
+Historical empowerment is earned through evidence and concrete people doing work. It does not depend on unverified antiquity, claims of pure ancestry, religious superiority, or sole credit for Kerala's development. Christian identity and Malayali belonging can coexist with respect for other communities. Institutional examples demonstrate participation; they do not establish that those institutions alone caused population-wide outcomes.
+
+The middle and final third were revised to replace generic moral reflection with specific examples: Chavittu Natakam and working performers at Gothuruthu; women in Margamkali; CMS College1817; Baker girls' school1819; CMS press1821 and local carpenters; earlier Malayalam printing beyond Kerala; Chavara-related education and women's congregation1866; Lisie1956; Pushpagiri1959 and nursing1964; Nazrani Deepika1887; performance preservation2005; nearby religious heritage at Chendamangalam; Anna Chandy recognized by Kerala High Court. Final four scenes provide the emotional return and resolution.
+
+STORYBOARD SOURCES AND HOW THEY ARE APPLIED
+
+1. Pixar Animation Studios / Khan Academy, The Art of Storytelling:
+https://www.khanacademy.org/computing/pixar/storytelling
+https://www.khanacademy.org/computing/pixar/storytelling/story-structure/v/video1a-fine
+The course connects character motivation, causal structure, visual language, boarding and feedback. Our nonfiction adaptation uses a viewer question and ordinary people as emotional anchors rather than inventing a historical protagonist's dialogue. Each scene must advance a question or reveal a consequence. The outline is an original application, not a copied Pixar formula or claim that Pixar endorses this film.
+
+2. Academy of Motion Picture Arts and Sciences, animation activities guide:
+https://www.oscars.org/sites/oscars/files/complete_animation_activities_guide.pdf
+The guide explains planning key moments and framing before costly animation, and assessing whether composition, backgrounds and movement communicate clearly. Applied here: storyboard before generation; one dominant action per shot; establish place, then show detail or consequence; clear silhouettes; eliminate objects that compete with the subject. A second shot earns its place through new information or a reaction, not an arbitrary zoom.
+
+3. Pixar / Khan Academy, Color and Visual Language:
+https://www.khanacademy.org/computing/pixar/storytelling/visual-language/v/color-visual
+The lesson connects color to attention and emotional change. Applied here: warm ochre/teal for curiosity and home, cream/copper for evidence, cooler indigo for authority conflict, warmer green/gold for learning and shared agency. Colors support the scene's meaning; they are not a substitute for action.
+
+PRODUCTION RULES
+- Build a spoken animatic before locking scene duration. Keep pauses at revelations, not after every sentence.
+- Each board stores a factual/emotional purpose. If a shot supplies neither, remove or redesign it.
+- Use wide shots for geography or relationships, medium shots for an action, close shots for an object or reaction.
+- Keep at most three foreground people, one action and three depth planes. Do not ask video models to manage a large crowd, complex hand exchange, multiple simultaneous gestures or legible writing.
+- Animate simple secondary motion in background only: sail, water, rain, lamp or cloth. It must not distract from the action.
+- Use real source geometry for maps. Coastlines are modern orientation, not exact ancient shoreline reconstructions. Broad routes are explanatory links, not GPS traces of ancient journeys.
+- Actual documents and archival reproductions are composited assets. AI handwriting is never documentary evidence.
+- Match cuts connect meaning: pepper/palm to boat/sea; rope to cooperation; book to school; opening child listening to later child learning. Do not use continuous dissolves as a replacement for editing.
+- Foley must follow actions the viewer can see. Ambient beds must remain audible between speech phrases. Music should leave room for Malayalam articulation.
+- Use 30fps delivery as requested. If source generation is24fps, disclose interpolation, inspect for hand/rope/face warping, and do not claim that duplicated frames are newly animated frames.
+
+FACT CHECKS AND LIMITS
+Periplus: the University of Washington-hosted ancient text describes Muziris, ships from Arabia and Greek traders, pepper and seasonal sailing in sections53–57. It does not identify an apostolic passenger. Do not repeat its attribution of monsoon discovery as a modern historical finding.
+https://depts.washington.edu/silkroad/texts/periplus/periplus.html
+
+Thomas52CE: Kerala Tourism itself labels this an origin legend. Film uses the Malayalam word for tradition and explicitly states that a contemporary record establishing the exact date is unavailable. Respectful presentation does not turn the traditional arrival scene into verified footage.
+https://www.keralatourism.org/muziris/history/religions
+
+Cosmas: BookIII specifically distinguishes the church at pepper-growing Male from the bishop appointed from Persia at Calliana. Male is commonly connected with Malabar; the film does not identify a precise church site, founder or arrival year.
+https://www.ccel.org/ccel/pearse/morefathers/files/cosmas_03_book3.htm
+
+Pattanam: the government heritage page describes trade finds and gives identification with Muziris as a possibility, not a settled equation.
+https://www.keralatourism.org/muziris/historical-sites/pattanam
+
+Kollam849: the prior source ledger includes the Cambridge library study. Its Library of Congress PDF mirror was unavailable to the browser on this pass, so corroborating accessible university archaeology research was checked. The film makes only the limited claim of church, trade and royal/legal connections, not a pure-ancestry claim or utopia of universal equality.
+https://www.heritageuniversityofkerala.com/JournalPDF/Volume5/7.pdf
+Cyriac Jose and R.K.Mohanty, Antiquity of Christianity in India with Special Reference to South Central Kerala, Heritage5(2017),100–139. This is an archaeological study published on the University of Kerala heritage journal site. Some wider interpretations remain debated; our film does not adopt every interpretation in it.
+
+Portuguese encounter1498, Diamper1599, Coonan Cross1653: use the existing museum/government/textbook source ledger. Resistance to ecclesiastical authority is not framed as a verdict against the faith or ethnicity of all participants. Modern churches did not all spring from a single event. Oath imagery is an illustrative reconstruction, stated in narration.
+
+CMS foundation1817: institutional history and 2026prospectus agree. A website history paragraph says press1820 while the2026prospectus, university printing studies and institution's own historical relief pages identify1821. Film uses1821 for CMSPress, avoids saying it was the first Malayalam printing anywhere, and notes earlier printing outside Kerala. The local-carpenter detail comes from the college's A10 account, which explicitly distinguishes disputed press origin stories.
+https://cmscollege.ac.in/history/
+https://cmscollege.ac.in/wp-content/uploads/2026/04/CMS-College-UG-2026_27pp4.pdf
+https://cmscollege.ac.in/a-9/
+https://cmscollege.ac.in/a-10/
+https://cmscollege.ac.in/a12/
+https://scholar.uoc.ac.in/bitstream/handle/20.500.12818/2353/2077_saleena.pdf?isAllowed=y&sequence=1
+
+Baker school1819: verified from Kerala Governor's bicentenary speech. No unqualified claim that it was the only first girls' school or that all girls were immediately included.
+https://www.rajbhavan.kerala.gov.in/index.php/speeches1/517-address-at-the-bicentenary-celebbrations-of-baker-memorial-girls-higher-secondary-school-at-kottayam-at-1130-hrs-on-29-01-2019
+
+Chavara: the Vatican's1986homily identifies schools, publishing and care under his leadership or inspiration. The2014canonization booklet identifies the1866women's congregation with Leopold Beccaro and educational purposes. Film avoids contested first-school/first-midday-meal claims and treats this as a Catholic primary commemoration, not an independent ranking of all reformers.
+https://www.vatican.va/content/john-paul-ii/en/homilies/1986/documents/hf_jp-ii_hom_19860208_stadio-kattayam.html
+https://www.vatican.va/news_services/liturgy/libretti/2014/20141123-libretto-cristo-re_canonizzazione.pdf
+
+Lisie1956, Pushpagiri1959eightbeds and1964nursing: verified from institutional histories. Do not use their advertising claims about clinical quality, affordability or rank. Generic illustrated care scenes do not depict specific documented patients.
+https://www.lisiehospital.org/index.php/about-us
+https://hospital.pushpagiri.in/about_us
+
+Deepika1887: verified from publisher history. Its page contains sweeping and internally inconsistent first-newspaper/daily claims; the film uses only the founding name/year and later name, not those superlatives or neutrality claims.
+https://www.deepika.com/about-us
+
+AnnaChandy: Kerala High Court's official Did You Know section honors her as India's first woman judge and later High Court judge. No unsupported causal link is made to a specific church or school, and no exact date is needed in narration.
+https://highcourt.kerala.gov.in/
+The optional/full graphic date1959 is additionally corroborated by Kerala Information and Public Relations Department,27November2024. This dates her High Court appointment, not her earlier judicial appointment. The narration itself does not state1959.
+https://www.prd.kerala.gov.in/ml/node/276136
+
+Art forms: current Kerala Tourism descriptions support Margamkali's circular format and women's later participation, ChavittuNatakam's staging/local and European influences/LatinChristian association, and working-class performers at Gothuruthu. The film does not recreate a complete authentic choreography or assert a precise invention date. The2005academy claim is explicitly based on the official heritage page.
+https://www.keralatourism.org/artforms/margomkali-folk-art/12/
+https://www.keralatourism.org/artforms/chavittunatakom-performing-art/16/
+https://www.keralatourism.org/muziris/other-places/gothuruthu-performance-and-chavittu-nadakam-centre
+
+SOURCE CLASSIFICATION
+The JSON contains full sources and per-scene source IDs. REFLECTION means original interpretation, metaphor or ethical invitation, not an asserted historical incident. Institutional sources are used for their own founding dates and activities, not for uncritical institutional praise. Government tourism pages document traditions and places but do not supersede critical scholarship when antiquity is disputed. Primary old texts are read with their limits.
+
+REMAINING REVIEW LIMIT
+The Malayalam narration was written and checked by the assistant, not independently approved by a native Malayalam historian/editor. Actual synthesized pronunciation and duration must be reviewed in the voice pipeline. English narration_en fields are meaning summaries for production, not word-for-word subtitles. They must not be presented as a certified translation.

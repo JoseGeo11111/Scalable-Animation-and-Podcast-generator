@@ -1,0 +1,82 @@
+[
+  {
+    "id": "shore_gentle",
+    "seconds": 25,
+    "prompt": "Gentle ocean waves wash onto a sandy tropical shore, soft rippling water and foam receding. Natural seaside ambience, close detailed water, no music, no speech, no engines."
+  },
+  {
+    "id": "sea_voyage",
+    "seconds": 25,
+    "prompt": "Open sea heard from a small wooden sailing boat, steady water lapping and splashing against the hull, light ocean wind. Natural continuous ambience, no engine, no music, no voice."
+  },
+  {
+    "id": "palm_breeze",
+    "seconds": 20,
+    "prompt": "A warm breeze rustles coconut palm fronds with distant small birds in a quiet tropical garden. Soft natural outdoor ambience, no music, no speech, no traffic."
+  },
+  {
+    "id": "harbor_market",
+    "seconds": 25,
+    "prompt": "A small busy outdoor market at a harbor, indistinct distant human crowd murmur, footsteps and baskets gently moved. Soft general hubbub without understandable words, no music, no engines, no modern traffic."
+  },
+  {
+    "id": "wooden_boat",
+    "seconds": 15,
+    "prompt": "A wooden boat creaks gently as it rocks at a dock, ropes rubbing and small water splashes, close up detailed natural foley. No music or speech."
+  },
+  {
+    "id": "pepper_pour",
+    "seconds": 10,
+    "prompt": "Dry peppercorns pouring from a cloth sack into a wooden bowl, small hard grains rattling and pattering, then slowing to a stop. Close up isolated foley, no music, no speech."
+  },
+  {
+    "id": "cloth_sail",
+    "seconds": 12,
+    "prompt": "Heavy cotton canvas sail fluttering and softly snapping in a breeze, fabric rustling with pauses, natural close up foley. No music or speech."
+  },
+  {
+    "id": "footsteps_earth",
+    "seconds": 14,
+    "prompt": "One person walking slowly over a dry dirt path, clear soft footsteps with light grit crunching. Close up isolated natural foley, no music, no voice."
+  },
+  {
+    "id": "paper_pages",
+    "seconds": 12,
+    "prompt": "An old thick paper book being carefully opened and several pages turned slowly, dry delicate page rustles and small taps. Isolated library foley, no speech or music."
+  },
+  {
+    "id": "writing_quill",
+    "seconds": 12,
+    "prompt": "Loud close-up sound of a pen writing and scribbling rapidly on rough paper, a continuous sequence of crisp dry scratchy strokes with brief pauses."
+  },
+  {
+    "id": "metal_plate",
+    "seconds": 10,
+    "prompt": "A small copper plate carefully set down on a wooden table, muted metallic ring and soft wooden tap, then a second plate laid beside it. Detailed isolated foley, no music, no voice."
+  },
+  {
+    "id": "church_bell",
+    "seconds": 16,
+    "prompt": "A single mellow bronze church bell tolls slowly three times outdoors, long rich ringing decay into open air. No music, no voice, no other bells."
+  },
+  {
+    "id": "rain_roof",
+    "seconds": 25,
+    "prompt": "Warm monsoon rain falling steadily onto a tiled roof and splashing into puddles outside, gentle natural rain ambience with distant rolling thunder. No music or speech."
+  },
+  {
+    "id": "rope_strain",
+    "seconds": 10,
+    "prompt": "A thick natural fiber rope pulled taut and creaking under tension, fabric fibers rubbing with a few low wood creaks. Dry close up foley, no music, no voice."
+  },
+  {
+    "id": "village_morning",
+    "seconds": 25,
+    "prompt": "Quiet tropical village early morning, small birds chirping intermittently, soft breeze in trees and very distant human activity. Peaceful natural ambience, no music, no clear speech, no traffic."
+  },
+  {
+    "id": "printing_press",
+    "seconds": 14,
+    "prompt": "A hand operated wooden printing press slowly creaks and thumps, a lever pressed down and released, paper sliding across a wooden surface. Close detailed isolated foley, no motor, no music, no speech."
+  }
+]

@@ -1,0 +1,2534 @@
+{
+  "title_ml": "വേരുകളും കടലും",
+  "subtitle_ml": "കേരളത്തിലെ ക്രൈസ്തവരുടെ കഥ — ഓർമ്മ, തെളിവ്, ഒരുമ",
+  "title_en": "Roots and the Sea",
+  "version": "1.0",
+  "language": "ml-IN",
+  "target_duration_seconds": 900,
+  "delivery_fps": 30,
+  "voice_timing_note": "Do not force each narration into 15 seconds. Measure each voice file, allow natural pauses, then allocate total 900 seconds proportionally. Target 60 segments with 120 purposeful shot beats. Avoid long frozen frames or looping a gesture merely to reach runtime.",
+  "narrative_promise": "A Malayali Christian can feel rooted and empowered through honest evidence, ordinary work and care; a non-Christian Malayali can recognize a shared history and equal belonging.",
+  "evidence_policy": [
+    "52 CE is narrated as tradition, not independently established fact.",
+    "Cosmas Male church reference is distinct from his Calliana bishop reference.",
+    "Pattanam identification with Muziris remains qualified.",
+    "Modern geographic geometry gives orientation, not reconstructed ancient coastlines.",
+    "Historical characters and buildings are illustrative composites unless an actual cited source asset is used.",
+    "No invented dialogue, modern denominational genealogy shortcut, superiority claim, conversion counts, bloodline purity, or exclusive credit for Kerala development.",
+    "Present-day care and boat scenes are explicitly symbolic, not claims about a specific rescue or institution."
+  ],
+  "visual_language": {
+    "style": "Simple 2D cartoon, broad flat colors, rounded readable silhouettes, thick restrained line work, three depth planes, one focal action per shot. Rich composition from light and framing, not clutter or tiny patterns.",
+    "palette_arc": "Teal sea and warm ochre curiosity; copper/cream evidence; cool indigo authority conflict; return to warm green/gold shared agency.",
+    "continuity": "An open palm/peppercorn, lamp and listening child recur as emotional anchors. Anonymous figures do not imply the same person lived across centuries.",
+    "maps": "Only source geometry M1/M2 and documented town points M3. Routes are illustrative connections, not traced voyages.",
+    "sound": "Audible scene-specific ambience and isolated Foley, with music lowered under Malayalam narration; preserve several short sound-only breathing spaces.",
+    "fps": "30 fps delivery. If source model generates 24 fps, real interpolation must be disclosed and tested; duplicated frames do not create new animation."
+  },
+  "sources": [
+    {
+      "id": "H1",
+      "title": "Cosmas, Christian Topography, Book III (McCrindle translation, 1897)",
+      "url": "https://www.ccel.org/ccel/pearse/morefathers/files/cosmas_03_book3.htm",
+      "note": "Primary text in an old English translation. Passage around printed pp. 118–120: Male, pepper, church; Calliana's Persian-appointed bishop is a separate claim. Not a contemporary source for Thomas."
+    },
+    {
+      "id": "H2",
+      "title": "Sanskrit Manuscripts in the UL: Three Centuries of History and Preservation",
+      "url": "https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/20/71/53/45/2020715345/2020715345.pdf",
+      "note": "Cambridge University Library study hosted by Library of Congress. Discusses copies of Kollam plates, c. 849, trade privileges and associations linked with an eastern Christian church. We do not claim to have independently deciphered the plates."
+    },
+    {
+      "id": "H3",
+      "title": "Kerala Tourism: Christianity in Kerala",
+      "url": "https://www.keralatourism.org/christianity",
+      "note": "Government tourism account used for terminology: Syrian relates especially to Syriac religious/liturgical connections, not a blanket modern ethnic origin."
+    },
+    {
+      "id": "H4",
+      "title": "Periplus of the Erythraean Sea, Schoff translation (1912)",
+      "url": "https://depts.washington.edu/silkroad/texts/periplus/periplus.html",
+      "note": "University of Washington-hosted primary text. Sections 53–57 for Muziris, cargoes, pepper and sailing. Trade evidence does not establish an apostolic passenger."
+    },
+    {
+      "id": "H5",
+      "title": "Kerala Tourism: Muziris and Religions",
+      "url": "https://www.keralatourism.org/muziris/history/religions",
+      "note": "Presents the Thomas arrival in 52 CE explicitly as legend. Used to document community tradition, not to verify an event independently."
+    },
+    {
+      "id": "H6",
+      "title": "Kerala Tourism: Seven and Half Churches",
+      "url": "https://www.keralatourism.org/christianity/seven-half-churches/7",
+      "note": "Traditional sacred geography and later songs. Exact conversion counts and caste-origin stories are intentionally omitted as unverified."
+    },
+    {
+      "id": "H7",
+      "title": "Cosmas, Christian Topography, Book XI",
+      "url": "https://tertullian.org/fathers/cosmas_11_book11.htm",
+      "note": "Primary text in McCrindle's 1897 translation: Persian Christian presence in Sri Lanka and maritime exchange. Does not make Sri Lanka evidence identical to Kerala evidence."
+    },
+    {
+      "id": "H8",
+      "title": "Kerala Tourism: Pattanam archaeological site",
+      "url": "https://www.keralatourism.org/muziris/historical-sites/pattanam",
+      "note": "Lists settlement and trade-related finds. Describes Pattanam/Muziris identification as a possibility. Film follows that qualified wording."
+    },
+    {
+      "id": "H9",
+      "title": "Sarah Knight, Narratives of Religious Identity (SOAS doctoral thesis, 2019)",
+      "url": "https://eprints.soas.ac.uk/34855/2/Knight_2019_2.pdf",
+      "note": "Scholarly contextual source for the use of origin narratives and copper-plate evidence. Read alongside the library study; not a replacement for a critical inscription edition."
+    },
+    {
+      "id": "H10",
+      "title": "Kerala Museum: Chaldean Syrian Christians in Kerala",
+      "url": "https://keralamuseum.org/wp-content/uploads/2024/07/Chaldean-Syrian-Christians-in-Kerala.pdf",
+      "note": "Institutional overview for East Syriac connections and Portuguese encounter. Supports basic chronology, not every polemical interpretation."
+    },
+    {
+      "id": "H11",
+      "title": "Government of Kerala, Class XII Syriac East textbook",
+      "url": "https://samagra.kite.kerala.gov.in/files/samagra-resource/uploads/tbookscmq/Class_XII/SyriacEast/SyriacEast.pdf",
+      "note": "Sections on Diamper and Coonan Cross. Used for dates and administrative conflict, with denominational framing treated cautiously."
+    },
+    {
+      "id": "H12",
+      "title": "Kerala Tourism: Synod of Diamper",
+      "url": "https://www.keralatourism.org/christianity/synod-udayamperoor/60",
+      "note": "Corroborates 1599 assembly and Menezes. Source's sweeping or polemical claims are not adopted; film avoids detailed allegations of manuscript destruction."
+    },
+    {
+      "id": "H13",
+      "title": "Kerala Tourism: Our Lady of Life, Mattancherry",
+      "url": "https://www.keralatourism.org/kochi/our-lady-church-mattancherry.php",
+      "note": "Location and January 1653 oath. Film describes resistance to Portuguese ecclesiastical control without claiming a single uncontested modern denominational interpretation."
+    },
+    {
+      "id": "H14",
+      "title": "Kerala Tourism: Post Koonan Kurissu",
+      "url": "https://www.keralatourism.org/christianity/post-koonan-kurissu/15",
+      "note": "Later branching and relationships. Avoids treating all modern denominations as immediate products of the oath, and does not adopt sweeping social-reform claims."
+    },
+    {
+      "id": "M1",
+      "title": "Natural Earth 1:50m land polygons",
+      "url": "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_50m_land.geojson",
+      "note": "Actual geographic geometry rendered with a Mercator projection. Public domain. Modern generalized land geometry, not reconstructed ancient coastlines; no invented international borders."
+    },
+    {
+      "id": "M2",
+      "title": "geoBoundaries India ADM1 metadata and geometry",
+      "url": "https://www.geoboundaries.org/api/current/gbOpen/IND/ADM1/",
+      "note": "Downloaded metadata: IND-ADM1-1811400, source DataMeet India community / Election Commission of India, geometry release commit 9469f09. Metadata labels represented year 2011 and build 2023. Original boundary license CC BY 2.5 India. Only Kerala used; map labels it modern orientation, not ancient territory."
+    },
+    {
+      "id": "M3",
+      "title": "GeoNames India geographical extract",
+      "url": "https://download.geonames.org/export/dump/",
+      "note": "CC BY 4.0. Modern town points: Kozhikode 1265873, Kodungallur 1266385, Kochi 1273874, Kollam 1259091, Mattancheri 1263333, Udayamperoor 11184323, Pattanam 11461772. Markers locate town areas, not exact historic landing spots or monument footprints."
+    },
+    {
+      "id": "A1",
+      "title": "Kerala Tourism: Traditional instruments of Kathakali",
+      "url": "https://www.keralatourism.org/faq/traditional-music-instruments-of-kathakali",
+      "note": "Reference for Kerala percussion inspiration only. Score is newly synthesized, with drum, drone and flute-like tones. It is not a recording or authentic reconstruction of a traditional performance."
+    },
+    {
+      "id": "V1",
+      "title": "Quilon Syrian copper plates, plates 1 and 4: historical reproduction",
+      "url": "https://commons.wikimedia.org/wiki/File:Tharisappalli_copper_plates.jpg",
+      "note": "Actual inscription reproduction from a 1928 publication, scanned/uploaded by Challiyan. Commons marks public domain including US pre-1931 publication. Film uses unchanged inscription imagery, scaled and reframed, with attribution. AI copper concept is separately labelled and is not used as the actual plates."
+    },
+    {
+      "id": "H15",
+      "title": "Kerala Tourism: Margamkali",
+      "url": "https://www.keralatourism.org/artforms/margomkali-folk-art/12/",
+      "note": "Current description of circular performance and Christian narrative; no asserted ancient choreography."
+    },
+    {
+      "id": "H16",
+      "title": "CMS College Kottayam: institutional history",
+      "url": "https://cmscollege.ac.in/history/",
+      "note": "1817 foundation and royal support; do not repeat questionable first-press claim or claim education began here."
+    },
+    {
+      "id": "H17",
+      "title": "Governor of Kerala: Baker Memorial Girls School bicentenary address, 29 January 2019",
+      "url": "https://www.rajbhavan.kerala.gov.in/index.php/speeches1/517-address-at-the-bicentenary-celebbrations-of-baker-memorial-girls-higher-secondary-school-at-kottayam-at-1130-hrs-on-29-01-2019",
+      "note": "1819 foundation; no claim that every girl immediately gained access or that this alone transformed Kerala."
+    },
+    {
+      "id": "H18",
+      "title": "CMS College: historical relief A9 and local language teachers",
+      "url": "https://cmscollege.ac.in/a-9/",
+      "note": "Bailey and his wife learned Malayalam and Sanskrit from local experts; illustration should not pretend to show a verified photograph."
+    },
+    {
+      "id": "H19",
+      "title": "Kerala Tourism: Chavittu Natakam",
+      "url": "https://www.keralatourism.org/artforms/chavittunatakom-performing-art/16/",
+      "note": "Latin Christian associations, stamping wooden stage, local and European influences. Do not claim exact origin date."
+    },
+    {
+      "id": "H20",
+      "title": "Kerala Tourism: Gothuruthu performance centre",
+      "url": "https://www.keralatourism.org/muziris/other-places/gothuruthu-performance-and-chavittu-nadakam-centre",
+      "note": "Performers mainly from fishing and other working communities. No claim this character depicts a named performer."
+    },
+    {
+      "id": "H21",
+      "title": "CMS College 2026 prospectus",
+      "url": "https://cmscollege.ac.in/wp-content/uploads/2026/04/CMS-College-UG-2026_27pp4.pdf",
+      "note": "1821 press and Malayalam types. Avoid its sweeping first press claims; earlier printing addressed separately."
+    },
+    {
+      "id": "H22",
+      "title": "CMS College: A10 historical relief and local press makers",
+      "url": "https://cmscollege.ac.in/a-10/",
+      "note": "Local carpenter role and disputed story of Bailey making press before imported machine. Film does not repeat the disputed order."
+    },
+    {
+      "id": "H23",
+      "title": "University of Calicut repository: Print Culture and Marrying for",
+      "url": "https://scholar.uoc.ac.in/bitstream/handle/20.500.12818/2353/2077_saleena.pdf?isAllowed=y&sequence=1",
+      "note": "Page104: Malayalam printing in Rome1772, Bombay1811 and Kottayam1821. Film uses only the limited proposition of earlier printing outside Kerala."
+    },
+    {
+      "id": "H24",
+      "title": "John Paul II Kottayam beatification homily, 8 February1986",
+      "url": "https://www.vatican.va/content/john-paul-ii/en/homilies/1986/documents/hf_jp-ii_hom_19860208_stadio-kattayam.html",
+      "note": "Chavara schools, publishing and care; ecclesiastical primary commemoration, not independent proof of superiority or exclusive reform."
+    },
+    {
+      "id": "H25",
+      "title": "Vatican canonization booklet, 23 November2014",
+      "url": "https://www.vatican.va/news_services/liturgy/libretti/2014/20141123-libretto-cristo-re_canonizzazione.pdf",
+      "note": "1866 women congregation founded with Leopold Beccaro, educational purposes; do not assert everyone included from the start."
+    },
+    {
+      "id": "H26",
+      "title": "Lisie Hospital institutional history",
+      "url": "https://www.lisiehospital.org/index.php/about-us",
+      "note": "1956 founding and church affiliation; no clinical efficacy, affordability or best-hospital claims adopted."
+    },
+    {
+      "id": "H27",
+      "title": "Pushpagiri institutional history",
+      "url": "https://hospital.pushpagiri.in/about_us",
+      "note": "1959 eight-bed clinic, maternal/newborn motivation,1964auxiliarynursing. No present bed count, medical outcome or first-hospital claims."
+    },
+    {
+      "id": "H28",
+      "title": "Deepika institutional history",
+      "url": "https://www.deepika.com/about-us",
+      "note": "1887 Nazrani Deepika start and later name. Do NOT repeat first Malayalam newspaper claim, first daily claims, circulation, political neutrality or advertising language."
+    },
+    {
+      "id": "H29",
+      "title": "Kerala High Court official website, Did You Know section",
+      "url": "https://highcourt.kerala.gov.in/",
+      "note": "Identifies Anna Chandy as first woman judge and then High Court judge in India. Film makes no unsupported causal link from a particular school or church to her achievement."
+    },
+    {
+      "id": "REFLECTION",
+      "title": "Original editorial reflection",
+      "url": null,
+      "note": "Explicitly interpretive or metaphorical narration, not a newly asserted historical incident or statistic."
+    },
+    {
+      "id": "S1",
+      "title": "Pixar and Khan Academy: The art of storytelling",
+      "url": "https://www.khanacademy.org/computing/pixar/storytelling",
+      "note": "Character, story structure, visual language, storyboarding and feedback."
+    },
+    {
+      "id": "S2",
+      "title": "Academy of Motion Picture Arts and Sciences: animation activities guide",
+      "url": "https://www.oscars.org/sites/oscars/files/complete_animation_activities_guide.pdf",
+      "note": "Pages 5 and 9: outline shots before animation, test focus/background/framing; movement should advance a clear idea."
+    },
+    {
+      "id": "S3",
+      "title": "Pixar and Khan Academy: Color and visual language",
+      "url": "https://www.khanacademy.org/computing/pixar/storytelling/visual-language/v/color-visual",
+      "note": "Color directs attention and expresses an emotional progression; implementation here is original."
+    },
+    {
+      "id": "V2",
+      "title": "KannanVM: Pattanam Museum pottery display, photographed 5 January 2019",
+      "url": "https://commons.wikimedia.org/wiki/File:Un_indentified_broken_pottery_found_Muziris_excavation_sites.jpg",
+      "creator": "KannanVM",
+      "date": "2019-01-05",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "note": "Photographer own work on Commons, explicitly CC BY-SA 4.0. Modern museum display of pottery sherds, not a reconstruction and not a specific individually authenticated object. File name uses Muziris; film retains qualified Pattanam-Muziris identification. Cropped, resized and animated pan/zoom. Adapted scene08 is distributed under CC BY-SA 4.0; retain attribution, source and license link."
+    }
+  ],
+  "scenes": [
+    {
+      "id": "01",
+      "index": 1,
+      "title_ml": "ഒരു കുരുമുളകുമണി",
+      "narration_ml": "നിങ്ങളുടെ അടുക്കളയിലെ ഒരു കുരുമുളകുമണി കൈയിലെടുക്കൂ. ഇത്ര ചെറിയ ഒന്നിനുവേണ്ടി മനുഷ്യർ കടലുകൾ കടന്നു. ആ യാത്രകളിലൂടെ സാധനങ്ങൾ മാത്രമല്ല വന്നത്. ഭാഷകളും വിശ്വാസങ്ങളും സ്വപ്നങ്ങളും ഈ കരയിൽ എത്തി. നമ്മുടെ കഥയുടെ വാതിൽ തുറക്കുന്നത് ഈ ചെറിയ മണിയാണ്.",
+      "narration_en": "Pick up a peppercorn. People crossed seas for something this small. Their voyages carried goods, languages, beliefs, and dreams. This small seed opens our story.",
+      "purpose": "Pick up a peppercorn. People crossed seas for something this small. Their voyages carried goods, languages, beliefs, and dreams. This small seed opens our story.",
+      "emotion": "curiosity",
+      "source_ids": [
+        "H4"
+      ],
+      "visual_brief_en": "Extreme close-up of a peppercorn settling in an open palm; match cut to a tiny boat on an immense sea.",
+      "setting": "pepper",
+      "act": {
+        "number": 1,
+        "title_ml": "കടൽ തുറന്ന വാതിൽ"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 29,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "01a",
+          "fraction": 0.55,
+          "visual": "Extreme close-up of a peppercorn settling in an open palm",
+          "purpose": "Establish the subject and the question or fact in this narration.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "01b",
+          "fraction": 0.45,
+          "visual": "match cut to a tiny boat on an immense sea.",
+          "purpose": "Make the viewer feel curiosity through a specific human reaction, consequence, or comparison.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "index": 2,
+      "title_ml": "ആരുടെ കഥ",
+      "narration_ml": "കേരളത്തിലെ ക്രൈസ്തവരുടെ കഥ എവിടെ തുടങ്ങുന്നു? ഒരു കപ്പലിലോ, ഒരു പള്ളിയിലോ, ഒരു വീട്ടിലെ പ്രാർത്ഥനയിലോ? ഉത്തരം തേടുമ്പോൾ നമ്മൾ കണ്ടെത്തുന്നത് ഒരു സമൂഹത്തിന്റെ പഴക്കം മാത്രമല്ല. ലോകവുമായി സംസാരിച്ച ഒരു നാടിന്റെ ഓർമ്മ കൂടിയാണ്.",
+      "narration_en": "Where does Kerala Christian history begin: a ship, a church, a household prayer? The search reveals a community and a coast in conversation with the world.",
+      "purpose": "Where does Kerala Christian history begin: a ship, a church, a household prayer? The search reveals a community and a coast in conversation with the world.",
+      "emotion": "wonder",
+      "source_ids": [
+        "H1",
+        "H4"
+      ],
+      "visual_brief_en": "Wide Kerala shore with one small sail; cut to a warm house window and a quiet family silhouette.",
+      "setting": "coast",
+      "act": {
+        "number": 1,
+        "title_ml": "കടൽ തുറന്ന വാതിൽ"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 26,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "02a",
+          "fraction": 0.55,
+          "visual": "Wide Kerala shore with one small sail",
+          "purpose": "Establish the subject and the question or fact in this narration.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "02b",
+          "fraction": 0.45,
+          "visual": "cut to a warm house window and a quiet family silhouette.",
+          "purpose": "Make the viewer feel wonder through a specific human reaction, consequence, or comparison.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "index": 3,
+      "title_ml": "വേര്",
+      "narration_ml": "ഈ കഥ കേൾക്കാൻ നിങ്ങൾ ക്രിസ്ത്യാനിയാകണമെന്നില്ല. ഈ മഴയും കടലും ഭാഷയും നിങ്ങളുടേതാണെങ്കിൽ, ഈ ചരിത്രത്തിലും നിങ്ങൾക്കൊരു ഇടമുണ്ട്. മറ്റൊരാളെ ചെറുതാക്കാതെ സ്വന്തം വേരുകളിൽ അഭിമാനിക്കാൻ കഴിയുമോ? നമുക്ക് അതാണ് അന്വേഷിക്കാനുള്ളത്.",
+      "narration_en": "You need not be Christian to belong in this story. Shared rain, sea, and language offer a way to value our roots without diminishing others.",
+      "purpose": "You need not be Christian to belong in this story. Shared rain, sea, and language offer a way to value our roots without diminishing others.",
+      "emotion": "belonging",
+      "source_ids": [
+        "REFLECTION"
+      ],
+      "visual_brief_en": "Child and grandmother watch rain from a veranda; two neighbors share the shelter without religious costume stereotypes.",
+      "setting": "home",
+      "act": {
+        "number": 1,
+        "title_ml": "കടൽ തുറന്ന വാതിൽ"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 23,
+      "historical_status": "editorial reflection / illustrative composite",
+      "shots": [
+        {
+          "id": "03a",
+          "fraction": 0.55,
+          "visual": "Child and grandmother watch rain from a veranda",
+          "purpose": "Establish the subject and the question or fact in this narration.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "03b",
+          "fraction": 0.45,
+          "visual": "two neighbors share the shelter without religious costume stereotypes.",
+          "purpose": "Make the viewer feel belonging through a specific human reaction, consequence, or comparison.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "index": 4,
+      "title_ml": "തുറന്ന കടൽ",
+      "narration_ml": "ഇന്ന് ഭൂപടത്തിൽ കേരളം ഒരു നീണ്ട പച്ചത്തുണ്ട് പോലെ തോന്നാം. പക്ഷേ കടലിന്റെ വശത്തുനിന്ന് നോക്കൂ. ഇത് ലോകത്തിന്റെ അറ്റമല്ല. പടിഞ്ഞാറൻ കടൽവഴികളിലേക്കു തുറന്ന ഒരു തീരമാണ്. ആ ദിശമാറ്റം നമ്മുടെ ചരിത്രത്തിന്റെ വലുപ്പം മാറ്റുന്നു.",
+      "narration_en": "Seen from the ocean, Kerala is a connected coastline rather than a remote edge. Change the viewing direction and the scale of its history changes.",
+      "purpose": "Seen from the ocean, Kerala is a connected coastline rather than a remote edge. Change the viewing direction and the scale of its history changes.",
+      "emotion": "discovery",
+      "source_ids": [
+        "M1",
+        "M2",
+        "H4"
+      ],
+      "visual_brief_en": "Accurate sourced Indian Ocean map pans from Kerala westward; Kerala remains anchored while sea connections appear as broad indicative routes.",
+      "setting": "map",
+      "act": {
+        "number": 1,
+        "title_ml": "കടൽ തുറന്ന വാതിൽ"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 26,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "04a",
+          "fraction": 0.55,
+          "visual": "Accurate sourced Indian Ocean map pans from Kerala westward",
+          "purpose": "Establish the subject and the question or fact in this narration.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "04b",
+          "fraction": 0.45,
+          "visual": "Kerala remains anchored while sea connections appear as broad indicative routes.",
+          "purpose": "Make the viewer feel discovery through a specific human reaction, consequence, or comparison.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "index": 5,
+      "title_ml": "കാറ്റിന്റെ വഴി",
+      "narration_ml": "പുരാതന നാവികർ കാലാവസ്ഥയും കാറ്റും ശ്രദ്ധിച്ചു യാത്ര ചെയ്തു. പെരിപ്ലസ് എന്ന പഴയ കടൽവ്യാപാര വിവരണം ഈ തീരത്തെ തുറമുഖങ്ങളെയും കുരുമുളകിനെയും കുറിക്കുന്നു. കടൽ ഒരു തടസ്സമായിരുന്നു. അതേ കടൽ ഒരു വഴിയും ആയിരുന്നു.",
+      "narration_en": "The ancient Periplus describes ports, pepper, and seasonal sailing. The ocean was both an obstacle and a route.",
+      "purpose": "The ancient Periplus describes ports, pepper, and seasonal sailing. The ocean was both an obstacle and a route.",
+      "emotion": "anticipation",
+      "source_ids": [
+        "H4"
+      ],
+      "visual_brief_en": "A single sail fills gently as a broad wind ribbon crosses the sea; cut to shoreline appearing beyond a simple bow.",
+      "setting": "sailing",
+      "act": {
+        "number": 1,
+        "title_ml": "കടൽ തുറന്ന വാതിൽ"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 25,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "05a",
+          "fraction": 0.55,
+          "visual": "A single sail fills gently as a broad wind ribbon crosses the sea",
+          "purpose": "Establish the subject and the question or fact in this narration.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "05b",
+          "fraction": 0.45,
+          "visual": "cut to shoreline appearing beyond a simple bow.",
+          "purpose": "Make the viewer feel anticipation through a specific human reaction, consequence, or comparison.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "index": 6,
+      "title_ml": "മുസിരിസ്",
+      "narration_ml": "മുസിരിസ് എന്ന തുറമുഖത്തെക്കുറിച്ച് ആ രേഖ പറയുന്നു. അറേബ്യയിൽനിന്നും ഗ്രീക്ക് ലോകത്തുനിന്നും ചരക്കുകപ്പലുകൾ എത്തിയിരുന്ന ഇടം. ഇന്ന് നമുക്ക് കാണാനാവാത്ത ആ തിരക്കിനെ ഒരു നിമിഷം സങ്കൽപ്പിക്കൂ. കരയിൽ കാത്തിരിക്കുന്ന ചാക്കുകൾ. വെള്ളത്തിൽ കുലുങ്ങുന്ന വള്ളങ്ങൾ.",
+      "narration_en": "The Periplus describes Muziris receiving cargo ships from Arabia and the Greek world. Imagine waiting sacks and boats rocking beside a busy shore.",
+      "purpose": "The Periplus describes Muziris receiving cargo ships from Arabia and the Greek world. Imagine waiting sacks and boats rocking beside a busy shore.",
+      "emotion": "scale",
+      "source_ids": [
+        "H4"
+      ],
+      "visual_brief_en": "Two stylized boats approach a spare timber landing; cut to pepper sacks gently dropping onto a balance platform.",
+      "setting": "port",
+      "act": {
+        "number": 1,
+        "title_ml": "കടൽ തുറന്ന വാതിൽ"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 26,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "06a",
+          "fraction": 0.55,
+          "visual": "Two stylized boats approach a spare timber landing",
+          "purpose": "Establish the subject and the question or fact in this narration.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "06b",
+          "fraction": 0.45,
+          "visual": "cut to pepper sacks gently dropping onto a balance platform.",
+          "purpose": "Make the viewer feel scale through a specific human reaction, consequence, or comparison.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "index": 7,
+      "title_ml": "പേരില്ലാത്ത കൈകൾ",
+      "narration_ml": "വ്യാപാരത്തിന്റെ ചരിത്രത്തിൽ രാജാക്കന്മാരുടെയും കപ്പിത്താന്മാരുടെയും പേരുകൾ കാണാം. പക്ഷേ ഒരു ചാക്ക് കുരുമുളക് കപ്പലിലെത്താൻ എത്ര കൈകൾ വേണം? കൃഷി ചെയ്യുന്നവർ, ഉണക്കുന്നവർ, ചുമക്കുന്നവർ. അവരുടെ അധ്വാനം കൂടിയാണ് കേരളത്തെ ലോകവുമായി ബന്ധിപ്പിച്ചത്.",
+      "narration_en": "Trade depended on growers, dryers, and carriers whose names rarely survive. Their labor connected this coast to the world.",
+      "purpose": "Trade depended on growers, dryers, and carriers whose names rarely survive. Their labor connected this coast to the world.",
+      "emotion": "dignity",
+      "source_ids": [
+        "H4",
+        "REFLECTION"
+      ],
+      "visual_brief_en": "One worker spreads pepper on a mat; match cut to another lifting a sack, with faces and effort clearly readable.",
+      "setting": "harvest",
+      "act": {
+        "number": 1,
+        "title_ml": "കടൽ തുറന്ന വാതിൽ"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 24,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "07a",
+          "fraction": 0.55,
+          "visual": "One worker spreads pepper on a mat",
+          "purpose": "Establish the subject and the question or fact in this narration.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "07b",
+          "fraction": 0.45,
+          "visual": "match cut to another lifting a sack, with faces and effort clearly readable.",
+          "purpose": "Make the viewer feel dignity through a specific human reaction, consequence, or comparison.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "index": 8,
+      "title_ml": "മണ്ണിന്റെ ഓർമ്മ",
+      "narration_ml": "പട്ടണത്തെ ഖനനങ്ങളിൽ ലഭിച്ച വിദേശ മൺപാത്രങ്ങളുടെ ഭാഗങ്ങളും മറ്റു വസ്തുക്കളും പഴയ കടൽബന്ധങ്ങളെ വെളിപ്പെടുത്തുന്നു. പട്ടണം തന്നെയാണോ പുരാതന മുസിരിസ് എന്ന തിരിച്ചറിവിൽ ഇപ്പോഴും ചർച്ചകളുണ്ട്. ഒരു കണ്ടെത്തൽ വലിയൊരു വാതിൽ തുറക്കാം. എല്ലാ ചോദ്യങ്ങൾക്കും അതു മറുപടിയാകില്ല.",
+      "narration_en": "Pattanam finds demonstrate maritime contacts. Its identification with Muziris remains qualified. Evidence can open a door without answering every question.",
+      "purpose": "Pattanam finds demonstrate maritime contacts. Its identification with Muziris remains qualified. Evidence can open a door without answering every question.",
+      "emotion": "inquiry",
+      "source_ids": [
+        "H8",
+        "V2"
+      ],
+      "visual_brief_en": "Actual 2019 Pattanam Museum pottery-display photograph by KannanVM (CC BY-SA 4.0), moving from overview to sherd detail. Malayalam label preserves the qualified Pattanam-Muziris identification. No AI-generated artifact is used as evidence.",
+      "setting": "evidence",
+      "act": {
+        "number": 1,
+        "title_ml": "കടൽ തുറന്ന വാതിൽ"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 28,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "08a",
+          "fraction": 0.55,
+          "visual": "Real museum photograph establishes the sherd display and its modern museum context.",
+          "purpose": "Establish the subject and the question or fact in this narration.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "08b",
+          "fraction": 0.45,
+          "visual": "Slow move toward actual sherd trays; qualified Pattanam-Muziris identification appears alongside.",
+          "purpose": "Make the viewer feel inquiry through a specific human reaction, consequence, or comparison.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "index": 9,
+      "title_ml": "ചരക്കും വിശ്വാസവും",
+      "narration_ml": "കടൽവ്യാപാരം ഉണ്ടായിരുന്നുവെന്ന തെളിവ് നമുക്കുണ്ട്. അതുകൊണ്ടുമാത്രം ഒരു പ്രത്യേക അപ്പൊസ്തലൻ ഒരു പ്രത്യേക വർഷം ഇവിടെ എത്തിയെന്ന് തെളിയില്ല. യാത്രയ്ക്കുള്ള വഴി ഉണ്ടായിരുന്നതും, ആ യാത്ര നടന്നതായി അറിയുന്നതും രണ്ടാണ്. ഈ വ്യത്യാസം ഓർത്തുകൊണ്ട് മുന്നോട്ടുപോകാം.",
+      "narration_en": "Trade routes establish the possibility of travel, not a particular apostolic journey in a particular year. Keep those kinds of knowledge distinct.",
+      "purpose": "Trade routes establish the possibility of travel, not a particular apostolic journey in a particular year. Keep those kinds of knowledge distinct.",
+      "emotion": "clarity",
+      "source_ids": [
+        "H4",
+        "H5"
+      ],
+      "visual_brief_en": "Simple vessel moves between two coasts; camera holds on an unfilled passenger space rather than inventing a historical traveler.",
+      "setting": "sailing",
+      "act": {
+        "number": 1,
+        "title_ml": "കടൽ തുറന്ന വാതിൽ"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 26,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "09a",
+          "fraction": 0.55,
+          "visual": "Simple vessel moves between two coasts",
+          "purpose": "Establish the subject and the question or fact in this narration.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "09b",
+          "fraction": 0.45,
+          "visual": "camera holds on an unfilled passenger space rather than inventing a historical traveler.",
+          "purpose": "Make the viewer feel clarity through a specific human reaction, consequence, or comparison.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "index": 10,
+      "title_ml": "ഓർമ്മയുടെ വിളക്ക്",
+      "narration_ml": "ഇനി ഒരു വീട്ടിലേക്കു വരൂ. മുതിർന്ന ഒരാൾ കുട്ടിക്കു പഴയ കഥ പറയുന്നു. തലമുറകൾ കൈമാറിയ ഒരു ഓർമ്മ. ചരിത്രപുസ്തകത്തിലെ തീയതിയാകുന്നതിനു മുമ്പ്, അത് മനുഷ്യർക്ക് ആരാണു തങ്ങൾ എന്നു പറയുന്ന ഒരു വിളക്കായിരുന്നു.",
+      "narration_en": "Enter a household where an elder passes a story to a child. Before becoming a date in a book, inherited memory helped people understand who they were.",
+      "purpose": "Enter a household where an elder passes a story to a child. Before becoming a date in a book, inherited memory helped people understand who they were.",
+      "emotion": "tenderness",
+      "source_ids": [
+        "H5",
+        "REFLECTION"
+      ],
+      "visual_brief_en": "Grandmother quietly turns toward a listening child beside a lamp; cut to the child's attentive face, no lip-synced invented dialogue.",
+      "setting": "home",
+      "act": {
+        "number": 1,
+        "title_ml": "കടൽ തുറന്ന വാതിൽ"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 25,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "10a",
+          "fraction": 0.55,
+          "visual": "Grandmother quietly turns toward a listening child beside a lamp",
+          "purpose": "Establish the subject and the question or fact in this narration.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "10b",
+          "fraction": 0.45,
+          "visual": "cut to the child's attentive face, no lip-synced invented dialogue.",
+          "purpose": "Make the viewer feel tenderness through a specific human reaction, consequence, or comparison.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "index": 11,
+      "title_ml": "തോമാശ്ലീഹായുടെ പാരമ്പര്യം",
+      "narration_ml": "തോമാശ്ലീഹാ ക്രിസ്തുവർഷം അമ്പത്തിരണ്ടിൽ കേരളത്തിലെത്തിയെന്നാണ് ഇവിടെ നിലനിൽക്കുന്ന പ്രധാന ക്രൈസ്തവ പാരമ്പര്യം. പല കുടുംബങ്ങൾക്കും ഈ ഓർമ്മ വിശ്വാസത്തിന്റെ ആഴമുള്ള ഭാഗമാണ്. അത് ആദരവോടെ പറയാം. അതോടൊപ്പം, അത് പാരമ്പര്യമായാണ് അവതരിപ്പിക്കേണ്ടതെന്നും ഓർക്കാം.",
+      "narration_en": "A central Christian tradition places Thomas in Kerala in 52 CE. It is deeply meaningful to many families and should be presented explicitly as tradition.",
+      "purpose": "A central Christian tradition places Thomas in Kerala in 52 CE. It is deeply meaningful to many families and should be presented explicitly as tradition.",
+      "emotion": "reverence",
+      "source_ids": [
+        "H5"
+      ],
+      "visual_brief_en": "Distant anonymous traveler silhouette remains inside a clearly labeled tradition vignette; dissolve to a family lamp rather than a purported historical portrait.",
+      "setting": "tradition",
+      "act": {
+        "number": 2,
+        "title_ml": "ഓർമ്മയും തെളിവും"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 24,
+      "historical_status": "explicit tradition, not established event",
+      "shots": [
+        {
+          "id": "11a",
+          "fraction": 0.55,
+          "visual": "Distant anonymous traveler silhouette remains inside a clearly labeled tradition vignette",
+          "purpose": "Establish the subject and the question or fact in this narration.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "11b",
+          "fraction": 0.45,
+          "visual": "dissolve to a family lamp rather than a purported historical portrait.",
+          "purpose": "Make the viewer feel reverence through a specific human reaction, consequence, or comparison.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "index": 12,
+      "title_ml": "ചോദ്യം ഒരു ശത്രുവല്ല",
+      "narration_ml": "അമ്പത്തിരണ്ടെന്ന കൃത്യമായ വർഷത്തെ ഉറപ്പിക്കുന്ന സമകാലീന രേഖ നമുക്കില്ല. ഈ പരിധി സമ്മതിക്കുന്നത് വിശ്വാസത്തെ പരിഹസിക്കലല്ല. ചരിത്രം അറിയുന്നതും അറിയാത്തതും തുറന്നു പറയുകയാണ്. സത്യസന്ധമായ ഒരു ചോദ്യം നമ്മുടെ വേരുകളെ ദുർബലമാക്കേണ്ടതില്ല.",
+      "narration_en": "There is no contemporary record establishing that exact date. Acknowledging limits is historical honesty, not mockery of faith. Questions need not weaken belonging.",
+      "purpose": "There is no contemporary record establishing that exact date. Acknowledging limits is historical honesty, not mockery of faith. Questions need not weaken belonging.",
+      "emotion": "trust",
+      "source_ids": [
+        "H5",
+        "REFLECTION"
+      ],
+      "visual_brief_en": "Two clean cards read tradition and surviving evidence, with ample space; cut to an open book and a listening face.",
+      "setting": "evidence",
+      "act": {
+        "number": 2,
+        "title_ml": "ഓർമ്മയും തെളിവും"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 23,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "12a",
+          "fraction": 0.55,
+          "visual": "Two clean cards read tradition and surviving evidence, with ample space",
+          "purpose": "Establish the subject and the question or fact in this narration.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "12b",
+          "fraction": 0.45,
+          "visual": "cut to an open book and a listening face.",
+          "purpose": "Make the viewer feel trust through a specific human reaction, consequence, or comparison.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "index": 13,
+      "title_ml": "എവിടെ ഉറച്ച നിലം",
+      "narration_ml": "അപ്പോൾ ഉറച്ച രേഖകളിൽ നമുക്ക് എവിടെ നിൽക്കാം? കാലത്തിന്റെ വഴിയിൽ കുറച്ചുകൂടി മുന്നോട്ടു പോകാം. ആറാം നൂറ്റാണ്ടിലെ കോസ്മാസ് എന്ന എഴുത്തുകാരൻ കുരുമുളക് വളരുന്ന മാലെ എന്ന നാട്ടിൽ ഒരു ക്രൈസ്തവ പള്ളിയെക്കുറിച്ച് രേഖപ്പെടുത്തുന്നു.",
+      "narration_en": "For firmer written ground, move to the sixth century. Cosmas records a church in Male, the country where pepper grows.",
+      "purpose": "For firmer written ground, move to the sixth century. Cosmas records a church in Male, the country where pepper grows.",
+      "emotion": "revelation",
+      "source_ids": [
+        "H1"
+      ],
+      "visual_brief_en": "A sourced quotation excerpt is composited over a restrained manuscript image; camera moves from pepper drawing to church symbol, not fabricated handwriting.",
+      "setting": "manuscript",
+      "act": {
+        "number": 2,
+        "title_ml": "ഓർമ്മയും തെളിവും"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 25,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "13a",
+          "fraction": 0.55,
+          "visual": "A sourced quotation excerpt is composited over a restrained manuscript image",
+          "purpose": "Establish the subject and the question or fact in this narration.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "13b",
+          "fraction": 0.45,
+          "visual": "camera moves from pepper drawing to church symbol, not fabricated handwriting.",
+          "purpose": "Make the viewer feel revelation through a specific human reaction, consequence, or comparison.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "index": 14,
+      "title_ml": "ഒരു വരിയുടെ ഭാരം",
+      "narration_ml": "മാലെ എന്ന ഈ പ്രദേശത്തെ മലബാർ തീരവുമായി ബന്ധപ്പെടുത്താറുണ്ട്. ആ ചെറിയ പരാമർശത്തിന് വലിയ പ്രാധാന്യമുണ്ട്. പോർച്ചുഗീസുകാർ എത്തുന്നതിനും നൂറ്റാണ്ടുകൾ മുമ്പ് ഈ തീരത്ത് ക്രൈസ്തവ സാന്നിധ്യമുണ്ടായിരുന്നുവെന്ന ചരിത്രബോധത്തിന് അത് ശക്തമായ ഒരു അടിത്തറയാണ്.",
+      "narration_en": "Male is generally identified with the Malabar coast. That brief reference supports Christian presence here centuries before Portuguese arrival.",
+      "purpose": "Male is generally identified with the Malabar coast. That brief reference supports Christian presence here centuries before Portuguese arrival.",
+      "emotion": "grounded_pride",
+      "source_ids": [
+        "H1",
+        "H10"
+      ],
+      "visual_brief_en": "Sourced coast map highlights a broad Malabar region, not an exact church site; sixth-century marker appears far before 1498 on a clean timeline.",
+      "setting": "map",
+      "act": {
+        "number": 2,
+        "title_ml": "ഓർമ്മയും തെളിവും"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 25,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "14a",
+          "fraction": 0.55,
+          "visual": "Sourced coast map highlights a broad Malabar region, not an exact church site",
+          "purpose": "Establish the subject and the question or fact in this narration.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "14b",
+          "fraction": 0.45,
+          "visual": "sixth-century marker appears far before 1498 on a clean timeline.",
+          "purpose": "Make the viewer feel grounded pride through a specific human reaction, consequence, or comparison.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "index": 15,
+      "title_ml": "രേഖ പറയാത്തതും",
+      "narration_ml": "കോസ്മാസ് നമ്മുടെ എല്ലാ ചോദ്യങ്ങൾക്കും മറുപടി നൽകുന്നില്ല. ആ പള്ളി എപ്പോൾ തുടങ്ങി, ആദ്യ കുടുംബങ്ങൾ ആരായിരുന്നു, അവരുടെ ജീവിതം എങ്ങനെയായിരുന്നു? അവിടെ ശൂന്യതകളുണ്ട്. രേഖയുടെ ശബ്ദം കേൾക്കുന്നതുപോലെ അതിന്റെ നിശ്ശബ്ദതയും കേൾക്കണം.",
+      "narration_en": "Cosmas does not tell us when that church began or identify its earliest families. A document's silences matter alongside its statements.",
+      "purpose": "Cosmas does not tell us when that church began or identify its earliest families. A document's silences matter alongside its statements.",
+      "emotion": "humility",
+      "source_ids": [
+        "H1",
+        "REFLECTION"
+      ],
+      "visual_brief_en": "A single highlighted line rests among faded page space; camera cuts to an empty bench suggesting lives whose records are lost.",
+      "setting": "manuscript",
+      "act": {
+        "number": 2,
+        "title_ml": "ഓർമ്മയും തെളിവും"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 24,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "15a",
+          "fraction": 0.55,
+          "visual": "A single highlighted line rests among faded page space",
+          "purpose": "Establish the subject and the question or fact in this narration.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "15b",
+          "fraction": 0.45,
+          "visual": "camera cuts to an empty bench suggesting lives whose records are lost.",
+          "purpose": "Make the viewer feel humility through a specific human reaction, consequence, or comparison.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "index": 16,
+      "title_ml": "ചെമ്പിൽ നിലനിന്ന വാക്കുകൾ",
+      "narration_ml": "അടുത്ത തെളിവ് കടലാസിലല്ല. ചെമ്പിലാണ്. എണ്ണൂറ്റിനാൽപ്പത്തൊമ്പതിലെ കൊല്ലം തരിസാപ്പള്ളി ചെപ്പേടുകൾ പള്ളിയും വ്യാപാരവും ഭരണാധികാരവും തമ്മിലുള്ള ബന്ധത്തിന്റെ പ്രധാന രേഖകളാണ്. കാലം കടന്നുപോയിട്ടും, ചെമ്പിൽ കൊത്തിയ വാക്കുകൾ ആ ബന്ധത്തിന്റെ സാക്ഷിയായി നിലനിൽക്കുന്നു.",
+      "narration_en": "The 849 Kollam Tharisappalli copper plates document relationships among a church, commerce, and political authority. Their inscribed words survive across centuries.",
+      "purpose": "The 849 Kollam Tharisappalli copper plates document relationships among a church, commerce, and political authority. Their inscribed words survive across centuries.",
+      "emotion": "awe",
+      "source_ids": [
+        "H2",
+        "V1"
+      ],
+      "visual_brief_en": "Actual historical copper-plate reproduction fills the frame with a gentle light pass; cut to sourced Kollam map marker and the year 849.",
+      "setting": "copper",
+      "act": {
+        "number": 2,
+        "title_ml": "ഓർമ്മയും തെളിവും"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 24,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "16a",
+          "fraction": 0.55,
+          "visual": "Actual historical copper-plate reproduction fills the frame with a gentle light pass",
+          "purpose": "Establish the subject and the question or fact in this narration.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "16b",
+          "fraction": 0.45,
+          "visual": "cut to sourced Kollam map marker and the year 849.",
+          "purpose": "Make the viewer feel awe through a specific human reaction, consequence, or comparison.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "index": 17,
+      "title_ml": "ഒരു സമൂഹത്തിന്റെ ഇടം",
+      "narration_ml": "ചെപ്പേടുകൾ ഒരു വ്യക്തിയുടെ ഭക്തിയുടെ കഥ മാത്രം പറയുന്നില്ല. അവകാശങ്ങൾ, ഇടപാടുകൾ, പ്രാദേശിക ഭരണത്തിന്റെ അംഗീകാരം എന്നിവയുള്ള ഒരു ലോകം അവയിൽ തെളിയുന്നു. ഈ സമൂഹം തീരത്ത് വഴിയാത്രക്കാരായി മാത്രം നിന്നില്ല. നാട്ടിലെ സാമൂഹിക ജീവിതത്തിൽ ഇടം നേടിയിരുന്നു.",
+      "narration_en": "The plates reveal rights, transactions, and local recognition. This was a community participating in regional life, not simply passing through.",
+      "purpose": "The plates reveal rights, transactions, and local recognition. This was a community participating in regional life, not simply passing through.",
+      "emotion": "recognition",
+      "source_ids": [
+        "H2"
+      ],
+      "visual_brief_en": "Actual plate detail transitions to a modest port transaction between two people; one exchanged bundle, no invented signatures or legal wording.",
+      "setting": "copper",
+      "act": {
+        "number": 2,
+        "title_ml": "ഓർമ്മയും തെളിവും"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 28,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "17a",
+          "fraction": 0.55,
+          "visual": "Actual plate detail transitions to a modest port transaction between two people",
+          "purpose": "Establish the subject and the question or fact in this narration.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "17b",
+          "fraction": 0.45,
+          "visual": "one exchanged bundle, no invented signatures or legal wording.",
+          "purpose": "Make the viewer feel recognition through a specific human reaction, consequence, or comparison.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "index": 18,
+      "title_ml": "തെളിവിന് അതിന്റെ അളവ്",
+      "narration_ml": "ഈ രേഖകൾ ക്രൈസ്തവരുടെ സാന്നിധ്യവും ബന്ധങ്ങളും കാണിക്കുന്നു. പക്ഷേ ഇന്നത്തെ ഓരോ കുടുംബത്തിന്റെയും വംശാവലി അവ തെളിയിക്കുന്നില്ല. ഒരു സമൂഹത്തിന്റെ ചരിത്രത്തെ ആദരിക്കാൻ എല്ലാവർക്കും ഒരേ തുടക്കകഥ വേണമെന്നില്ല. പല വഴികളിലൂടെ മനുഷ്യർ ഒരുമിച്ചെത്താം.",
+      "narration_en": "The plates show community presence and connections, not every present family's ancestry. A shared identity can grow from multiple paths.",
+      "purpose": "The plates show community presence and connections, not every present family's ancestry. A shared identity can grow from multiple paths.",
+      "emotion": "openness",
+      "source_ids": [
+        "H2",
+        "REFLECTION"
+      ],
+      "visual_brief_en": "Several paths converge on a small courtyard; cut to three distinct faces at equal eye level rather than an ancestry tree.",
+      "setting": "community",
+      "act": {
+        "number": 2,
+        "title_ml": "ഓർമ്മയും തെളിവും"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 25,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "18a",
+          "fraction": 0.55,
+          "visual": "Several paths converge on a small courtyard",
+          "purpose": "Establish the subject and the question or fact in this narration.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "18b",
+          "fraction": 0.45,
+          "visual": "cut to three distinct faces at equal eye level rather than an ancestry tree.",
+          "purpose": "Make the viewer feel openness through a specific human reaction, consequence, or comparison.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "index": 19,
+      "title_ml": "കടലിനപ്പുറത്തെ ബന്ധം",
+      "narration_ml": "കേരളത്തിലെ പഴയ ക്രൈസ്തവ സമൂഹത്തിന് പശ്ചിമേഷ്യയിലെ സഭകളുമായി ദീർഘമായ ബന്ധമുണ്ടായിരുന്നു. സുറിയാനി ആരാധനാഭാഷയും സഭാപരമായ ബന്ധങ്ങളും ഈ ചരിത്രത്തിന്റെ ഭാഗമാണ്. കടൽ കടന്നുവന്ന ബന്ധങ്ങൾ നാട്ടിലെ ജീവിതത്തോടു ചേർന്നു. പുറത്തേക്കു തുറക്കുന്നത് വേരുകൾ നഷ്ടപ്പെടുത്തണമെന്നില്ല.",
+      "narration_en": "Older Kerala Christian communities maintained West Asian ecclesiastical links, including Syriac worship. Wider connections could coexist with local roots.",
+      "purpose": "Older Kerala Christian communities maintained West Asian ecclesiastical links, including Syriac worship. Wider connections could coexist with local roots.",
+      "emotion": "connection",
+      "source_ids": [
+        "H3",
+        "H10"
+      ],
+      "visual_brief_en": "Broad map connection between West Asia and Kerala; match cut from a boat rope to a household woven mat.",
+      "setting": "sailing",
+      "act": {
+        "number": 2,
+        "title_ml": "ഓർമ്മയും തെളിവും"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 25,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "19a",
+          "fraction": 0.55,
+          "visual": "Broad map connection between West Asia and Kerala",
+          "purpose": "Establish the subject and the question or fact in this narration.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "19b",
+          "fraction": 0.45,
+          "visual": "match cut from a boat rope to a household woven mat.",
+          "purpose": "Make the viewer feel connection through a specific human reaction, consequence, or comparison.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "index": 20,
+      "title_ml": "സുറിയാനി എന്ന പേര്",
+      "narration_ml": "സുറിയാനി ക്രിസ്ത്യാനി എന്ന പേരുകേട്ട് എല്ലാവരും ഇന്നത്തെ സിറിയയിൽനിന്നു വന്നവരാണെന്ന് കരുതരുത്. ഇവിടെ ഭാഷയുടെയും ആരാധനയുടെയും സഭാബന്ധങ്ങളുടെയും ചരിത്രമാണ് പ്രധാനമായും ഓർക്കേണ്ടത്. പേരുകൾ ചിലപ്പോൾ ഒരു ഭൂപടത്തെക്കാൾ വലിയ ബന്ധങ്ങളെ ഉള്ളിൽ സൂക്ഷിക്കുന്നു.",
+      "narration_en": "Syrian Christian is not a blanket claim of ancestry from the modern state of Syria. It carries histories of language, liturgy, and ecclesiastical connection.",
+      "purpose": "Syrian Christian is not a blanket claim of ancestry from the modern state of Syria. It carries histories of language, liturgy, and ecclesiastical connection.",
+      "emotion": "understanding",
+      "source_ids": [
+        "H3",
+        "H10"
+      ],
+      "visual_brief_en": "Simple Syriac manuscript motif beside Malayalam home imagery; only verified typeset language names, no AI-generated legible script.",
+      "setting": "manuscript",
+      "act": {
+        "number": 2,
+        "title_ml": "ഓർമ്മയും തെളിവും"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 24,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "20a",
+          "fraction": 0.55,
+          "visual": "Simple Syriac manuscript motif beside Malayalam home imagery",
+          "purpose": "Establish the subject and the question or fact in this narration.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "20b",
+          "fraction": 0.45,
+          "visual": "only verified typeset language names, no AI-generated legible script.",
+          "purpose": "Make the viewer feel understanding through a specific human reaction, consequence, or comparison.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "index": 21,
+      "title_ml": "ചുവടുകളിൽ ചേർന്ന ലോകം",
+      "narration_ml": "കടലിനപ്പുറത്തെ ബന്ധങ്ങൾ ഇവിടെ കലാരൂപങ്ങളായും മാറി. ചവിട്ടുനാടകത്തിൽ കേരളത്തിലെ അഭിനയപാരമ്പര്യങ്ങളും യൂറോപ്യൻ സ്വാധീനങ്ങളും കൂടിച്ചേരുന്നു. ലത്തീൻ ക്രൈസ്തവ സമൂഹവുമായി ശക്തമായി ബന്ധപ്പെട്ട ഈ കലയിൽ പാട്ടും അഭിനയവും ചുവടും ഒന്നിക്കുന്നു. പുറത്തുനിന്നു വന്ന കഥയെ നാട്ടുകാർ സ്വന്തം വേദിയിൽ പുതുക്കി.",
+      "narration_en": "Chavittu Natakam combines local performance traditions and European influences. Strongly associated with Latin Christians, it joins song, drama, and movement in a local creative form.",
+      "purpose": "Chavittu Natakam combines local performance traditions and European influences. Strongly associated with Latin Christians, it joins song, drama, and movement in a local creative form.",
+      "emotion": "creative_pride",
+      "source_ids": [
+        "H19"
+      ],
+      "visual_brief_en": "One costumed stage performer makes a readable broad gesture; cut to feet stamping a wooden stage, exact performance is illustrative.",
+      "setting": "dance",
+      "act": {
+        "number": 3,
+        "title_ml": "വേരുകളും അധികാരവും"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 29,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "21a",
+          "fraction": 0.55,
+          "visual": "One costumed stage performer makes a readable broad gesture",
+          "purpose": "Chavittu Natakam combines local performance traditions and European influences. Strongly associated with Latin Christians, it joins song, drama, and movement in a local creative form.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "21b",
+          "fraction": 0.45,
+          "visual": "cut to feet stamping a wooden stage, exact performance is illustrative.",
+          "purpose": "Give the factual point a human consequence that communicates creative pride.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "index": 22,
+      "title_ml": "കാലടിയുടെ ശബ്ദം",
+      "narration_ml": "ചവിട്ടുനാടകത്തിന്റെ പേരിൽത്തന്നെ അതിന്റെ ശബ്ദമുണ്ട്. മരപ്പലകകൾകൊണ്ടുള്ള വേദിയിൽ ശക്തമായ ചുവടുകൾ മുഴങ്ങുന്നു. കഥ പറയുന്നത് വാക്കുകൾ മാത്രം അല്ല. ശരീരവും താളവും വേഷവും കൂടിയാണ്. ഒരു സമൂഹത്തിന്റെ ഓർമ്മ കാണാനും കേൾക്കാനും കഴിയുന്ന അനുഭവമായി മാറുന്നു.",
+      "narration_en": "Stamping on a wooden stage gives Chavittu Natakam its name. Body, rhythm, and costume turn community memory into an audible and visible experience.",
+      "purpose": "Stamping on a wooden stage gives Chavittu Natakam its name. Body, rhythm, and costume turn community memory into an audible and visible experience.",
+      "emotion": "vitality",
+      "source_ids": [
+        "H19"
+      ],
+      "visual_brief_en": "One deliberate booted step strikes a wooden platform in close-up; cut to the performer's raised chin as the impact decays.",
+      "setting": "dance",
+      "act": {
+        "number": 3,
+        "title_ml": "വേരുകളും അധികാരവും"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 26,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "22a",
+          "fraction": 0.55,
+          "visual": "One deliberate booted step strikes a wooden platform in close-up",
+          "purpose": "Stamping on a wooden stage gives Chavittu Natakam its name. Body, rhythm, and costume turn community memory into an audible and visible experience.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "22b",
+          "fraction": 0.45,
+          "visual": "cut to the performer's raised chin as the impact decays.",
+          "purpose": "Give the factual point a human consequence that communicates vitality.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "index": 23,
+      "title_ml": "ചുവടുകളിൽ ഓർമ്മ",
+      "narration_ml": "മാർഗംകളിയിൽ പാട്ടും വൃത്തത്തിലുള്ള ചുവടുകളും ക്രൈസ്തവ ഓർമ്മയെ വഹിക്കുന്നു. മലയാളമണ്ണിലെ ഒരു കലാരൂപത്തിൽ വിശ്വാസത്തിന്റെ കഥ ജീവിക്കുന്നു. ചരിത്രം പുസ്തകത്തിൽ മാത്രം സൂക്ഷിക്കപ്പെടുന്നില്ല. ചിലപ്പോൾ അത് ശരീരം പഠിച്ച ഒരു ചുവടായി അടുത്ത തലമുറയിലേക്കു പോകുന്നു.",
+      "narration_en": "Margamkali carries Christian memory through song and circular movement. History can be transmitted through an embodied art as well as a book.",
+      "purpose": "Margamkali carries Christian memory through song and circular movement. History can be transmitted through an embodied art as well as a book.",
+      "emotion": "joy",
+      "source_ids": [
+        "H15"
+      ],
+      "visual_brief_en": "Three simple contemporary dancers step around a lamp in a cropped circle suggesting the full group; rhythmic feet close-up, no claim of complete authentic choreography.",
+      "setting": "dance",
+      "act": {
+        "number": 3,
+        "title_ml": "വേരുകളും അധികാരവും"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 26,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "23a",
+          "fraction": 0.55,
+          "visual": "Three simple contemporary dancers step around a lamp in a cropped circle suggesting the full group",
+          "purpose": "Establish the subject and the question or fact in this narration.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "23b",
+          "fraction": 0.45,
+          "visual": "rhythmic feet close-up, no claim of complete authentic choreography.",
+          "purpose": "Make the viewer feel joy through a specific human reaction, consequence, or comparison.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "index": 24,
+      "title_ml": "സ്ത്രീകൾ വന്ന വേദി",
+      "narration_ml": "മാർഗംകളി ആദ്യം പുരുഷന്മാരും ആൺകുട്ടികളും അവതരിപ്പിച്ചിരുന്നുവെന്ന് കലാരൂപത്തിന്റെ വിവരണങ്ങൾ പറയുന്നു. പിന്നീട് സ്ത്രീകളും സജീവമായി പങ്കെടുത്തു. ഇന്ന് സ്ത്രീകളുടെ അവതരണം വ്യാപകമായി കാണാം. പാരമ്പര്യം നിലനിൽക്കുന്നത് മാറ്റമില്ലാത്തതിനാലല്ല. പുതിയ മനുഷ്യർ അതിൽ സ്വന്തം ഇടം കണ്ടെത്തുന്നതിനാലും ആണ്.",
+      "narration_en": "Margamkali was originally performed by men and boys; women's participation later became prominent. Tradition can endure through new participation as well as preservation.",
+      "purpose": "Margamkali was originally performed by men and boys; women's participation later became prominent. Tradition can endure through new participation as well as preservation.",
+      "emotion": "agency",
+      "source_ids": [
+        "H15"
+      ],
+      "visual_brief_en": "A contemporary woman dancer practices one simple step; cut to a younger learner mirroring her movement, no invented archival timeline imagery.",
+      "setting": "dance",
+      "act": {
+        "number": 3,
+        "title_ml": "വേരുകളും അധികാരവും"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 27,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "24a",
+          "fraction": 0.55,
+          "visual": "A contemporary woman dancer practices one simple step",
+          "purpose": "Margamkali was originally performed by men and boys; women's participation later became prominent. Tradition can endure through new participation as well as preservation.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "24b",
+          "fraction": 0.45,
+          "visual": "cut to a younger learner mirroring her movement, no invented archival timeline imagery.",
+          "purpose": "Give the factual point a human consequence that communicates agency.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "index": 25,
+      "title_ml": "തൊഴിലാളിയുടെ വേദി",
+      "narration_ml": "ഗോതുരുത്തിലെ ചവിട്ടുനാടക കലാകാരന്മാരിൽ മത്സ്യത്തൊഴിലാളികളും മറ്റു തൊഴിലാളികളും പ്രധാന പങ്കുവഹിക്കുന്നുവെന്ന് കേരള ടൂറിസത്തിന്റെ വിവരണം പറയുന്നു. പകൽ അധ്വാനിക്കുന്ന കൈകൾ വേദിയിലും കഥ പറയുന്നു. സംസ്കാരം സമ്പന്നരുടെ അലങ്കാരം മാത്രം അല്ല. സാധാരണ മനുഷ്യരുടെ സൃഷ്ടിശേഷിയും അതിന്റെ അടിത്തറയാണ്.",
+      "narration_en": "Kerala Tourism describes Gothuruthu performers drawn largely from fishing and other working communities. Ordinary labor and artistic creation share the same lives.",
+      "purpose": "Kerala Tourism describes Gothuruthu performers drawn largely from fishing and other working communities. Ordinary labor and artistic creation share the same lives.",
+      "emotion": "dignity",
+      "source_ids": [
+        "H20"
+      ],
+      "visual_brief_en": "A fisher finishes coiling a rope; match cut to the same contemporary illustrative character tying a stage costume, not a named historical individual.",
+      "setting": "fishing",
+      "act": {
+        "number": 3,
+        "title_ml": "വേരുകളും അധികാരവും"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 28,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "25a",
+          "fraction": 0.55,
+          "visual": "A fisher finishes coiling a rope",
+          "purpose": "Kerala Tourism describes Gothuruthu performers drawn largely from fishing and other working communities. Ordinary labor and artistic creation share the same lives.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "25b",
+          "fraction": 0.45,
+          "visual": "match cut to the same contemporary illustrative character tying a stage costume, not a named historical individual.",
+          "purpose": "Give the factual point a human consequence that communicates dignity.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "index": 26,
+      "title_ml": "പല അനുഭവങ്ങൾ",
+      "narration_ml": "സുറിയാനി പാരമ്പര്യങ്ങളുടെ ചരിത്രം മാത്രം പറഞ്ഞാൽ കേരളത്തിലെ ക്രൈസ്തവരുടെ കഥ പൂർണമാകില്ല. ലത്തീൻ ക്രൈസ്തവ കലയും തീരദേശ ജീവിതവും അതിലെ പ്രധാന ഭാഗങ്ങളാണ്. ഒരേ മതത്തിനുള്ളിലും തൊഴിലും പ്രദേശവും ആചാരങ്ങളും അനുഭവങ്ങളും വ്യത്യസ്തമാകാം. ആ വ്യത്യാസങ്ങളോടെയാണ് ഈ സമൂഹത്തെ കാണേണ്ടത്.",
+      "narration_en": "Syriac histories alone do not encompass Kerala Christianity. Latin Christian arts and coastal life are essential parts, revealing different regional and social experiences.",
+      "purpose": "Syriac histories alone do not encompass Kerala Christianity. Latin Christian arts and coastal life are essential parts, revealing different regional and social experiences.",
+      "emotion": "recognition",
+      "source_ids": [
+        "H3",
+        "H19",
+        "H20"
+      ],
+      "visual_brief_en": "Simple coast map connects a local church, theater platform, and fishing boat as separate illustrations; keep only one highlighted at a time.",
+      "setting": "community",
+      "act": {
+        "number": 3,
+        "title_ml": "വേരുകളും അധികാരവും"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 29,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "26a",
+          "fraction": 0.55,
+          "visual": "Simple coast map connects a local church, theater platform, and fishing boat as separate illustrations",
+          "purpose": "Syriac histories alone do not encompass Kerala Christianity. Latin Christian arts and coastal life are essential parts, revealing different regional and social experiences.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "26b",
+          "fraction": 0.45,
+          "visual": "keep only one highlighted at a time.",
+          "purpose": "Give the factual point a human consequence that communicates recognition.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "index": 27,
+      "title_ml": "ഒരു പുതിയ കപ്പൽ",
+      "narration_ml": "ആയിരത്തിനാനൂറ്റിത്തൊണ്ണൂറ്റിയെട്ടിൽ വാസ്കോ ഡ ഗാമയുടെ കപ്പലുകൾ മലബാർ തീരത്തെത്തി. ഇത് കേരളത്തിലേക്കുള്ള ക്രിസ്തുമതത്തിന്റെ ആദ്യ വരവായിരുന്നില്ല. ഇതിനകം ഇവിടെ ക്രൈസ്തവർ ഉണ്ടായിരുന്നു. പക്ഷേ ഈ വരവ് കടൽവ്യാപാരത്തിലും അധികാരബന്ധങ്ങളിലും പുതിയൊരു അധ്യായം തുറന്നു.",
+      "narration_en": "Vasco da Gama reached the Malabar coast in 1498. Christianity was already present. His arrival opened a new chapter in maritime power and trade.",
+      "purpose": "Vasco da Gama reached the Malabar coast in 1498. Christianity was already present. His arrival opened a new chapter in maritime power and trade.",
+      "emotion": "turning_point",
+      "source_ids": [
+        "H10"
+      ],
+      "visual_brief_en": "A large European-style sail silhouette enters behind a smaller local boat; cut to accurate Kozhikode-area map marker, broad landing region only.",
+      "setting": "sailing",
+      "act": {
+        "number": 3,
+        "title_ml": "വേരുകളും അധികാരവും"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 24,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "27a",
+          "fraction": 0.55,
+          "visual": "A large European-style sail silhouette enters behind a smaller local boat",
+          "purpose": "Establish the subject and the question or fact in this narration.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "27b",
+          "fraction": 0.45,
+          "visual": "cut to accurate Kozhikode-area map marker, broad landing region only.",
+          "purpose": "Make the viewer feel turning point through a specific human reaction, consequence, or comparison.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "index": 28,
+      "title_ml": "സാമ്യമുണ്ടെങ്കിലും",
+      "narration_ml": "ഒരേ ക്രിസ്തുവിലുള്ള വിശ്വാസം ഉണ്ടായിരുന്നെങ്കിലും, ആരാധനാരീതിയും സഭാഭരണവും ഭാഷയും ഒരുപോലെ ആയിരുന്നില്ല. പരിചയപ്പെടാനുള്ള അവസരത്തിനൊപ്പം നിയന്ത്രണത്തിനുള്ള ശ്രമങ്ങളും വളർന്നു. ഇനി ചോദ്യം ആരാണ് ഇവിടെയുള്ളത് എന്നതുമാത്രമല്ല. ആരാണ് തീരുമാനിക്കുക എന്നതും ആയി.",
+      "narration_en": "Shared Christian belief did not erase differences of worship, language, and authority. Encounter brought opportunities and growing struggles over who would decide.",
+      "purpose": "Shared Christian belief did not erase differences of worship, language, and authority. Encounter brought opportunities and growing struggles over who would decide.",
+      "emotion": "tension",
+      "source_ids": [
+        "H10",
+        "H12"
+      ],
+      "visual_brief_en": "Two seated figures hold different books across a table; a shadow crosses the space between them, avoiding villain caricatures.",
+      "setting": "council",
+      "act": {
+        "number": 3,
+        "title_ml": "വേരുകളും അധികാരവും"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 23,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "28a",
+          "fraction": 0.55,
+          "visual": "Two seated figures hold different books across a table",
+          "purpose": "Establish the subject and the question or fact in this narration.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "28b",
+          "fraction": 0.45,
+          "visual": "a shadow crosses the space between them, avoiding villain caricatures.",
+          "purpose": "Make the viewer feel tension through a specific human reaction, consequence, or comparison.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "index": 29,
+      "title_ml": "സ്വന്തം ശബ്ദം",
+      "narration_ml": "ഒരു സമൂഹത്തിന് പ്രാർത്ഥനയുടെ വാക്കുകൾ വെറും ശബ്ദങ്ങളല്ല. അവയിൽ ഓർമ്മയും ബന്ധവും പതിവുമുണ്ട്. സ്വന്തം ജീവിതത്തെക്കുറിച്ചുള്ള തീരുമാനങ്ങളിൽ സ്വന്തം ശബ്ദം കേൾക്കപ്പെടണം എന്ന ആഗ്രഹവും അതോടു ചേരുന്നു. ഈ സംഘർഷത്തെ മനസ്സിലാക്കാൻ ആ മനുഷ്യവശം മറക്കരുത്.",
+      "narration_en": "Prayer carries memory and relationship. The wish to be heard in decisions affecting one's community gives the coming conflict its human stakes.",
+      "purpose": "Prayer carries memory and relationship. The wish to be heard in decisions affecting one's community gives the coming conflict its human stakes.",
+      "emotion": "unease",
+      "source_ids": [
+        "REFLECTION"
+      ],
+      "visual_brief_en": "Close-up of a reader's face listening, followed by a hand pausing above a familiar closed book; restrained motion.",
+      "setting": "church",
+      "act": {
+        "number": 3,
+        "title_ml": "വേരുകളും അധികാരവും"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 26,
+      "historical_status": "editorial reflection / illustrative composite",
+      "shots": [
+        {
+          "id": "29a",
+          "fraction": 0.55,
+          "visual": "Close-up of a reader's face listening, followed by a hand pausing above a familiar closed book",
+          "purpose": "Establish the subject and the question or fact in this narration.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "29b",
+          "fraction": 0.45,
+          "visual": "restrained motion.",
+          "purpose": "Make the viewer feel unease through a specific human reaction, consequence, or comparison.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "index": 30,
+      "title_ml": "ഉദയംപേരൂർ",
+      "narration_ml": "ആയിരത്തഞ്ഞൂറ്റിത്തൊണ്ണൂറ്റൊമ്പതിൽ ഉദയംപേരൂരിൽ സുന്നഹദോസ് നടന്നു. ഗോവയിലെ ആർച്ച് ബിഷപ്പ് മെനേസിസിന്റെ നേതൃത്വത്തിൽ ചേർന്ന സമ്മേളനം കേരളത്തിലെ ക്രൈസ്തവ സഭാജീവിതത്തെ മാറ്റിയ നിർണായക സംഭവമായിരുന്നു. വിശ്വാസാചാരങ്ങളെയും സഭാ നിയന്ത്രണത്തെയും കുറിച്ചുള്ള തീരുമാനങ്ങൾ അവിടെ ഉണ്ടായി.",
+      "narration_en": "The 1599 Synod of Diamper, led by Archbishop Menezes of Goa, was a major intervention in local ecclesiastical life, practices, and authority.",
+      "purpose": "The 1599 Synod of Diamper, led by Archbishop Menezes of Goa, was a major intervention in local ecclesiastical life, practices, and authority.",
+      "emotion": "gravity",
+      "source_ids": [
+        "H11",
+        "H12"
+      ],
+      "visual_brief_en": "Map locates Udayamperoor, then a simplified assembly table with three foreground figures and distant silhouettes; year appears in editing.",
+      "setting": "council",
+      "act": {
+        "number": 3,
+        "title_ml": "വേരുകളും അധികാരവും"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 24,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "30a",
+          "fraction": 0.55,
+          "visual": "Map locates Udayamperoor, then a simplified assembly table with three foreground figures and distant silhouettes",
+          "purpose": "Establish the subject and the question or fact in this narration.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "30b",
+          "fraction": 0.45,
+          "visual": "year appears in editing.",
+          "purpose": "Make the viewer feel gravity through a specific human reaction, consequence, or comparison.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "index": 31,
+      "title_ml": "ഒരു മുറിക്ക് പുറത്തും",
+      "narration_ml": "ഒരു സമ്മേളനമുറിയിലെ തീരുമാനങ്ങൾ അവിടെ അവസാനിക്കില്ല. അവ ഗ്രാമങ്ങളിലേക്കും പള്ളികളിലേക്കും വീടുകളിലേക്കും എത്തും. പതിവുകൾ മാറുമ്പോൾ സാധാരണ വിശ്വാസികൾ എന്ത് അനുഭവിച്ചിരിക്കാം? ഉറപ്പുള്ള രേഖയില്ലാത്ത അവരുടെ വാക്കുകൾ നാം സൃഷ്ടിക്കില്ല. പക്ഷേ ആ മാറ്റത്തിന്റെ ഭാരം ഓർക്കാം.",
+      "narration_en": "Council decisions travel into homes and villages. We cannot invent ordinary believers' words, but we can acknowledge the human weight of imposed change.",
+      "purpose": "Council decisions travel into homes and villages. We cannot invent ordinary believers' words, but we can acknowledge the human weight of imposed change.",
+      "emotion": "empathy",
+      "source_ids": [
+        "H12",
+        "REFLECTION"
+      ],
+      "visual_brief_en": "Closed council door matches to a household door; a family pauses in quiet uncertainty, no fictional historical dialogue.",
+      "setting": "home",
+      "act": {
+        "number": 4,
+        "title_ml": "സ്വന്തം ശബ്ദം"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 27,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "31a",
+          "fraction": 0.55,
+          "visual": "Closed council door matches to a household door",
+          "purpose": "Establish the subject and the question or fact in this narration.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "31b",
+          "fraction": 0.45,
+          "visual": "a family pauses in quiet uncertainty, no fictional historical dialogue.",
+          "purpose": "Make the viewer feel empathy through a specific human reaction, consequence, or comparison.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "index": 32,
+      "title_ml": "ലളിതമായ വിധിയല്ല",
+      "narration_ml": "ഈ ചരിത്രത്തെ നല്ലവരും ചീത്തവരും മാത്രമുള്ള കഥയാക്കി ചുരുക്കാൻ എളുപ്പമാണ്. പക്ഷേ സഭകളുടെ ബന്ധങ്ങളും വിശ്വാസികളുടെ തീരുമാനങ്ങളും കൂടുതൽ സങ്കീർണമായിരുന്നു. വ്യക്തികളുടെ വിശ്വാസത്തെ ആദരിച്ചുകൊണ്ട് അധികാരത്തിന്റെ സമ്മർദം പരിശോധിക്കാം. വിമർശനവും കരുതലും ഒരുമിച്ചു നിലനിൽക്കാം.",
+      "narration_en": "This history resists a simple heroes-and-villains account. We can examine coercive power while respecting individual faith and complex choices.",
+      "purpose": "This history resists a simple heroes-and-villains account. We can examine coercive power while respecting individual faith and complex choices.",
+      "emotion": "fairness",
+      "source_ids": [
+        "H10",
+        "H11",
+        "REFLECTION"
+      ],
+      "visual_brief_en": "Two opposing faces dissolve into a wider shared courtyard; equal lighting and eye level prevent dehumanizing either side.",
+      "setting": "council",
+      "act": {
+        "number": 4,
+        "title_ml": "സ്വന്തം ശബ്ദം"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 25,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "32a",
+          "fraction": 0.55,
+          "visual": "Two opposing faces dissolve into a wider shared courtyard",
+          "purpose": "Establish the subject and the question or fact in this narration.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "32b",
+          "fraction": 0.45,
+          "visual": "equal lighting and eye level prevent dehumanizing either side.",
+          "purpose": "Make the viewer feel fairness through a specific human reaction, consequence, or comparison.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "index": 33,
+      "title_ml": "കൂനൻ കുരിശിന്റെ ഓർമ്മ",
+      "narration_ml": "ആയിരത്തറുനൂറ്റിയമ്പത്തിമൂന്ന്. മട്ടാഞ്ചേരി. കൂനൻ കുരിശു സത്യം എന്നറിയപ്പെടുന്ന സംഭവം പോർച്ചുഗീസ് സഭാധികാരത്തിനെതിരായ പ്രതിഷേധത്തിന്റെ ശക്തമായ ഓർമ്മയായി നിലനിൽക്കുന്നു. സ്വന്തം സമൂഹത്തിന്റെ കാര്യങ്ങളിൽ സ്വയം ശബ്ദമുയർത്താനുള്ള ആഗ്രഹം ആ സംഭവത്തിൽ നമുക്ക് തിരിച്ചറിയാം.",
+      "narration_en": "The 1653 Coonan Cross Oath at Mattancherry is remembered as resistance to Portuguese ecclesiastical authority and an assertion of communal agency.",
+      "purpose": "The 1653 Coonan Cross Oath at Mattancherry is remembered as resistance to Portuguese ecclesiastical authority and an assertion of communal agency.",
+      "emotion": "resolve",
+      "source_ids": [
+        "H11",
+        "H13"
+      ],
+      "visual_brief_en": "Accurate Mattancherry map marker; close view of several forearms holding a rope, cross in soft distance, explicitly illustrative reconstruction.",
+      "setting": "oath",
+      "act": {
+        "number": 4,
+        "title_ml": "സ്വന്തം ശബ്ദം"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 23,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "33a",
+          "fraction": 0.55,
+          "visual": "Accurate Mattancherry map marker",
+          "purpose": "Establish the subject and the question or fact in this narration.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "33b",
+          "fraction": 0.45,
+          "visual": "close view of several forearms holding a rope, cross in soft distance, explicitly illustrative reconstruction.",
+          "purpose": "Make the viewer feel resolve through a specific human reaction, consequence, or comparison.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "index": 34,
+      "title_ml": "കൈകൾ ചേർന്നപ്പോൾ",
+      "narration_ml": "ഈ രംഗം കാണുമ്പോൾ തീയതി മാത്രം ഓർക്കേണ്ടതില്ല. ഒറ്റയ്ക്കുള്ള ഒരാളുടെ കൈയും മറ്റൊരാളുടെ കൈയും ചേർന്നാൽ ഒരു പൊതുശബ്ദം ഉണ്ടാകുന്നതും ഓർക്കാം. ഇവിടെ കാണുന്ന ദൃശ്യം സൃഷ്ടിപരമായ പുനരാവിഷ്കാരമാണ്. സംഭവത്തിന്റെ കൃത്യമായ ഫോട്ടോഗ്രാഫല്ല.",
+      "narration_en": "The image of joined hands expresses collective voice. This scene is an illustrative reconstruction, not a precise visual record of the event.",
+      "purpose": "The image of joined hands expresses collective voice. This scene is an illustrative reconstruction, not a precise visual record of the event.",
+      "emotion": "solidarity",
+      "source_ids": [
+        "H13",
+        "REFLECTION"
+      ],
+      "visual_brief_en": "A close shot of one steady grip widens to three hands along a rope; no giant crowd or physically bending cross simulation.",
+      "setting": "oath",
+      "act": {
+        "number": 4,
+        "title_ml": "സ്വന്തം ശബ്ദം"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 24,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "34a",
+          "fraction": 0.55,
+          "visual": "A close shot of one steady grip widens to three hands along a rope",
+          "purpose": "Establish the subject and the question or fact in this narration.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "34b",
+          "fraction": 0.45,
+          "visual": "no giant crowd or physically bending cross simulation.",
+          "purpose": "Make the viewer feel solidarity through a specific human reaction, consequence, or comparison.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "index": 35,
+      "title_ml": "ഒരൊറ്റ പാതയല്ല",
+      "narration_ml": "അതിനുശേഷമുള്ള ചരിത്രം ഒരൊറ്റ വഴിയിലൂടെ പോയില്ല. അനുരഞ്ജനങ്ങളും പുതിയ സഭാബന്ധങ്ങളും പിന്നീടുള്ള വിഭജനങ്ങളും ഉണ്ടായി. ഇന്നുള്ള എല്ലാ സഭകളെയും ഒരേ ദിവസത്തിൽ പിറന്നവയായി കാണരുത്. നൂറ്റാണ്ടുകളിലൂടെ രൂപപ്പെട്ട പല വഴികളാണ് നമ്മുടെ മുന്നിലുള്ളത്.",
+      "narration_en": "Reconciliation, new affiliations, and later divisions followed. Today's denominations did not all emerge at once; their paths developed over centuries.",
+      "purpose": "Reconciliation, new affiliations, and later divisions followed. Today's denominations did not all emerge at once; their paths developed over centuries.",
+      "emotion": "complexity",
+      "source_ids": [
+        "H14"
+      ],
+      "visual_brief_en": "One path branches gradually across several date bands, deliberately avoiding a complete denominational genealogy; cut to two modest church doors.",
+      "setting": "paths",
+      "act": {
+        "number": 4,
+        "title_ml": "സ്വന്തം ശബ്ദം"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 24,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "35a",
+          "fraction": 0.55,
+          "visual": "One path branches gradually across several date bands, deliberately avoiding a complete denominational genealogy",
+          "purpose": "Establish the subject and the question or fact in this narration.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "35b",
+          "fraction": 0.45,
+          "visual": "cut to two modest church doors.",
+          "purpose": "Make the viewer feel complexity through a specific human reaction, consequence, or comparison.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "index": 36,
+      "title_ml": "പല ശബ്ദങ്ങൾ",
+      "narration_ml": "കത്തോലിക്ക, ഓർത്തഡോക്സ്, യാക്കോബായ, മാർത്തോമ്മാ, സി എസ് ഐ, പെന്തക്കോസ്ത് പാരമ്പര്യങ്ങൾ ഉൾപ്പെടെ കേരളത്തിലെ ക്രൈസ്തവ ജീവിതത്തിന് പല ശബ്ദങ്ങളുണ്ട്. ഈ ചുരുക്കപ്പട്ടിക മുഴുവൻ ചരിത്രമല്ല. വ്യത്യാസങ്ങൾക്കുള്ളിലും പങ്കുവയ്ക്കുന്ന ഭാഷയും നാട്ടോർമ്മയും മനുഷ്യബന്ധങ്ങളും നമുക്കുണ്ട്.",
+      "narration_en": "Kerala Christian life encompasses Catholic, Orthodox, Jacobite, Mar Thoma, CSI, Pentecostal, and other traditions. Differences coexist with shared language and local bonds.",
+      "purpose": "Kerala Christian life encompasses Catholic, Orthodox, Jacobite, Mar Thoma, CSI, Pentecostal, and other traditions. Differences coexist with shared language and local bonds.",
+      "emotion": "recognition",
+      "source_ids": [
+        "H14",
+        "REFLECTION"
+      ],
+      "visual_brief_en": "Several doors in one contemporary street open to daylight; no emblem claims of denominational equivalence, only names cleanly typeset one at a time.",
+      "setting": "community",
+      "act": {
+        "number": 4,
+        "title_ml": "സ്വന്തം ശബ്ദം"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 25,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "36a",
+          "fraction": 0.55,
+          "visual": "Several doors in one contemporary street open to daylight",
+          "purpose": "Establish the subject and the question or fact in this narration.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "36b",
+          "fraction": 0.45,
+          "visual": "no emblem claims of denominational equivalence, only names cleanly typeset one at a time.",
+          "purpose": "Make the viewer feel recognition through a specific human reaction, consequence, or comparison.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "index": 37,
+      "title_ml": "കടലിന്റെ മറ്റൊരു സമ്മാനം",
+      "narration_ml": "കടൽവഴികളിലൂടെ വന്നത് ചരക്കും മതബന്ധങ്ങളും മാത്രമായിരുന്നില്ല. പിന്നീടുള്ള കാലങ്ങളിൽ വിദ്യാഭ്യാസത്തിന്റെയും അച്ചടിയുടെയും പുതിയ ശ്രമങ്ങളും കേരളത്തിൽ വളർന്നു. അവയെ ഏകപക്ഷീയമായൊരു സമ്മാനമായി പറയാനാവില്ല. നാട്ടിലെ അധ്യാപകരും പഠിതാക്കളും ഭരണകൂടങ്ങളും ചേർന്നാണ് മാറ്റങ്ങൾക്ക് രൂപം നൽകിയത്.",
+      "narration_en": "Later educational and printing initiatives grew through local teachers, learners, rulers, and missionary institutions. Change was collaborative, not a one-way gift.",
+      "purpose": "Later educational and printing initiatives grew through local teachers, learners, rulers, and missionary institutions. Change was collaborative, not a one-way gift.",
+      "emotion": "renewal",
+      "source_ids": [
+        "H16",
+        "H18"
+      ],
+      "visual_brief_en": "A book is placed on a school bench by one hand and opened by another; sun replaces the earlier cool conflict palette.",
+      "setting": "school",
+      "act": {
+        "number": 4,
+        "title_ml": "സ്വന്തം ശബ്ദം"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 25,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "37a",
+          "fraction": 0.55,
+          "visual": "A book is placed on a school bench by one hand and opened by another",
+          "purpose": "Establish the subject and the question or fact in this narration.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "37b",
+          "fraction": 0.45,
+          "visual": "sun replaces the earlier cool conflict palette.",
+          "purpose": "Make the viewer feel renewal through a specific human reaction, consequence, or comparison.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "index": 38,
+      "title_ml": "കോട്ടയത്തെ ഒരു തുടക്കം",
+      "narration_ml": "ആയിരത്തെണ്ണൂറ്റിപ്പതിനേഴിൽ കോട്ടയത്ത് സി എം എസ് കോളേജ് ആരംഭിച്ചു. അതിന്റെ ചരിത്രത്തിൽ മിഷനറിമാരോടൊപ്പം തിരുവിതാംകൂർ രാജകുടുംബത്തിന്റെ പിന്തുണയും കാണാം. ഒരു ക്ലാസ് മുറി തുറക്കുന്നതിനു പിന്നിൽ പല മനുഷ്യരുടെയും സ്ഥാപനങ്ങളുടെയും ശ്രമങ്ങൾ ഉണ്ടായിരുന്നു. അറിവിന് പുതിയ വഴികൾ തുറന്നു.",
+      "narration_en": "CMS College began at Kottayam in 1817 with missionary work and support from Travancore's royal family. Institutions grew through multiple contributors.",
+      "purpose": "CMS College began at Kottayam in 1817 with missionary work and support from Travancore's royal family. Institutions grew through multiple contributors.",
+      "emotion": "possibility",
+      "source_ids": [
+        "H16"
+      ],
+      "visual_brief_en": "Sourced Kottayam marker and year, then a modest historical classroom illustration; teacher points to a plain geometric shape rather than fake writing.",
+      "setting": "school",
+      "act": {
+        "number": 4,
+        "title_ml": "സ്വന്തം ശബ്ദം"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 28,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "38a",
+          "fraction": 0.55,
+          "visual": "Sourced Kottayam marker and year, then a modest historical classroom illustration",
+          "purpose": "Establish the subject and the question or fact in this narration.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "38b",
+          "fraction": 0.45,
+          "visual": "teacher points to a plain geometric shape rather than fake writing.",
+          "purpose": "Make the viewer feel possibility through a specific human reaction, consequence, or comparison.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "index": 39,
+      "title_ml": "പഠിപ്പിച്ചവരും പഠിച്ചു",
+      "narration_ml": "അധ്യാപനം ഒരുവശത്തേക്കുള്ള യാത്രയായിരുന്നില്ല. ബെഞ്ചമിൻ ബെയ്‌ലിയും ഭാര്യയും മലയാളം പഠിക്കാൻ നാട്ടിലെ പണ്ഡിതരുടെ സഹായം തേടിയതായി കോളേജിന്റെ ചരിത്രം പറയുന്നു. പഠിപ്പിക്കാൻ വന്നവർക്കും പഠിക്കാനുണ്ടായിരുന്നു. അറിവിന്റെ ബന്ധത്തിൽ മലയാളിയുടെ പങ്ക് ഇവിടെ വ്യക്തമായി കാണാം.",
+      "narration_en": "CMS College records Bailey and his wife learning Malayalam with local scholars. Those who came to teach also had to learn. Local expertise mattered.",
+      "purpose": "CMS College records Bailey and his wife learning Malayalam with local scholars. Those who came to teach also had to learn. Local expertise mattered.",
+      "emotion": "mutual_respect",
+      "source_ids": [
+        "H18"
+      ],
+      "visual_brief_en": "Two adults sit side by side over an open book, each alternately pointing and listening; authority is visually shared.",
+      "setting": "school",
+      "act": {
+        "number": 4,
+        "title_ml": "സ്വന്തം ശബ്ദം"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 25,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "39a",
+          "fraction": 0.55,
+          "visual": "Two adults sit side by side over an open book, each alternately pointing and listening",
+          "purpose": "Establish the subject and the question or fact in this narration.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "39b",
+          "fraction": 0.45,
+          "visual": "authority is visually shared.",
+          "purpose": "Make the viewer feel mutual respect through a specific human reaction, consequence, or comparison.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "index": 40,
+      "title_ml": "ഒരു പെൺകുട്ടിയുടെ വാതിൽ",
+      "narration_ml": "ആയിരത്തെണ്ണൂറ്റിപ്പത്തൊമ്പതിൽ ആരംഭിച്ച കോട്ടയത്തെ ബേക്കർ സ്കൂൾ പെൺവിദ്യാഭ്യാസത്തിന്റെ ചരിത്രത്തിലെ ഒരു പ്രധാന അടയാളമാണ്. ഒരു പെൺകുട്ടിക്ക് പഠിക്കാൻ ഇടം ലഭിക്കുമ്പോൾ തുറക്കുന്നത് ക്ലാസ് മുറിയുടെ വാതിൽ മാത്രം അല്ല. സ്വന്തം ഭാവിയെക്കുറിച്ച് ചിന്തിക്കാനുള്ള സാധ്യത കൂടിയാണ്.",
+      "narration_en": "Kottayam's Baker school, founded in 1819, marks an important chapter in girls' education. A classroom can open possibilities for one's future.",
+      "purpose": "Kottayam's Baker school, founded in 1819, marks an important chapter in girls' education. A classroom can open possibilities for one's future.",
+      "emotion": "hope",
+      "source_ids": [
+        "H17"
+      ],
+      "visual_brief_en": "Girl hesitates at a classroom threshold, then steps into warm light; cut to her opening a book with a small confident smile.",
+      "setting": "girl_school",
+      "act": {
+        "number": 4,
+        "title_ml": "സ്വന്തം ശബ്ദം"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 26,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "40a",
+          "fraction": 0.55,
+          "visual": "Girl hesitates at a classroom threshold, then steps into warm light",
+          "purpose": "Establish the subject and the question or fact in this narration.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "40b",
+          "fraction": 0.45,
+          "visual": "cut to her opening a book with a small confident smile.",
+          "purpose": "Make the viewer feel hope through a specific human reaction, consequence, or comparison.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "index": 41,
+      "title_ml": "മലയാളത്തിന്റെ അച്ചടി",
+      "narration_ml": "ആയിരത്തെണ്ണൂറ്റിയിരുപത്തൊന്നിൽ ബെയ്‌ലിയുടെ നേതൃത്വത്തിൽ കോട്ടയത്തെ സി എം എസ് അച്ചടിശാല പ്രവർത്തനം തുടങ്ങി. മലയാളത്തിനുവേണ്ടി അച്ചടിയക്ഷരങ്ങൾ ഒരുക്കുന്നതും ഈ ശ്രമത്തിന്റെ ഭാഗമായിരുന്നു. കൈയെഴുത്തിൽനിന്ന് കൂടുതൽ പകർപ്പുകളിലേക്കുള്ള വഴിയിൽ അച്ചടിയുടെ പങ്ക് വലുതായിരുന്നു. പുസ്തകത്തിന് പുതിയ യാത്രകൾ സാധ്യമായി.",
+      "narration_en": "Bailey's CMS Press began at Kottayam in 1821, with Malayalam type development part of the effort. Printing enabled wider circulation beyond individual manuscripts.",
+      "purpose": "Bailey's CMS Press began at Kottayam in 1821, with Malayalam type development part of the effort. Printing enabled wider circulation beyond individual manuscripts.",
+      "emotion": "discovery",
+      "source_ids": [
+        "H21",
+        "H22"
+      ],
+      "visual_brief_en": "A simple wooden press lowers once; cut to clean printed sheets accumulating, verified Malayalam text added in post rather than generated by AI.",
+      "setting": "printing",
+      "act": {
+        "number": 5,
+        "title_ml": "സേവനവും പങ്കാളിത്തവും"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 27,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "41a",
+          "fraction": 0.55,
+          "visual": "A simple wooden press lowers once",
+          "purpose": "Bailey's CMS Press began at Kottayam in 1821, with Malayalam type development part of the effort. Printing enabled wider circulation beyond individual manuscripts.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "41b",
+          "fraction": 0.45,
+          "visual": "cut to clean printed sheets accumulating, verified Malayalam text added in post rather than generated by AI.",
+          "purpose": "Give the factual point a human consequence that communicates discovery.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "index": 42,
+      "title_ml": "പേരില്ലാത്ത ശില്പികൾ",
+      "narration_ml": "ആ അച്ചടിയുടെ കഥയിൽ ബെയ്‌ലിയുടെ പേര് മാത്രം പോരാ. നാട്ടിലെ മരപ്പണിക്കാരുടെ വൈദഗ്ധ്യവും പ്രധാനമായിരുന്നുവെന്ന് കോളേജിന്റെ ചരിത്രവിവരണം ഓർമ്മിപ്പിക്കുന്നു. ഒരു ആശയം പ്രവർത്തിക്കുന്ന യന്ത്രമാകാൻ കൈപ്പുണ്യം വേണം. കേരളത്തിന്റെ അറിവിന്റെ ചരിത്രത്തിൽ ആ തൊഴിലാളികളുടെ കൈകൾക്കും പ്രകാശം നൽകാം.",
+      "narration_en": "CMS College's account emphasizes local carpenters in building a wooden press. Skilled workers helped make an idea into a functioning technology.",
+      "purpose": "CMS College's account emphasizes local carpenters in building a wooden press. Skilled workers helped make an idea into a functioning technology.",
+      "emotion": "dignity",
+      "source_ids": [
+        "H22"
+      ],
+      "visual_brief_en": "Carpenter fits one wooden joint on a press; close shot of the assembled lever moving smoothly, no complex fingers or machinery chaos.",
+      "setting": "printing",
+      "act": {
+        "number": 5,
+        "title_ml": "സേവനവും പങ്കാളിത്തവും"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 28,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "42a",
+          "fraction": 0.55,
+          "visual": "Carpenter fits one wooden joint on a press",
+          "purpose": "CMS College's account emphasizes local carpenters in building a wooden press. Skilled workers helped make an idea into a functioning technology.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "42b",
+          "fraction": 0.45,
+          "visual": "close shot of the assembled lever moving smoothly, no complex fingers or machinery chaos.",
+          "purpose": "Give the factual point a human consequence that communicates dignity.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "index": 43,
+      "title_ml": "മുമ്പുണ്ടായിരുന്ന അക്ഷരങ്ങൾ",
+      "narration_ml": "എന്നാൽ മലയാള അച്ചടി ഇവിടെനിന്നു മാത്രമാണ് തുടങ്ങിയതെന്ന് പറയരുത്. അതിനു മുമ്പേ കേരളത്തിനു പുറത്തും മലയാളത്തിൽ അച്ചടിച്ച കൃതികൾ ഉണ്ടായിരുന്നു. ഈ മുൻചരിത്രം ഓർക്കുന്നത് കോട്ടയത്തിന്റെ സംഭാവന കുറയ്ക്കുന്നില്ല. ഓരോ പുതിയ ശ്രമവും മുൻപുള്ള വഴികളോടു ചേർന്നാണ് വളരുന്നത്.",
+      "narration_en": "Malayalam printing predates the Kottayam press, including works printed outside Kerala. Recognizing that earlier history strengthens an accurate account of Kottayam's contribution.",
+      "purpose": "Malayalam printing predates the Kottayam press, including works printed outside Kerala. Recognizing that earlier history strengthens an accurate account of Kottayam's contribution.",
+      "emotion": "accuracy",
+      "source_ids": [
+        "H23"
+      ],
+      "visual_brief_en": "A sourced map marks Rome and Bombay as earlier printing locations without racing routes; cut back to a Kottayam book on a desk.",
+      "setting": "printing",
+      "act": {
+        "number": 5,
+        "title_ml": "സേവനവും പങ്കാളിത്തവും"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 28,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "43a",
+          "fraction": 0.55,
+          "visual": "A sourced map marks Rome and Bombay as earlier printing locations without racing routes",
+          "purpose": "Malayalam printing predates the Kottayam press, including works printed outside Kerala. Recognizing that earlier history strengthens an accurate account of Kottayam's contribution.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "43b",
+          "fraction": 0.45,
+          "visual": "cut back to a Kottayam book on a desk.",
+          "purpose": "Give the factual point a human consequence that communicates accuracy.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "index": 44,
+      "title_ml": "ചാവറയുടെ പ്രവർത്തനം",
+      "narration_ml": "കുര്യാക്കോസ് ഏലിയാസ് ചാവറയുടെ നേതൃത്വത്തിലും പ്രചോദനത്തിലും പൊതുവിദ്യാഭ്യാസത്തിനുള്ള സ്കൂളുകളും പ്രസിദ്ധീകരണശാലയും അഗതികളെ പരിചരിക്കുന്ന ഇടവും രൂപപ്പെട്ടതായി വത്തിക്കാന്റെ അനുസ്മരണം രേഖപ്പെടുത്തുന്നു. പ്രാർത്ഥനയും സാമൂഹിക പ്രവർത്തനവും ഒരേ ജീവിതത്തിൽ ബന്ധിപ്പിക്കാൻ ശ്രമിച്ച വ്യക്തിയെയാണ് ഇവിടെ നാം കാണുന്നത്.",
+      "narration_en": "The Vatican's remembrance credits Chavara's leadership or inspiration in schools, publishing, and care for the destitute. His work connected religious life with social initiatives.",
+      "purpose": "The Vatican's remembrance credits Chavara's leadership or inspiration in schools, publishing, and care for the destitute. His work connected religious life with social initiatives.",
+      "emotion": "purpose",
+      "source_ids": [
+        "H24"
+      ],
+      "visual_brief_en": "A respectfully simplified priest silhouette walks from a quiet prayer space toward a classroom; no unverified portrait likeness or invented speech.",
+      "setting": "school",
+      "act": {
+        "number": 5,
+        "title_ml": "സേവനവും പങ്കാളിത്തവും"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 26,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "44a",
+          "fraction": 0.55,
+          "visual": "A respectfully simplified priest silhouette walks from a quiet prayer space toward a classroom",
+          "purpose": "The Vatican's remembrance credits Chavara's leadership or inspiration in schools, publishing, and care for the destitute. His work connected religious life with social initiatives.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "44b",
+          "fraction": 0.45,
+          "visual": "no unverified portrait likeness or invented speech.",
+          "purpose": "Give the factual point a human consequence that communicates purpose.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "index": 45,
+      "title_ml": "സ്ത്രീകളുടെ കൂട്ടായ്മ",
+      "narration_ml": "ആയിരത്തെണ്ണൂറ്റിയറുപത്താറിൽ ചാവറയും ലെയോപോൾഡ് ബെക്കാറോയും ചേർന്ന് സ്ത്രീകൾക്കായുള്ള ഒരു സന്യാസസമൂഹം സ്ഥാപിച്ചു. സ്ത്രീകളുടെ വിദ്യാഭ്യാസവും പ്രവർത്തനങ്ങളും പ്രോത്സാഹിപ്പിക്കുന്ന ലക്ഷ്യം അതിന്റെ ചരിത്രത്തിൽ കാണാം. സ്ഥാപനങ്ങളുടെ പിന്നിൽ സ്ത്രീകളുടെ കൂട്ടായ അധ്വാനവും തീരുമാനങ്ങളും ഉണ്ടായിരുന്നു. ഈ ചരിത്രത്തിൽ അവർക്കും സ്വന്തം ഇടമുണ്ട്.",
+      "narration_en": "In 1866 Chavara and Leopold Beccaro founded a women's religious congregation with educational and other activities among its purposes. Women's collective work belongs at the center of the story.",
+      "purpose": "In 1866 Chavara and Leopold Beccaro founded a women's religious congregation with educational and other activities among its purposes. Women's collective work belongs at the center of the story.",
+      "emotion": "collective_agency",
+      "source_ids": [
+        "H25"
+      ],
+      "visual_brief_en": "Two women teachers prepare a classroom together, each taking initiative; book handoff to a girl in a simple historical composite.",
+      "setting": "girl_school",
+      "act": {
+        "number": 5,
+        "title_ml": "സേവനവും പങ്കാളിത്തവും"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 29,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "45a",
+          "fraction": 0.55,
+          "visual": "Two women teachers prepare a classroom together, each taking initiative",
+          "purpose": "In 1866 Chavara and Leopold Beccaro founded a women's religious congregation with educational and other activities among its purposes. Women's collective work belongs at the center of the story.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "45b",
+          "fraction": 0.45,
+          "visual": "book handoff to a girl in a simple historical composite.",
+          "purpose": "Give the factual point a human consequence that communicates collective agency.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "index": 46,
+      "title_ml": "പങ്കിട്ട നേട്ടം",
+      "narration_ml": "സി എം എസ് കോളേജ്, ബേക്കർ സ്കൂൾ, ചാവറയുമായി ബന്ധപ്പെട്ട വിദ്യാഭ്യാസശ്രമങ്ങൾ. ഇവ വ്യത്യസ്ത സഭാപശ്ചാത്തലങ്ങളിൽനിന്നുള്ള ഉദാഹരണങ്ങളാണ്. കേരളത്തിന്റെ വിദ്യാഭ്യാസ വളർച്ചയിൽ മറ്റനേകം സമൂഹങ്ങളും പ്രസ്ഥാനങ്ങളും പൊതുസ്ഥാപനങ്ങളും പങ്കുവഹിച്ചു. സ്വന്തം സംഭാവനയെ കാണുമ്പോൾ ആ വലിയ കൂട്ടായ്മയും നമുക്ക് കാണാം.",
+      "narration_en": "CMS, Baker, and Chavara's initiatives illustrate contributions from different Christian settings within Kerala's much wider shared educational development.",
+      "purpose": "CMS, Baker, and Chavara's initiatives illustrate contributions from different Christian settings within Kerala's much wider shared educational development.",
+      "emotion": "inclusive_pride",
+      "source_ids": [
+        "H16",
+        "H17",
+        "H24",
+        "REFLECTION"
+      ],
+      "visual_brief_en": "Three modest school doorway illustrations appear sequentially, then resolve to a shared contemporary classroom with no denominational ranking.",
+      "setting": "school",
+      "act": {
+        "number": 5,
+        "title_ml": "സേവനവും പങ്കാളിത്തവും"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 29,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "46a",
+          "fraction": 0.55,
+          "visual": "Three modest school doorway illustrations appear sequentially, then resolve to a shared contemporary classroom with no denominational ranking.",
+          "purpose": "CMS, Baker, and Chavara's initiatives illustrate contributions from different Christian settings within Kerala's much wider shared educational development.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "46b",
+          "fraction": 0.45,
+          "visual": "Close reaction or purposeful object detail extends the primary action.",
+          "purpose": "Give the factual point a human consequence that communicates inclusive pride.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "index": 47,
+      "title_ml": "പരിചരണത്തിന്റെ സ്ഥാപനം",
+      "narration_ml": "ഇനി ആരോഗ്യപരിചരണത്തിന്റെ ഒരു ഉദാഹരണം നോക്കാം. എറണാകുളത്തെ ലിസി ആശുപത്രി ആയിരത്തിത്തൊള്ളായിരത്തിയമ്പത്താറിൽ ആരംഭിച്ചു. കത്തോലിക്കാ സഭയുമായി ബന്ധപ്പെട്ട ഈ സ്ഥാപനം ആരോഗ്യരംഗത്തെ ക്രൈസ്തവ പങ്കാളിത്തത്തിന്റെ ഒരു ഉദാഹരണമാണ്. ഒരു പേരിന്റെ പിന്നിൽ ഡോക്ടർമാരും നഴ്സുമാരും മറ്റു ജീവനക്കാരും പ്രവർത്തിക്കുന്നു.",
+      "narration_en": "Lisie Hospital in Ernakulam was founded in 1956. It is one example of Catholic participation in healthcare, sustained by many kinds of staff.",
+      "purpose": "Lisie Hospital in Ernakulam was founded in 1956. It is one example of Catholic participation in healthcare, sustained by many kinds of staff.",
+      "emotion": "gratitude",
+      "source_ids": [
+        "H26"
+      ],
+      "visual_brief_en": "Sourced Ernakulam map label and1956; cut to a contemporary generic caregiver approaching a bedside, no invented institutional architecture or performance claims.",
+      "setting": "care",
+      "act": {
+        "number": 5,
+        "title_ml": "സേവനവും പങ്കാളിത്തവും"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 28,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "47a",
+          "fraction": 0.55,
+          "visual": "Sourced Ernakulam map label and1956",
+          "purpose": "Lisie Hospital in Ernakulam was founded in 1956. It is one example of Catholic participation in healthcare, sustained by many kinds of staff.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "47b",
+          "fraction": 0.45,
+          "visual": "cut to a contemporary generic caregiver approaching a bedside, no invented institutional architecture or performance claims.",
+          "purpose": "Give the factual point a human consequence that communicates gratitude.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "index": 48,
+      "title_ml": "എട്ട് കിടക്കകളിൽനിന്ന്",
+      "narration_ml": "തിരുവല്ലയിലെ പുഷ്പഗിരി ആശുപത്രിയുടെ തുടക്കം ആയിരത്തിത്തൊള്ളായിരത്തിയമ്പത്തൊമ്പതിലെ എട്ട് കിടക്കകളുള്ള ചെറിയ ചികിത്സാകേന്ദ്രമായിരുന്നു. സ്ഥാപനത്തിന്റെ ചരിത്രം ഗർഭിണികളുടെയും നവജാതശിശുക്കളുടെയും ആരോഗ്യാവശ്യങ്ങളെ ഓർക്കുന്നു. വലിയ സ്ഥാപനങ്ങളുടെ പിന്നിലും ഒരു ചെറിയ തുടക്കവും വ്യക്തമായ മനുഷ്യാവശ്യവും ഉണ്ടായിരിക്കാം.",
+      "narration_en": "Pushpagiri in Tiruvalla began as an eight-bed clinic in1959. Its institutional history identifies maternal and newborn needs among the motivations.",
+      "purpose": "Pushpagiri in Tiruvalla began as an eight-bed clinic in1959. Its institutional history identifies maternal and newborn needs among the motivations.",
+      "emotion": "hope",
+      "source_ids": [
+        "H27"
+      ],
+      "visual_brief_en": "Accurate Tiruvalla location label; simple small clinic interior with one mother and infant, eight abstract bed marks only if needed for factual visualization.",
+      "setting": "care",
+      "act": {
+        "number": 5,
+        "title_ml": "സേവനവും പങ്കാളിത്തവും"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 24,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "48a",
+          "fraction": 0.55,
+          "visual": "Accurate Tiruvalla location label",
+          "purpose": "Pushpagiri in Tiruvalla began as an eight-bed clinic in1959. Its institutional history identifies maternal and newborn needs among the motivations.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "48b",
+          "fraction": 0.45,
+          "visual": "simple small clinic interior with one mother and infant, eight abstract bed marks only if needed for factual visualization.",
+          "purpose": "Give the factual point a human consequence that communicates hope.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "index": 49,
+      "title_ml": "പരിശീലനത്തിലേക്കുള്ള വഴി",
+      "narration_ml": "പുഷ്പഗിരിയുടെ ചരിത്രത്തിൽ ആയിരത്തിത്തൊള്ളായിരത്തിയറുപത്തിനാലിലെ നഴ്സിംഗ് പരിശീലനവും പിന്നീട് വന്ന മറ്റു പഠനപരിപാടികളും രേഖപ്പെടുത്തിയിട്ടുണ്ട്. പരിചരണം കരുണ മാത്രമല്ല. പരിശീലനവും അറിവും ഉത്തരവാദിത്തവും ആവശ്യമാണ്. നഴ്സിന്റെ ജോലിയിലെ ഈ വൈദഗ്ധ്യത്തെ നമ്മുടെ കഥ ആദരിക്കണം.",
+      "narration_en": "Pushpagiri records nursing training from1964 and later programs. Care requires learned skill and responsibility as well as compassion.",
+      "purpose": "Pushpagiri records nursing training from1964 and later programs. Care requires learned skill and responsibility as well as compassion.",
+      "emotion": "professional_pride",
+      "source_ids": [
+        "H27"
+      ],
+      "visual_brief_en": "A trainee nurse studies a clearly simplified teaching diagram; cut to supervised hand washing or a precise non-invasive care task.",
+      "setting": "care",
+      "act": {
+        "number": 5,
+        "title_ml": "സേവനവും പങ്കാളിത്തവും"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 24,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "49a",
+          "fraction": 0.55,
+          "visual": "A trainee nurse studies a clearly simplified teaching diagram",
+          "purpose": "Pushpagiri records nursing training from1964 and later programs. Care requires learned skill and responsibility as well as compassion.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "49b",
+          "fraction": 0.45,
+          "visual": "cut to supervised hand washing or a precise non-invasive care task.",
+          "purpose": "Give the factual point a human consequence that communicates professional pride.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "index": 50,
+      "title_ml": "പേരുകൾക്കപ്പുറം മനുഷ്യർ",
+      "narration_ml": "ഇത്തരം സ്ഥാപനങ്ങളുടെ ചരിത്രം പറയുമ്പോൾ ആരംഭിച്ചവരുടെ പേരുകൾക്കൊപ്പം ജോലി ചെയ്യുന്നവരുടെ അധ്വാനവും കാണണം. രോഗിയെ സ്വീകരിക്കുന്ന ജീവനക്കാരൻ, രാത്രിയിൽ ശ്രദ്ധയോടെ നിൽക്കുന്ന നഴ്സ്, ശുചിത്വം ഉറപ്പാക്കുന്ന തൊഴിലാളി. പരിചരണം ഒരു സംഘത്തിന്റെ പ്രവർത്തിയാണ്. അതിലെ ഓരോരുത്തർക്കും മനുഷ്യഗൗരവമുണ്ട്.",
+      "narration_en": "Institutional care depends on reception staff, nurses, cleaners, and many others. Recognize the dignity of the whole team, not only founders.",
+      "purpose": "Institutional care depends on reception staff, nurses, cleaners, and many others. Recognize the dignity of the whole team, not only founders.",
+      "emotion": "dignity",
+      "source_ids": [
+        "H26",
+        "H27",
+        "REFLECTION"
+      ],
+      "visual_brief_en": "A cleaner completes a careful wipe and a nurse wheels a chair into place in separate readable shots; equal framing dignifies both.",
+      "setting": "care",
+      "act": {
+        "number": 5,
+        "title_ml": "സേവനവും പങ്കാളിത്തവും"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 27,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "50a",
+          "fraction": 0.55,
+          "visual": "A cleaner completes a careful wipe and a nurse wheels a chair into place in separate readable shots",
+          "purpose": "Institutional care depends on reception staff, nurses, cleaners, and many others. Recognize the dignity of the whole team, not only founders.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "50b",
+          "fraction": 0.45,
+          "visual": "equal framing dignifies both.",
+          "purpose": "Give the factual point a human consequence that communicates dignity.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "index": 51,
+      "title_ml": "ഒരേയൊരു കാരണം അല്ല",
+      "narration_ml": "ഈ ആശുപത്രികളും വിദ്യാലയങ്ങളും പ്രധാന ഉദാഹരണങ്ങളാണ്. പക്ഷേ കേരളത്തിന്റെ ആരോഗ്യവും വിദ്യാഭ്യാസവും വളർന്നതിനു കാരണം ഒരു സമൂഹം മാത്രമാണെന്ന നിഗമനത്തിലേക്കു പോകാനാവില്ല. പൊതുസേവനങ്ങളും സാമൂഹിക പ്രസ്ഥാനങ്ങളും പല സമൂഹങ്ങളുടെ പ്രവർത്തനങ്ങളും കൂടിയാണ് വലിയ ചിത്രം. പങ്കാളിത്തത്തിന്റെ ചരിത്രമാണ് ഇത്.",
+      "narration_en": "These institutions are examples, not evidence that one community alone produced Kerala's health or education outcomes. Public services and many communities form the wider picture.",
+      "purpose": "These institutions are examples, not evidence that one community alone produced Kerala's health or education outcomes. Public services and many communities form the wider picture.",
+      "emotion": "fairness",
+      "source_ids": [
+        "H16",
+        "H17",
+        "H26",
+        "H27",
+        "REFLECTION"
+      ],
+      "visual_brief_en": "A church-associated school, public classroom and generic clinic are represented at equal scale; camera finishes on people cooperating rather than buildings.",
+      "setting": "community",
+      "act": {
+        "number": 6,
+        "title_ml": "നമ്മുടെ അടുത്ത അധ്യായം"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 28,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "51a",
+          "fraction": 0.55,
+          "visual": "A church-associated school, public classroom and generic clinic are represented at equal scale",
+          "purpose": "These institutions are examples, not evidence that one community alone produced Kerala's health or education outcomes. Public services and many communities form the wider picture.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "51b",
+          "fraction": 0.45,
+          "visual": "camera finishes on people cooperating rather than buildings.",
+          "purpose": "Give the factual point a human consequence that communicates fairness.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "index": 52,
+      "title_ml": "ആഴമുള്ള സ്വന്തം ഇടം",
+      "narration_ml": "ആറാം നൂറ്റാണ്ടിലെ രേഖയിൽനിന്ന് ചെപ്പേടുകളിലേക്കും കലകളിലേക്കും വിദ്യാലയങ്ങളിലേക്കും പരിചരണത്തിലേക്കും നാം സഞ്ചരിച്ചു. കേരള ക്രൈസ്തവരുടെ ചരിത്രം വിദേശകപ്പലിന്റെ വരവിൽ മാത്രം ഒതുങ്ങുന്നില്ലെന്ന് ഈ യാത്ര കാണിക്കുന്നു. ഈ മണ്ണിൽ ദീർഘമായ സ്വന്തം ഇടമുള്ള, മാറിക്കൊണ്ടിരിക്കുന്ന ഒരു സമൂഹത്തിന്റെ കഥയാണിത്.",
+      "narration_en": "From a sixth-century reference through plates, arts, education, and care, Kerala Christian history extends far beyond European arrival: a rooted and changing community.",
+      "purpose": "From a sixth-century reference through plates, arts, education, and care, Kerala Christian history extends far beyond European arrival: a rooted and changing community.",
+      "emotion": "empowerment",
+      "source_ids": [
+        "H1",
+        "H2",
+        "H15",
+        "H16",
+        "H26"
+      ],
+      "visual_brief_en": "Five concise visual echoes—manuscript, copper, dancer, classroom, caregiver—appear one at a time, ending at a shared Kerala street.",
+      "setting": "timeline",
+      "act": {
+        "number": 6,
+        "title_ml": "നമ്മുടെ അടുത്ത അധ്യായം"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 28,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "52a",
+          "fraction": 0.55,
+          "visual": "Five concise visual echoes—manuscript, copper, dancer, classroom, caregiver—appear one at a time, ending at a shared Kerala street.",
+          "purpose": "From a sixth-century reference through plates, arts, education, and care, Kerala Christian history extends far beyond European arrival: a rooted and changing community.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "52b",
+          "fraction": 0.45,
+          "visual": "Close reaction or purposeful object detail extends the primary action.",
+          "purpose": "Give the factual point a human consequence that communicates empowerment.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "index": 53,
+      "title_ml": "വായനക്കാരന്റെ ലോകം",
+      "narration_ml": "അച്ചടിയിൽനിന്ന് പത്രവായനയിലേക്കും ഈ കഥ നീളുന്നു. ആയിരത്തെണ്ണൂറ്റിയെൺപത്തേഴിൽ നസ്രാണി ദീപിക പ്രസിദ്ധീകരണം ആരംഭിച്ചു. പിന്നീട് ദീപിക എന്ന പേരിലറിയപ്പെട്ട പത്രമാണത്. മതസമൂഹത്തിന്റെ പശ്ചാത്തലത്തിൽ തുടങ്ങിയ പ്രസിദ്ധീകരണവും മലയാളത്തിലെ പൊതുസംഭാഷണത്തിന്റെ ഭാഗമാകാം. വായനയുടെ ലോകം അങ്ങനെ വിശാലമാകുന്നു.",
+      "narration_en": "Nazrani Deepika began publication in1887 and later became Deepika. It illustrates a Christian-linked publication participating in Malayalam public conversation.",
+      "purpose": "Nazrani Deepika began publication in1887 and later became Deepika. It illustrates a Christian-linked publication participating in Malayalam public conversation.",
+      "emotion": "participation",
+      "source_ids": [
+        "H28"
+      ],
+      "visual_brief_en": "A reader unfolds a newspaper whose historic title and date are added cleanly in post; camera reveals another reader sharing the page, no invented headlines.",
+      "setting": "printing",
+      "act": {
+        "number": 6,
+        "title_ml": "നമ്മുടെ അടുത്ത അധ്യായം"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 26,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "53a",
+          "fraction": 0.55,
+          "visual": "A reader unfolds a newspaper whose historic title and date are added cleanly in post",
+          "purpose": "Nazrani Deepika began publication in1887 and later became Deepika. It illustrates a Christian-linked publication participating in Malayalam public conversation.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "53b",
+          "fraction": 0.45,
+          "visual": "camera reveals another reader sharing the page, no invented headlines.",
+          "purpose": "Give the factual point a human consequence that communicates participation.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "index": 54,
+      "title_ml": "കലയെ തുടരുന്നവർ",
+      "narration_ml": "ഗോതുരുത്തിൽ രണ്ടായിരത്തിയഞ്ചിൽ ചവിട്ടുനാടക അക്കാദമി സ്ഥാപിച്ചതായി പൈതൃകവിവരണം രേഖപ്പെടുത്തുന്നു. പഴയ കല നിലനിൽക്കാൻ ഇന്നത്തെ പരിശീലനവും വേദിയും വേണം. ചരിത്രം സ്വയം സൂക്ഷിക്കപ്പെടില്ല. പഠിക്കുന്ന പുതിയ കലാകാരനും പഠിപ്പിക്കുന്ന ആശാനും അതിന്റെ തുടർച്ചയിൽ പ്രവർത്തിക്കുന്നു.",
+      "narration_en": "The Gothuruthu heritage account dates its Chavittu Natakam academy to2005. Preserving an art requires present-day teaching, practice, and performance spaces.",
+      "purpose": "The Gothuruthu heritage account dates its Chavittu Natakam academy to2005. Preserving an art requires present-day teaching, practice, and performance spaces.",
+      "emotion": "continuity",
+      "source_ids": [
+        "H20"
+      ],
+      "visual_brief_en": "Older teacher demonstrates a single stage step and a young performer repeats it; finish with a warm shared nod, no complex full troupe choreography.",
+      "setting": "dance",
+      "act": {
+        "number": 6,
+        "title_ml": "നമ്മുടെ അടുത്ത അധ്യായം"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 25,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "54a",
+          "fraction": 0.55,
+          "visual": "Older teacher demonstrates a single stage step and a young performer repeats it",
+          "purpose": "The Gothuruthu heritage account dates its Chavittu Natakam academy to2005. Preserving an art requires present-day teaching, practice, and performance spaces.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "54b",
+          "fraction": 0.45,
+          "visual": "finish with a warm shared nod, no complex full troupe choreography.",
+          "purpose": "Give the factual point a human consequence that communicates continuity.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "index": 55,
+      "title_ml": "അടുത്തടുത്തുള്ള ഇടങ്ങൾ",
+      "narration_ml": "ചേന്ദമംഗലത്തെ കോട്ടയിൽ കോവിലകം പ്രദേശത്ത് പള്ളിയും ക്ഷേത്രവും മുസ്ലിം ആരാധനാലയവും യഹൂദ പൈതൃകസ്ഥലവും അടുത്തടുത്തുണ്ട്. കേരളത്തിന്റെ പല ഓർമ്മകളും ഒരേ ഭൂമിയിൽ അടുക്കിനിൽക്കുന്നതിന്റെ ഒരു ഉദാഹരണമാണിത്. അടുത്തിരിക്കുന്ന കെട്ടിടങ്ങൾ മനുഷ്യർ തമ്മിലുള്ള കരുതലിനുള്ള ക്ഷണമായും നമുക്ക് കാണാം.",
+      "narration_en": "Around Kottayil Kovilakam at Chendamangalam, Christian, Hindu, Muslim, and Jewish heritage sites stand near one another. The landscape holds multiple memories.",
+      "purpose": "Around Kottayil Kovilakam at Chendamangalam, Christian, Hindu, Muslim, and Jewish heritage sites stand near one another. The landscape holds multiple memories.",
+      "emotion": "shared_belonging",
+      "source_ids": [
+        "H5"
+      ],
+      "visual_brief_en": "Source-based broad Chendamangalam location with four simple equal-weight heritage symbols; no invented exact monument coordinates or claim of uninterrupted historical harmony.",
+      "setting": "map",
+      "act": {
+        "number": 6,
+        "title_ml": "നമ്മുടെ അടുത്ത അധ്യായം"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 27,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "55a",
+          "fraction": 0.55,
+          "visual": "Source-based broad Chendamangalam location with four simple equal-weight heritage symbols",
+          "purpose": "Around Kottayil Kovilakam at Chendamangalam, Christian, Hindu, Muslim, and Jewish heritage sites stand near one another. The landscape holds multiple memories.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "55b",
+          "fraction": 0.45,
+          "visual": "no invented exact monument coordinates or claim of uninterrupted historical harmony.",
+          "purpose": "Give the factual point a human consequence that communicates shared belonging.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "index": 56,
+      "title_ml": "പൊതുജീവിതത്തിലെ സ്ത്രീ",
+      "narration_ml": "സ്ത്രീകളുടെ മുന്നേറ്റത്തെ ഓർക്കുമ്പോൾ അന്ന ചാണ്ടിയുടെ പേരും കേരളത്തിന്റെ ചരിത്രത്തിൽ തെളിയുന്നു. ഇന്ത്യയിലെ ആദ്യ വനിതാ ജഡ്ജിയും പിന്നീട് ഹൈക്കോടതി ജഡ്ജിയുമായ അവരെ കേരള ഹൈക്കോടതി അനുസ്മരിക്കുന്നു. അധികാരത്തിന്റെ മുറിയിലും സ്ത്രീക്ക് സ്വന്തം ശബ്ദമുണ്ടാകാമെന്ന ശക്തമായ ഒരു ഓർമ്മയാണത്.",
+      "narration_en": "The Kerala High Court honors Anna Chandy as India's first woman judge and later High Court judge. Her example places women's agency within public authority.",
+      "purpose": "The Kerala High Court honors Anna Chandy as India's first woman judge and later High Court judge. Her example places women's agency within public authority.",
+      "emotion": "agency",
+      "source_ids": [
+        "H29"
+      ],
+      "visual_brief_en": "A contemporary girl reads a properly credited Anna Chandy fact card; cut to a simple woman judge silhouette behind a desk, not a verified portrait or courtroom reconstruction.",
+      "setting": "reader",
+      "act": {
+        "number": 6,
+        "title_ml": "നമ്മുടെ അടുത്ത അധ്യായം"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 28,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "56a",
+          "fraction": 0.55,
+          "visual": "A contemporary girl reads a properly credited Anna Chandy fact card",
+          "purpose": "The Kerala High Court honors Anna Chandy as India's first woman judge and later High Court judge. Her example places women's agency within public authority.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "56b",
+          "fraction": 0.45,
+          "visual": "cut to a simple woman judge silhouette behind a desk, not a verified portrait or courtroom reconstruction.",
+          "purpose": "Give the factual point a human consequence that communicates agency.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "index": 57,
+      "title_ml": "തിരികെ ആ ചെറിയ മണിയിലേക്ക്",
+      "narration_ml": "ആദ്യത്തെ കുരുമുളകുമണി ഓർമ്മയുണ്ടോ? ഇപ്പോൾ അതിനെ വീണ്ടും നോക്കുമ്പോൾ ഒരു ചരക്ക് മാത്രം കാണുന്നുണ്ടോ? കടൽ കടന്ന ബന്ധങ്ങളും ചെമ്പിലെ വാക്കുകളും പഠിക്കുന്ന കുട്ടിയും പരിചരിക്കുന്ന കൈയും ചേർന്ന ഒരു ലോകം നമ്മുടെ മുന്നിലുണ്ട്. അതിൽ നമ്മുടെ നാട്ടിന്റെ വലിയ കഥയുണ്ട്.",
+      "narration_en": "Return to the peppercorn. It now evokes sea connections, inscribed evidence, learning, and care: a larger story of this land.",
+      "purpose": "Return to the peppercorn. It now evokes sea connections, inscribed evidence, learning, and care: a larger story of this land.",
+      "emotion": "recognition",
+      "source_ids": [
+        "H1",
+        "H2",
+        "H4",
+        "H16",
+        "H27",
+        "REFLECTION"
+      ],
+      "visual_brief_en": "Repeat the opening peppercorn composition; match cut through four brief motifs—boat, actual plate, student, caregiver—then return to the open palm.",
+      "setting": "pepper",
+      "act": {
+        "number": 6,
+        "title_ml": "നമ്മുടെ അടുത്ത അധ്യായം"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 30,
+      "historical_status": "sourced factual anchor plus original interpretation",
+      "shots": [
+        {
+          "id": "57a",
+          "fraction": 0.55,
+          "visual": "Repeat the opening peppercorn composition",
+          "purpose": "Return to the peppercorn. It now evokes sea connections, inscribed evidence, learning, and care: a larger story of this land.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "57b",
+          "fraction": 0.45,
+          "visual": "match cut through four brief motifs—boat, actual plate, student, caregiver—then return to the open palm.",
+          "purpose": "Give the factual point a human consequence that communicates recognition.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "index": 58,
+      "title_ml": "ഈ മണ്ണിൽ",
+      "narration_ml": "ഈ മണ്ണിൽ നിൽക്കാൻ നിനക്കു മറ്റൊരാളുടെ ചരിത്രം മായ്ക്കേണ്ടതില്ല. നിന്റെ പ്രാർത്ഥനയ്ക്കും നിന്റെ മലയാളത്തിനും നിന്റെ കുടുംബത്തിന്റെ ഓർമ്മയ്ക്കും ഇവിടെ ഇടമുണ്ട്. അതേ ഇടം മറ്റുള്ളവർക്കും നൽകുമ്പോഴാണ് നമ്മുടെ സ്വന്തം ഇടം കൂടുതൽ വിശാലമാകുന്നത്.",
+      "narration_en": "You need not erase anyone else's history to belong here. Faith, Malayalam, and family memory have room, and making room for others deepens belonging.",
+      "purpose": "You need not erase anyone else's history to belong here. Faith, Malayalam, and family memory have room, and making room for others deepens belonging.",
+      "emotion": "assurance",
+      "source_ids": [
+        "REFLECTION"
+      ],
+      "visual_brief_en": "Shared table gains one extra place setting; camera slowly widens to reveal the same coast beyond, with no religious hierarchy.",
+      "setting": "community",
+      "act": {
+        "number": 6,
+        "title_ml": "നമ്മുടെ അടുത്ത അധ്യായം"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 25,
+      "historical_status": "editorial reflection / illustrative composite",
+      "shots": [
+        {
+          "id": "58a",
+          "fraction": 0.55,
+          "visual": "Shared table gains one extra place setting",
+          "purpose": "Establish the subject and the question or fact in this narration.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "58b",
+          "fraction": 0.45,
+          "visual": "camera slowly widens to reveal the same coast beyond, with no religious hierarchy.",
+          "purpose": "Make the viewer feel assurance through a specific human reaction, consequence, or comparison.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "index": 59,
+      "title_ml": "കടൽ ഇന്നും തുറന്നിരിക്കുന്നു",
+      "narration_ml": "കടൽ ഇന്നും തുറന്നിരിക്കുന്നു. കാറ്റ് ഇന്നും കരയിലേക്കു വരുന്നു. മാറുന്നത് കപ്പലുകളും കാലങ്ങളും മനുഷ്യരുടെ ചോദ്യങ്ങളുമാണ്. ഈ ദീർഘയാത്രയിൽ നാം വെറും കാണികളല്ല. കൈമാറിക്കിട്ടിയ ലോകത്തെ കുറച്ചുകൂടി നീതിയുള്ളതാക്കാൻ കഴിയുന്ന പങ്കാളികളാണ്.",
+      "narration_en": "The sea remains open while ships, eras, and questions change. We are participants who can make the inherited world more just.",
+      "purpose": "The sea remains open while ships, eras, and questions change. We are participants who can make the inherited world more just.",
+      "emotion": "uplift",
+      "source_ids": [
+        "REFLECTION"
+      ],
+      "visual_brief_en": "A small sail moves toward a warm horizon while foreground palms sway gently; foreground child steps into frame with an elder.",
+      "setting": "coast",
+      "act": {
+        "number": 6,
+        "title_ml": "നമ്മുടെ അടുത്ത അധ്യായം"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 23,
+      "historical_status": "editorial reflection / illustrative composite",
+      "shots": [
+        {
+          "id": "59a",
+          "fraction": 0.55,
+          "visual": "A small sail moves toward a warm horizon while foreground palms sway gently",
+          "purpose": "Establish the subject and the question or fact in this narration.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "59b",
+          "fraction": 0.45,
+          "visual": "foreground child steps into frame with an elder.",
+          "purpose": "Make the viewer feel uplift through a specific human reaction, consequence, or comparison.",
+          "focal_actions_max": 1
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "index": 60,
+      "title_ml": "വേരുകളും ചിറകുകളും",
+      "narration_ml": "വേരുകൾ നമ്മെ പിടിച്ചുകെട്ടാനല്ല. നിവർന്നുനിൽക്കാൻ ശക്തി നൽകാനാണ്. ഈ നാട്ടിന്റെ കഥയിൽ നീയുണ്ട്. നിന്റെ അയൽക്കാരനുമുണ്ട്. നമ്മുടെ വിശ്വാസങ്ങൾ വ്യത്യസ്തമായിരിക്കാം. നമ്മുടെ ഉത്തരവാദിത്തം പങ്കിട്ടതാണ്. ഓർമ്മയെ കരുതലാക്കി മാറ്റാം. അഭിമാനത്തെ പ്രവർത്തിയാക്കാം. ഈ യാത്ര നമുക്കൊരുമിച്ചു തുടരാം.",
+      "narration_en": "Roots give strength to stand. You and your neighbor belong in this story. Different beliefs can share responsibility. Turn memory into care and pride into action.",
+      "purpose": "Roots give strength to stand. You and your neighbor belong in this story. Different beliefs can share responsibility. Turn memory into care and pride into action.",
+      "emotion": "earned_hope",
+      "source_ids": [
+        "REFLECTION"
+      ],
+      "visual_brief_en": "Opening peppercorn is set into soil as a visual metaphor, then a wide shared coastline at dawn; end on people facing the horizon together.",
+      "setting": "coast",
+      "act": {
+        "number": 6,
+        "title_ml": "നമ്മുടെ അടുത്ത അധ്യായം"
+      },
+      "target_seconds": 15,
+      "word_count_ml": 27,
+      "historical_status": "editorial reflection / illustrative composite",
+      "shots": [
+        {
+          "id": "60a",
+          "fraction": 0.55,
+          "visual": "Opening peppercorn is set into soil as a visual metaphor, then a wide shared coastline at dawn",
+          "purpose": "Establish the subject and the question or fact in this narration.",
+          "focal_actions_max": 1
+        },
+        {
+          "id": "60b",
+          "fraction": 0.45,
+          "visual": "end on people facing the horizon together.",
+          "purpose": "Make the viewer feel earned hope through a specific human reaction, consequence, or comparison.",
+          "focal_actions_max": 1
+        }
+      ]
+    }
+  ]
+}

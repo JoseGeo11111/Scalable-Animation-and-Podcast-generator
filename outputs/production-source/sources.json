@@ -1,0 +1,126 @@
+[
+  {
+    "id": "H1",
+    "title": "Cosmas, Christian Topography, Book III (McCrindle translation, 1897)",
+    "url": "https://www.ccel.org/ccel/pearse/morefathers/files/cosmas_03_book3.htm",
+    "note": "Primary text in an old English translation. Passage around printed pp. 118–120: Male, pepper, church; Calliana's Persian-appointed bishop is a separate claim. Not a contemporary source for Thomas."
+  },
+  {
+    "id": "H2",
+    "title": "Sanskrit Manuscripts in the UL: Three Centuries of History and Preservation",
+    "url": "https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/20/71/53/45/2020715345/2020715345.pdf",
+    "note": "Cambridge University Library study hosted by Library of Congress. Discusses copies of Kollam plates, c. 849, trade privileges and associations linked with an eastern Christian church. We do not claim to have independently deciphered the plates."
+  },
+  {
+    "id": "H3",
+    "title": "Kerala Tourism: Christianity in Kerala",
+    "url": "https://www.keralatourism.org/christianity",
+    "note": "Government tourism account used for terminology: Syrian relates especially to Syriac religious/liturgical connections, not a blanket modern ethnic origin."
+  },
+  {
+    "id": "H4",
+    "title": "Periplus of the Erythraean Sea, Schoff translation (1912)",
+    "url": "https://depts.washington.edu/silkroad/texts/periplus/periplus.html",
+    "note": "University of Washington-hosted primary text. Sections 53–57 for Muziris, cargoes, pepper and sailing. Trade evidence does not establish an apostolic passenger."
+  },
+  {
+    "id": "H5",
+    "title": "Kerala Tourism: Muziris and Religions",
+    "url": "https://www.keralatourism.org/muziris/history/religions",
+    "note": "Presents the Thomas arrival in 52 CE explicitly as legend. Used to document community tradition, not to verify an event independently."
+  },
+  {
+    "id": "H6",
+    "title": "Kerala Tourism: Seven and Half Churches",
+    "url": "https://www.keralatourism.org/christianity/seven-half-churches/7",
+    "note": "Traditional sacred geography and later songs. Exact conversion counts and caste-origin stories are intentionally omitted as unverified."
+  },
+  {
+    "id": "H7",
+    "title": "Cosmas, Christian Topography, Book XI",
+    "url": "https://tertullian.org/fathers/cosmas_11_book11.htm",
+    "note": "Primary text in McCrindle's 1897 translation: Persian Christian presence in Sri Lanka and maritime exchange. Does not make Sri Lanka evidence identical to Kerala evidence."
+  },
+  {
+    "id": "H8",
+    "title": "Kerala Tourism: Pattanam archaeological site",
+    "url": "https://www.keralatourism.org/muziris/historical-sites/pattanam",
+    "note": "Lists settlement and trade-related finds. Describes Pattanam/Muziris identification as a possibility. Film follows that qualified wording."
+  },
+  {
+    "id": "H9",
+    "title": "Sarah Knight, Narratives of Religious Identity (SOAS doctoral thesis, 2019)",
+    "url": "https://eprints.soas.ac.uk/34855/2/Knight_2019_2.pdf",
+    "note": "Scholarly contextual source for the use of origin narratives and copper-plate evidence. Read alongside the library study; not a replacement for a critical inscription edition."
+  },
+  {
+    "id": "H10",
+    "title": "Kerala Museum: Chaldean Syrian Christians in Kerala",
+    "url": "https://keralamuseum.org/wp-content/uploads/2024/07/Chaldean-Syrian-Christians-in-Kerala.pdf",
+    "note": "Institutional overview for East Syriac connections and Portuguese encounter. Supports basic chronology, not every polemical interpretation."
+  },
+  {
+    "id": "H11",
+    "title": "Government of Kerala, Class XII Syriac East textbook",
+    "url": "https://samagra.kite.kerala.gov.in/files/samagra-resource/uploads/tbookscmq/Class_XII/SyriacEast/SyriacEast.pdf",
+    "note": "Sections on Diamper and Coonan Cross. Used for dates and administrative conflict, with denominational framing treated cautiously."
+  },
+  {
+    "id": "H12",
+    "title": "Kerala Tourism: Synod of Diamper",
+    "url": "https://www.keralatourism.org/christianity/synod-udayamperoor/60",
+    "note": "Corroborates 1599 assembly and Menezes. Source's sweeping or polemical claims are not adopted; film avoids detailed allegations of manuscript destruction."
+  },
+  {
+    "id": "H13",
+    "title": "Kerala Tourism: Our Lady of Life, Mattancherry",
+    "url": "https://www.keralatourism.org/kochi/our-lady-church-mattancherry.php",
+    "note": "Location and January 1653 oath. Film describes resistance to Portuguese ecclesiastical control without claiming a single uncontested modern denominational interpretation."
+  },
+  {
+    "id": "H14",
+    "title": "Kerala Tourism: Post Koonan Kurissu",
+    "url": "https://www.keralatourism.org/christianity/post-koonan-kurissu/15",
+    "note": "Later branching and relationships. Avoids treating all modern denominations as immediate products of the oath, and does not adopt sweeping social-reform claims."
+  },
+  {
+    "id": "M1",
+    "title": "Natural Earth 1:50m land polygons",
+    "url": "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_50m_land.geojson",
+    "note": "Actual geographic geometry rendered with a Mercator projection. Public domain. Modern generalized land geometry, not reconstructed ancient coastlines; no invented international borders."
+  },
+  {
+    "id": "M2",
+    "title": "geoBoundaries India ADM1 metadata and geometry",
+    "url": "https://www.geoboundaries.org/api/current/gbOpen/IND/ADM1/",
+    "note": "Downloaded metadata: IND-ADM1-1811400, source DataMeet India community / Election Commission of India, geometry release commit 9469f09. Metadata labels represented year 2011 and build 2023. Original boundary license CC BY 2.5 India. Only Kerala used; map labels it modern orientation, not ancient territory."
+  },
+  {
+    "id": "M3",
+    "title": "GeoNames India geographical extract",
+    "url": "https://download.geonames.org/export/dump/",
+    "note": "CC BY 4.0. Modern town points: Kozhikode 1265873, Kodungallur 1266385, Kochi 1273874, Kollam 1259091, Mattancheri 1263333, Udayamperoor 11184323, Pattanam 11461772. Markers locate town areas, not exact historic landing spots or monument footprints."
+  },
+  {
+    "id": "A1",
+    "title": "Kerala Tourism: Traditional instruments of Kathakali",
+    "url": "https://www.keralatourism.org/faq/traditional-music-instruments-of-kathakali",
+    "note": "Reference for Kerala percussion inspiration only. Score is newly synthesized, with drum, drone and flute-like tones. It is not a recording or authentic reconstruction of a traditional performance."
+  },
+  {
+    "id": "V1",
+    "title": "Quilon Syrian copper plates, plates 1 and 4: historical reproduction",
+    "url": "https://commons.wikimedia.org/wiki/File:Tharisappalli_copper_plates.jpg",
+    "note": "Actual inscription reproduction from a 1928 publication, scanned/uploaded by Challiyan. Commons marks public domain including US pre-1931 publication. Film uses unchanged inscription imagery, scaled and reframed, with attribution. AI copper concept is separately labelled and is not used as the actual plates."
+  },
+  {
+    "id": "V2",
+    "title": "KannanVM: Pattanam Museum pottery display, photographed 5 January 2019",
+    "url": "https://commons.wikimedia.org/wiki/File:Un_indentified_broken_pottery_found_Muziris_excavation_sites.jpg",
+    "creator": "KannanVM",
+    "date": "2019-01-05",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "note": "Photographer own work on Commons, explicitly CC BY-SA 4.0. Modern museum display of pottery sherds, not a reconstruction and not a specific individually authenticated object. File name uses Muziris; film retains qualified Pattanam-Muziris identification. Cropped, resized and animated pan/zoom. Adapted scene08 is distributed under CC BY-SA 4.0; retain attribution, source and license link."
+  }
+]

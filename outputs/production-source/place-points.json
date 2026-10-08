@@ -1,0 +1,15 @@
+{
+  "source":"GeoNames India extract, downloaded 2026-10-06",
+  "license":"CC BY 4.0",
+  "url":"https://download.geonames.org/export/dump/IN.zip",
+  "meaning":"Modern town reference points, not ancient ports or exact monument locations",
+  "points":[
+    {"name":"Kozhikode","geonamesId":1265873,"latitude":11.24802,"longitude":75.7804},
+    {"name":"Kodungallur","geonamesId":1266385,"latitude":10.23263,"longitude":76.19513},
+    {"name":"Kochi","geonamesId":1273874,"latitude":9.93988,"longitude":76.26022},
+    {"name":"Kollam","geonamesId":1259091,"latitude":8.88113,"longitude":76.58469},
+    {"name":"Mattancherry","sourceName":"Mattancheri","geonamesId":1263333,"latitude":9.93747,"longitude":76.25166},
+    {"name":"Udayamperoor","geonamesId":11184323,"latitude":9.89585,"longitude":76.36824},
+    {"name":"Pattanam","geonamesId":11461772,"latitude":10.15588,"longitude":76.20861}
+  ]
+}

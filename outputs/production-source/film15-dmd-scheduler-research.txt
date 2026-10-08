@@ -1,0 +1,32 @@
+FastWan DMD scheduler compatibility review
+Source pinned:hao-ai-lab/FastVideo@33d81730e9fe423ab3c33dbc0451973267b80d92
+
+Finding:the installed Wan2GP UniPC/Euler path differs from the checkpoint's official DMD sampler. This is a concrete compatibility mismatch, not proof that it caused the observed cartoon ghosting. A same-keyframe/prompt/size/seed controlled A/B remains necessary.
+
+Official model card requests three denoising timesteps1000,757,522:
+https://huggingface.co/FastVideo/FastWan2.2-TI2V-5B-FullAttn-Diffusers
+It also states training at121x704x1280 and possible quality loss at other resolutions. Thus sampler mismatch is only one plausible issue when testing long or small cartoon clips.
+
+Official recurrence:
+1.Lookup sigma_t using the nearest timestep in the full1000-entry training-noise table. Construct base_sigma=1000..1 divided by1000 inFP32, then shifted_sigma=8*base_sigma/(1+7*base_sigma). The training shift8 is independent of the runtime inference shift.
+2.Predict clean x0=x_t−sigma_t*v_theta(x_t,t), calculating conversion inFP64 and casting to the prediction dtype.
+3.For each nonfinal step, draw fresh Gaussian noise and set x_next=(1−sigma_next)*x0+sigma_next*noise. The official sampler draws inB,T,C,H,W layout.
+4.Return x0 at the final step without drawing another noise tensor.
+Effective nearest-table sigmas:1.0,0.7567567229270935,0.52173912525177.
+
+This is not the deterministic ODE Euler update x_next=x_t−(sigma_t−sigma_next)*v. Merely changing an Euler/UniPC timestep list therefore does not reproduce official DMD inference. Official DMD executes conditional passes without an extra classifier-free-guidance pass; use guidance1 for the adapter test.
+
+Pinned primary sources:
+https://github.com/hao-ai-lab/FastVideo/blob/33d81730e9fe423ab3c33dbc0451973267b80d92/fastvideo/pipelines/basic/wan/stages/dmd.py
+https://github.com/hao-ai-lab/FastVideo/blob/33d81730e9fe423ab3c33dbc0451973267b80d92/fastvideo/pipelines/basic/wan/wan_dmd_pipeline.py
+https://github.com/hao-ai-lab/FastVideo/blob/33d81730e9fe423ab3c33dbc0451973267b80d92/fastvideo/models/utils.py
+https://github.com/hao-ai-lab/FastVideo/blob/33d81730e9fe423ab3c33dbc0451973267b80d92/fastvideo/models/schedulers/scheduling_flow_match_euler_discrete.py
+https://github.com/hao-ai-lab/FastVideo/blob/33d81730e9fe423ab3c33dbc0451973267b80d92/fastvideo/models/wan/definition.py
+https://github.com/hao-ai-lab/FastVideo/blob/33d81730e9fe423ab3c33dbc0451973267b80d92/fastvideo/tests/stages/test_wan_dmd_denoising.py
+
+Adapter:outputs/production-source/film15_dmd_scheduler.py
+API:import models.wan.any2video as wan_module; from film15_dmd_scheduler import install; original=install(wan_module).
+Choose sample_solver='euler',sampling_steps=3,guidance1. Restore via wan_module.EulerScheduler=original. No vendor-code mutation.
+Wan2GP passes generator=seed_g into scheduler.step; adapter uses it and draws fresh noise on its device. No process-global seed reset. Since initial-latent creation and conditioning remain Wan2GP's, equal integer seeds do not imply bitwise whole-pipeline equality with FastVideo'sCPU-generator pipeline.
+
+Validation:CPU-only exact tensor equality against the actual AST-extracted pinned official conversion/add_noise functions, inFP32 andBF16, for allthree steps. Exact generator-state equality was also checked, including no final-step draw. Results:work/film15-scheduler-research/cpu-equivalence.json. No GPU was used for this task.

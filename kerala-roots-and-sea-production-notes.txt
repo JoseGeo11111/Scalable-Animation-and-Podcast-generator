@@ -1,0 +1,66 @@
+ROOTS AND THE SEA / വേരുകളും കടലും
+15-minute Malayalam documentary pilot
+
+DELIVERY
+kerala-roots-and-sea-15min.mp4:1920x1080,30fps,27,000frames,900seconds.
+Stereo48kHz AAC, optional Malayalam and English meaning captions, six chapters.
+kerala-roots-and-sea-podcast.mp3:the complete soundtrack without picture.
+kerala-roots-and-sea-storyboard.html:60scene boards, Malayalam narration, English meaning summaries, purposes and source links.
+kerala-roots-and-sea-chapters.txt:chapter timestamps.
+
+WHAT WAS MADE
+60scenes,49locally generated moving cartoon sequences,11animated sourced map/evidence sequences, brief animated title/credits.
+29original cloud ImageGen illustrations were created for the art direction; not all appear in the final cut. Character animation was generated locally with Wan2.2TI2V5B/FastWan on the RTX4070TiSuper.
+Native animation is1280x704 at24fps, subsequently interpolated with RIFE4.26 within each edit shot and conventionally resized to1080p. This is not native1080p generation or30fps model inference. Map/evidence motion is natively rendered30fps.
+Malayalam voice uses local Svara-TTS v1 female preset, with18scene retakes and independent Malayalam ASR checks. No person's voice was cloned.
+16effects from local MOSS-SoundEffect2.0 and six instrumental themes from local ACE-Step1.5. The score is Kerala-inspired, not a claim of authentic traditional performance. Effects illustrate scenes; they are not archival/location recordings.
+
+MEASURED CHECKS
+All final master checks:{"900_seconds": true, "27000_frames": true, "30_fps": true, "1080p": true, "stereo_48k": true, "two_optional_subtitles": true, "full_decode": true}
+Master soundtrack:-16.00LUFS;-2.27dBTP. All60spoken segments sample-aligned, no overlaps or overruns.
+Natural narration:1112.420s; pitch-preserving tempo1.320851x; edited narration842.2s. Approximately111canonical Malayalam words/minute after retiming.
+Successful video-generation jobs:49; summed job time:116.6minutes. This excludes setup, research, art generation, rejected tests, sound, interpolation and final encoding.
+Highest5second-sampled GPU memory:12939MiB. Approximate GPU energy during those video jobs:0.468kWh, excluding the rest of the computer and other production stages. Multiply energy by your electricity tariff; no cloud-render purchase was initiated.
+File SHA256:9590594b1da816437d9c79195f6fae0de63fd158059535efab1e93837fe57721
+
+STORY AND EVIDENCE
+The narrative moves from pepper and maritime exchange through tradition, documentary evidence, local arts, church authority, education, printing, care and shared belonging. Pride comes from participation and agency, without exclusive credit for Kerala's development.
+52CE is presented as tradition, separately from documented later evidence. Cosmas's Male church and Calliana bishop are distinguished. Pattanam/Muziris identification remains qualified. Modern map geometry is orientation, not an exact ancient shoreline. Illustrated people/buildings are composites.
+Maps:Natural Earth public-domain geometry; geoBoundaries/DataMeet-ECI Kerala geometry with attribution; GeoNames town coordinates. The copper-plate image is the cited1928published reproduction, not AI-generated evidence.
+Sources and scene-specific IDs:production-source/film15-script.json.
+Storyboarding research:production-source/film15-storyboard-research.txt, applying Pixar/Khan storytelling and the Academy's animation planning guide.
+
+QUALITY LIMITS
+This is an AI-assisted pilot. Native Malayalam listening/editorial approval remains outstanding, especially rare names. ASR is a diagnostic tool and does not certify pronunciation, performance or historical accuracy. English captions convey meaning and are not a certified translation; subtitle timing is editorial, not forced alignment.
+Sampled animation findings are recorded separately in film15/animation-visual-qa.json. Technical frame/decode checks do not establish flawless animation.
+
+REPRODUCIBLE MATERIAL
+production-source/film15-render.py,film15_dmd_scheduler.py,film15-interpolate.py,film15-timeline.py,film15-finish.py.
+production-source/film15_graphics.py,film15_voice.py,film15-mix_film_audio.py,film15-clarity-mix.py. The clarity pass follows the base mixer; original stems are retained in audio/mixes/initial.
+film15/audio/voice/final-voice-report.json contains audio hashes, transcripts and retakes.
+film15/audio/generation-report.json and mix-report.json contain sound models, settings, cues and measurements.
+production-source/film15-dmd-scheduler-research.txt documents sampler equations and pinned upstream sources.
+Local model/runtime caches remain under work; the delivered movie does not require those runtimes to play.
+
+LICENSING / PRIMARY PROJECTS
+Wan2.2 and FastWan weights:Apache2 declarations. WanGP wrapper:WanGP Community License2.0, not an unrestricted OSI open-source license.
+https://github.com/Wan-Video/Wan2.2
+https://huggingface.co/FastVideo/FastWan2.2-TI2V-5B-FullAttn-Diffusers
+https://github.com/deepbeepmeep/Wan2GP
+RIFE:MIT https://github.com/hzwer/Practical-RIFE
+MOSS:Apache2 https://huggingface.co/OpenMOSS-Team/MOSS-SoundEffect-v2.0
+ACE-Step:MIT https://github.com/ace-step/ACE-Step-1.5
+Svara publisher:Apache2; SNAC:MIT; voice report identifies upstream ancestry and model revisions. Publisher labels are not an exhaustive audit of every upstream term.
+Font:Noto Sans Malayalam, SIL OFL1.1.
+
+VISUAL ATTRIBUTION
+SCENE 08 - PATTANAM MUSEUM POTTERY DISPLAY
+Photograph: KannanVM, 5 January 2019.
+Original title: Un indentified broken pottery found Muziris excavation sites.jpg
+Source: https://commons.wikimedia.org/wiki/File:Un_indentified_broken_pottery_found_Muziris_excavation_sites.jpg
+License: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+License link: https://creativecommons.org/licenses/by-sa/4.0/
+Changes: resized, cropped and animated with an overview-to-detail pan/zoom; added documentary typography. No generative alterations to the objects.
+The adapted scene08 visual asset (08g.mp4) is offered under CC BY-SA 4.0. Retain this attribution and license notice when reusing the adaptation.
+Context: modern Pattanam Museum pottery display. The source filename uses Muziris; the documentary explicitly qualifies identification of Pattanam with ancient Muziris. This photograph is not an excavation-in-progress scene or a claim to authenticate every displayed object individually.
+Onscreen short credit: KannanVM / Wikimedia Commons - 5 Jan 2019 - CC BY-SA 4.0 - cropped + animated - Pattanam Museum pottery display

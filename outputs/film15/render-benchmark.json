@@ -1,0 +1,9 @@
+{
+  "successful_scene_jobs": 49,
+  "generation_seconds_sum": 6997.1100000000015,
+  "highest_sampled_gpu_memory_mib": 12939.0,
+  "approximate_video_generation_gpu_kwh": 0.46806932541666624,
+  "samplers": [
+    "dmd"
+  ]
+}

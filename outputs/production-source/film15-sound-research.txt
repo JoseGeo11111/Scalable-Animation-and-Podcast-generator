@@ -1,0 +1,63 @@
+LOCAL SOUND DESIGN RESEARCH — 6 October 2026
+
+Selection
+MOSS-SoundEffect v2.0 is the selected sound-effects generator. Released 26 May 2026, its official model card describes a 1.3B diffusion transformer with DAC VAE and Qwen3 text conditioning. It accepts English or Chinese scene descriptions and generates up to 30 seconds at 48 kHz. The model repository declares Apache-2.0. We use the official pipeline, isolated environment, bfloat16 CUDA, deterministic seeds, 100 steps, CFG4, and disabled TorchDynamo compilation for Windows compatibility. This is synthesized scene illustration, not an authentic archival or location recording.
+Sources:
+https://huggingface.co/OpenMOSS-Team/MOSS-SoundEffect-v2.0
+https://github.com/OpenMOSS/MOSS-TTS/tree/main/moss_soundeffect_v2
+https://github.com/OpenMOSS/MOSS-TTS/blob/main/LICENSE
+Code revision: 934d6826b084c46a0d033402174d5f8ac4ed2519
+Weights revision: e35df4d82fbe87fcd5d14e5d100e349c0c3c076d
+
+ACE-Step1.5 is the selected score generator. The official project and weights declare MIT licensing and document Windows CUDA support. We use its turbo DiT directly, with manually authored instrumental prompts and no language-model planning. Six emotional variations share flute, plucked-string and restrained percussion colors. Prompts are Kerala-inspired; neither prompts nor model outputs establish authentic performance practice or an exact Kerala instrument recording. No existing composition, musician imitation, sampled soundtrack, or cloned singing voice is requested.
+Sources:
+https://github.com/ace-step/ACE-Step-1.5
+https://huggingface.co/ACE-Step/Ace-Step1.5
+https://github.com/ace-step/ACE-Step-1.5/blob/main/docs/en/INFERENCE.md
+https://github.com/ace-step/ACE-Step-1.5/blob/main/LICENSE
+Code revision: ca1e85fe9430179831e6bc6be790c332190a3866
+Weights revision: 19671f406d603126926c1b7e2adc169acbcade22
+
+Windows implementation notes
+MOSS runs in its own Python3.12 / PyTorch2.9 CUDA12.8 environment. Its documented torchaudio WAV writer hit a missing TorchCodec/FFmpeg DLL at export; the authored wrapper writes the generated tensor directly with soundfile instead. No synthesis change was required.
+ACE runs in a separate Python3.11 environment with its own Diffusers0.37.1 and Transformers4.57.1 additions. A .pth file reads the already-installed PyTorch2.10 CUDA13 and supporting packages from the project's video environment without modifying that environment. The optional flash-attention/nano-vLLM download was stopped; inference uses ordinary PyTorch attention, no LM, no compilation. This avoids an unnecessary second large CUDA installation. Runtime logs distinguish import checks from actual generation.
+
+Alternatives inspected, not used in the film
+Stable Audio3 Small-SFX, released May2026, has an official portable CPU runtime including Windows; the model family includes a dedicated small effects model. The model license is Stability Community, not unrestricted open source: commercial use requires registration and the stated revenue eligibility. This is unnecessary friction for this channel, so the Apache-licensed MOSS option is preferred. The CPU runtime was inspected/installed, but Stability weights and outputs are not part of the film.
+https://github.com/Stability-AI/stable-audio-3
+https://huggingface.co/stabilityai/stable-audio-3-small-sfx/blob/main/LICENSE.md
+
+Sony Woosh is a newer specialized SFX family, but the official repository explicitly separates permissively licensed code from CC-BY-NC weights. Excluded for a potentially monetized channel.
+https://github.com/SonyResearch/Woosh#license
+
+TangoFlux's official repository states non-commercial/research restrictions, references WavCaps academic-only use, and also includes Stability licensing conditions. Excluded.
+https://github.com/declare-lab/TangoFlux#license
+
+MMAudio and AudioGen were not selected because publicly released model weights carry non-commercial restrictions; a permissive wrapper/code license is not sufficient for a monetized model workflow.
+https://github.com/hkchengrex/MMAudio
+https://github.com/facebookresearch/audiocraft/blob/main/LICENSE_weights
+
+Mix design
+The narrator stays in the center. Scene-specific ambience occupies a wider bed, with music reduced under speech rather than buried permanently. Short sound-only openings and punctuation allow water, rain, paper, copper, cloth, bell, rope and steps to be consciously heard. Isolated effects are cued to visible actions, not placed on every edit. Tension receives quieter music and a narrower sound field; the final shared-belonging sequence opens out. Equal-power fades hide ambience loops. Master loudness and true peak are measured after assembly; numbers belong in the actual render report, not assumed here.
+
+Boundaries
+No model-generated crowd words are treated as historical dialogue. No generated bell, ship, instrument or room tone is described as a verified historical recording. Speech licensing and pronunciation evaluation are documented separately by the narration pipeline. Generation logs and per-asset JSON files record actual settings and times; performance claims in upstream project pages are not this machine's benchmark.
+
+ACTUAL COMPLETED OUTPUT
+Sixteen selected local MOSS effects total270 seconds at48kHz mono. Their selected generation timers sum408.97 seconds; maximum allocated VRAM14.51GiB. A near-silent writing candidate was replaced with a clearer prompt/seed. Six local ACE-Step instrumental cues total975 seconds at48kHz stereo, generated in43.03 seconds combined; maximum allocated VRAM5.80GiB. These timers exclude model loading, package/model downloads, process startup, and rejected candidates.
+
+The complete film soundtrack is exactly900.000 seconds,48kHz stereo PCM24. Measured master: -16.00 LUFS integrated, -1.48dB true peak,2.4LU loudness range. It includes all60 unique final narration files, retimed with pitch-preserving FFmpeg atempo1.320850550146442. Their allocated spoken duration totals exactly842.2 seconds with no overlap or scene overrun. The timeline includes a2-second sound-only opening and10-second credits.
+
+Ambient ducking was intentionally reduced to3dB to address the user's earlier inaudibility complaint. A broad -4dB dip around1.4kHz in ambience leaves room for Malayalam speech. Measured pre-master speech-active RMS: narration -18.00dBFS, ambience -27.29dBFS, score -29.73dBFS. Foley is episodic; its pre-master peak is -2.52dBFS. Signal measurements are not a substitute for human listening. Every900-second stem was scanned for finite samples and correct length.
+
+Deliverables in outputs/film15/audio:
+mix.wav — mastered video soundtrack
+mix.mp3 — standalone podcast listening copy
+narration.wav, music-stem.wav, ambience-stem.wav, foley-stem.wav — separate pre-master stems
+mix-report.json — cue list, exact speech alignment, processing and measured levels
+generation-report.json — every model prompt, seed, generation time and license
+opening-sound-preview.mp3 — first45 seconds of the complete mix
+sfx-audition.mp3 and score-audition.mp3 — level-matched asset review excerpts with JSON indexes
+
+Reproduction on the current machine:
+Use work/film15-sound/moss-env/Scripts/python.exe with outputs/production-source/film15-mix_film_audio.py and outputs/production-source/film15-timeline.json as its argument. The mix uses CPU processing only. Generation wrappers and prompts are saved beside it; model weights remain in the project-local work/film15-sound installation.

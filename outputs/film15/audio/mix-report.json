@@ -1,0 +1,1392 @@
+{
+  "duration": 900.0,
+  "sample_rate": 48000,
+  "channels": 2,
+  "integrated_lufs": -16.0,
+  "true_peak_dbtp": -2.27,
+  "loudness_range_lu": 2.1,
+  "mix_choices": {
+    "voice_rms_dbfs": -19,
+    "score_nonvoice_rms_dbfs": -23.5,
+    "score_speech_duck_db": 8.5,
+    "ambience_nonvoice_rms_dbfs": -24.5,
+    "ambience_speech_duck_db": 5.5,
+    "foley_base_rms_dbfs": -22.5,
+    "foley_speech_duck_db": 7
+  },
+  "cues": [
+    {
+      "scene": "01",
+      "type": "foley",
+      "asset": "pepper_pour",
+      "start": 2.25,
+      "duration": 8.0
+    },
+    {
+      "scene": "01",
+      "type": "ambience",
+      "asset": "palm_breeze",
+      "start": 2.0,
+      "duration": 14.366666666666667
+    },
+    {
+      "scene": "02",
+      "type": "ambience",
+      "asset": "shore_gentle",
+      "start": 16.366666666666667,
+      "duration": 12.4
+    },
+    {
+      "scene": "03",
+      "type": "ambience",
+      "asset": "palm_breeze",
+      "start": 28.766666666666666,
+      "duration": 13.0
+    },
+    {
+      "scene": "04",
+      "type": "ambience",
+      "asset": "sea_voyage",
+      "start": 41.766666666666666,
+      "duration": 12.133333333333333
+    },
+    {
+      "scene": "05",
+      "type": "foley",
+      "asset": "cloth_sail",
+      "start": 54.0,
+      "duration": 6.747333333333334
+    },
+    {
+      "scene": "05",
+      "type": "ambience",
+      "asset": "sea_voyage",
+      "start": 53.9,
+      "duration": 11.633333333333333
+    },
+    {
+      "scene": "06",
+      "type": "foley",
+      "asset": "wooden_boat",
+      "start": 65.63333333333333,
+      "duration": 7.539979166666667
+    },
+    {
+      "scene": "06",
+      "type": "ambience",
+      "asset": "harbor_market",
+      "start": 65.53333333333333,
+      "duration": 13.0
+    },
+    {
+      "scene": "07",
+      "type": "foley",
+      "asset": "cloth_sail",
+      "start": 78.63333333333333,
+      "duration": 8.0
+    },
+    {
+      "scene": "07",
+      "type": "ambience",
+      "asset": "palm_breeze",
+      "start": 78.53333333333333,
+      "duration": 13.933333333333334
+    },
+    {
+      "scene": "08",
+      "type": "foley",
+      "asset": "paper_pages",
+      "start": 92.56666666666666,
+      "duration": 7.752666666666666
+    },
+    {
+      "scene": "08",
+      "type": "ambience",
+      "asset": "palm_breeze",
+      "start": 92.46666666666667,
+      "duration": 13.366666666666667
+    },
+    {
+      "scene": "09",
+      "type": "foley",
+      "asset": "cloth_sail",
+      "start": 105.93333333333332,
+      "duration": 7.733333333333333
+    },
+    {
+      "scene": "09",
+      "type": "ambience",
+      "asset": "sea_voyage",
+      "start": 105.83333333333333,
+      "duration": 13.333333333333334
+    },
+    {
+      "scene": "10",
+      "type": "ambience",
+      "asset": "palm_breeze",
+      "start": 119.16666666666667,
+      "duration": 12.366666666666667
+    },
+    {
+      "scene": "11",
+      "type": "ambience",
+      "asset": "palm_breeze",
+      "start": 131.53333333333333,
+      "duration": 14.966666666666667
+    },
+    {
+      "scene": "12",
+      "type": "foley",
+      "asset": "paper_pages",
+      "start": 146.6,
+      "duration": 7.945979166666667
+    },
+    {
+      "scene": "12",
+      "type": "ambience",
+      "asset": "palm_breeze",
+      "start": 146.5,
+      "duration": 13.7
+    },
+    {
+      "scene": "13",
+      "type": "foley",
+      "asset": "paper_pages",
+      "start": 160.29999999999998,
+      "duration": 7.3853125
+    },
+    {
+      "scene": "13",
+      "type": "ambience",
+      "asset": "palm_breeze",
+      "start": 160.2,
+      "duration": 12.733333333333333
+    },
+    {
+      "scene": "14",
+      "type": "ambience",
+      "asset": "sea_voyage",
+      "start": 172.93333333333334,
+      "duration": 14.233333333333333
+    },
+    {
+      "scene": "15",
+      "type": "foley",
+      "asset": "writing_quill",
+      "start": 187.26666666666665,
+      "duration": 6.921333333333333
+    },
+    {
+      "scene": "15",
+      "type": "ambience",
+      "asset": "palm_breeze",
+      "start": 187.16666666666666,
+      "duration": 11.933333333333334
+    },
+    {
+      "scene": "16",
+      "type": "foley",
+      "asset": "metal_plate",
+      "start": 199.2,
+      "duration": 8.0
+    },
+    {
+      "scene": "16",
+      "type": "ambience",
+      "asset": "palm_breeze",
+      "start": 199.1,
+      "duration": 14.666666666666666
+    },
+    {
+      "scene": "17",
+      "type": "foley",
+      "asset": "metal_plate",
+      "start": 213.86666666666667,
+      "duration": 8.0
+    },
+    {
+      "scene": "17",
+      "type": "ambience",
+      "asset": "palm_breeze",
+      "start": 213.76666666666668,
+      "duration": 14.266666666666667
+    },
+    {
+      "scene": "18",
+      "type": "ambience",
+      "asset": "village_morning",
+      "start": 228.03333333333333,
+      "duration": 13.2
+    },
+    {
+      "scene": "19",
+      "type": "foley",
+      "asset": "cloth_sail",
+      "start": 241.33333333333331,
+      "duration": 8.0
+    },
+    {
+      "scene": "19",
+      "type": "ambience",
+      "asset": "sea_voyage",
+      "start": 241.23333333333332,
+      "duration": 15.866666666666667
+    },
+    {
+      "scene": "20",
+      "type": "foley",
+      "asset": "writing_quill",
+      "start": 257.20000000000005,
+      "duration": 8.0
+    },
+    {
+      "scene": "20",
+      "type": "ambience",
+      "asset": "palm_breeze",
+      "start": 257.1,
+      "duration": 15.166666666666666
+    },
+    {
+      "scene": "21",
+      "type": "foley",
+      "asset": "footsteps_earth",
+      "start": 272.3666666666667,
+      "duration": 8.0
+    },
+    {
+      "scene": "21",
+      "type": "ambience",
+      "asset": "village_morning",
+      "start": 272.26666666666665,
+      "duration": 17.0
+    },
+    {
+      "scene": "22",
+      "type": "foley",
+      "asset": "wood_stage_impact",
+      "start": 289.3666666666667,
+      "duration": 0.75
+    },
+    {
+      "scene": "22",
+      "type": "ambience",
+      "asset": "village_morning",
+      "start": 289.26666666666665,
+      "duration": 13.833333333333334
+    },
+    {
+      "scene": "23",
+      "type": "foley",
+      "asset": "footsteps_earth",
+      "start": 303.20000000000005,
+      "duration": 8.0
+    },
+    {
+      "scene": "23",
+      "type": "ambience",
+      "asset": "village_morning",
+      "start": 303.1,
+      "duration": 13.933333333333334
+    },
+    {
+      "scene": "24",
+      "type": "foley",
+      "asset": "footsteps_earth",
+      "start": 317.1333333333334,
+      "duration": 8.0
+    },
+    {
+      "scene": "24",
+      "type": "ambience",
+      "asset": "village_morning",
+      "start": 317.03333333333336,
+      "duration": 14.8
+    },
+    {
+      "scene": "25",
+      "type": "foley",
+      "asset": "wooden_boat",
+      "start": 331.93333333333334,
+      "duration": 8.0
+    },
+    {
+      "scene": "25",
+      "type": "ambience",
+      "asset": "sea_voyage",
+      "start": 331.8333333333333,
+      "duration": 16.033333333333335
+    },
+    {
+      "scene": "26",
+      "type": "ambience",
+      "asset": "village_morning",
+      "start": 347.8666666666667,
+      "duration": 15.9
+    },
+    {
+      "scene": "27",
+      "type": "foley",
+      "asset": "cloth_sail",
+      "start": 363.8666666666667,
+      "duration": 8.0
+    },
+    {
+      "scene": "27",
+      "type": "ambience",
+      "asset": "sea_voyage",
+      "start": 363.76666666666665,
+      "duration": 14.366666666666667
+    },
+    {
+      "scene": "28",
+      "type": "foley",
+      "asset": "paper_pages",
+      "start": 378.23333333333335,
+      "duration": 8.0
+    },
+    {
+      "scene": "28",
+      "type": "ambience",
+      "asset": "palm_breeze",
+      "start": 378.1333333333333,
+      "duration": 14.533333333333333
+    },
+    {
+      "scene": "29",
+      "type": "foley",
+      "asset": "church_bell",
+      "start": 392.7666666666667,
+      "duration": 8.042645833333333
+    },
+    {
+      "scene": "29",
+      "type": "ambience",
+      "asset": "palm_breeze",
+      "start": 392.6666666666667,
+      "duration": 13.866666666666667
+    },
+    {
+      "scene": "30",
+      "type": "foley",
+      "asset": "paper_pages",
+      "start": 406.6333333333334,
+      "duration": 8.0
+    },
+    {
+      "scene": "30",
+      "type": "ambience",
+      "asset": "palm_breeze",
+      "start": 406.53333333333336,
+      "duration": 17.066666666666666
+    },
+    {
+      "scene": "31",
+      "type": "ambience",
+      "asset": "palm_breeze",
+      "start": 423.6,
+      "duration": 15.066666666666666
+    },
+    {
+      "scene": "32",
+      "type": "foley",
+      "asset": "paper_pages",
+      "start": 438.7666666666667,
+      "duration": 8.0
+    },
+    {
+      "scene": "32",
+      "type": "ambience",
+      "asset": "palm_breeze",
+      "start": 438.6666666666667,
+      "duration": 14.966666666666667
+    },
+    {
+      "scene": "33",
+      "type": "foley",
+      "asset": "rope_strain",
+      "start": 453.73333333333335,
+      "duration": 8.0
+    },
+    {
+      "scene": "33",
+      "type": "ambience",
+      "asset": "palm_breeze",
+      "start": 453.6333333333333,
+      "duration": 16.566666666666666
+    },
+    {
+      "scene": "34",
+      "type": "foley",
+      "asset": "rope_strain",
+      "start": 470.3,
+      "duration": 7.424
+    },
+    {
+      "scene": "34",
+      "type": "ambience",
+      "asset": "palm_breeze",
+      "start": 470.2,
+      "duration": 12.8
+    },
+    {
+      "scene": "35",
+      "type": "foley",
+      "asset": "footsteps_earth",
+      "start": 483.1,
+      "duration": 7.849333333333333
+    },
+    {
+      "scene": "35",
+      "type": "ambience",
+      "asset": "palm_breeze",
+      "start": 483.0,
+      "duration": 13.533333333333333
+    },
+    {
+      "scene": "36",
+      "type": "ambience",
+      "asset": "village_morning",
+      "start": 496.53333333333336,
+      "duration": 15.333333333333334
+    },
+    {
+      "scene": "37",
+      "type": "foley",
+      "asset": "paper_pages",
+      "start": 511.9666666666667,
+      "duration": 8.0
+    },
+    {
+      "scene": "37",
+      "type": "ambience",
+      "asset": "village_morning",
+      "start": 511.8666666666667,
+      "duration": 15.733333333333333
+    },
+    {
+      "scene": "38",
+      "type": "foley",
+      "asset": "paper_pages",
+      "start": 527.7,
+      "duration": 8.0
+    },
+    {
+      "scene": "38",
+      "type": "ambience",
+      "asset": "village_morning",
+      "start": 527.6,
+      "duration": 14.8
+    },
+    {
+      "scene": "39",
+      "type": "foley",
+      "asset": "paper_pages",
+      "start": 542.5,
+      "duration": 8.0
+    },
+    {
+      "scene": "39",
+      "type": "ambience",
+      "asset": "village_morning",
+      "start": 542.4,
+      "duration": 14.066666666666666
+    },
+    {
+      "scene": "40",
+      "type": "foley",
+      "asset": "footsteps_earth",
+      "start": 556.5666666666667,
+      "duration": 8.0
+    },
+    {
+      "scene": "40",
+      "type": "foley",
+      "asset": "paper_pages",
+      "start": 565.9206666666666,
+      "duration": 3.0
+    },
+    {
+      "scene": "40",
+      "type": "ambience",
+      "asset": "village_morning",
+      "start": 556.4666666666667,
+      "duration": 16.3
+    },
+    {
+      "scene": "41",
+      "type": "foley",
+      "asset": "printing_press",
+      "start": 572.8666666666667,
+      "duration": 8.0
+    },
+    {
+      "scene": "41",
+      "type": "ambience",
+      "asset": "palm_breeze",
+      "start": 572.7666666666667,
+      "duration": 15.7
+    },
+    {
+      "scene": "42",
+      "type": "foley",
+      "asset": "printing_press",
+      "start": 588.5666666666667,
+      "duration": 8.0
+    },
+    {
+      "scene": "42",
+      "type": "ambience",
+      "asset": "palm_breeze",
+      "start": 588.4666666666667,
+      "duration": 15.766666666666667
+    },
+    {
+      "scene": "43",
+      "type": "foley",
+      "asset": "printing_press",
+      "start": 604.3333333333334,
+      "duration": 8.0
+    },
+    {
+      "scene": "43",
+      "type": "ambience",
+      "asset": "palm_breeze",
+      "start": 604.2333333333333,
+      "duration": 14.833333333333334
+    },
+    {
+      "scene": "44",
+      "type": "foley",
+      "asset": "paper_pages",
+      "start": 619.1666666666667,
+      "duration": 8.0
+    },
+    {
+      "scene": "44",
+      "type": "ambience",
+      "asset": "village_morning",
+      "start": 619.0666666666667,
+      "duration": 17.4
+    },
+    {
+      "scene": "45",
+      "type": "foley",
+      "asset": "paper_pages",
+      "start": 636.5666666666667,
+      "duration": 8.0
+    },
+    {
+      "scene": "45",
+      "type": "ambience",
+      "asset": "village_morning",
+      "start": 636.4666666666667,
+      "duration": 17.266666666666666
+    },
+    {
+      "scene": "46",
+      "type": "foley",
+      "asset": "paper_pages",
+      "start": 653.8333333333334,
+      "duration": 8.0
+    },
+    {
+      "scene": "46",
+      "type": "ambience",
+      "asset": "village_morning",
+      "start": 653.7333333333333,
+      "duration": 16.633333333333333
+    },
+    {
+      "scene": "47",
+      "type": "foley",
+      "asset": "cloth_sail",
+      "start": 670.4666666666667,
+      "duration": 8.0
+    },
+    {
+      "scene": "47",
+      "type": "ambience",
+      "asset": "palm_breeze",
+      "start": 670.3666666666667,
+      "duration": 16.7
+    },
+    {
+      "scene": "48",
+      "type": "foley",
+      "asset": "cloth_sail",
+      "start": 687.1666666666667,
+      "duration": 8.0
+    },
+    {
+      "scene": "48",
+      "type": "ambience",
+      "asset": "palm_breeze",
+      "start": 687.0666666666667,
+      "duration": 16.733333333333334
+    },
+    {
+      "scene": "49",
+      "type": "foley",
+      "asset": "cloth_sail",
+      "start": 703.9,
+      "duration": 8.0
+    },
+    {
+      "scene": "49",
+      "type": "ambience",
+      "asset": "palm_breeze",
+      "start": 703.8,
+      "duration": 15.9
+    },
+    {
+      "scene": "50",
+      "type": "foley",
+      "asset": "cloth_sail",
+      "start": 719.8000000000001,
+      "duration": 8.0
+    },
+    {
+      "scene": "50",
+      "type": "ambience",
+      "asset": "palm_breeze",
+      "start": 719.7,
+      "duration": 16.766666666666666
+    },
+    {
+      "scene": "51",
+      "type": "ambience",
+      "asset": "village_morning",
+      "start": 736.4666666666667,
+      "duration": 16.666666666666668
+    },
+    {
+      "scene": "52",
+      "type": "ambience",
+      "asset": "shore_gentle",
+      "start": 753.1333333333333,
+      "duration": 16.266666666666666
+    },
+    {
+      "scene": "53",
+      "type": "foley",
+      "asset": "paper_pages",
+      "start": 769.5,
+      "duration": 8.0
+    },
+    {
+      "scene": "53",
+      "type": "ambience",
+      "asset": "palm_breeze",
+      "start": 769.4,
+      "duration": 17.933333333333334
+    },
+    {
+      "scene": "54",
+      "type": "foley",
+      "asset": "footsteps_earth",
+      "start": 787.4333333333334,
+      "duration": 8.0
+    },
+    {
+      "scene": "54",
+      "type": "ambience",
+      "asset": "village_morning",
+      "start": 787.3333333333334,
+      "duration": 14.6
+    },
+    {
+      "scene": "55",
+      "type": "ambience",
+      "asset": "sea_voyage",
+      "start": 801.9333333333333,
+      "duration": 15.8
+    },
+    {
+      "scene": "56",
+      "type": "foley",
+      "asset": "paper_pages",
+      "start": 817.8333333333334,
+      "duration": 8.0
+    },
+    {
+      "scene": "56",
+      "type": "ambience",
+      "asset": "palm_breeze",
+      "start": 817.7333333333333,
+      "duration": 16.333333333333332
+    },
+    {
+      "scene": "57",
+      "type": "foley",
+      "asset": "pepper_pour",
+      "start": 834.1666666666667,
+      "duration": 8.0
+    },
+    {
+      "scene": "57",
+      "type": "ambience",
+      "asset": "palm_breeze",
+      "start": 834.0666666666667,
+      "duration": 14.266666666666667
+    },
+    {
+      "scene": "58",
+      "type": "ambience",
+      "asset": "village_morning",
+      "start": 848.3333333333334,
+      "duration": 12.3
+    },
+    {
+      "scene": "59",
+      "type": "ambience",
+      "asset": "shore_gentle",
+      "start": 860.6333333333333,
+      "duration": 13.6
+    },
+    {
+      "scene": "60",
+      "type": "ambience",
+      "asset": "shore_gentle",
+      "start": 874.2333333333333,
+      "duration": 15.766666666666667
+    },
+    {
+      "type": "ambience",
+      "asset": "shore_gentle",
+      "start": 0,
+      "duration": 2.0,
+      "purpose": "Sound-only opening before the first sentence"
+    },
+    {
+      "type": "ambience",
+      "asset": "shore_gentle",
+      "start": 890.0,
+      "duration": 10.0,
+      "purpose": "Coastline returns beneath credits"
+    },
+    {
+      "act": 1,
+      "type": "score",
+      "asset": "01_sea_curiosity.wav",
+      "start": 2.0,
+      "duration": 129.53333333333333
+    },
+    {
+      "act": 2,
+      "type": "score",
+      "asset": "02_roots_memory.wav",
+      "start": 131.53333333333333,
+      "duration": 140.73333333333338
+    },
+    {
+      "act": 3,
+      "type": "score",
+      "asset": "03_power_question.wav",
+      "start": 272.26666666666665,
+      "duration": 151.33333333333337
+    },
+    {
+      "act": 4,
+      "type": "score",
+      "asset": "04_courage_learning.wav",
+      "start": 423.6,
+      "duration": 149.16666666666663
+    },
+    {
+      "act": 5,
+      "type": "score",
+      "asset": "05_hands_service.wav",
+      "start": 572.7666666666667,
+      "duration": 163.70000000000005
+    },
+    {
+      "act": 6,
+      "type": "score",
+      "asset": "06_shared_future.wav",
+      "start": 736.4666666666667,
+      "duration": 163.5333333333333
+    }
+  ],
+  "source_models": [
+    "OpenMOSS-Team/MOSS-SoundEffect-v2.0",
+    "ACE-Step/Ace-Step1.5"
+  ],
+  "speech_source": "See voice scene metadata",
+  "notes": "Model synthesis is illustrative. These are not location recordings or verified historical sounds. Stem WAVs are before final master gain; mix.wav is the mastered deliverable.",
+  "edited_effects": {
+    "wood_stage_impact": "0.75 second strongest wood transient edited from locally generated printing_press.wav; illustrative impact, not a location recording."
+  },
+  "timed_voice": [
+    {
+      "id": "01",
+      "source": ".\\outputs\\film15\\audio\\voice\\01.wav",
+      "tempo": 1.320850550146442,
+      "start": 2.3333333333333335,
+      "end": 16.1,
+      "samples": 660800,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "02",
+      "source": ".\\outputs\\film15\\audio\\voice\\02.wav",
+      "tempo": 1.320850550146442,
+      "start": 16.7,
+      "end": 28.5,
+      "samples": 566400,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "03",
+      "source": ".\\outputs\\film15\\audio\\voice\\03.wav",
+      "tempo": 1.320850550146442,
+      "start": 29.1,
+      "end": 41.5,
+      "samples": 595200,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "04",
+      "source": ".\\outputs\\film15\\audio\\voice\\04.wav",
+      "tempo": 1.320850550146442,
+      "start": 42.1,
+      "end": 53.63333333333333,
+      "samples": 553600,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "05",
+      "source": ".\\outputs\\film15\\audio\\voice\\05.wav",
+      "tempo": 1.320850550146442,
+      "start": 54.233333333333334,
+      "end": 65.26666666666667,
+      "samples": 529600,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "06",
+      "source": ".\\outputs\\film15\\audio\\voice\\06.wav",
+      "tempo": 1.320850550146442,
+      "start": 65.86666666666666,
+      "end": 78.26666666666667,
+      "samples": 595200,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "07",
+      "source": ".\\outputs\\film15\\audio\\voice\\07.wav",
+      "tempo": 1.320850550146442,
+      "start": 78.86666666666666,
+      "end": 92.19999999999999,
+      "samples": 640000,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "08",
+      "source": ".\\outputs\\film15\\audio\\voice\\08.wav",
+      "tempo": 1.320850550146442,
+      "start": 92.8,
+      "end": 105.56666666666666,
+      "samples": 612800,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "09",
+      "source": ".\\outputs\\film15\\audio\\voice\\09.wav",
+      "tempo": 1.320850550146442,
+      "start": 106.16666666666667,
+      "end": 118.9,
+      "samples": 611200,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "10",
+      "source": ".\\outputs\\film15\\audio\\voice\\10.wav",
+      "tempo": 1.320850550146442,
+      "start": 119.5,
+      "end": 130.46666666666667,
+      "samples": 526400,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "11",
+      "source": ".\\outputs\\film15\\audio\\voice\\11.wav",
+      "tempo": 1.320850550146442,
+      "start": 131.86666666666667,
+      "end": 146.23333333333335,
+      "samples": 689600,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "12",
+      "source": ".\\outputs\\film15\\audio\\voice\\12.wav",
+      "tempo": 1.320850550146442,
+      "start": 146.83333333333334,
+      "end": 159.93333333333334,
+      "samples": 628800,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "13",
+      "source": ".\\outputs\\film15\\audio\\voice\\13.wav",
+      "tempo": 1.320850550146442,
+      "start": 161.53333333333333,
+      "end": 172.66666666666666,
+      "samples": 534400,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "14",
+      "source": ".\\outputs\\film15\\audio\\voice\\14.wav",
+      "tempo": 1.320850550146442,
+      "start": 173.26666666666668,
+      "end": 186.9,
+      "samples": 654400,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "15",
+      "source": ".\\outputs\\film15\\audio\\voice\\15.wav",
+      "tempo": 1.320850550146442,
+      "start": 187.5,
+      "end": 198.83333333333334,
+      "samples": 544000,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "16",
+      "source": ".\\outputs\\film15\\audio\\voice\\16.wav",
+      "tempo": 1.320850550146442,
+      "start": 200.43333333333334,
+      "end": 213.5,
+      "samples": 627200,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "17",
+      "source": ".\\outputs\\film15\\audio\\voice\\17.wav",
+      "tempo": 1.320850550146442,
+      "start": 214.1,
+      "end": 227.76666666666665,
+      "samples": 656000,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "18",
+      "source": ".\\outputs\\film15\\audio\\voice\\18.wav",
+      "tempo": 1.320850550146442,
+      "start": 228.36666666666667,
+      "end": 240.96666666666667,
+      "samples": 604800,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "19",
+      "source": ".\\outputs\\film15\\audio\\voice\\19.wav",
+      "tempo": 1.320850550146442,
+      "start": 241.56666666666666,
+      "end": 256.8333333333333,
+      "samples": 732800,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "20",
+      "source": ".\\outputs\\film15\\audio\\voice\\20.wav",
+      "tempo": 1.320850550146442,
+      "start": 257.43333333333334,
+      "end": 271.2,
+      "samples": 660800,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "21",
+      "source": ".\\outputs\\film15\\audio\\voice\\21.wav",
+      "tempo": 1.320850550146442,
+      "start": 272.6,
+      "end": 289.0,
+      "samples": 787200,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "22",
+      "source": ".\\outputs\\film15\\audio\\voice\\22.wav",
+      "tempo": 1.320850550146442,
+      "start": 289.6,
+      "end": 302.83333333333337,
+      "samples": 635200,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "23",
+      "source": ".\\outputs\\film15\\audio\\voice\\23.wav",
+      "tempo": 1.320850550146442,
+      "start": 303.43333333333334,
+      "end": 316.76666666666665,
+      "samples": 640000,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "24",
+      "source": ".\\outputs\\film15\\audio\\voice\\24.wav",
+      "tempo": 1.320850550146442,
+      "start": 317.3666666666667,
+      "end": 331.56666666666666,
+      "samples": 681600,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "25",
+      "source": ".\\outputs\\film15\\audio\\voice\\25.wav",
+      "tempo": 1.320850550146442,
+      "start": 332.1666666666667,
+      "end": 347.6,
+      "samples": 740800,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "26",
+      "source": ".\\outputs\\film15\\audio\\voice\\26.wav",
+      "tempo": 1.320850550146442,
+      "start": 348.2,
+      "end": 363.5,
+      "samples": 734400,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "27",
+      "source": ".\\outputs\\film15\\audio\\voice\\27.wav",
+      "tempo": 1.320850550146442,
+      "start": 364.1,
+      "end": 377.8666666666667,
+      "samples": 660800,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "28",
+      "source": ".\\outputs\\film15\\audio\\voice\\28.wav",
+      "tempo": 1.320850550146442,
+      "start": 378.46666666666664,
+      "end": 392.4,
+      "samples": 668800,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "29",
+      "source": ".\\outputs\\film15\\audio\\voice\\29.wav",
+      "tempo": 1.320850550146442,
+      "start": 393.0,
+      "end": 406.26666666666665,
+      "samples": 636800,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "30",
+      "source": ".\\outputs\\film15\\audio\\voice\\30.wav",
+      "tempo": 1.320850550146442,
+      "start": 406.8666666666667,
+      "end": 422.53333333333336,
+      "samples": 752000,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "31",
+      "source": ".\\outputs\\film15\\audio\\voice\\31.wav",
+      "tempo": 1.320850550146442,
+      "start": 423.93333333333334,
+      "end": 438.4,
+      "samples": 694400,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "32",
+      "source": ".\\outputs\\film15\\audio\\voice\\32.wav",
+      "tempo": 1.320850550146442,
+      "start": 439.0,
+      "end": 453.3666666666667,
+      "samples": 689600,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "33",
+      "source": ".\\outputs\\film15\\audio\\voice\\33.wav",
+      "tempo": 1.320850550146442,
+      "start": 454.96666666666664,
+      "end": 469.9333333333333,
+      "samples": 718400,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "34",
+      "source": ".\\outputs\\film15\\audio\\voice\\34.wav",
+      "tempo": 1.320850550146442,
+      "start": 470.53333333333336,
+      "end": 482.73333333333335,
+      "samples": 585600,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "35",
+      "source": ".\\outputs\\film15\\audio\\voice\\35.wav",
+      "tempo": 1.320850550146442,
+      "start": 483.3333333333333,
+      "end": 496.26666666666665,
+      "samples": 620800,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "36",
+      "source": ".\\outputs\\film15\\audio\\voice\\36.wav",
+      "tempo": 1.320850550146442,
+      "start": 496.8666666666667,
+      "end": 511.6,
+      "samples": 707200,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "37",
+      "source": ".\\outputs\\film15\\audio\\voice\\37.wav",
+      "tempo": 1.320850550146442,
+      "start": 512.2,
+      "end": 527.3333333333334,
+      "samples": 726400,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "38",
+      "source": ".\\outputs\\film15\\audio\\voice\\38.wav",
+      "tempo": 1.320850550146442,
+      "start": 527.9333333333333,
+      "end": 542.1333333333333,
+      "samples": 681600,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "39",
+      "source": ".\\outputs\\film15\\audio\\voice\\39.wav",
+      "tempo": 1.320850550146442,
+      "start": 542.7333333333333,
+      "end": 556.2,
+      "samples": 646400,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "40",
+      "source": ".\\outputs\\film15\\audio\\voice\\40.wav",
+      "tempo": 1.320850550146442,
+      "start": 557.8,
+      "end": 571.6999999999999,
+      "samples": 667200,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "41",
+      "source": ".\\outputs\\film15\\audio\\voice\\41.wav",
+      "tempo": 1.320850550146442,
+      "start": 573.1,
+      "end": 588.2,
+      "samples": 724800,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "42",
+      "source": ".\\outputs\\film15\\audio\\voice\\42.wav",
+      "tempo": 1.320850550146442,
+      "start": 588.8,
+      "end": 603.9666666666666,
+      "samples": 728000,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "43",
+      "source": ".\\outputs\\film15\\audio\\voice\\43.wav",
+      "tempo": 1.320850550146442,
+      "start": 604.5666666666667,
+      "end": 618.8000000000001,
+      "samples": 683200,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "44",
+      "source": ".\\outputs\\film15\\audio\\voice\\44.wav",
+      "tempo": 1.320850550146442,
+      "start": 619.4,
+      "end": 636.1999999999999,
+      "samples": 806400,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "45",
+      "source": ".\\outputs\\film15\\audio\\voice\\45.wav",
+      "tempo": 1.320850550146442,
+      "start": 636.8,
+      "end": 653.4666666666666,
+      "samples": 800000,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "46",
+      "source": ".\\outputs\\film15\\audio\\voice\\46.wav",
+      "tempo": 1.320850550146442,
+      "start": 654.0666666666667,
+      "end": 670.1,
+      "samples": 769600,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "47",
+      "source": ".\\outputs\\film15\\audio\\voice\\47.wav",
+      "tempo": 1.320850550146442,
+      "start": 670.7,
+      "end": 686.8000000000001,
+      "samples": 772800,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "48",
+      "source": ".\\outputs\\film15\\audio\\voice\\48.wav",
+      "tempo": 1.320850550146442,
+      "start": 687.4,
+      "end": 703.5333333333333,
+      "samples": 774400,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "49",
+      "source": ".\\outputs\\film15\\audio\\voice\\49.wav",
+      "tempo": 1.320850550146442,
+      "start": 704.1333333333333,
+      "end": 719.4333333333333,
+      "samples": 734400,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "50",
+      "source": ".\\outputs\\film15\\audio\\voice\\50.wav",
+      "tempo": 1.320850550146442,
+      "start": 720.0333333333333,
+      "end": 735.4,
+      "samples": 737600,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "51",
+      "source": ".\\outputs\\film15\\audio\\voice\\51.wav",
+      "tempo": 1.320850550146442,
+      "start": 736.8,
+      "end": 752.8666666666667,
+      "samples": 771200,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "52",
+      "source": ".\\outputs\\film15\\audio\\voice\\52.wav",
+      "tempo": 1.320850550146442,
+      "start": 753.4666666666667,
+      "end": 769.1333333333333,
+      "samples": 752000,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "53",
+      "source": ".\\outputs\\film15\\audio\\voice\\53.wav",
+      "tempo": 1.320850550146442,
+      "start": 769.7333333333333,
+      "end": 787.0666666666667,
+      "samples": 832000,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "54",
+      "source": ".\\outputs\\film15\\audio\\voice\\54.wav",
+      "tempo": 1.320850550146442,
+      "start": 787.6666666666666,
+      "end": 801.6666666666666,
+      "samples": 672000,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "55",
+      "source": ".\\outputs\\film15\\audio\\voice\\55.wav",
+      "tempo": 1.320850550146442,
+      "start": 802.2666666666667,
+      "end": 817.4666666666667,
+      "samples": 729600,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "56",
+      "source": ".\\outputs\\film15\\audio\\voice\\56.wav",
+      "tempo": 1.320850550146442,
+      "start": 818.0666666666667,
+      "end": 833.8000000000001,
+      "samples": 755200,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "57",
+      "source": ".\\outputs\\film15\\audio\\voice\\57.wav",
+      "tempo": 1.320850550146442,
+      "start": 834.4,
+      "end": 848.0666666666666,
+      "samples": 656000,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "58",
+      "source": ".\\outputs\\film15\\audio\\voice\\58.wav",
+      "tempo": 1.320850550146442,
+      "start": 848.6666666666666,
+      "end": 860.3666666666667,
+      "samples": 561600,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "59",
+      "source": ".\\outputs\\film15\\audio\\voice\\59.wav",
+      "tempo": 1.320850550146442,
+      "start": 861.9666666666667,
+      "end": 873.9666666666667,
+      "samples": 576000,
+      "pitch_preserving": "FFmpeg atempo"
+    },
+    {
+      "id": "60",
+      "source": ".\\outputs\\film15\\audio\\voice\\60.wav",
+      "tempo": 1.320850550146442,
+      "start": 874.5666666666667,
+      "end": 888.9333333333334,
+      "samples": 689600,
+      "pitch_preserving": "FFmpeg atempo"
+    }
+  ],
+  "equalization": "35Hz high-pass on all inputs for DC/rumble; additional100Hz high-pass on score; broad -4dB presence dip at1400Hz,Q0.7 on scene ambience to leave voice space.",
+  "signal_verification": {
+    "duration_seconds": 900,
+    "frames_per_stem": 43200000,
+    "all_finite": true,
+    "all60_voices_aligned": true,
+    "alignment_note": "Narration stem and timing unchanged from verified base mix.",
+    "stems": {
+      "mix.wav": {
+        "rms_dbfs": -18.425840950015164,
+        "peak_dbfs": -2.3335890808100386
+      },
+      "music-stem.wav": {
+        "rms_dbfs": -31.17167410074563,
+        "peak_dbfs": -4.736523549289032
+      },
+      "ambience-stem.wav": {
+        "rms_dbfs": -29.505971197565316,
+        "peak_dbfs": -6.816469888008484
+      },
+      "foley-stem.wav": {
+        "rms_dbfs": -36.80184677957677,
+        "peak_dbfs": -5.4103681026862835
+      }
+    },
+    "note": "Recomputed on selected clarity-v2 files; RMS is not LUFS. Stems are pre-master."
+  },
+  "revision": "speech-clarity-v2",
+  "clarity_revision": "Additional ducking during speech only; original bed level retained between phrases. Source narration timing is unchanged.",
+  "closing_scene_mix": "Additional3dB score/ambience speech duck; removed unrelated pepper-pouring Foley from the horizon scene.",
+  "reproduction": "Run base mixer, then clarity pass. Clarity pass reads preserved initial stems when available to avoid repeated ducking."
+}

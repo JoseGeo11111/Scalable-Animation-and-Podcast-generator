@@ -1,0 +1,54 @@
+Malayalam local narration research — 6 October 2026
+
+SELECTED FOR LOCAL TEST: Kenpath Svara-TTS v1
+https://huggingface.co/kenpath/svara-tts-v1
+https://github.com/Kenpath/svara-tts-inference
+Official model and inference repo declare Apache-2.0. 19 languages, including Malayalam; built-in Malayalam (Male)/(Female) profiles avoid imitating a supplied person's voice. Based on Orpheus/Llama3.2; underlying components retain their respective licenses. Svara's own model card warns of proper-name errors and recommends short sentences. Model has 13.2GB FP32 weights on disk, loaded as BF16 for GPU inference. Audio decoder is SNAC 24kHz. We adapt the official token framing/decoding for native Windows Transformers without deploying the Linux-oriented vLLM server. Not a claim that it is the strongest model in absolute listening quality.
+
+NEWER STRONG CANDIDATE: Bodhan AI / AI4Bharat Indic-Speak, released September 2026
+https://huggingface.co/bodhan-ai/indic-speak
+https://ai4bharat.iitm.ac.in/static-blogs/bodhan-tts/indic-speak.html
+Native Malayalam Kiran/Lakshmi presets, consenting contracted voice artists, no voice cloning. Model card recommends it over Indic Parler and IndicF5. Indic Open Model License v1 has attribution and hosted-service conditions; not unrestricted open source. Official download check returned HTTP401 gated-repository error in this session. Did not circumvent the access gate or obtain third-party mirrors. It is a promising upgrade if the user later provides authorized Hugging Face access. We did not benchmark it.
+
+Indic Parler-TTS / IndicF5
+https://huggingface.co/ai4bharat/indic-parler-tts
+https://huggingface.co/ai4bharat/IndicF5
+Parler declares Apache2, offers Harish/Anjali Malayalam presets. IndicF5 declares MIT but requires reference voice audio. Both official model pages currently show access-gate conditions. F5 was not used for unconsented voice cloning.
+
+Sooktam2
+https://huggingface.co/bharatgenai/sooktam2
+Supports Malayalam but checkpoint is explicitly noncommercial. Excluded from planned monetized-channel production.
+
+Older Indic-TTS
+https://github.com/AI4Bharat/Indic-TTS
+Malayalam supported, older setup; upstream Windows instructions do not establish a reliable native-Windows recipe. Not first choice given available newer preset model.
+
+QUALITY CHECKS
+Check generated duration, waveform peak and silence, truncation/capped audio tokens, then independent local multilingual ASR for omission and pronunciation clues. ASR disagreement is not equivalent to a native-speaker judgment, especially for historical Malayalam names; final publication still benefits from a native Malayalam listening pass. Never claim human listening approval from waveform or ASR checks alone.
+
+MEASURED LOCAL TEST RESULTS
+The initial Svara attempt used the publisher's current GitHub API prompt format. That differs from its v1 checkpoint's official demo, so our script was corrected to the v1 demo framing:
+https://huggingface.co/spaces/kenpath/svara-tts/blob/main/app.py
+Selected test: Malayalam (Female), seed4070, temperature0.65, top_p0.9, repetition_penalty1.1, BF16, native24kHz mono. A three-sentence16-word Malayalam sample generated10.488seconds of speech in26.262seconds onRTX4070TiSUPER; firstmodel-load12.39seconds.
+
+Generic faster-whisper large-v3-turbo was a POOR evaluator here. It initially produced apparently truncated output, and short6secondASRwindows fixed the missing ending. Its remaining phonetic spelling errors gave29.3%charactererror versus expectedtext. We did NOT treat this as a listening judgment.
+
+A second independent local checker, Adalat AI's2026Malayalam-finetuned whisper-small-ml-rmft, recovered the ENTIRE Svara sample essentially verbatim:0.64%charactererror, corresponding to a compoundwordspacingdifference. This supports intelligibility for that sample, not a native-speaker certification of the wholefilm.
+https://huggingface.co/adalat-ai/whisper-small-ml-rmft
+It is Apache2 and associated with the2026Vividh-ASR research. Initial audit was on CPU; full-film checking used CUDA FP16 concurrently with Svara within the 16GB VRAM budget. Text was NOT supplied to ASR as an initial prompt; Unicode letters and combining marks were retained in CER normalization. Original paragraphs used six-second windows; corrected sentence retakes used their actual sentence boundaries to reduce mid-word window artifacts.
+
+Additional local comparison: Praha-Labs/LFM-MALAYALAM-TTS-v0.1,350M, publisherApache2, VyvoTTS/SNAC, Malayalam-specific training withno speakercloning. Generated10.155seconds ofsameparagraph onCPU in73.076seconds. Malayalam-specificASR CER3.18%. Viable lightweightfallback, not chosenoverSvara sample.
+https://huggingface.co/Praha-Labs/LFM-MALAYALAM-TTS-v0.1
+https://github.com/Vyvo-Labs/VyvoTTS
+
+CLOUD FALLBACK NOT USED
+An attempted MicrosoftEdgeTTS test was rejected by automaticapprovalreview because sending the Malayalam script to that external service had not beenexplicitlyauthorized. No script was sent, no workaroundretried, and no cloudvoice wasgenerated. Localmodeltestingcontinued independently and recovered a viablepath.
+
+FULL FILM PRODUCTION
+All 60 scene paragraphs were generated locally with the Malayalam (Female) preset, BF16 SDPA, batch size6 and seed4070. Original natural speech total:1107.8785seconds; generation wall time774.34seconds including model loading. No scene hit the2600audio-token safety cap. Independent Malayalam ASR was completed for all60. The shared RTX4070TiSUPER16GB held both the3B TTS and small ASR checker at about13.2GB peak observed usage, without an out-of-memory failure.
+
+Purposeful retakes corrected omissions, repeats, dates, negations and the final emotional passage. Retakes use seed4071 and short sentence units, joined with120ms quiet gaps. Exact canonical narration remains in the script; harmless pronunciation spacing and comma variants are tracked in each scene's utterances metadata. One approved scene45 editorial line was rewritten before its final narration. Retakes did not clone any real person.
+
+The final durations.json contains natural scene lengths, a1556-word script count, and a proposed pitch-preserving tempo factor for842.2seconds of voiced material in the900second film. Natural WAVs remain unretimed, so the director/mixer owns the final timing. Faster playback increases measured words per minute; it does not establish subjective listening quality.
+
+Some rare names remain ambiguous in ASR, including Muziris and Gothuruth. Date and negation corrections were reviewed semantically by the Malayalam script agent. Correct names remain in canonical subtitles. These checks are useful evidence, not a native human listening certification; do not advertise the film as perfectly pronounced or independently historian-approved.

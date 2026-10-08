@@ -1,0 +1,789 @@
+{
+  "method": "CPU extraction of 16 evenly spaced frames from the final MP4 listed in a successful generation report. Visual review of contact sheets is sampled review, not complete motion playback. Pending entries are unreviewed. Only successful DMD reports are reviewed as selected final clips; original UniPC findings are archived separately.",
+  "scenes": [
+    {
+      "id": "01",
+      "status": "reviewed_no_severe_defect_observed",
+      "findings": [
+        "Basket, balance scale and ship remain coherent through the 12-second clip. No human anatomy, invented text or religious symbols present; no scene cut observed.",
+        "Minor initial contrast/shading change from the keyframe into the moving illustration. No intervention recommended from sampled frames."
+      ],
+      "severity": "minor",
+      "recommended_clean_ranges": [
+        [
+          0,
+          12
+        ]
+      ],
+      "sampler": "dmd",
+      "source": ".\\outputs\\film15\\native\\scene-01(6).mp4",
+      "contact_sheet": ".\\outputs\\film15\\scene-01-qa.jpg",
+      "sampled_frames": 16,
+      "reviewed_at": "2026-10-07T04:52:18.913157+00:00"
+    },
+    {
+      "id": "02",
+      "status": "reviewed_no_severe_defect_observed",
+      "findings": [
+        "Boat, mast, sailor silhouette and coastal setting remain coherent; no invented captions/symbols or unintended scene cut observed.",
+        "Warm sunset colors progressively become more saturated red/orange; mild style drift but no structural failure in sampled frames.",
+        "Sea and wake visibly move throughout; sailor is too small in sampled frames for detailed finger/face certification."
+      ],
+      "severity": "minor",
+      "recommended_clean_ranges": [
+        [
+          0,
+          12
+        ]
+      ],
+      "sampler": "dmd",
+      "source": ".\\outputs\\film15\\native\\scene-02(3).mp4",
+      "contact_sheet": ".\\outputs\\film15\\scene-02-qa.jpg",
+      "sampled_frames": 16,
+      "reviewed_at": "2026-10-07T04:54:48.004540+00:00"
+    },
+    {
+      "id": "03",
+      "status": "reviewed_no_severe_defect_observed",
+      "findings": [
+        "Retake contact sheet shows an empty rainy veranda throughout the sampled clip. Original unintended child is absent. No material defect observed in sampled frames."
+      ],
+      "severity": "minor",
+      "recommended_clean_ranges": [
+        [
+          0,
+          3.2
+        ]
+      ],
+      "artifact_spans": [
+        [
+          3.8,
+          12
+        ]
+      ],
+      "recommendation": "Use rain-only opening for eaves/puddle/seedling cutaways, or retake; do not treat full clip as a clean style match.",
+      "sampler": "dmd",
+      "source": ".\\outputs\\film15\\native\\retake-scene-03(3).mp4",
+      "contact_sheet": ".\\outputs\\film15\\scene-03-retake-qa.jpg",
+      "sampled_frames": 16,
+      "reviewed_at": "2026-10-06T23:54:57.496695"
+    },
+    {
+      "id": "05",
+      "status": "reviewed_no_severe_defect_observed",
+      "findings": [
+        "Sailing boat, mast and coastal water remain coherent with visible motion. No invented text/symbols, material shape collapse or scene cut observed.",
+        "Increasing sunset saturation matches scene 02's minor style drift; distant sailor anatomy is not finely certifiable at contact-sheet scale."
+      ],
+      "severity": "minor",
+      "recommended_clean_ranges": [
+        [
+          0,
+          12
+        ]
+      ],
+      "sampler": "dmd",
+      "source": ".\\outputs\\film15\\native\\scene-05(3).mp4",
+      "contact_sheet": ".\\outputs\\film15\\scene-05-qa.jpg",
+      "sampled_frames": 16,
+      "reviewed_at": "2026-10-07T05:00:20.276137+00:00"
+    },
+    {
+      "id": "06",
+      "status": "reviewed_with_visible_artifacts",
+      "findings": [
+        "Held basket disappears around 4.8s and returns by 5.6s. Prop continuity failure in the otherwise coherent harbor scene.",
+        "Dense 0.4s sampling supports using 5.6-9.6s: the worker lowers/nests the basket on the bench, straightens and turns toward the merchant.",
+        "No invented text/religious symbols or scene cut observed. Clothing becomes more defined immediately after the keyframe; not a costume-authenticity certification."
+      ],
+      "severity": "moderate",
+      "recommended_clean_ranges": [
+        [
+          5.6,
+          9.6
+        ]
+      ],
+      "artifact_spans": [
+        [
+          4.4,
+          5.4
+        ]
+      ],
+      "recommendation": "Prefer the verified placement/straightening span, with detail crops if more screen time is required.",
+      "sampler": "dmd",
+      "source": ".\\outputs\\film15\\native\\scene-06(3).mp4",
+      "contact_sheet": ".\\outputs\\film15\\scene-06-qa.jpg",
+      "sampled_frames": 16,
+      "reviewed_at": "2026-10-07T05:03:18.030565+00:00"
+    },
+    {
+      "id": "07",
+      "status": "reviewed_with_visible_artifacts",
+      "findings": [
+        "Major improvement over UniPC: no persistent duplicate facial features or severe hand deformation observed in sampled frames; action remains readable over all 12 seconds.",
+        "Localized transparent trailing duplicate head/body contours remain around 2.4-3.2s and 6.4-7.2s; these are visible ghosting artifacts, not certified clean motion.",
+        "No invented text, religious symbols or scene cuts observed. Character develops larger eyes and a small purple hair detail late in the clip; mild design drift."
+      ],
+      "sampler": "dmd",
+      "source": ".\\outputs\\film15\\native\\scene-07(6).mp4",
+      "contact_sheet": ".\\outputs\\film15\\scene-07-qa.jpg",
+      "sampled_frames": 16,
+      "reviewed_at": "2026-10-07T04:49:56.099765+00:00",
+      "severity": "moderate",
+      "recommendation": "Usable pilot improvement with disclosed moderate artifacts; cleaner publication edit should cover or trim ghosted intervals if feasible.",
+      "dense_review": {
+        "interval_seconds": 0.2,
+        "ranges_checked": [
+          [
+            0,
+            1.6
+          ],
+          [
+            4,
+            5.6
+          ],
+          [
+            8,
+            12
+          ]
+        ],
+        "recommended_clean_ranges": [
+          [
+            0,
+            1.6
+          ],
+          [
+            4.2,
+            5.2
+          ],
+          [
+            8.4,
+            10.4
+          ],
+          [
+            11,
+            12
+          ]
+        ],
+        "additional_artifact_times": [
+          8.0,
+          10.6
+        ],
+        "purpose": "Harvesting, resting with the full basket, then looking toward the vine with a small proud smile. Optional final reach/presentation beat.",
+        "limitation": "Sampled frames; not every frame or final interpolated/retimed edit."
+      }
+    },
+    {
+      "id": "08",
+      "status": "replaced_by_verified_evidence_graphic",
+      "findings": [
+        "Double exposure around head/body at 2.4-3.2s and 8-11.2s; late samples include overlapping facial features.",
+        "Initial shard transforms into a whole small jar; these visuals must be framed as a generic illustration, not a specific authenticated archaeological object.",
+        "Dense 0.2s sampling verifies a stronger 4.0-7.0s interval of the archaeologist examining the jar, without the severe duplicate face effect. Some stronger face styling emerges around 5s.",
+        "No invented text or religious symbols observed."
+      ],
+      "severity": "moderate",
+      "recommended_clean_ranges": [
+        [
+          4,
+          7
+        ]
+      ],
+      "artifact_spans": [
+        [
+          1.6,
+          3.6
+        ],
+        [
+          7.8,
+          11.4
+        ]
+      ],
+      "recommendation": "Use coherent examination interval; avoid implying the AI jar is a documented Pattanam find.",
+      "sampler": "dmd",
+      "source": ".\\outputs\\film15\\native\\scene-08(3).mp4",
+      "contact_sheet": ".\\outputs\\film15\\scene-08-qa.jpg",
+      "sampled_frames": 16,
+      "reviewed_at": "2026-10-07T05:06:18.603740+00:00",
+      "native_review_status": "reviewed_with_visible_artifacts",
+      "selected_output": ".\\work\\film15\\shot30\\08g.mp4",
+      "resolution": "The AI archaeology clip is not selected. Real credited museum photograph rendered as 401-frame 1080p 30fps BT.709 evidence graphic; decoded without error and preview visually inspected."
+    },
+    {
+      "id": "09",
+      "status": "reviewed_no_severe_defect_observed",
+      "findings": [
+        "Boat/coast remain coherent; no invented text/symbols or scene cut observed. Distant sailor stays consistent at this scale.",
+        "Sunset becomes more saturated, as in the related boat scenes. No trim indicated by sampled frames."
+      ],
+      "severity": "minor",
+      "recommended_clean_ranges": [
+        [
+          0,
+          12
+        ]
+      ],
+      "sampler": "dmd",
+      "source": ".\\outputs\\film15\\native\\scene-09(3).mp4",
+      "contact_sheet": ".\\outputs\\film15\\scene-09-qa.jpg",
+      "sampled_frames": 16,
+      "reviewed_at": "2026-10-07T05:10:31.786021+00:00"
+    },
+    {
+      "id": "10",
+      "status": "reviewed_no_severe_defect_observed",
+      "findings": [
+        "Grandmother and child retain recognizable identities through storytelling gestures; lamp and veranda stay coherent.",
+        "No persistent duplicate faces, severe limb deformation, invented text, new religious symbols or scene cuts observed in 16 samples. Fine finger/toe anatomy not certified at contact-sheet scale.",
+        "Saturation and facial stylization strengthen somewhat after the initial keyframe."
+      ],
+      "severity": "minor",
+      "recommended_clean_ranges": [
+        [
+          0,
+          12
+        ]
+      ],
+      "sampler": "dmd",
+      "source": ".\\outputs\\film15\\native\\scene-10(3).mp4",
+      "contact_sheet": ".\\outputs\\film15\\scene-10-qa.jpg",
+      "sampled_frames": 16,
+      "reviewed_at": "2026-10-07T05:10:31.912269+00:00"
+    },
+    {
+      "id": "11",
+      "status": "reviewed_no_severe_defect_observed",
+      "findings": [
+        "Arrival/welcome scene remains coherent; travelers and boat retain recognizable shape and identity.",
+        "Handshake near 4.8s and again late is stylized and small; no severe limb duplication or persistent double face observed in sampled frames.",
+        "No invented text or religious symbols. Must remain framed by the narration's explicit tradition/evidence distinction, not authenticated footage of Thomas."
+      ],
+      "severity": "minor",
+      "recommended_clean_ranges": [
+        [
+          0,
+          12
+        ]
+      ],
+      "sampler": "dmd",
+      "source": ".\\outputs\\film15\\native\\scene-11(3).mp4",
+      "contact_sheet": ".\\outputs\\film15\\scene-11-qa.jpg",
+      "sampled_frames": 16,
+      "reviewed_at": "2026-10-07T05:13:12.380376+00:00"
+    },
+    {
+      "id": "12",
+      "status": "reviewed_with_visible_artifacts",
+      "findings": [
+        "Ghosted head, hands and background sun around 3.2-4.8s; denser review also shows overlays around 6.9-7.8s and later close-up intervals.",
+        "Select opening reading pose and clean settled close view; no generated captions."
+      ],
+      "severity": "moderate",
+      "sampler": "dmd",
+      "source": ".\\outputs\\film15\\native\\scene-12(3).mp4",
+      "contact_sheet": ".\\outputs\\film15\\scene-12-qa.jpg",
+      "sampled_frames": 16,
+      "reviewed_at": "2026-10-07T05:26:48.248249+00:00",
+      "recommended_clean_ranges": [
+        [
+          0,
+          2.2
+        ],
+        [
+          5.2,
+          6.5
+        ]
+      ]
+    },
+    {
+      "id": "13",
+      "status": "reviewed_no_severe_defect_observed",
+      "findings": [
+        "Scholar, book, quill and harbor remain coherent; no severe anatomy issue or scene cut observed. Book texture is illustrative, not an authenticated manuscript."
+      ],
+      "severity": "minor",
+      "sampler": "dmd",
+      "source": ".\\outputs\\film15\\native\\scene-13(3).mp4",
+      "contact_sheet": ".\\outputs\\film15\\scene-13-qa.jpg",
+      "sampled_frames": 16,
+      "reviewed_at": "2026-10-07T05:26:48.248249+00:00",
+      "recommended_clean_ranges": [
+        [
+          0,
+          12
+        ]
+      ]
+    },
+    {
+      "id": "15",
+      "status": "reviewed_no_severe_defect_observed",
+      "findings": [
+        "Page turns and seated scholar remain coherent; no severe anatomy or scene cut observed. Faint page texture is illustrative, not readable sourced text."
+      ],
+      "severity": "minor",
+      "sampler": "dmd",
+      "source": ".\\outputs\\film15\\native\\scene-15(3).mp4",
+      "contact_sheet": ".\\outputs\\film15\\scene-15-qa.jpg",
+      "sampled_frames": 16,
+      "reviewed_at": "2026-10-07T05:26:48.248249+00:00",
+      "recommended_clean_ranges": [
+        [
+          0,
+          12
+        ]
+      ]
+    },
+    {
+      "id": "18",
+      "status": "reviewed_no_severe_defect_observed",
+      "findings": [
+        "Worker sets basket down and faces the merchant coherently. No basket disappearance seen in this clip; no severe deformation, new text or scene cut."
+      ],
+      "severity": "minor",
+      "sampler": "dmd",
+      "source": ".\\outputs\\film15\\native\\scene-18(3).mp4",
+      "contact_sheet": ".\\outputs\\film15\\scene-18-qa.jpg",
+      "sampled_frames": 16,
+      "reviewed_at": "2026-10-07T05:26:48.248249+00:00",
+      "recommended_clean_ranges": [
+        [
+          0,
+          12
+        ]
+      ]
+    },
+    {
+      "id": "19",
+      "status": "reviewed_no_severe_defect_observed",
+      "findings": [
+        "Boat and distant sailor remain coherent. Sunset saturation strengthens, but no material defect or scene cut observed."
+      ],
+      "severity": "minor",
+      "sampler": "dmd",
+      "source": ".\\outputs\\film15\\native\\scene-19(3).mp4",
+      "contact_sheet": ".\\outputs\\film15\\scene-19-qa.jpg",
+      "sampled_frames": 16,
+      "reviewed_at": "2026-10-07T05:26:48.248249+00:00",
+      "recommended_clean_ranges": [
+        [
+          0,
+          12
+        ]
+      ]
+    },
+    {
+      "id": "20",
+      "status": "reviewed_no_severe_defect_observed",
+      "findings": [
+        "Illustrative cross keeps a consistent shape; lamp, moving flame and foliage remain coherent. No generated inscription or extra religious symbol appears.",
+        "This is a generic illustration, not an authenticated historical cross photograph. Stone shading becomes more dimensional after the keyframe."
+      ],
+      "severity": "minor",
+      "recommended_clean_ranges": [
+        [
+          0,
+          12
+        ]
+      ],
+      "sampler": "dmd",
+      "source": ".\\outputs\\film15\\native\\scene-20(3).mp4",
+      "contact_sheet": ".\\outputs\\film15\\scene-20-qa.jpg",
+      "sampled_frames": 16,
+      "reviewed_at": "2026-10-07T05:31:12.885275+00:00"
+    },
+    {
+      "id": "21",
+      "status": "not_reviewed",
+      "findings": []
+    },
+    {
+      "id": "22",
+      "status": "reviewed_no_severe_defect_observed",
+      "findings": [
+        "Performer remains recognizable; camera moves to boots and emphatic stepping, which supports the narration about theatrical footwork. No extra limb, invented lettering or unintended setting change observed.",
+        "Costume and boot details stylize slightly across motion; this is an illustration rather than a documentary recording of a named performance."
+      ],
+      "severity": "minor",
+      "recommended_clean_ranges": [
+        [
+          0,
+          12
+        ]
+      ],
+      "sampler": "dmd",
+      "source": ".\\outputs\\film15\\native\\scene-22(3).mp4",
+      "contact_sheet": ".\\outputs\\film15\\scene-22-qa.jpg",
+      "sampled_frames": 16,
+      "reviewed_at": "2026-10-07T05:47:14.812243+00:00"
+    },
+    {
+      "id": "23",
+      "status": "not_reviewed",
+      "findings": []
+    },
+    {
+      "id": "24",
+      "status": "not_reviewed",
+      "findings": []
+    },
+    {
+      "id": "25",
+      "status": "not_reviewed",
+      "findings": []
+    },
+    {
+      "id": "26",
+      "status": "not_reviewed",
+      "findings": []
+    },
+    {
+      "id": "27",
+      "status": "not_reviewed",
+      "findings": []
+    },
+    {
+      "id": "28",
+      "status": "not_reviewed",
+      "findings": []
+    },
+    {
+      "id": "29",
+      "status": "not_reviewed",
+      "findings": []
+    },
+    {
+      "id": "30",
+      "status": "reviewed_no_severe_defect_observed",
+      "findings": [
+        "Representative council scene keeps three people and their gestures coherent; existing crosses remain recognizable. No new lettering or setting change observed.",
+        "This is a generic dramatic illustration, not a verified likeness of historical participants or exact meeting room. Some jewelry and garment styling becomes stronger after the first frame."
+      ],
+      "severity": "minor",
+      "recommended_clean_ranges": [
+        [
+          0,
+          12
+        ]
+      ],
+      "sampler": "dmd",
+      "source": ".\\outputs\\film15\\native\\scene-30(3).mp4",
+      "contact_sheet": ".\\outputs\\film15\\scene-30-qa.jpg",
+      "sampled_frames": 16,
+      "reviewed_at": "2026-10-07T06:03:24.154704+00:00"
+    },
+    {
+      "id": "31",
+      "status": "not_reviewed",
+      "findings": []
+    },
+    {
+      "id": "32",
+      "status": "not_reviewed",
+      "findings": []
+    },
+    {
+      "id": "33",
+      "status": "not_reviewed",
+      "findings": []
+    },
+    {
+      "id": "34",
+      "status": "reviewed_no_severe_defect_observed",
+      "findings": [
+        "Close-up rope grips, hands and existing cross maintain coherent shapes in representative samples; no extra limb or new inscription observed.",
+        "Image is an illustrative collective-action detail, not a sourced reconstruction of an exact rope arrangement."
+      ],
+      "severity": "minor",
+      "recommended_clean_ranges": [
+        [
+          0,
+          12
+        ]
+      ],
+      "sampler": "dmd",
+      "source": ".\\outputs\\film15\\native\\scene-34(3).mp4",
+      "contact_sheet": ".\\outputs\\film15\\scene-34-qa.jpg",
+      "sampled_frames": 16,
+      "reviewed_at": "2026-10-07T06:03:24.270945+00:00"
+    },
+    {
+      "id": "36",
+      "status": "not_reviewed",
+      "findings": []
+    },
+    {
+      "id": "37",
+      "status": "not_reviewed",
+      "findings": []
+    },
+    {
+      "id": "39",
+      "status": "reviewed_with_visible_artifacts",
+      "findings": [
+        "Initial teacher facial hair/design changes after the keyframe; later shading becomes more realistic than the surrounding line art.",
+        "The 0.8-4.8s teaching exchange remains coherent in representative samples; no new text or limb duplication observed."
+      ],
+      "severity": "moderate",
+      "recommended_clean_ranges": [
+        [
+          0.8,
+          4.8
+        ]
+      ],
+      "sampler": "dmd",
+      "source": ".\\outputs\\film15\\native\\scene-39(3).mp4",
+      "contact_sheet": ".\\outputs\\film15\\scene-39-qa.jpg",
+      "sampled_frames": 16,
+      "reviewed_at": "2026-10-07T06:19:47.289799+00:00"
+    },
+    {
+      "id": "40",
+      "status": "not_reviewed",
+      "findings": []
+    },
+    {
+      "id": "41",
+      "status": "reviewed_with_visible_artifacts",
+      "findings": [
+        "Visible translucent duplicate worker/press edges around 2.4s and 7.2-9.6s.",
+        "Selected sampled phases retain paper placement and clean hand work; no readable invented print added."
+      ],
+      "severity": "moderate",
+      "recommended_clean_ranges": [
+        [
+          0,
+          1.6
+        ],
+        [
+          5.6,
+          6.4
+        ],
+        [
+          10.4,
+          12
+        ]
+      ],
+      "sampler": "dmd",
+      "source": ".\\outputs\\film15\\native\\scene-41(3).mp4",
+      "contact_sheet": ".\\outputs\\film15\\scene-41-qa.jpg",
+      "sampled_frames": 16,
+      "reviewed_at": "2026-10-07T06:19:47.289799+00:00"
+    },
+    {
+      "id": "42",
+      "status": "not_reviewed",
+      "findings": []
+    },
+    {
+      "id": "43",
+      "status": "not_reviewed",
+      "findings": []
+    },
+    {
+      "id": "44",
+      "status": "not_reviewed",
+      "findings": []
+    },
+    {
+      "id": "45",
+      "status": "reviewed_no_severe_defect_observed",
+      "findings": [
+        "Teacher and two pupils remain coherent through a reading/response exchange. No severe anatomy problem, new symbol, readable invented text or scene change observed.",
+        "Clothing saturation and facial stylization strengthen after the keyframe; the teaching space is illustrative rather than a verified historic classroom."
+      ],
+      "severity": "minor",
+      "recommended_clean_ranges": [
+        [
+          0,
+          12
+        ]
+      ],
+      "sampler": "dmd",
+      "source": ".\\outputs\\film15\\native\\scene-45(3).mp4",
+      "contact_sheet": ".\\outputs\\film15\\scene-45-qa.jpg",
+      "sampled_frames": 16,
+      "reviewed_at": "2026-10-07T06:36:15.677915+00:00"
+    },
+    {
+      "id": "46",
+      "status": "not_reviewed",
+      "findings": []
+    },
+    {
+      "id": "47",
+      "status": "not_reviewed",
+      "findings": []
+    },
+    {
+      "id": "49",
+      "status": "reviewed_with_visible_artifacts",
+      "findings": [
+        "Visible double-exposure people/cart around 3.2-4.8s and again near 12s. Later faces become more dimensional/realistic than the keyframe.",
+        "Opening 0-2.4s and central 5.6-8.8s maintain coherent staff/cart relationships in representative samples. No invented institutional signage appears."
+      ],
+      "severity": "moderate",
+      "recommended_clean_ranges": [
+        [
+          0,
+          2.4
+        ],
+        [
+          5.6,
+          8.8
+        ]
+      ],
+      "sampler": "dmd",
+      "source": ".\\outputs\\film15\\native\\scene-49(3).mp4",
+      "contact_sheet": ".\\outputs\\film15\\scene-49-qa.jpg",
+      "sampled_frames": 16,
+      "reviewed_at": "2026-10-07T06:36:15.989028+00:00"
+    },
+    {
+      "id": "50",
+      "status": "not_reviewed",
+      "findings": []
+    },
+    {
+      "id": "51",
+      "status": "not_reviewed",
+      "findings": []
+    },
+    {
+      "id": "53",
+      "status": "not_reviewed",
+      "findings": []
+    },
+    {
+      "id": "54",
+      "status": "not_reviewed",
+      "findings": []
+    },
+    {
+      "id": "57",
+      "status": "not_reviewed",
+      "findings": []
+    },
+    {
+      "id": "58",
+      "status": "reviewed_material_defect_trim_selected",
+      "findings": [
+        "Family meal remains legible; ghosting around 3.2–4.8 seconds is omitted by selected clean ranges."
+      ],
+      "severity": "moderate",
+      "source": ".\\outputs\\film15\\native\\scene-58(3).mp4",
+      "contact_sheet": ".\\outputs\\film15\\scene-58-qa.jpg",
+      "sampled_frames": 16,
+      "reviewed_at": "2026-10-06T23:54:57.496695"
+    },
+    {
+      "id": "59",
+      "status": "not_reviewed",
+      "findings": []
+    },
+    {
+      "id": "60",
+      "status": "reviewed_no_severe_defect_observed",
+      "findings": [
+        "Family facing sunset remains coherent in sampled frames. Minor trailing contours; no material scene change or facial deformation observed."
+      ],
+      "severity": "minor",
+      "source": ".\\outputs\\film15\\native\\scene-60(3).mp4",
+      "contact_sheet": ".\\outputs\\film15\\scene-60-qa.jpg",
+      "sampled_frames": 16,
+      "reviewed_at": "2026-10-06T23:54:57.496695"
+    }
+  ],
+  "selected_sampler": "dmd",
+  "previous_versions": [
+    {
+      "id": "01",
+      "status": "reviewed_no_severe_defect_observed",
+      "findings": [
+        "No people, invented text, religious symbols, or unintended scene cut observed in sampled frames.",
+        "Warm illustrated setting persists. Initial frame settles into stronger contrast and more dimensional shading by 0.8s; mild style/tonal drift, not a severe continuity failure.",
+        "Camera shifts and ship movement remain coherent; basket and scale stay recognizable."
+      ],
+      "source": ".\\outputs\\film15\\native\\scene-01(3).mp4",
+      "contact_sheet": ".\\outputs\\film15\\scene-01-qa-unipc.jpg",
+      "sampled_frames": 16,
+      "reviewed_at": "2026-10-07T04:38:26.387331+00:00",
+      "sampler": "original_unipc"
+    },
+    {
+      "id": "07",
+      "status": "material_defect_observed",
+      "findings": [
+        "Persistent double-exposure ghosting of head, body and basket around 2.4-4.0s and 7.2-9.6s; duplicated facial features near 8.0s and 11.2s. This persists across multiple sampled times and is not judged acceptable brief motion blur.",
+        "Character becomes more wide-eyed and youthful as camera tightens; moderate identity/style drift.",
+        "No invented text, religious symbols, or full scene cut observed."
+      ],
+      "source": ".\\outputs\\film15\\native\\scene-07(3).mp4",
+      "contact_sheet": ".\\outputs\\film15\\scene-07-qa-unipc.jpg",
+      "sampled_frames": 16,
+      "reviewed_at": "2026-10-07T04:40:28.463779+00:00",
+      "recommendation": "Investigate temporal sliding-window overlap/blending and test a corrected join or shorter single-window shot before rerendering a long batch.",
+      "sampler": "original_unipc"
+    },
+    {
+      "id": "03",
+      "status": "material_defect_observed",
+      "findings": [
+        "An unprompted child emerges around 4s, then walks toward camera, with a much more three-dimensional character style than the illustrated setting. Birth/materialization through doorway and wall occurs during emergence.",
+        "The intended rain/eaves/puddle/seedling opening remains coherent through 3.2s, confirmed with 17 additional samples every 0.2s.",
+        "No invented text or religious symbols observed."
+      ],
+      "severity": "major_but_clean_opening_available",
+      "recommended_clean_ranges": [
+        [
+          0,
+          3.2
+        ]
+      ],
+      "artifact_spans": [
+        [
+          3.8,
+          12
+        ]
+      ],
+      "recommendation": "Use rain-only opening for eaves/puddle/seedling cutaways, or retake; do not treat full clip as a clean style match.",
+      "sampler": "dmd",
+      "source": ".\\outputs\\film15\\native\\scene-03(3).mp4",
+      "contact_sheet": ".\\outputs\\film15\\scene-03-qa.jpg",
+      "sampled_frames": 16,
+      "reviewed_at": "2026-10-07T04:57:49.163507+00:00"
+    }
+  ],
+  "tests": [
+    {
+      "id": "test-dmd-07",
+      "status": "improved_with_localized_artifact",
+      "contact_sheet": ".\\work\\film15\\dmd-farmer.jpg",
+      "detail": ".\\work\\film15\\dmd-farmer-critical.png",
+      "findings": [
+        "Faces stay coherent and age drift is reduced versus UniPC.",
+        "Translucent duplicate head, shoulder, forearm and basket persist around 2.73-3.18s, visible at full resolution. Localized moderate ghosting; not artifact-free."
+      ]
+    }
+  ],
+  "scope": "Representative scene spot checks and known-defect retake checks only, as requested. Unreviewed scenes are not certified.",
+  "remaining_spot_check_ids": [
+    "20",
+    "22",
+    "30",
+    "34",
+    "39",
+    "41",
+    "45",
+    "49",
+    "58",
+    "60"
+  ],
+  "completed_at": "2026-10-06T23:54:57.496695",
+  "final_master_spot_check": {
+    "at": "2026-10-07T00:17:14.541469",
+    "contact_sheet": ".\\outputs\\film15\\final-master-spot-check.jpg",
+    "sampled_frames": 16,
+    "duration_seconds": 900,
+    "result": "No material defect observed in sampled final frames. Graphics and illustrations are legible; minor rendering/style variation remains. This is not exhaustive playback review."
+  }
+}

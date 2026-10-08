@@ -1,0 +1,11 @@
+[
+  {
+    "id": "retake-scene-03",
+    "scene_id": "03",
+    "asset": "24_rain",
+    "image": ".\\outputs\\film15\\keyframes\\24_rain.png",
+    "frames": 289,
+    "seed": 72003,
+    "prompt": "An empty unoccupied Kerala veranda during monsoon rain, drawn as a flat two-dimensional cartoon with stable crisp outlines and opaque flat colors. The porch remains empty for the entire shot. Locked camera looking at the roof eaves, puddle and coconut seedling. Fine rain falls continuously from the eaves; circular rings spread gently over the shallow puddle, and the seedling leaves sway very slightly. Keep the closed wooden doorway and all architecture unchanged. Only the falling rain, water ripples and leaves move. Quiet sheltered warmth, simple flat illustrated lighting."
+  }
+]

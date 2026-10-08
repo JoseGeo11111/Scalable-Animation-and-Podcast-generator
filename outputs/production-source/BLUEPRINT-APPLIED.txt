@@ -1,0 +1,88 @@
+PRODUCTION BLUEPRINT — APPLIED TO THE CARTOON REBUILD
+6 October 2026
+
+The uploaded document supplied the production organization and handoff contract.
+Its embedded master prompt was used as project guidance. Individual repository
+claims and CLI examples were checked before deciding what to execute.
+
+ACTUAL DIVISION OF WORK
+DirectorAgent: 164-shot manifest, precise 60fps boundaries across 72,000 frames,
+narration references, character/action/camera direction, evidence distinctions.
+MotionFXAgent: original articulated 2D rigs, environment animation, staging and
+visual review; fixed unsupported map emphasis and misleading symbolic imagery.
+Voice/ScoreSFXAgent: retained researched narration, rebuilt stereo sound bus,
+103 original timed Foley cues, independent score/FX stems and loudness validation.
+Finishing: native 1920x1080 frames at 60fps, explicit Rec.709 color conversion,
+H.264/AAC export, selectable English/Malayalam captions, full decode validation.
+Director, visual and audio subtasks actually ran as collaborating agents. The
+primary agent handled orchestration, repository checks and finishing.
+
+SELECTED EXECUTED STACK
+Authored Python/Pillow vector animation; Kokoro narration; NumPy/Pedalboard score
+and Foley; FFmpeg assembly/mastering. Nunito is bundled under SIL OFL. Geographic
+data and artifact sources retain the original attribution/licensing ledger.
+The v2 picture is authored cartoon artwork plus sourced geographic/plate imagery.
+It has no dependence on the first cut's AI-generated atmospheric illustrations.
+
+IMPLEMENTATION CHOICES
+Native curves can be evaluated at every output time, so animation is rendered
+directly at 60fps. RIFE interpolation and AI upscaling are unnecessary here.
+No synthetic historical voices, invented dialogue or new voice clone is used.
+Maps use the actual Natural Earth / geoBoundaries / GeoNames inputs. Costume,
+architecture and recurring characters are illustrative, not verified portraits
+or archaeological reconstructions. A recurring cast does not imply the same
+individuals lived through different centuries.
+
+REPOSITORY CHECKS THAT CHANGE THE UPLOADED RUNBOOK
+Wan2.1: official default model table is 480p/720p; 1080p VAE support is not an
+equivalent promise of a native1080p full documentary. The 1.3B model is documented
+at8.19GB VRAM and about4minutes for5seconds480p on RTX4090, before retries.
+https://github.com/Wan-Video/Wan2.1
+
+Hardware inspection found an existing RTX4070TiSUPER with16GB VRAM. That can
+support smaller model experiments, but does not establish performance of larger
+models. No Wan model was installed or run for this cut; its precise character
+and map motion is authored, with no per-shot generation fees.
+
+Base HunyuanVideo's documented720p129-frame configuration needs60GB GPU memory;
+the specified original repository is not a drop-in16GB native1080p engine.
+https://github.com/Tencent-Hunyuan/HunyuanVideo#requirements
+
+LivePortrait's documented source/driving flow uses driving video or templates.
+The uploaded command does not itself create an audio-to-lip-sync driving video.
+https://github.com/KlingAIResearch/LivePortrait
+
+The cited RIFE inference_video.py has --exp and --fps, not the supplied --multi2.5
+argument. Merely changing outputfps can also change duration if frames are not
+resampled correctly. Native curve evaluation avoids that issue in this project.
+https://github.com/hzwer/ECCV2022-RIFE/blob/main/inference_video.py
+
+AnimatedDrawings is MIT and useful for pose retargeting, but its original project
+is archived and its documented tested platforms are macOS/Ubuntu. No claim that
+this Windows film executed that repository is made.
+https://github.com/facebookresearch/AnimatedDrawings
+
+Motion Canvas is an MIT vector-animation tool worth considering for a future
+interactive editor. The present cut uses its own editable vector-rig source.
+https://github.com/motion-canvas/motion-canvas
+
+AudioCraft, F5-TTS and ChatTTS have code/model licensing distinctions; supplied
+pretrained weights are noncommercial. See audio-review-v2.txt for direct official
+links. The new soundtrack is original synthesis. Demucs is unnecessary because
+the production already has separate voice/music/effects stems.
+
+No Blender, Natron, ComfyUI, Wan, Hunyuan, LivePortrait, MotionCanvas, RIFE or
+Real-ESRGAN execution is claimed. The blueprint's role-based handoffs, manifest,
+parallel production, timing discipline and separate finishing pass were applied.
+
+COST
+$0 new purchases, subscriptions, stock fees or cloud-render fees. Existing
+computer, electricity and assistant subscription are not treated as free assets.
+No OpenArt credits were spent. No platform upload or publishing was performed.
+
+QUALITY LIMITS
+This is a fully rendered stylized cartoon pilot with reusable rigs. It is not
+frame-by-frame hand-drawn studio animation. Independent historical review and
+native Malayalam/pronunciation review remain pending. Representative picture
+inspection and technical decode/loudness checks do not imply a full human
+watch-through/listening review.

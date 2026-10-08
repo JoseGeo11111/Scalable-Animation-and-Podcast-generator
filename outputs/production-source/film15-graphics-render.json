@@ -1,0 +1,283 @@
+[
+  {
+    "scene_id": "04",
+    "frames": 364,
+    "fps": 30,
+    "duration_seconds": 12.133333333333333,
+    "size": [
+      1920,
+      1080
+    ],
+    "render_seconds": 4.06,
+    "output": ".\\work\\film15\\shot30\\04g.mp4",
+    "preview": ".\\work\\film15\\shot30\\04g.png",
+    "provenance": {
+      "land": "Natural Earth 1:50m, public domain; actual source geometry from land.geojson",
+      "kerala": "geoBoundaries IND ADM1 via DataMeet/ECI, CC BY2.5 India; modern orientation only",
+      "points": "GeoNames IN.txt, CC BY4.0; named modern town reference areas, not monument footprints",
+      "plates": "Quilon plates1and4,1928published reproduction, Commons public-domain scan, uploaded by Challiyan; image not redrawn",
+      "point_source": "https://download.geonames.org/export/dump/IN.zip",
+      "font": "Noto Sans Malayalam, SIL OFL1.1; HarfBuzz0.56.3 +FreeType explicit glyph shaping",
+      "routes": "Indicative connections, not reconstructed vessel tracks",
+      "anna_date": "1959 HighCourt appointment, not first1937judicial appointment; optional insert",
+      "anna_date_source": "https://www.prd.kerala.gov.in/ml/node/276136 (Kerala official Information/Public Relations,27November2024) corroborates1959HighCourt appointment"
+    }
+  },
+  {
+    "scene_id": "08",
+    "frames": 401,
+    "fps": 30,
+    "duration_seconds": 13.366666666666667,
+    "size": [
+      1920,
+      1080
+    ],
+    "render_seconds": 19.06,
+    "output": ".\\work\\film15\\shot30\\08g.mp4",
+    "preview": ".\\work\\film15\\shot30\\08g.png",
+    "provenance": {
+      "land": "Natural Earth 1:50m, public domain; actual source geometry from land.geojson",
+      "kerala": "geoBoundaries IND ADM1 via DataMeet/ECI, CC BY2.5 India; modern orientation only",
+      "points": "GeoNames IN.txt, CC BY4.0; named modern town reference areas, not monument footprints",
+      "plates": "Quilon plates1and4,1928published reproduction, Commons public-domain scan, uploaded by Challiyan; image not redrawn",
+      "point_source": "https://download.geonames.org/export/dump/IN.zip",
+      "font": "Noto Sans Malayalam, SIL OFL1.1; HarfBuzz0.56.3 +FreeType explicit glyph shaping",
+      "routes": "Indicative connections, not reconstructed vessel tracks",
+      "anna_date": "1959 HighCourt appointment, not first1937judicial appointment; optional insert",
+      "anna_date_source": "https://www.prd.kerala.gov.in/ml/node/276136 (Kerala official Information/Public Relations,27November2024) corroborates1959HighCourt appointment"
+    },
+    "photo_source": {
+      "asset": ".\\outputs\\assets\\pattanam-pottery-kannanvm-2019.jpg",
+      "title": "Un indentified broken pottery found Muziris excavation sites.jpg",
+      "description": "Museum display of pottery sherds, categorized as Pattanam Museum on the source page. The source filename uses Muziris; this film retains the qualified Pattanam-Muziris identification.",
+      "creator": "KannanVM",
+      "photo_date": "2019-01-05",
+      "source": "https://commons.wikimedia.org/wiki/File:Un_indentified_broken_pottery_found_Muziris_excavation_sites.jpg",
+      "source_revision": "https://commons.wikimedia.org/w/index.php?title=File:Un_indentified_broken_pottery_found_Muziris_excavation_sites.jpg&oldid=901951079",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Un_indentified_broken_pottery_found_Muziris_excavation_sites.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "rights_basis": "Photographer own-work declaration with explicit CC BY-SA 4.0 grant on Commons file page; attribution and share-alike required.",
+      "changes": "Resizing, cropping and animated pan/zoom; no generated replacement of artifacts.",
+      "adaptation_license": "The adapted scene08 evidence graphic is distributed under CC BY-SA 4.0. Retain credit/license/source in published documentation.",
+      "sha256": "1a0876bb18a28bccab35b58193252f8f7206104c69c68bf8fc3b8e3d90c8d43a",
+      "historical_context": "https://www.keralatourism.org/muziris/historical-sites/pattanam"
+    }
+  },
+  {
+    "scene_id": "14",
+    "frames": 427,
+    "fps": 30,
+    "duration_seconds": 14.233333333333333,
+    "size": [
+      1920,
+      1080
+    ],
+    "render_seconds": 3.89,
+    "output": ".\\work\\film15\\shot30\\14g.mp4",
+    "preview": ".\\work\\film15\\shot30\\14g.png",
+    "provenance": {
+      "land": "Natural Earth 1:50m, public domain; actual source geometry from land.geojson",
+      "kerala": "geoBoundaries IND ADM1 via DataMeet/ECI, CC BY2.5 India; modern orientation only",
+      "points": "GeoNames IN.txt, CC BY4.0; named modern town reference areas, not monument footprints",
+      "plates": "Quilon plates1and4,1928published reproduction, Commons public-domain scan, uploaded by Challiyan; image not redrawn",
+      "point_source": "https://download.geonames.org/export/dump/IN.zip",
+      "font": "Noto Sans Malayalam, SIL OFL1.1; HarfBuzz0.56.3 +FreeType explicit glyph shaping",
+      "routes": "Indicative connections, not reconstructed vessel tracks",
+      "anna_date": "1959 HighCourt appointment, not first1937judicial appointment; optional insert",
+      "anna_date_source": "https://www.prd.kerala.gov.in/ml/node/276136 (Kerala official Information/Public Relations,27November2024) corroborates1959HighCourt appointment"
+    }
+  },
+  {
+    "scene_id": "16",
+    "frames": 440,
+    "fps": 30,
+    "duration_seconds": 14.666666666666666,
+    "size": [
+      1920,
+      1080
+    ],
+    "render_seconds": 22.64,
+    "output": ".\\work\\film15\\shot30\\16g.mp4",
+    "preview": ".\\work\\film15\\shot30\\16g.png",
+    "provenance": {
+      "land": "Natural Earth 1:50m, public domain; actual source geometry from land.geojson",
+      "kerala": "geoBoundaries IND ADM1 via DataMeet/ECI, CC BY2.5 India; modern orientation only",
+      "points": "GeoNames IN.txt, CC BY4.0; named modern town reference areas, not monument footprints",
+      "plates": "Quilon plates1and4,1928published reproduction, Commons public-domain scan, uploaded by Challiyan; image not redrawn",
+      "point_source": "https://download.geonames.org/export/dump/IN.zip",
+      "font": "Noto Sans Malayalam, SIL OFL1.1; HarfBuzz0.56.3 +FreeType explicit glyph shaping",
+      "routes": "Indicative connections, not reconstructed vessel tracks",
+      "anna_date": "1959 HighCourt appointment, not first1937judicial appointment; optional insert",
+      "anna_date_source": "https://www.prd.kerala.gov.in/ml/node/276136 (Kerala official Information/Public Relations,27November2024) corroborates1959HighCourt appointment"
+    }
+  },
+  {
+    "scene_id": "17",
+    "frames": 428,
+    "fps": 30,
+    "duration_seconds": 14.266666666666667,
+    "size": [
+      1920,
+      1080
+    ],
+    "render_seconds": 28.18,
+    "output": ".\\work\\film15\\shot30\\17g.mp4",
+    "preview": ".\\work\\film15\\shot30\\17g.png",
+    "provenance": {
+      "land": "Natural Earth 1:50m, public domain; actual source geometry from land.geojson",
+      "kerala": "geoBoundaries IND ADM1 via DataMeet/ECI, CC BY2.5 India; modern orientation only",
+      "points": "GeoNames IN.txt, CC BY4.0; named modern town reference areas, not monument footprints",
+      "plates": "Quilon plates1and4,1928published reproduction, Commons public-domain scan, uploaded by Challiyan; image not redrawn",
+      "point_source": "https://download.geonames.org/export/dump/IN.zip",
+      "font": "Noto Sans Malayalam, SIL OFL1.1; HarfBuzz0.56.3 +FreeType explicit glyph shaping",
+      "routes": "Indicative connections, not reconstructed vessel tracks",
+      "anna_date": "1959 HighCourt appointment, not first1937judicial appointment; optional insert",
+      "anna_date_source": "https://www.prd.kerala.gov.in/ml/node/276136 (Kerala official Information/Public Relations,27November2024) corroborates1959HighCourt appointment"
+    }
+  },
+  {
+    "scene_id": "35",
+    "frames": 406,
+    "fps": 30,
+    "duration_seconds": 13.533333333333333,
+    "size": [
+      1920,
+      1080
+    ],
+    "render_seconds": 4.32,
+    "output": ".\\work\\film15\\shot30\\35g.mp4",
+    "preview": ".\\work\\film15\\shot30\\35g.png",
+    "provenance": {
+      "land": "Natural Earth 1:50m, public domain; actual source geometry from land.geojson",
+      "kerala": "geoBoundaries IND ADM1 via DataMeet/ECI, CC BY2.5 India; modern orientation only",
+      "points": "GeoNames IN.txt, CC BY4.0; named modern town reference areas, not monument footprints",
+      "plates": "Quilon plates1and4,1928published reproduction, Commons public-domain scan, uploaded by Challiyan; image not redrawn",
+      "point_source": "https://download.geonames.org/export/dump/IN.zip",
+      "font": "Noto Sans Malayalam, SIL OFL1.1; HarfBuzz0.56.3 +FreeType explicit glyph shaping",
+      "routes": "Indicative connections, not reconstructed vessel tracks",
+      "anna_date": "1959 HighCourt appointment, not first1937judicial appointment; optional insert",
+      "anna_date_source": "https://www.prd.kerala.gov.in/ml/node/276136 (Kerala official Information/Public Relations,27November2024) corroborates1959HighCourt appointment"
+    }
+  },
+  {
+    "scene_id": "38",
+    "frames": 444,
+    "fps": 30,
+    "duration_seconds": 14.8,
+    "size": [
+      1920,
+      1080
+    ],
+    "render_seconds": 4.89,
+    "output": ".\\work\\film15\\shot30\\38g.mp4",
+    "preview": ".\\work\\film15\\shot30\\38g.png",
+    "provenance": {
+      "land": "Natural Earth 1:50m, public domain; actual source geometry from land.geojson",
+      "kerala": "geoBoundaries IND ADM1 via DataMeet/ECI, CC BY2.5 India; modern orientation only",
+      "points": "GeoNames IN.txt, CC BY4.0; named modern town reference areas, not monument footprints",
+      "plates": "Quilon plates1and4,1928published reproduction, Commons public-domain scan, uploaded by Challiyan; image not redrawn",
+      "point_source": "https://download.geonames.org/export/dump/IN.zip",
+      "font": "Noto Sans Malayalam, SIL OFL1.1; HarfBuzz0.56.3 +FreeType explicit glyph shaping",
+      "routes": "Indicative connections, not reconstructed vessel tracks",
+      "anna_date": "1959 HighCourt appointment, not first1937judicial appointment; optional insert",
+      "anna_date_source": "https://www.prd.kerala.gov.in/ml/node/276136 (Kerala official Information/Public Relations,27November2024) corroborates1959HighCourt appointment"
+    }
+  },
+  {
+    "scene_id": "48",
+    "frames": 502,
+    "fps": 30,
+    "duration_seconds": 16.733333333333334,
+    "size": [
+      1920,
+      1080
+    ],
+    "render_seconds": 5.98,
+    "output": ".\\work\\film15\\shot30\\48g.mp4",
+    "preview": ".\\work\\film15\\shot30\\48g.png",
+    "provenance": {
+      "land": "Natural Earth 1:50m, public domain; actual source geometry from land.geojson",
+      "kerala": "geoBoundaries IND ADM1 via DataMeet/ECI, CC BY2.5 India; modern orientation only",
+      "points": "GeoNames IN.txt, CC BY4.0; named modern town reference areas, not monument footprints",
+      "plates": "Quilon plates1and4,1928published reproduction, Commons public-domain scan, uploaded by Challiyan; image not redrawn",
+      "point_source": "https://download.geonames.org/export/dump/IN.zip",
+      "font": "Noto Sans Malayalam, SIL OFL1.1; HarfBuzz0.56.3 +FreeType explicit glyph shaping",
+      "routes": "Indicative connections, not reconstructed vessel tracks",
+      "anna_date": "1959 HighCourt appointment, not first1937judicial appointment; optional insert",
+      "anna_date_source": "https://www.prd.kerala.gov.in/ml/node/276136 (Kerala official Information/Public Relations,27November2024) corroborates1959HighCourt appointment"
+    }
+  },
+  {
+    "scene_id": "52",
+    "frames": 488,
+    "fps": 30,
+    "duration_seconds": 16.266666666666666,
+    "size": [
+      1920,
+      1080
+    ],
+    "render_seconds": 5.17,
+    "output": ".\\work\\film15\\shot30\\52g.mp4",
+    "preview": ".\\work\\film15\\shot30\\52g.png",
+    "provenance": {
+      "land": "Natural Earth 1:50m, public domain; actual source geometry from land.geojson",
+      "kerala": "geoBoundaries IND ADM1 via DataMeet/ECI, CC BY2.5 India; modern orientation only",
+      "points": "GeoNames IN.txt, CC BY4.0; named modern town reference areas, not monument footprints",
+      "plates": "Quilon plates1and4,1928published reproduction, Commons public-domain scan, uploaded by Challiyan; image not redrawn",
+      "point_source": "https://download.geonames.org/export/dump/IN.zip",
+      "font": "Noto Sans Malayalam, SIL OFL1.1; HarfBuzz0.56.3 +FreeType explicit glyph shaping",
+      "routes": "Indicative connections, not reconstructed vessel tracks",
+      "anna_date": "1959 HighCourt appointment, not first1937judicial appointment; optional insert",
+      "anna_date_source": "https://www.prd.kerala.gov.in/ml/node/276136 (Kerala official Information/Public Relations,27November2024) corroborates1959HighCourt appointment"
+    }
+  },
+  {
+    "scene_id": "55",
+    "frames": 474,
+    "fps": 30,
+    "duration_seconds": 15.8,
+    "size": [
+      1920,
+      1080
+    ],
+    "render_seconds": 3.47,
+    "output": ".\\work\\film15\\shot30\\55g.mp4",
+    "preview": ".\\work\\film15\\shot30\\55g.png",
+    "provenance": {
+      "land": "Natural Earth 1:50m, public domain; actual source geometry from land.geojson",
+      "kerala": "geoBoundaries IND ADM1 via DataMeet/ECI, CC BY2.5 India; modern orientation only",
+      "points": "GeoNames IN.txt, CC BY4.0; named modern town reference areas, not monument footprints",
+      "plates": "Quilon plates1and4,1928published reproduction, Commons public-domain scan, uploaded by Challiyan; image not redrawn",
+      "point_source": "https://download.geonames.org/export/dump/IN.zip",
+      "font": "Noto Sans Malayalam, SIL OFL1.1; HarfBuzz0.56.3 +FreeType explicit glyph shaping",
+      "routes": "Indicative connections, not reconstructed vessel tracks",
+      "anna_date": "1959 HighCourt appointment, not first1937judicial appointment; optional insert",
+      "anna_date_source": "https://www.prd.kerala.gov.in/ml/node/276136 (Kerala official Information/Public Relations,27November2024) corroborates1959HighCourt appointment"
+    }
+  },
+  {
+    "scene_id": "56",
+    "frames": 490,
+    "fps": 30,
+    "duration_seconds": 16.333333333333332,
+    "size": [
+      1920,
+      1080
+    ],
+    "render_seconds": 3.63,
+    "output": ".\\work\\film15\\shot30\\56g.mp4",
+    "preview": ".\\work\\film15\\shot30\\56g.png",
+    "provenance": {
+      "land": "Natural Earth 1:50m, public domain; actual source geometry from land.geojson",
+      "kerala": "geoBoundaries IND ADM1 via DataMeet/ECI, CC BY2.5 India; modern orientation only",
+      "points": "GeoNames IN.txt, CC BY4.0; named modern town reference areas, not monument footprints",
+      "plates": "Quilon plates1and4,1928published reproduction, Commons public-domain scan, uploaded by Challiyan; image not redrawn",
+      "point_source": "https://download.geonames.org/export/dump/IN.zip",
+      "font": "Noto Sans Malayalam, SIL OFL1.1; HarfBuzz0.56.3 +FreeType explicit glyph shaping",
+      "routes": "Indicative connections, not reconstructed vessel tracks",
+      "anna_date": "1959 HighCourt appointment, not first1937judicial appointment; optional insert",
+      "anna_date_source": "https://www.prd.kerala.gov.in/ml/node/276136 (Kerala official Information/Public Relations,27November2024) corroborates1959HighCourt appointment"
+    }
+  }
+]

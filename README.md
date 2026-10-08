@@ -24,7 +24,7 @@ From one peppercorn to a coast connected to the world: a 15-minute film about Ke
 
 Open [the designed product sheet](PRODUCT-SHEET.html), [production notes](kerala-roots-and-sea-production-notes.txt), and [scene overview](assets/scene-overview.jpg).
 
-The release bundle contains `kerala-roots-and-sea-15min.mp4`, the podcast, subtitles, storyboard, selected artwork, audio assets, and this source package. Large media is kept outside Git history. A GitHub release has not been published until an actual release link is added here.
+The [pilot release](https://github.com/JoseGeo11111/Scalable-Animation-and-Podcast-generator/releases/tag/pilot-v1) contains the complete media bundle, a smaller source ZIP, and SHA-256 checksums. The complete bundle includes `kerala-roots-and-sea-15min.mp4`, the podcast, subtitles, storyboard, selected artwork, audio assets, and this source package. Large media is kept outside Git history.
 
 ## Why this pilot exists
 
